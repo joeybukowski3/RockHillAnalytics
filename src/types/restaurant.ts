@@ -10,8 +10,12 @@ export type Review = {
 export type SocialPost = {
   id?: string;
   platform: "facebook" | "instagram" | "tiktok" | "other";
+  source?: "facebook" | "instagram" | "tiktok" | "other";
+  postUrl?: string;
   url?: string;
   caption?: string;
+  contentType?: string;
+  hashtags?: string[];
   publishedAt?: string;
   engagement?: {
     likes?: number;
@@ -90,13 +94,15 @@ export type RestaurantProfile = {
   facebook?: {
     pageUrl?: string;
     followers?: number;
-    posts?: SocialPost[];
+    postCount?: number;
+    recentPosts?: SocialPost[];
     lastEnrichedAt?: string;
   };
   instagram?: {
     profileUrl?: string;
     followers?: number;
-    posts?: SocialPost[];
+    postCount?: number;
+    recentPosts?: SocialPost[];
     lastEnrichedAt?: string;
   };
   scores?: ScoreSummary;

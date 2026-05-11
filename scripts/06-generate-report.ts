@@ -28,9 +28,11 @@ function listDataAvailability(restaurant: RestaurantProfile): string[] {
     restaurant.google ? "Google seed/detail data" : undefined,
     restaurant.google?.reviews?.length ? "Google reviews" : undefined,
     restaurant.facebookUrl || restaurant.facebook?.pageUrl ? "Facebook page URL" : undefined,
+    restaurant.facebook?.recentPosts?.length ? "Facebook recent posts" : undefined,
     restaurant.instagramUrl || restaurant.instagram?.profileUrl
       ? "Instagram profile URL"
       : undefined,
+    restaurant.instagram?.recentPosts?.length ? "Instagram recent posts" : undefined,
     restaurant.scores ? "Calculated score summary" : undefined
   ];
 
@@ -46,10 +48,14 @@ function listMissingSteps(restaurant: RestaurantProfile): string[] {
 
   if (!restaurant.facebookUrl && !restaurant.facebook?.pageUrl) {
     missing.push("Find and verify the public Facebook page URL.");
+  } else if (!(restaurant.facebook?.recentPosts?.length ?? 0)) {
+    missing.push("Run Facebook enrichment to capture recent public page posts.");
   }
 
   if (!restaurant.instagramUrl && !restaurant.instagram?.profileUrl) {
     missing.push("Find and verify the public Instagram profile URL.");
+  } else if (!(restaurant.instagram?.recentPosts?.length ?? 0)) {
+    missing.push("Run Instagram enrichment to capture recent public profile posts.");
   }
 
   if (!restaurant.scores) {
@@ -81,6 +87,34 @@ function buildRecommendations(restaurant: RestaurantProfile): string[] {
   }
 
   return recommendations;
+}
+
+function getLatestPostDate(posts: NonNullable<RestaurantProfile["facebook"]>["recentPosts"] | NonNullable<RestaurantProfile["instagram"]>["recentPosts"]): string {
+  const latest = (posts ?? [])
+    .map((post) => post.publishedAt)
+    .filter((value): value is string => Boolean(value))
+    .sort()
+    .at(-1);
+
+  return latest ?? "n/a";
+}
+
+function getEngagementSummary(posts: RestaurantProfile["facebook"] extends infer F ? any : never): string {
+  if (!posts?.length) {
+    return "n/a";
+  }
+
+  const totals = posts.reduce(
+    (acc: { likes: number; comments: number; shares: number; views: number }, post: any) => ({
+      likes: acc.likes + (post.engagement?.likes ?? 0),
+      comments: acc.comments + (post.engagement?.comments ?? 0),
+      shares: acc.shares + (post.engagement?.shares ?? 0),
+      views: acc.views + (post.engagement?.views ?? 0)
+    }),
+    { likes: 0, comments: 0, shares: 0, views: 0 }
+  );
+
+  return `likes ${totals.likes}, comments ${totals.comments}, shares ${totals.shares}, views ${totals.views}`;
 }
 
 function toMarkdown(restaurant: RestaurantProfile): string {
@@ -115,6 +149,21 @@ function toMarkdown(restaurant: RestaurantProfile): string {
   }
 - Sentiment summary: ${sentiment}
 
+## Social Presence
+
+- Facebook URL: ${restaurant.facebookUrl ?? restaurant.facebook?.pageUrl ?? "n/a"}
+- Facebook status: ${restaurant.socialProfileStatus?.facebook ?? "unknown"}
+- Facebook recent post count: ${restaurant.facebook?.recentPosts?.length ?? 0}
+- Facebook latest post date: ${getLatestPostDate(restaurant.facebook?.recentPosts)}
+- Facebook engagement summary: ${getEngagementSummary(restaurant.facebook?.recentPosts)}
+- Instagram URL: ${restaurant.instagramUrl ?? restaurant.instagram?.profileUrl ?? "n/a"}
+- Instagram status: ${restaurant.socialProfileStatus?.instagram ?? "unknown"}
+- Instagram recent post count: ${restaurant.instagram?.recentPosts?.length ?? 0}
+- Instagram latest post date: ${getLatestPostDate(restaurant.instagram?.recentPosts)}
+- Instagram engagement summary: ${getEngagementSummary(restaurant.instagram?.recentPosts)}
+- TikTok URL: ${restaurant.tiktokUrl ?? "n/a"}
+- TikTok status: ${restaurant.socialProfileStatus?.tiktok ?? "unknown"}
+
 ## Scores
 
 - Reputation: ${restaurant.scores?.reputation ?? "n/a"}
@@ -133,6 +182,10 @@ ${missing.length ? missing.map((item) => `- ${item}`).join("\n") : "- No major g
 ## Review Notes
 
 ${restaurant.reviewNotes.length ? restaurant.reviewNotes.map((item) => `- ${item}`).join("\n") : "- No review notes recorded."}
+
+## Social Verification Notes
+
+${restaurant.socialVerificationNotes?.length ? restaurant.socialVerificationNotes.map((item) => `- ${item}`).join("\n") : "- No social verification notes recorded."}
 
 ## Initial Recommendations
 

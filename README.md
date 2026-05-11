@@ -20,6 +20,10 @@ Phase 1 covers:
 
 Phase 2A adds a manual social URL verification workflow. This phase does not scrape Facebook, Instagram, or TikTok yet. It stores manually verified public URLs on restaurant records, or records that no official profile was found, so later enrichment can use cleaner inputs.
 
+## Phase 2B Goal
+
+Phase 2B adds one-restaurant social enrichment through Apify after social URLs have been manually verified. This phase is still intentionally narrow: it runs against one restaurant at a time, preserves raw actor output locally, normalizes a small recent-post sample, updates scoring, and refreshes the report.
+
 ## Stack
 
 - Node.js
@@ -50,6 +54,8 @@ scripts/
   04-enrich-instagram.ts
   05-score-restaurant.ts
   06-generate-report.ts
+  07-review-seed-list.ts
+  08-add-social-links.ts
 
 src/
   apis/
@@ -83,7 +89,9 @@ Copy-Item .env.example .env.local
 ## Environment Variables
 
 - `GOOGLE_PLACES_API_KEY` for Google Places search and place details
-- `APIFY_TOKEN` reserved for future Facebook/Instagram enrichment
+- `APIFY_TOKEN` for Apify-backed Facebook and Instagram enrichment
+- `APIFY_INSTAGRAM_ACTOR_ID` for the Instagram actor, currently tested with `apify/instagram-scraper`
+- `APIFY_FACEBOOK_ACTOR_ID` for the Facebook Posts Scraper actor, currently tested with `apify/facebook-posts-scraper`
 - `OPENAI_API_KEY` reserved for future analysis and report enhancements
 
 ## Commands
@@ -127,6 +135,18 @@ npm run add:social -- "Big Wok II" --website "https://example.com"
 npm run add:social -- "Big Wok II" --tiktok "https://tiktok.com/@example"
 ```
 
+Run one-restaurant Instagram enrichment after URLs are verified:
+
+```powershell
+npm run enrich:instagram -- "Jackass Café & Wine Bar"
+```
+
+Run one-restaurant Facebook enrichment after URLs are verified:
+
+```powershell
+npm run enrich:facebook -- "Jackass Café & Wine Bar"
+```
+
 Social profile statuses:
 
 - `verified`: a manually verified official public profile URL was stored
@@ -156,10 +176,13 @@ npm run report -- "Legal Remedy Brewing"
 - Do not scrape private/member-only Facebook groups.
 - Do not store unnecessary personal data from individual commenters.
 - Summarize public sentiment trends rather than republishing personal comments.
+- Use Facebook Posts Scraper for recent public Facebook page posts.
+- Do not use Facebook Pages Scraper unless page metadata is explicitly needed later.
+- Only scrape public Facebook pages and public Instagram profiles after manual URL verification.
 
 ## Notes
 
 - If `GOOGLE_PLACES_API_KEY` is missing, the Google scripts fail with a clear message instead of crashing.
 - Raw Google payloads are stored locally under `data/raw/google/`.
-- Facebook and Instagram enrichment are placeholders in Phase 1 and are not implemented yet.
+- Raw Facebook and Instagram actor payloads are stored locally under `data/raw/facebook/` and `data/raw/instagram/`.
 - Social/profile URLs should be manually verified before any future scraping workflow uses them.

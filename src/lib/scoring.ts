@@ -4,6 +4,40 @@ function clampScore(value: number): number {
   return Math.max(0, Math.min(100, Math.round(value)));
 }
 
+function getLatestPostTimestamp(restaurant: RestaurantProfile): number | undefined {
+  const timestamps = [
+    ...(restaurant.facebook?.recentPosts ?? []).map((post) => Date.parse(post.publishedAt ?? "")),
+    ...(restaurant.instagram?.recentPosts ?? []).map((post) => Date.parse(post.publishedAt ?? ""))
+  ].filter((value) => Number.isFinite(value));
+
+  if (timestamps.length === 0) {
+    return undefined;
+  }
+
+  return Math.max(...timestamps);
+}
+
+function getAverageEngagement(restaurant: RestaurantProfile): number {
+  const posts = [
+    ...(restaurant.facebook?.recentPosts ?? []),
+    ...(restaurant.instagram?.recentPosts ?? [])
+  ];
+
+  if (posts.length === 0) {
+    return 0;
+  }
+
+  const total = posts.reduce((sum, post) => {
+    const likes = post.engagement?.likes ?? 0;
+    const comments = post.engagement?.comments ?? 0;
+    const shares = post.engagement?.shares ?? 0;
+    const views = post.engagement?.views ?? 0;
+    return sum + likes + comments * 2 + shares * 3 + Math.min(views / 100, 20);
+  }, 0);
+
+  return total / posts.length;
+}
+
 export function calculateReputationScore(restaurant: RestaurantProfile): number {
   const rating = restaurant.google?.rating ?? 0;
   const reviewCount = restaurant.google?.reviewCount ?? 0;
@@ -15,26 +49,41 @@ export function calculateReputationScore(restaurant: RestaurantProfile): number 
 
 export function calculateSocialPresenceScore(restaurant: RestaurantProfile): number {
   let score = 0;
+  const facebookStatus = restaurant.socialProfileStatus?.facebook ?? "unknown";
+  const instagramStatus = restaurant.socialProfileStatus?.instagram ?? "unknown";
+  const tiktokStatus = restaurant.socialProfileStatus?.tiktok ?? "unknown";
+  const facebookPosts = restaurant.facebook?.recentPosts ?? [];
+  const instagramPosts = restaurant.instagram?.recentPosts ?? [];
 
-  if (restaurant.facebookUrl || restaurant.facebook?.pageUrl) {
-    score += 35;
+  if (facebookStatus === "verified" && (restaurant.facebookUrl || restaurant.facebook?.pageUrl)) {
+    score += 20;
   }
 
-  if (restaurant.instagramUrl || restaurant.instagram?.profileUrl) {
-    score += 35;
+  if (instagramStatus === "verified" && (restaurant.instagramUrl || restaurant.instagram?.profileUrl)) {
+    score += 20;
   }
 
-  if (restaurant.tiktokUrl) {
-    score += 15;
-  }
-
-  if ((restaurant.facebook?.posts?.length ?? 0) > 0) {
+  if (tiktokStatus === "verified" && restaurant.tiktokUrl) {
     score += 10;
   }
 
-  if ((restaurant.instagram?.posts?.length ?? 0) > 0) {
-    score += 5;
+  score += Math.min(20, facebookPosts.length * 2 + instagramPosts.length * 2);
+
+  const latestPostTimestamp = getLatestPostTimestamp(restaurant);
+
+  if (latestPostTimestamp) {
+    const daysSinceLatestPost = (Date.now() - latestPostTimestamp) / (1000 * 60 * 60 * 24);
+
+    if (daysSinceLatestPost <= 14) {
+      score += 20;
+    } else if (daysSinceLatestPost <= 45) {
+      score += 12;
+    } else if (daysSinceLatestPost <= 90) {
+      score += 6;
+    }
   }
+
+  score += Math.min(10, getAverageEngagement(restaurant) / 10);
 
   return clampScore(score);
 }
@@ -59,7 +108,7 @@ export function calculateOverallScore(restaurant: RestaurantProfile): ScoreSumma
     overall,
     notes: [
       "Reputation is based on Google rating and review volume.",
-      "Social presence is a placeholder until Facebook and Instagram enrichment exists.",
+      "Social presence uses verified social profiles, recent post volume, post recency, and lightweight engagement signals.",
       "Opportunity is highest when reputation is strong and social presence is weak."
     ],
     calculatedAt: new Date().toISOString()

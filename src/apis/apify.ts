@@ -1,3 +1,11 @@
+import { loadEnv } from "../lib/env.js";
+
+loadEnv();
+
+function encodeActorId(actorId: string): string {
+  return actorId.replace("/", "~");
+}
+
 export function getApifyToken(): string {
   const token = process.env.APIFY_TOKEN?.trim();
 
@@ -10,12 +18,56 @@ export function getApifyToken(): string {
   return token;
 }
 
-export async function runActorPlaceholder(actorName: string): Promise<void> {
+async function fetchApifyJson<T>(url: string, init?: RequestInit): Promise<T> {
   const token = getApifyToken();
-  void token;
+  const response = await fetch(url, {
+    ...init,
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+      ...(init?.headers ?? {})
+    }
+  });
 
-  // TODO: Implement public Facebook Page enrichment actor invocation.
-  // TODO: Implement public Instagram profile enrichment actor invocation.
-  // TODO: Implement Google Reviews actor fallback if needed later.
-  console.log(`Apify placeholder invoked for actor: ${actorName}`);
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`Apify request failed with ${response.status} ${response.statusText}: ${body}`);
+  }
+
+  return (await response.json()) as T;
+}
+
+export async function runApifyActor(actorId: string, input: unknown): Promise<{
+  defaultDatasetId: string;
+  runId: string;
+}> {
+  const encodedActorId = encodeActorId(actorId);
+  const payload = await fetchApifyJson<{
+    data?: {
+      id?: string;
+      defaultDatasetId?: string;
+      status?: string;
+    };
+  }>(`https://api.apify.com/v2/acts/${encodedActorId}/runs?waitForFinish=300`, {
+    method: "POST",
+    body: JSON.stringify(input)
+  });
+
+  const runId = payload.data?.id;
+  const defaultDatasetId = payload.data?.defaultDatasetId;
+
+  if (!runId || !defaultDatasetId) {
+    throw new Error(`Apify actor ${actorId} did not return a run ID and default dataset ID.`);
+  }
+
+  return {
+    runId,
+    defaultDatasetId
+  };
+}
+
+export async function fetchApifyDatasetItems<T = unknown>(datasetId: string): Promise<T[]> {
+  return fetchApifyJson<T[]>(
+    `https://api.apify.com/v2/datasets/${datasetId}/items?clean=true`
+  );
 }

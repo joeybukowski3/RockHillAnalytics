@@ -2712,7 +2712,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T19:12:45.114Z",
+    "updatedAt": "2026-05-11T20:08:58.885Z",
     "sourceQueries": [
       "coffee shops in Rock Hill SC",
       "bars in Rock Hill SC"
@@ -2721,8 +2721,8 @@
       "Google types indicate retail/grocery rather than a primary restaurant listing.",
       "Official Mercantile pages describe this as a public coffee shop and wine bar in downtown Rock Hill."
     ],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "pipelineStage": "scored",
+    "lastVerifiedAt": "2026-05-11T20:08:58.885Z",
     "reviewStatus": "included",
     "facebookUrl": "https://www.facebook.com/jackasscafe/",
     "instagramUrl": "https://www.instagram.com/jackasscafe/",
@@ -2734,6 +2734,348 @@
       "facebook": "verified",
       "instagram": "verified",
       "tiktok": "unknown"
+    },
+    "instagram": {
+      "profileUrl": "https://www.instagram.com/jackasscafe/",
+      "followers": 2295,
+      "postCount": 907,
+      "recentPosts": [
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DYNVK-rjUwe/",
+          "url": "https://www.instagram.com/p/DYNVK-rjUwe/",
+          "publishedAt": "2026-05-11T18:25:12.000Z",
+          "caption": "Psssst!!! \n\nWe want you to join our super secret society! \nYou’ll get coffee perks, in store perks, better rewards and more! \n\nInterested? Check out the link below to join! \nhttps://cdmercantile.com/merc-society/",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 2,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DYC1cymGmdT/",
+          "url": "https://www.instagram.com/p/DYC1cymGmdT/",
+          "publishedAt": "2026-05-07T16:33:41.000Z",
+          "caption": "Ever need catering for an event? Look no further! We’ve catered parties, weddings, showers and more! \n\nCall us or stop by to learn more!",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 12,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DYAPJhvEZXs/",
+          "url": "https://www.instagram.com/p/DYAPJhvEZXs/",
+          "publishedAt": "2026-05-06T16:20:32.000Z",
+          "caption": "Need Mother’s Day Gift Ideas?\n\nCheck out our gift guide for all your needs! \n\nWe’re open til 7, stop by! \n\n#mothersday #flowers #diy #candles #coffee",
+          "contentType": "Sidecar",
+          "hashtags": [
+            "mothersday",
+            "flowers",
+            "diy",
+            "candles",
+            "coffee"
+          ],
+          "engagement": {
+            "likes": 8,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DX7HIW8E0Rj/",
+          "url": "https://www.instagram.com/p/DX7HIW8E0Rj/",
+          "publishedAt": "2026-05-04T16:34:16.000Z",
+          "caption": "A classic on our menu, the bacon egg and cheese! This version includes avocado for an extra savory bite! \n\nWe love our breakfast menu! Stop by and try it!",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 5,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXwrTZNlDMp/",
+          "url": "https://www.instagram.com/p/DXwrTZNlDMp/",
+          "publishedAt": "2026-04-30T15:18:42.000Z",
+          "caption": "Warmer days means wine out on the patio! \n\nBurro Alley is beautiful in the spring and summer, so grab a glass and enjoy the sun! Bring a friend along too! \n\nWe’re open til 7, stop by!",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 3,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXt8orhDjYu/",
+          "url": "https://www.instagram.com/p/DXt8orhDjYu/",
+          "publishedAt": "2026-04-29T13:52:26.000Z",
+          "caption": "We love the Greek drinks but here’s why you should give Mykonos, our Greek frappe, a try.\n\n#greek #frappe #drinks #coffeeshop",
+          "contentType": "Sidecar",
+          "hashtags": [
+            "greek",
+            "frappe",
+            "drinks",
+            "coffeeshop"
+          ],
+          "engagement": {
+            "likes": 9,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXkpZFpjtdq/",
+          "url": "https://www.instagram.com/p/DXkpZFpjtdq/",
+          "publishedAt": "2026-04-25T23:13:20.000Z",
+          "caption": "THE SANTORINI\n\nA lovely rose lemonade refresher, topped with cold foam! Making it the perfect sweet treat and cold drink. \n\nTry it or create your own refresher any day of the week.",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 2,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXhdfnFDj_h/",
+          "url": "https://www.instagram.com/p/DXhdfnFDj_h/",
+          "publishedAt": "2026-04-24T17:30:24.000Z",
+          "caption": "We might be biased, but if you’re looking for good coffee, head our way….\n\n#rockhill #coffeeshop #local",
+          "contentType": "Image",
+          "hashtags": [
+            "rockhill",
+            "coffeeshop",
+            "local"
+          ],
+          "engagement": {
+            "likes": 6,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXelx6fjotX/",
+          "url": "https://www.instagram.com/p/DXelx6fjotX/",
+          "publishedAt": "2026-04-23T14:44:06.000Z",
+          "caption": "Come relax with some coffee or a bite to eat. (Or come try the new liquid death flavor we got in)\n\nWe’re open til 7",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 9,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXOvc8YkeuJ/",
+          "url": "https://www.instagram.com/p/DXOvc8YkeuJ/",
+          "publishedAt": "2026-04-17T11:00:05.000Z",
+          "caption": "Everyone wish Logan the happiest of birthdays! He’s a jack of all trades, between events and cafe! A proud husband and a dog dad to Penny (who was originally one of the adoptable dogs who came into the cafe) But that’s not all, he shares a birthday with Arielle, another incredible member of our crew! It’s a double feature today! But they do get their own posts because of course. \n\nIf you see Logan today, wish him the happiest of birthdays (and Arielle too!)",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 19,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXOvbK8DzsN/",
+          "url": "https://www.instagram.com/p/DXOvbK8DzsN/",
+          "publishedAt": "2026-04-17T11:00:00.000Z",
+          "caption": "Everyone wish Arielle the happiest of birthdays! Arielle can do it all within the cafe, but most often you’ll see her serving up delicious sandwiches, pastries and more! A lover of Warped Tour and all things alternative, she’s also a birthday twin to Logan, who’s part of the Merc fam! It’s a double feature of course!\n\nIf you see Arielle, wish her the happiest of birthdays (same with Logan)",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 19,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXM1wtEjlid/",
+          "url": "https://www.instagram.com/p/DXM1wtEjlid/",
+          "publishedAt": "2026-04-16T17:17:25.000Z",
+          "caption": "We’ve got a special for come see me fest starting today! \n\nLeap Frog Juice is an orange juice, lime jello and sprite refresher topped with edible glitter making it perfect for warm days (like today) \n\nStop by and come try it!",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 12,
+            "comments": 0
+          }
+        }
+      ],
+      "lastEnrichedAt": "2026-05-11T20:04:48.923Z"
+    },
+    "facebook": {
+      "pageUrl": "https://www.facebook.com/jackasscafe/",
+      "postCount": 10,
+      "recentPosts": [
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid02HhasewWBYZ3R5Drf2fqdHjPjVE29wjdZ9nTUaG8WH4nn4FWXQkXjqoJhgYnE8X9Vl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid02HhasewWBYZ3R5Drf2fqdHjPjVE29wjdZ9nTUaG8WH4nn4FWXQkXjqoJhgYnE8X9Vl",
+          "caption": "Psssst!!! \n\nWe want you to join our super secret society! \nYou’ll get coffee perks, in store perks, better rewards and more! \n\nInterested? Check out the link below to join! \nhttps://cdmercantile.com/merc-society/",
+          "publishedAt": "2026-05-11T18:25:17.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 1,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid0TFAvZV9vt5UEAiTUWkjx7y9bkeeTgwEsNZ4cy6JgQ7XEssXUCfReqNd1emQPn4Kfl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid0TFAvZV9vt5UEAiTUWkjx7y9bkeeTgwEsNZ4cy6JgQ7XEssXUCfReqNd1emQPn4Kfl",
+          "caption": "Ever need catering for an event? Look no further! We’ve catered parties, weddings, showers and more! \n\nCall us or stop by to learn more!",
+          "publishedAt": "2026-05-07T16:33:38.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 2,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid029VY8aGyUwapQhdNAsvMHpeztj5NaAEaNhdSb9aZRNgafFBZBFjdPxAHQMiJGC3Jvl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid029VY8aGyUwapQhdNAsvMHpeztj5NaAEaNhdSb9aZRNgafFBZBFjdPxAHQMiJGC3Jvl",
+          "caption": "A classic on our menu, the bacon egg and cheese! This version includes avocado for an extra savory bite! \n\nWe love our breakfast menu! Stop by and try it!",
+          "publishedAt": "2026-05-04T16:34:12.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 2,
+            "comments": 1,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid0pDt6PQf3r28QZC2PSBi5b8Ggg4yVttW8miWFafPaoTKnnKkQKREaxAdvKKVR5FSkl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid0pDt6PQf3r28QZC2PSBi5b8Ggg4yVttW8miWFafPaoTKnnKkQKREaxAdvKKVR5FSkl",
+          "caption": "Warmer days means wine out on the patio! \n\nBurro Alley is beautiful in the spring and summer, so grab a glass and enjoy the sun! Bring a friend along too! \n\nWe’re open til 7, stop by!",
+          "publishedAt": "2026-04-30T15:18:40.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 2,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid0m2YymUsWQJMNXHXHxhc31WFJuZUknPWFEqp8373BTqLbazA4kpr7GdWT8hzU4DzPl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid0m2YymUsWQJMNXHXHxhc31WFJuZUknPWFEqp8373BTqLbazA4kpr7GdWT8hzU4DzPl",
+          "caption": "We love the Greek drinks but here’s why you should give Mykonos, our Greek frappe, a try.\n\n#greek #frappe #drinks #coffeeshop",
+          "publishedAt": "2026-04-29T13:52:32.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 2,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid02voMM473fD3EyFiJ74uugSND8YEScT8fNJ5wF9kMnP53YcURE7KGCHmRix75XmiPCl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid02voMM473fD3EyFiJ74uugSND8YEScT8fNJ5wF9kMnP53YcURE7KGCHmRix75XmiPCl",
+          "caption": "THE SANTORINI\n\nA lovely rose lemonade refresher, topped with cold foam! Making it the perfect sweet treat and cold drink. \n\nTry it or create your own refresher any day of the week.",
+          "publishedAt": "2026-04-25T23:13:24.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 4,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid0KEvJFwmzPAzULr6hLp3KnT8R27vQJA9UpKTpNQNdUUvXi6vo6fEDZrm6FMWK6JK6l",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid0KEvJFwmzPAzULr6hLp3KnT8R27vQJA9UpKTpNQNdUUvXi6vo6fEDZrm6FMWK6JK6l",
+          "caption": "We might be biased, but if you’re looking for good coffee, head our way….\n\n#rockhill #coffeeshop #local",
+          "publishedAt": "2026-04-24T17:30:31.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 4,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid0L9T3PRoavqPohkHTF7pM6Naeu9BfABnYrpjmFBkZUn7JV45HcWZnNA7MykJFtbCSl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid0L9T3PRoavqPohkHTF7pM6Naeu9BfABnYrpjmFBkZUn7JV45HcWZnNA7MykJFtbCSl",
+          "caption": "Come relax with some coffee or a bite to eat. (Or come try the new liquid death flavor we got in)\n\nWe’re open til 7",
+          "publishedAt": "2026-04-23T14:44:10.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 7,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid02y9Y5QqCctN3jvU2iKER2nPcmmnCBpgnYUajHuhMmRAVP51QHVdrLRw4CwockJG6gl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid02y9Y5QqCctN3jvU2iKER2nPcmmnCBpgnYUajHuhMmRAVP51QHVdrLRw4CwockJG6gl",
+          "caption": "Everyone wish Arielle the happiest of birthdays! Arielle can do it all within the cafe, but most often you’ll see her serving up delicious sandwiches, pastries and more! A lover of Warped Tour and all things alternative, she’s also a birthday twin to Logan, who’s part of the Merc fam! It’s a double feature of course!\n\nIf you see Arielle, wish her the happiest of birthdays (same with Logan)",
+          "publishedAt": "2026-04-17T15:04:50.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 6,
+            "comments": 2,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/jackasscafe/posts/pfbid0bnSV1pWxsnGGL3CvuSe2eBVL2BdEYzgydjBPKBndCFb9ESRbwi8MDjBMewqC9Qxkl",
+          "url": "https://www.facebook.com/jackasscafe/posts/pfbid0bnSV1pWxsnGGL3CvuSe2eBVL2BdEYzgydjBPKBndCFb9ESRbwi8MDjBMewqC9Qxkl",
+          "caption": "We’ve got a special for come see me fest starting today! \n\nLeap Frog Juice is an orange juice, lime jello and sprite refresher topped with edible glitter making it perfect for warm days (like today) \n\nStop by and come try it!",
+          "publishedAt": "2026-04-16T17:17:30.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 3,
+            "shares": 1
+          }
+        }
+      ],
+      "lastEnrichedAt": "2026-05-11T20:08:52.338Z"
+    },
+    "scores": {
+      "reputation": 93,
+      "socialPresence": 81,
+      "opportunity": 71,
+      "overall": 83,
+      "notes": [
+        "Reputation is based on Google rating and review volume.",
+        "Social presence uses verified social profiles, recent post volume, post recency, and lightweight engagement signals.",
+        "Opportunity is highest when reputation is strong and social presence is weak."
+      ],
+      "calculatedAt": "2026-05-11T20:08:58.884Z"
     }
   },
   {
