@@ -42,6 +42,11 @@ export type RestaurantPipelineStage =
   | "scored"
   | "reported";
 
+export type SocialProfileVerificationStatus =
+  | "verified"
+  | "not_found"
+  | "unknown";
+
 export type RestaurantProfile = {
   id: string;
   name: string;
@@ -65,6 +70,11 @@ export type RestaurantProfile = {
   lastVerifiedAt: string;
   socialVerificationNotes?: string[];
   socialLinksVerifiedAt?: string;
+  socialProfileStatus?: {
+    facebook: SocialProfileVerificationStatus;
+    instagram: SocialProfileVerificationStatus;
+    tiktok: SocialProfileVerificationStatus;
+  };
   google?: {
     rating?: number;
     reviewCount?: number;

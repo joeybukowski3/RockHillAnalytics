@@ -2,7 +2,10 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadEnv } from "../src/lib/env.js";
 import { findRestaurant } from "../src/lib/findRestaurant.js";
-import { RestaurantProfile } from "../src/types/restaurant.js";
+import {
+  RestaurantProfile,
+  SocialProfileVerificationStatus
+} from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
 loadEnv();
@@ -13,6 +16,9 @@ type SocialArgs = {
   instagram?: string;
   tiktok?: string;
   website?: string;
+  noFacebook: boolean;
+  noInstagram: boolean;
+  noTiktok: boolean;
   notes?: string;
 };
 
@@ -26,12 +32,20 @@ function parseArgs(argv: string[]): SocialArgs {
     );
   }
 
-  const parsed: SocialArgs = { identifier };
+  const parsed: SocialArgs = {
+    identifier,
+    noFacebook: false,
+    noInstagram: false,
+    noTiktok: false
+  };
   const supportedFlags = new Set([
     "--facebook",
     "--instagram",
     "--tiktok",
     "--website",
+    "--no-facebook",
+    "--no-instagram",
+    "--no-tiktok",
     "--notes"
   ]);
 
@@ -40,6 +54,21 @@ function parseArgs(argv: string[]): SocialArgs {
 
     if (!flag || !supportedFlags.has(flag)) {
       throw new Error(`Unsupported argument "${flag ?? ""}".`);
+    }
+
+    if (flag === "--no-facebook") {
+      parsed.noFacebook = true;
+      continue;
+    }
+
+    if (flag === "--no-instagram") {
+      parsed.noInstagram = true;
+      continue;
+    }
+
+    if (flag === "--no-tiktok") {
+      parsed.noTiktok = true;
+      continue;
     }
 
     const value = args.shift()?.trim();
@@ -62,6 +91,20 @@ function parseArgs(argv: string[]): SocialArgs {
   }
 
   return parsed;
+}
+
+function validateFlagConflicts(parsedArgs: SocialArgs): void {
+  if (parsedArgs.facebook && parsedArgs.noFacebook) {
+    throw new Error("Use either --facebook or --no-facebook, not both.");
+  }
+
+  if (parsedArgs.instagram && parsedArgs.noInstagram) {
+    throw new Error("Use either --instagram or --no-instagram, not both.");
+  }
+
+  if (parsedArgs.tiktok && parsedArgs.noTiktok) {
+    throw new Error("Use either --tiktok or --no-tiktok, not both.");
+  }
 }
 
 function validateUrl(value: string, kind: "facebook" | "instagram" | "tiktok" | "website"): void {
@@ -103,6 +146,7 @@ async function loadRestaurants(): Promise<RestaurantProfile[]> {
 
 async function main(): Promise<void> {
   const parsedArgs = parseArgs(process.argv.slice(2));
+  validateFlagConflicts(parsedArgs);
 
   if (parsedArgs.facebook) {
     validateUrl(parsedArgs.facebook, "facebook");
@@ -132,15 +176,41 @@ async function main(): Promise<void> {
     const notes = parsedArgs.notes
       ? Array.from(new Set([...(entry.socialVerificationNotes ?? []), parsedArgs.notes]))
       : entry.socialVerificationNotes;
+    const currentStatus = entry.socialProfileStatus ?? {
+      facebook: "unknown" as SocialProfileVerificationStatus,
+      instagram: "unknown" as SocialProfileVerificationStatus,
+      tiktok: "unknown" as SocialProfileVerificationStatus
+    };
 
     return {
       ...entry,
-      facebookUrl: parsedArgs.facebook ?? entry.facebookUrl,
-      instagramUrl: parsedArgs.instagram ?? entry.instagramUrl,
-      tiktokUrl: parsedArgs.tiktok ?? entry.tiktokUrl,
+      facebookUrl: parsedArgs.noFacebook
+        ? undefined
+        : parsedArgs.facebook ?? entry.facebookUrl,
+      instagramUrl: parsedArgs.noInstagram
+        ? undefined
+        : parsedArgs.instagram ?? entry.instagramUrl,
+      tiktokUrl: parsedArgs.noTiktok ? undefined : parsedArgs.tiktok ?? entry.tiktokUrl,
       website: parsedArgs.website ?? entry.website,
       socialVerificationNotes: notes,
       socialLinksVerifiedAt: now,
+      socialProfileStatus: {
+        facebook: parsedArgs.facebook
+          ? "verified"
+          : parsedArgs.noFacebook
+            ? "not_found"
+            : currentStatus.facebook,
+        instagram: parsedArgs.instagram
+          ? "verified"
+          : parsedArgs.noInstagram
+            ? "not_found"
+            : currentStatus.instagram,
+        tiktok: parsedArgs.tiktok
+          ? "verified"
+          : parsedArgs.noTiktok
+            ? "not_found"
+            : currentStatus.tiktok
+      },
       updatedAt: now
     };
   });
@@ -152,9 +222,27 @@ async function main(): Promise<void> {
   );
 
   console.log(`Updated social links for: ${restaurant.name}`);
-  console.log(`Facebook: ${parsedArgs.facebook ?? restaurant.facebookUrl ?? "unchanged"}`);
-  console.log(`Instagram: ${parsedArgs.instagram ?? restaurant.instagramUrl ?? "unchanged"}`);
-  console.log(`TikTok: ${parsedArgs.tiktok ?? restaurant.tiktokUrl ?? "unchanged"}`);
+  console.log(
+    `Facebook: ${
+      parsedArgs.noFacebook
+        ? "marked not_found"
+        : parsedArgs.facebook ?? restaurant.facebookUrl ?? "unchanged"
+    }`
+  );
+  console.log(
+    `Instagram: ${
+      parsedArgs.noInstagram
+        ? "marked not_found"
+        : parsedArgs.instagram ?? restaurant.instagramUrl ?? "unchanged"
+    }`
+  );
+  console.log(
+    `TikTok: ${
+      parsedArgs.noTiktok
+        ? "marked not_found"
+        : parsedArgs.tiktok ?? restaurant.tiktokUrl ?? "unchanged"
+    }`
+  );
   console.log(`Website: ${parsedArgs.website ?? restaurant.website ?? "unchanged"}`);
   console.log(`Notes: ${parsedArgs.notes ?? "none added"}`);
 }

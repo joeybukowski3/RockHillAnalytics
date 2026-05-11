@@ -18,7 +18,7 @@ Phase 1 covers:
 
 ## Phase 2A Goal
 
-Phase 2A adds a manual social URL verification workflow. This phase does not scrape Facebook, Instagram, or TikTok yet. It stores manually verified public URLs on restaurant records so later enrichment can use cleaner inputs.
+Phase 2A adds a manual social URL verification workflow. This phase does not scrape Facebook, Instagram, or TikTok yet. It stores manually verified public URLs on restaurant records, or records that no official profile was found, so later enrichment can use cleaner inputs.
 
 ## Stack
 
@@ -121,11 +121,17 @@ npm run review:seed
 Manually attach verified social/profile URLs:
 
 ```powershell
+npm run add:social -- "Big Wok II" --no-facebook --no-instagram --notes "No official Facebook or Instagram found during manual check"
 npm run add:social -- "Big Wok II" --facebook "https://facebook.com/example" --instagram "https://instagram.com/example"
 npm run add:social -- "Big Wok II" --website "https://example.com"
 npm run add:social -- "Big Wok II" --tiktok "https://tiktok.com/@example"
-npm run add:social -- "Big Wok II" --notes "Verified from official business pages"
 ```
+
+Social profile statuses:
+
+- `verified`: a manually verified official public profile URL was stored
+- `not_found`: a manual check was done and no official profile was found
+- `unknown`: the profile has not been manually checked yet
 
 Run typecheck:
 
