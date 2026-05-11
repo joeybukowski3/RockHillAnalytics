@@ -1,10 +1,11 @@
-import "dotenv/config";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { getPlaceDetails } from "../src/apis/googlePlaces.js";
+import { loadEnv } from "../src/lib/env.js";
 import { RestaurantProfile, Review } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
+loadEnv();
 
 function getIdentifierArg(): string {
   const identifier = process.argv.slice(2).join(" ").trim();

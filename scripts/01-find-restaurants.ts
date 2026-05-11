@@ -1,10 +1,11 @@
-import "dotenv/config";
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { searchRestaurantsInRockHill } from "../src/apis/googlePlaces.js";
+import { loadEnv } from "../src/lib/env.js";
 import { normalizeGooglePlacesResults } from "../src/lib/normalizeRestaurant.js";
 
 const ROOT = process.cwd();
+loadEnv();
 
 function timestampForFile(date = new Date()): string {
   return date.toISOString().replace(/[:.]/g, "-");

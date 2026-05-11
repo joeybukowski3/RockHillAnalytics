@@ -1,10 +1,11 @@
-import "dotenv/config";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { getApifyToken } from "../src/apis/apify.js";
+import { loadEnv } from "../src/lib/env.js";
 import { RestaurantProfile } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
+loadEnv();
 
 function getIdentifierArg(): string {
   const identifier = process.argv.slice(2).join(" ").trim();
