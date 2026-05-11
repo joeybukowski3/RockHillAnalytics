@@ -63,6 +63,8 @@ export type RestaurantProfile = {
   reviewNotes: string[];
   sourceQueries: string[];
   lastVerifiedAt: string;
+  socialVerificationNotes?: string[];
+  socialLinksVerifiedAt?: string;
   google?: {
     rating?: number;
     reviewCount?: number;

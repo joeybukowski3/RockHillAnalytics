@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadEnv } from "../src/lib/env.js";
+import { findRestaurant } from "../src/lib/findRestaurant.js";
 import { calculateOverallScore } from "../src/lib/scoring.js";
 import { RestaurantProfile } from "../src/types/restaurant.js";
 
@@ -22,26 +23,10 @@ async function loadRestaurants(): Promise<RestaurantProfile[]> {
   return JSON.parse(raw) as RestaurantProfile[];
 }
 
-function findRestaurant(restaurants: RestaurantProfile[], identifier: string): RestaurantProfile {
-  const lowered = identifier.toLowerCase();
-  const match = restaurants.find(
-    (restaurant) =>
-      restaurant.googlePlaceId === identifier ||
-      restaurant.slug.toLowerCase() === lowered ||
-      restaurant.name.toLowerCase() === lowered
-  );
-
-  if (!match) {
-    throw new Error(`No restaurant matched "${identifier}" in data/restaurants.seed.json.`);
-  }
-
-  return match;
-}
-
 async function main(): Promise<void> {
   const identifier = getIdentifierArg();
   const restaurants = await loadRestaurants();
-  const restaurant = findRestaurant(restaurants, identifier);
+  const { restaurant } = findRestaurant(restaurants, identifier);
   const scores = calculateOverallScore(restaurant);
   const now = new Date().toISOString();
 

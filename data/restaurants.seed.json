@@ -399,7 +399,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:53:19.372Z",
+    "updatedAt": "2026-05-11T18:25:11.872Z",
     "phone": "(803) 980-8889",
     "website": "https://www.bigwokii.com/",
     "scores": {
@@ -422,7 +422,11 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialVerificationNotes": [
+      "Manual social URL workflow test; no URLs added yet"
+    ],
+    "socialLinksVerifiedAt": "2026-05-11T18:25:11.872Z"
   },
   {
     "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",

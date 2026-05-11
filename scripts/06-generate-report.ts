@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadEnv } from "../src/lib/env.js";
+import { findRestaurant } from "../src/lib/findRestaurant.js";
 import { summarizePublicSentiment } from "../src/lib/sentiment.js";
 import { RestaurantProfile } from "../src/types/restaurant.js";
 
@@ -20,22 +21,6 @@ function getIdentifierArg(): string {
 async function loadRestaurants(): Promise<RestaurantProfile[]> {
   const raw = await readFile(path.join(ROOT, "data", "restaurants.seed.json"), "utf8");
   return JSON.parse(raw) as RestaurantProfile[];
-}
-
-function findRestaurant(restaurants: RestaurantProfile[], identifier: string): RestaurantProfile {
-  const lowered = identifier.toLowerCase();
-  const match = restaurants.find(
-    (restaurant) =>
-      restaurant.googlePlaceId === identifier ||
-      restaurant.slug.toLowerCase() === lowered ||
-      restaurant.name.toLowerCase() === lowered
-  );
-
-  if (!match) {
-    throw new Error(`No restaurant matched "${identifier}" in data/restaurants.seed.json.`);
-  }
-
-  return match;
 }
 
 function listDataAvailability(restaurant: RestaurantProfile): string[] {
@@ -158,7 +143,7 @@ ${recommendations.map((item) => `- ${item}`).join("\n")}
 async function main(): Promise<void> {
   const identifier = getIdentifierArg();
   const restaurants = await loadRestaurants();
-  const restaurant = findRestaurant(restaurants, identifier);
+  const { restaurant } = findRestaurant(restaurants, identifier);
   const reportsDir = path.join(ROOT, "reports");
   const reportPath = path.join(reportsDir, `${restaurant.slug}.md`);
 

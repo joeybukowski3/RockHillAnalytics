@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { getPlaceDetails } from "../src/apis/googlePlaces.js";
 import { loadEnv } from "../src/lib/env.js";
+import { findRestaurant } from "../src/lib/findRestaurant.js";
 import { RestaurantProfile, Review } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -21,26 +22,6 @@ async function loadRestaurants(): Promise<RestaurantProfile[]> {
   const seedPath = path.join(ROOT, "data", "restaurants.seed.json");
   const raw = await readFile(seedPath, "utf8");
   return JSON.parse(raw) as RestaurantProfile[];
-}
-
-function findRestaurant(restaurants: RestaurantProfile[], identifier: string): RestaurantProfile {
-  const lowered = identifier.toLowerCase();
-  const match = restaurants.find(
-    (restaurant) =>
-      restaurant.googlePlaceId === identifier ||
-      restaurant.slug.toLowerCase() === lowered ||
-      restaurant.name.toLowerCase() === lowered
-  );
-
-  if (!match) {
-    throw new Error(`No restaurant matched "${identifier}" in data/restaurants.seed.json.`);
-  }
-
-  if (!match.googlePlaceId) {
-    throw new Error(`Restaurant "${match.name}" is missing a Google Place ID.`);
-  }
-
-  return match;
 }
 
 function mapReviews(
@@ -67,7 +48,12 @@ function mapReviews(
 async function main(): Promise<void> {
   const identifier = getIdentifierArg();
   const restaurants = await loadRestaurants();
-  const restaurant = findRestaurant(restaurants, identifier);
+  const { restaurant } = findRestaurant(restaurants, identifier);
+
+  if (!restaurant.googlePlaceId) {
+    throw new Error(`Restaurant "${restaurant.name}" is missing a Google Place ID.`);
+  }
+
   const details = await getPlaceDetails(restaurant.googlePlaceId!);
 
   if (!details.result) {

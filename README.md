@@ -16,6 +16,10 @@ Phase 1 covers:
 - Generating a Markdown intelligence report
 - Leaving clean placeholders for future Facebook and Instagram enrichment
 
+## Phase 2A Goal
+
+Phase 2A adds a manual social URL verification workflow. This phase does not scrape Facebook, Instagram, or TikTok yet. It stores manually verified public URLs on restaurant records so later enrichment can use cleaner inputs.
+
 ## Stack
 
 - Node.js
@@ -114,6 +118,15 @@ Review and classify the current seed list:
 npm run review:seed
 ```
 
+Manually attach verified social/profile URLs:
+
+```powershell
+npm run add:social -- "Big Wok II" --facebook "https://facebook.com/example" --instagram "https://instagram.com/example"
+npm run add:social -- "Big Wok II" --website "https://example.com"
+npm run add:social -- "Big Wok II" --tiktok "https://tiktok.com/@example"
+npm run add:social -- "Big Wok II" --notes "Verified from official business pages"
+```
+
 Run typecheck:
 
 ```powershell
@@ -143,3 +156,4 @@ npm run report -- "Legal Remedy Brewing"
 - If `GOOGLE_PLACES_API_KEY` is missing, the Google scripts fail with a clear message instead of crashing.
 - Raw Google payloads are stored locally under `data/raw/google/`.
 - Facebook and Instagram enrichment are placeholders in Phase 1 and are not implemented yet.
+- Social/profile URLs should be manually verified before any future scraping workflow uses them.
