@@ -262,8 +262,8 @@
     "category": "establishment",
     "address": "1912 Mt Gallant Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJCf_amUiPVogRp7hHZob5EEo",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCf_amUiPVogRp7hHZob5EEo",
-    "status": "seeded",
+    "googleMapsUrl": "https://maps.google.com/?cid=5337039914070948007",
+    "status": "scored",
     "google": {
       "rating": 4,
       "reviewCount": 182,
@@ -275,7 +275,60 @@
         "point_of_interest",
         "restaurant"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCf_amUiPVogRp7hHZob5EEo"
+      "mapsUrl": "https://maps.google.com/?cid=5337039914070948007",
+      "openingHours": [
+        "Monday: 11:00 AM – 9:30 PM",
+        "Tuesday: 11:00 AM – 9:30 PM",
+        "Wednesday: 11:00 AM – 9:30 PM",
+        "Thursday: 11:00 AM – 9:30 PM",
+        "Friday: 11:00 AM – 9:30 PM",
+        "Saturday: 11:00 AM – 9:30 PM",
+        "Sunday: Closed"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\big-wok-ii-details.json",
+      "reviews": [
+        {
+          "authorName": "Dc Coffey",
+          "rating": 3,
+          "text": "",
+          "relativeTimeDescription": "3 weeks ago",
+          "publishedAt": "2026-04-18T14:10:49.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Clark H",
+          "rating": 1,
+          "text": "Did not give the correct order.  When we called they said “there’s nothing we can do about it”",
+          "relativeTimeDescription": "3 weeks ago",
+          "publishedAt": "2026-04-18T00:56:05.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "ben skidell",
+          "rating": 5,
+          "text": "Food is good, cooked in timely manner, could be a bit cleaner in the sitting area",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-04-10T19:21:52.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Mirai Y",
+          "rating": 4,
+          "text": "Good portion, decent Chinese food- fair prices. The lady was nice and food came out quick.\nWould eat here again.",
+          "relativeTimeDescription": "2 months ago",
+          "publishedAt": "2026-03-07T21:53:14.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Jocelyn Medina",
+          "rating": 5,
+          "text": "ordered for pick up and it was less expensive than i thought it would be , very nice large servings , good taste , and pleasant customer service.",
+          "relativeTimeDescription": "2 months ago",
+          "publishedAt": "2026-02-24T12:41:44.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-11T17:53:13.082Z"
     },
     "insights": {
       "strengths": [],
@@ -283,7 +336,21 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:53:19.372Z",
+    "phone": "(803) 980-8889",
+    "website": "https://www.bigwokii.com/",
+    "scores": {
+      "reputation": 86,
+      "socialPresence": 0,
+      "opportunity": 90,
+      "overall": 70,
+      "notes": [
+        "Reputation is based on Google rating and review volume.",
+        "Social presence is a placeholder until Facebook and Instagram enrichment exists.",
+        "Opportunity is highest when reputation is strong and social presence is weak."
+      ],
+      "calculatedAt": "2026-05-11T17:53:19.370Z"
+    }
   },
   {
     "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",
