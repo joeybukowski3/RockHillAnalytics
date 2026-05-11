@@ -11,6 +11,7 @@
     "enrich:instagram": "tsx scripts/04-enrich-instagram.ts",
     "score": "tsx scripts/05-score-restaurant.ts",
     "report": "tsx scripts/06-generate-report.ts",
+    "review:seed": "tsx scripts/07-review-seed-list.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

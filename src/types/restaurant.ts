@@ -30,6 +30,18 @@ export type ScoreSummary = {
   calculatedAt: string;
 };
 
+export type RestaurantReviewStatus =
+  | "included"
+  | "needs_review"
+  | "excluded"
+  | "closed";
+
+export type RestaurantPipelineStage =
+  | "seeded"
+  | "enriched"
+  | "scored"
+  | "reported";
+
 export type RestaurantProfile = {
   id: string;
   name: string;
@@ -45,7 +57,11 @@ export type RestaurantProfile = {
   facebookUrl?: string;
   instagramUrl?: string;
   tiktokUrl?: string;
-  status: "seeded" | "enriched" | "scored" | "reported";
+  status: RestaurantReviewStatus;
+  pipelineStage?: RestaurantPipelineStage;
+  reviewNotes: string[];
+  sourceQueries: string[];
+  lastVerifiedAt: string;
   google?: {
     rating?: number;
     reviewCount?: number;

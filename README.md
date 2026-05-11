@@ -108,6 +108,12 @@ Generate a Markdown report:
 npm run report -- "Restaurant Name"
 ```
 
+Review and classify the current seed list:
+
+```powershell
+npm run review:seed
+```
+
 Run typecheck:
 
 ```powershell

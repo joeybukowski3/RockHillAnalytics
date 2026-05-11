@@ -7,7 +7,8 @@ function buildGoogleMapsUrl(placeId: string): string {
 }
 
 export function normalizeGooglePlacesResults(
-  rawResults: GooglePlaceSearchResult[]
+  rawResults: GooglePlaceSearchResult[],
+  sourceQueriesByPlaceId: Map<string, string[]> = new Map()
 ): RestaurantProfile[] {
   const now = new Date().toISOString();
   const deduped = new Map<string, RestaurantProfile>();
@@ -26,7 +27,11 @@ export function normalizeGooglePlacesResults(
       address: result.formatted_address,
       googlePlaceId,
       googleMapsUrl: buildGoogleMapsUrl(googlePlaceId),
-      status: "seeded",
+      status: "included",
+      pipelineStage: "seeded",
+      reviewNotes: [],
+      sourceQueries: sourceQueriesByPlaceId.get(googlePlaceId) ?? [],
+      lastVerifiedAt: now,
       google: {
         rating: result.rating,
         reviewCount: result.user_ratings_total,
@@ -54,6 +59,9 @@ export function normalizeGooglePlacesResults(
       ...normalized,
       category: existing.category ?? normalized.category,
       address: existing.address ?? normalized.address,
+      sourceQueries: Array.from(
+        new Set([...(existing.sourceQueries ?? []), ...(normalized.sourceQueries ?? [])])
+      ),
       googleMapsUrl: existing.googleMapsUrl ?? normalized.googleMapsUrl,
       google: {
         ...existing.google,

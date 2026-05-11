@@ -50,7 +50,8 @@ async function main(): Promise<void> {
       ? {
           ...entry,
           scores,
-          status: "scored" as const,
+          pipelineStage: "scored" as const,
+          lastVerifiedAt: now,
           updatedAt: now
         }
       : entry

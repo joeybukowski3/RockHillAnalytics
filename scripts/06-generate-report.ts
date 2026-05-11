@@ -113,6 +113,7 @@ function toMarkdown(restaurant: RestaurantProfile): string {
 - Address: ${restaurant.address ?? "n/a"}
 - Category: ${restaurant.category ?? "n/a"}
 - Status: ${restaurant.status}
+- Pipeline stage: ${restaurant.pipelineStage ?? "seeded"}
 - Google Place ID: ${restaurant.googlePlaceId ?? "n/a"}
 
 ## Google Profile
@@ -143,6 +144,10 @@ ${availability.length ? availability.map((item) => `- ${item}`).join("\n") : "- 
 ## Missing Data / Next Enrichment Steps
 
 ${missing.length ? missing.map((item) => `- ${item}`).join("\n") : "- No major gaps identified in Phase 1 data."}
+
+## Review Notes
+
+${restaurant.reviewNotes.length ? restaurant.reviewNotes.map((item) => `- ${item}`).join("\n") : "- No review notes recorded."}
 
 ## Initial Recommendations
 

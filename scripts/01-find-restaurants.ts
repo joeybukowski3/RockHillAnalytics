@@ -3,6 +3,7 @@ import path from "node:path";
 import { searchRestaurantsInRockHill } from "../src/apis/googlePlaces.js";
 import { loadEnv } from "../src/lib/env.js";
 import { normalizeGooglePlacesResults } from "../src/lib/normalizeRestaurant.js";
+import { applySeedReview } from "../src/lib/seedReview.js";
 
 const ROOT = process.cwd();
 loadEnv();
@@ -24,7 +25,19 @@ async function main(): Promise<void> {
   await writeFile(rawFilePath, JSON.stringify(result, null, 2), "utf8");
 
   const rawResults = result.queries.flatMap((entry) => entry.response.results);
-  const normalized = normalizeGooglePlacesResults(rawResults);
+  const sourceQueriesByPlaceId = new Map<string, string[]>();
+
+  for (const entry of result.queries) {
+    for (const place of entry.response.results) {
+      const existing = sourceQueriesByPlaceId.get(place.place_id) ?? [];
+      existing.push(entry.query);
+      sourceQueriesByPlaceId.set(place.place_id, Array.from(new Set(existing)));
+    }
+  }
+
+  const normalized = applySeedReview(
+    normalizeGooglePlacesResults(rawResults, sourceQueriesByPlaceId)
+  );
 
   await writeFile(seedPath, JSON.stringify(normalized, null, 2), "utf8");
 

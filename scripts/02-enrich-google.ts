@@ -91,7 +91,7 @@ async function main(): Promise<void> {
       phone: details.result?.formatted_phone_number ?? entry.phone,
       website: details.result?.website ?? entry.website,
       googleMapsUrl: details.result?.url ?? entry.googleMapsUrl,
-      status: "enriched" as const,
+      pipelineStage: "enriched" as const,
       google: {
         ...entry.google,
         rating: details.result?.rating ?? entry.google?.rating,
@@ -105,6 +105,7 @@ async function main(): Promise<void> {
         reviews: mapReviews(details.result?.reviews) ?? entry.google?.reviews,
         lastEnrichedAt: now
       },
+      lastVerifiedAt: now,
       updatedAt: now
     };
   });

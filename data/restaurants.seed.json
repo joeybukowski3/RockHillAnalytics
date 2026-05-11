@@ -9,7 +9,7 @@
     "address": "354 Technology Center Way, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJD59Vt-WJVogR5iFvSmKJ6n0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJD59Vt-WJVogR5iFvSmKJ6n0",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 72,
@@ -27,7 +27,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.876Z"
   },
   {
     "id": "ChIJISNW2VWIVogR20NKKcIAdWs",
@@ -39,7 +45,7 @@
     "address": "157 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJISNW2VWIVogR20NKKcIAdWs",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJISNW2VWIVogR20NKKcIAdWs",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 1308,
@@ -62,7 +68,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC",
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJcTcio6qFVogR-duzB36vUqA",
@@ -74,7 +87,7 @@
     "address": "204 Main St Suite 101, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJcTcio6qFVogR-duzB36vUqA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcTcio6qFVogR-duzB36vUqA",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.8,
       "reviewCount": 351,
@@ -92,7 +105,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breweries in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJpWJxxniJVogR6quKo-2OugM",
@@ -104,7 +125,7 @@
     "address": "135 S Herlong Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJpWJxxniJVogR6quKo-2OugM",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpWJxxniJVogR6quKo-2OugM",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 242,
@@ -124,7 +145,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
@@ -136,7 +163,7 @@
     "address": "502 Cherry Rd Suite 101, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr-wVHMKJVogRVC1RaCDjqUw",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 638,
@@ -156,7 +183,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJGb31ZquJVogRYPowGLppBTo",
@@ -168,7 +201,7 @@
     "address": "210 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJGb31ZquJVogRYPowGLppBTo",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJGb31ZquJVogRYPowGLppBTo",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.6,
       "reviewCount": 443,
@@ -188,7 +221,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC",
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
@@ -200,7 +240,7 @@
     "address": "130 W White St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0SrMeleJVogRJC_xqHaS9nQ",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 164,
@@ -219,7 +259,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
@@ -231,7 +278,7 @@
     "address": "1750 South Carolina 160 west, #107, Fort Mill, SC 29708, USA",
     "googlePlaceId": "ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.4,
       "reviewCount": 675,
@@ -251,7 +298,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJCf_amUiPVogRp7hHZob5EEo",
@@ -263,7 +318,7 @@
     "address": "1912 Mt Gallant Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJCf_amUiPVogRp7hHZob5EEo",
     "googleMapsUrl": "https://maps.google.com/?cid=5337039914070948007",
-    "status": "scored",
+    "status": "included",
     "google": {
       "rating": 4,
       "reviewCount": 182,
@@ -350,7 +405,15 @@
         "Opportunity is highest when reputation is strong and social presence is weak."
       ],
       "calculatedAt": "2026-05-11T17:53:19.370Z"
-    }
+    },
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",
@@ -362,7 +425,7 @@
     "address": "652 Herrons Ferry Road Suite 113, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJd67lS1qFVogRzl4nN13V0Lk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd67lS1qFVogRzl4nN13V0Lk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 189,
@@ -383,7 +446,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC",
+      "coffee shops in Rock Hill SC",
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJsbHDEy-FVogRmwcJ-pkN0GI",
@@ -395,7 +466,7 @@
     "address": "1500 Fort Mill Pkwy #111, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJsbHDEy-FVogRmwcJ-pkN0GI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsbHDEy-FVogRmwcJ-pkN0GI",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 944,
@@ -416,7 +487,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJux77xBKPVogRtRL5ZExNkR8",
@@ -428,7 +507,7 @@
     "address": "2425 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJux77xBKPVogRtRL5ZExNkR8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJux77xBKPVogRtRL5ZExNkR8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 95,
@@ -448,7 +527,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJQYbrfhSFVogRs4wSxMk6yE4",
@@ -460,7 +545,7 @@
     "address": "1343 Broadcloth St #103, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJQYbrfhSFVogRs4wSxMk6yE4",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQYbrfhSFVogRs4wSxMk6yE4",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.4,
       "reviewCount": 947,
@@ -481,7 +566,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJ88hBbyKJVogRXcpHNy7-oHg",
@@ -493,7 +586,7 @@
     "address": "133 S Herlong Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ88hBbyKJVogRXcpHNy7-oHg",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ88hBbyKJVogRXcpHNy7-oHg",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 311,
@@ -513,7 +606,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJdzuQZhyJVogRmmOR5xs3aB8",
@@ -525,7 +625,7 @@
     "address": "111 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJdzuQZhyJVogRmmOR5xs3aB8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJdzuQZhyJVogRmmOR5xs3aB8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 2422,
@@ -545,7 +645,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJpS6cDEGFVogRN9YwkWWLLBg",
@@ -557,7 +664,7 @@
     "address": "1975 US-21, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJpS6cDEGFVogRN9YwkWWLLBg",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpS6cDEGFVogRN9YwkWWLLBg",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 5603,
@@ -577,7 +684,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJ6zyXE_6HVogR4MrFa5LSHFA",
@@ -589,7 +704,7 @@
     "address": "2338 Dave Lyle Blvd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ6zyXE_6HVogR4MrFa5LSHFA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ6zyXE_6HVogR4MrFa5LSHFA",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 202,
@@ -608,7 +723,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJnY7fPPmPVogRe1QKAN6534g",
@@ -620,7 +742,7 @@
     "address": "2215 India Hook Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJnY7fPPmPVogRe1QKAN6534g",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJnY7fPPmPVogRe1QKAN6534g",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 896,
@@ -640,7 +762,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJPQIHUg-MVogR2tLBlY35AFk",
@@ -652,7 +780,7 @@
     "address": "4811 Old York Rd Ste 101, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJPQIHUg-MVogR2tLBlY35AFk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPQIHUg-MVogR2tLBlY35AFk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 1174,
@@ -672,7 +800,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJS2WuvECGVogRS-vvY2xzElQ",
@@ -684,7 +820,7 @@
     "address": "2260 Cross Pointe Dr #96, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJS2WuvECGVogRS-vvY2xzElQ",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJS2WuvECGVogRS-vvY2xzElQ",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 1440,
@@ -704,7 +840,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJvzn456CHVogRPrmt-ggKKhk",
@@ -716,7 +860,7 @@
     "address": "2391 Dave Lyle Blvd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJvzn456CHVogRPrmt-ggKKhk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvzn456CHVogRPrmt-ggKKhk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.9,
       "reviewCount": 734,
@@ -736,7 +880,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJX0wt1bKPVogRVAW4B9smAeU",
@@ -748,7 +900,7 @@
     "address": "1912 Mt Gallant Rd Suite 106, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJX0wt1bKPVogRVAW4B9smAeU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJX0wt1bKPVogRVAW4B9smAeU",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 541,
@@ -768,7 +920,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJF8N1xjuJVogREnHwzCUYY9I",
@@ -780,7 +940,7 @@
     "address": "1726 Ebenezer Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJF8N1xjuJVogREnHwzCUYY9I",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF8N1xjuJVogREnHwzCUYY9I",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.7,
       "reviewCount": 235,
@@ -800,7 +960,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJY7K474mJVogR3MeEmWj1U7o",
@@ -812,7 +978,7 @@
     "address": "125 Elk Ave, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJY7K474mJVogR3MeEmWj1U7o",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY7K474mJVogR3MeEmWj1U7o",
-    "status": "seeded",
+    "status": "needs_review",
     "google": {
       "rating": 4.5,
       "reviewCount": 4,
@@ -830,7 +996,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Missing clear restaurant/cafe/bar/meal service Google type.",
+      "Sparse Google types; verify this is an active standalone restaurant concept."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
   },
   {
     "id": "ChIJu3QAoreIVogR-wBcDGcJVcs",
@@ -842,7 +1017,7 @@
     "address": "1807 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJu3QAoreIVogR-wBcDGcJVcs",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJu3QAoreIVogR-wBcDGcJVcs",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.5,
       "reviewCount": 1415,
@@ -864,7 +1039,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJo3Z_fACNVogRcLgorOviGjk",
@@ -876,7 +1057,7 @@
     "address": "5001 Old York Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJo3Z_fACNVogRcLgorOviGjk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJo3Z_fACNVogRcLgorOviGjk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.6,
       "reviewCount": 295,
@@ -895,7 +1076,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJBVEtXFSPVogRm94f00Go4a8",
@@ -907,7 +1094,7 @@
     "address": "2531 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJBVEtXFSPVogRm94f00Go4a8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJBVEtXFSPVogRm94f00Go4a8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.9,
       "reviewCount": 3077,
@@ -927,7 +1114,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJnar9vN-JVogR3jFzfjXEmnE",
@@ -939,7 +1132,7 @@
     "address": "343 Technology Center Way #108, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJnar9vN-JVogR3jFzfjXEmnE",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJnar9vN-JVogR3jFzfjXEmnE",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 307,
@@ -959,7 +1152,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC",
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJB-lN0SSPVogR2YvpCXrzSdE",
@@ -971,7 +1171,7 @@
     "address": "1435 Riverchase Blvd Suite 103, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJB-lN0SSPVogR2YvpCXrzSdE",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJB-lN0SSPVogR2YvpCXrzSdE",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 501,
@@ -991,7 +1191,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJvQ2hxh2JVogRKslnRFHqaf8",
@@ -1003,7 +1209,7 @@
     "address": "321 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJvQ2hxh2JVogRKslnRFHqaf8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvQ2hxh2JVogRKslnRFHqaf8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.1,
       "reviewCount": 342,
@@ -1023,7 +1229,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJUWKsW6-PVogRfmOCHwU7TWE",
@@ -1035,7 +1247,7 @@
     "address": "2027 Celanese Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJUWKsW6-PVogRfmOCHwU7TWE",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUWKsW6-PVogRfmOCHwU7TWE",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.6,
       "reviewCount": 80,
@@ -1055,7 +1267,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJP46z4SuPVogR5dl1FlVgolg",
@@ -1067,7 +1285,7 @@
     "address": "2732 Celanese Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJP46z4SuPVogR5dl1FlVgolg",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJP46z4SuPVogR5dl1FlVgolg",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 948,
@@ -1087,7 +1305,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJW0dO7cOIVogRyoe_eZMQuL0",
@@ -1099,7 +1323,7 @@
     "address": "1244 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJW0dO7cOIVogRyoe_eZMQuL0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJW0dO7cOIVogRyoe_eZMQuL0",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 1454,
@@ -1119,7 +1343,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJgxjnLEKJVogRtZH81T-ZD7I",
@@ -1131,7 +1361,7 @@
     "address": "489 S Herlong Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJgxjnLEKJVogRtZH81T-ZD7I",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJgxjnLEKJVogRtZH81T-ZD7I",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 542,
@@ -1152,7 +1382,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJHzznBgCJVogRgKDQv6clUAk",
@@ -1164,7 +1400,7 @@
     "address": "125 Elk Ave, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJHzznBgCJVogRgKDQv6clUAk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJHzznBgCJVogRgKDQv6clUAk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.9,
       "reviewCount": 362,
@@ -1184,7 +1420,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "bars in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJT318MiiJVogRNoqJ5VvpGmw",
@@ -1196,7 +1440,7 @@
     "address": "135 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJT318MiiJVogRNoqJ5VvpGmw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJT318MiiJVogRNoqJ5VvpGmw",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 36,
@@ -1217,7 +1461,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJPQIHUg-MVogRYR-MjWRp0nI",
@@ -1229,7 +1479,7 @@
     "address": "4811 Old York Rd STE 106, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJPQIHUg-MVogRYR-MjWRp0nI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPQIHUg-MVogRYR-MjWRp0nI",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 1824,
@@ -1249,7 +1499,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ_dlOXVePVogR1C_8IcPVg7Q",
@@ -1261,7 +1519,7 @@
     "address": "The Original Empire, 1405 Riverchase Blvd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ_dlOXVePVogR1C_8IcPVg7Q",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_dlOXVePVogR1C_8IcPVg7Q",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 1913,
@@ -1282,7 +1540,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJNYuw9UWJVogRigdumjfXGlQ",
@@ -1294,7 +1561,7 @@
     "address": "1022 Camden Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJNYuw9UWJVogRigdumjfXGlQ",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJNYuw9UWJVogRigdumjfXGlQ",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 1404,
@@ -1314,7 +1581,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ49rp2i-JVogRHMSZO4H5ihI",
@@ -1326,7 +1599,7 @@
     "address": "2302 Cherry Rd Suite 1, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ49rp2i-JVogRHMSZO4H5ihI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ49rp2i-JVogRHMSZO4H5ihI",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 456,
@@ -1346,7 +1619,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJsew-mYOFVogRReC9gnj-DKg",
@@ -1358,7 +1639,7 @@
     "address": "2373 Len Patterson Rd Ste 100, Fort Mill, SC 29708, USA",
     "googlePlaceId": "ChIJsew-mYOFVogRReC9gnj-DKg",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsew-mYOFVogRReC9gnj-DKg",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 1816,
@@ -1378,7 +1659,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJLSfOkGuFVogRiXX8JsyAYjk",
@@ -1390,7 +1679,7 @@
     "address": "990 Market St, Fort Mill, SC 29708, USA",
     "googlePlaceId": "ChIJLSfOkGuFVogRiXX8JsyAYjk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJLSfOkGuFVogRiXX8JsyAYjk",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 1500,
@@ -1411,7 +1700,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJlc5cPwSJVogRpwYHHeKotRU",
@@ -1423,7 +1720,7 @@
     "address": "1735 Heckle Blvd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJlc5cPwSJVogRpwYHHeKotRU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJlc5cPwSJVogRpwYHHeKotRU",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "businessStatus": "OPERATIONAL",
       "types": [
@@ -1440,7 +1737,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJiR3MpKyJVogRxjmEIcENIQ0",
@@ -1452,7 +1755,7 @@
     "address": "221 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJiR3MpKyJVogRxjmEIcENIQ0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJiR3MpKyJVogRxjmEIcENIQ0",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.9,
       "reviewCount": 81,
@@ -1471,7 +1774,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ18UzpKOFVogRc9FTGF-skhY",
@@ -1483,7 +1792,7 @@
     "address": "217 Main St, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJ18UzpKOFVogRc9FTGF-skhY",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ18UzpKOFVogRc9FTGF-skhY",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.8,
       "reviewCount": 258,
@@ -1503,7 +1812,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ2U08EhyJVogRgQ-EtW41p8Y",
@@ -1515,7 +1832,7 @@
     "address": "1037 Camden Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ2U08EhyJVogRgQ-EtW41p8Y",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2U08EhyJVogRgQ-EtW41p8Y",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 569,
@@ -1536,7 +1853,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ3zjcvfmFVogRhQdbmFE98aI",
@@ -1548,7 +1871,7 @@
     "address": "249 Harwich St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ3zjcvfmFVogRhQdbmFE98aI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ3zjcvfmFVogRhQdbmFE98aI",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 1830,
@@ -1568,7 +1891,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJHe9L48aJVogRdc0Y3fXpnTc",
@@ -1580,7 +1909,7 @@
     "address": "239 Albright Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJHe9L48aJVogRdc0Y3fXpnTc",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJHe9L48aJVogRdc0Y3fXpnTc",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 177,
@@ -1600,7 +1929,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC",
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJdQR3fVOPVogRpR_toiZ5Dg4",
@@ -1612,7 +1948,7 @@
     "address": "2455 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJdQR3fVOPVogRpR_toiZ5Dg4",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJdQR3fVOPVogRpR_toiZ5Dg4",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 1514,
@@ -1632,7 +1968,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC",
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJq6qekhxgVogRks33YqQT36g",
@@ -1644,7 +1987,7 @@
     "address": "4293 Mockingbird Ln, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJq6qekhxgVogRks33YqQT36g",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq6qekhxgVogRks33YqQT36g",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "businessStatus": "OPERATIONAL",
       "types": [
@@ -1661,7 +2004,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ03znXqeHVogRdhiAR9aqBt4",
@@ -1673,7 +2022,7 @@
     "address": "2275 Dave Lyle Blvd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ03znXqeHVogRdhiAR9aqBt4",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ03znXqeHVogRdhiAR9aqBt4",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.9,
       "reviewCount": 3091,
@@ -1693,7 +2042,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC",
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJc3RF4CuPVogRh-Rw2WYPh7E",
@@ -1705,7 +2061,7 @@
     "address": "2742 Celanese Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJc3RF4CuPVogRh-Rw2WYPh7E",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJc3RF4CuPVogRh-Rw2WYPh7E",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.4,
       "reviewCount": 244,
@@ -1727,7 +2083,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJIS45JuyFVogRk5tZ5AiVv5k",
@@ -1739,7 +2101,7 @@
     "address": "829 Terrace Park #104, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJIS45JuyFVogRk5tZ5AiVv5k",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJIS45JuyFVogRk5tZ5AiVv5k",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 356,
@@ -1762,7 +2124,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ8TBOgkWLVogRWpv6TG755hs",
@@ -1774,7 +2142,7 @@
     "address": "793 N Park Dr, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ8TBOgkWLVogRWpv6TG755hs",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8TBOgkWLVogRWpv6TG755hs",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 32,
@@ -1793,7 +2161,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ28ZyrjiGVogRiRAr_LRpqsU",
@@ -1805,7 +2179,7 @@
     "address": "2260 Cross Pointe Dr Ste 101, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ28ZyrjiGVogRiRAr_LRpqsU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ28ZyrjiGVogRiRAr_LRpqsU",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 1476,
@@ -1826,7 +2200,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "bars in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJk_exvzaJVogRUFUM_XovfU8",
@@ -1838,7 +2220,7 @@
     "address": "706 Mt Gallant Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJk_exvzaJVogRUFUM_XovfU8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk_exvzaJVogRUFUM_XovfU8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 566,
@@ -1858,7 +2240,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJOfBc_n-JVogRG02iGVhu1VA",
@@ -1870,7 +2258,7 @@
     "address": "305 Herlong Ave STE 303, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJOfBc_n-JVogRG02iGVhu1VA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJOfBc_n-JVogRG02iGVhu1VA",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4,
       "reviewCount": 302,
@@ -1889,7 +2277,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJl96Sfi6PVogR-6vGl8nJdhU",
@@ -1901,7 +2295,7 @@
     "address": "2674 Celanese Rd Apt 101, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJl96Sfi6PVogR-6vGl8nJdhU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJl96Sfi6PVogR-6vGl8nJdhU",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 1844,
@@ -1922,7 +2316,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJMztskgmJVogR1OShQkvIZL8",
@@ -1934,7 +2335,7 @@
     "address": "520 Cherry Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJMztskgmJVogR1OShQkvIZL8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMztskgmJVogR1OShQkvIZL8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 1130,
@@ -1955,7 +2356,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "bars in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJg2fYjrCJVogRXfMpkzJ-8gc",
@@ -1967,7 +2376,7 @@
     "address": "110 Southern St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJg2fYjrCJVogRXfMpkzJ-8gc",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJg2fYjrCJVogRXfMpkzJ-8gc",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 645,
@@ -1987,7 +2396,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC",
+      "breweries in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJWTt20X6FVogRys_wywbCBSg",
@@ -1999,7 +2415,7 @@
     "address": "414 Tom Hall St, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJWTt20X6FVogRys_wywbCBSg",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJWTt20X6FVogRys_wywbCBSg",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.8,
       "reviewCount": 322,
@@ -2019,7 +2435,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJV0eou3SGVogR2HTlV1tmir0",
@@ -2031,7 +2455,7 @@
     "address": "203 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJV0eou3SGVogR2HTlV1tmir0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJV0eou3SGVogR2HTlV1tmir0",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4,
       "reviewCount": 678,
@@ -2052,7 +2476,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJN9pBqfCFVogRL91droHwdjk",
@@ -2064,7 +2494,7 @@
     "address": "2797 Cherry Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJN9pBqfCFVogRL91droHwdjk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN9pBqfCFVogRL91droHwdjk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 2525,
@@ -2084,7 +2514,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJsTmnRPOFVogRtscSstRGaI8",
@@ -2096,7 +2532,7 @@
     "address": "816 Brayden Pkwy, Fort Mill, SC 29708, USA",
     "googlePlaceId": "ChIJsTmnRPOFVogRtscSstRGaI8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsTmnRPOFVogRtscSstRGaI8",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 502,
@@ -2116,7 +2552,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJhRh8_IrzVogR54jCfGwLehw",
@@ -2128,7 +2573,7 @@
     "address": "502 E Liberty St, York, SC 29745, USA",
     "googlePlaceId": "ChIJhRh8_IrzVogR54jCfGwLehw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhRh8_IrzVogR54jCfGwLehw",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.2,
       "reviewCount": 999,
@@ -2148,7 +2593,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: York."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ4T1q0XCJVogREyJh-jZljuk",
@@ -2160,7 +2613,7 @@
     "address": "153 E White St Unit B, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ4T1q0XCJVogREyJh-jZljuk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4T1q0XCJVogREyJh-jZljuk",
-    "status": "seeded",
+    "status": "needs_review",
     "google": {
       "rating": 4.8,
       "reviewCount": 55,
@@ -2184,7 +2637,17 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC",
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Google types indicate retail/grocery rather than a primary restaurant listing.",
+      "Mixed-use retail/cafe record; verify it should remain in the restaurant master list."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJp_lRg_2HVogRljE-FSxsKSE",
@@ -2196,7 +2659,7 @@
     "address": "855 Saluda St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJp_lRg_2HVogRljE-FSxsKSE",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJp_lRg_2HVogRljE-FSxsKSE",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4,
       "reviewCount": 33,
@@ -2215,7 +2678,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Catering-only keyword detected in business name.",
+      "Catering-focused listing; not a standard restaurant storefront."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJS2WuvECGVogR0N9W5QJ3rL8",
@@ -2227,7 +2699,7 @@
     "address": "2260 Cross Pointe Dr #99, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJS2WuvECGVogR0N9W5QJ3rL8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJS2WuvECGVogR0N9W5QJ3rL8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.8,
       "reviewCount": 857,
@@ -2247,7 +2719,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ0RRP92qJVogRqH1Iu3ja1LA",
@@ -2259,7 +2737,7 @@
     "address": "108 Oakland Ave, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ0RRP92qJVogRqH1Iu3ja1LA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0RRP92qJVogRqH1Iu3ja1LA",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 73,
@@ -2279,7 +2757,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJcSoLJQCJVogRd2tgtDxlKA0",
@@ -2291,7 +2776,7 @@
     "address": "1181 Saluda St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJcSoLJQCJVogRd2tgtDxlKA0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcSoLJQCJVogRd2tgtDxlKA0",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 30,
@@ -2310,7 +2795,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJHVpGzKWJVogR_q0d8nC_7T8",
@@ -2322,7 +2813,7 @@
     "address": "546 N Anderson Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJHVpGzKWJVogR_q0d8nC_7T8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJHVpGzKWJVogR_q0d8nC_7T8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.9,
       "reviewCount": 13,
@@ -2342,7 +2833,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJb3fG9lmPVogR_Zgeo5kAJEI",
@@ -2354,7 +2851,7 @@
     "address": "1818 Bagwell Cir, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJb3fG9lmPVogR_Zgeo5kAJEI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJb3fG9lmPVogR_Zgeo5kAJEI",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 50,
@@ -2373,7 +2870,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC",
+      "chinese restaurants in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJB-P2EnuJVogRx4quXIJ5-HY",
@@ -2385,7 +2890,7 @@
     "address": "1263 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJB-P2EnuJVogRx4quXIJ5-HY",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJB-P2EnuJVogRx4quXIJ5-HY",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 190,
@@ -2404,7 +2909,17 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "bbq restaurants in Rock Hill SC",
+      "chinese restaurants in Rock Hill SC",
+      "japanese restaurants in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJH5YDEv-IVogR3I3nQtefBy8",
@@ -2416,7 +2931,7 @@
     "address": "130 W White St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJH5YDEv-IVogR3I3nQtefBy8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJH5YDEv-IVogR3I3nQtefBy8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 406,
@@ -2436,7 +2951,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJUURJWhiRVogR-CTkiLasET8",
@@ -2448,7 +2971,7 @@
     "address": "900 Crossroads Plaza, Fort Mill, SC 29708, USA",
     "googlePlaceId": "ChIJUURJWhiRVogR-CTkiLasET8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUURJWhiRVogR-CTkiLasET8",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.7,
       "reviewCount": 269,
@@ -2470,7 +2993,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJqcOEkuqJVogRdDzTYAIirpk",
@@ -2482,7 +3013,7 @@
     "address": "546 N Anderson Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJqcOEkuqJVogRdDzTYAIirpk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJqcOEkuqJVogRdDzTYAIirpk",
-    "status": "seeded",
+    "status": "needs_review",
     "google": {
       "rating": 5,
       "reviewCount": 3,
@@ -2500,7 +3031,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Missing clear restaurant/cafe/bar/meal service Google type.",
+      "Sparse Google types; verify this is an active public-facing restaurant."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ2ZpS_HKPVogRreARbbBfR2g",
@@ -2512,7 +3052,7 @@
     "address": "2685 Celanese Rd #112, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ2ZpS_HKPVogRreARbbBfR2g",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2ZpS_HKPVogRreARbbBfR2g",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 287,
@@ -2531,7 +3071,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "chinese restaurants in Rock Hill SC",
+      "japanese restaurants in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJu_18OgCBVogR7kdCt0bZ27o",
@@ -2543,7 +3092,7 @@
     "address": "8348 Charlotte Hwy, Indian Land, SC 29707, USA",
     "googlePlaceId": "ChIJu_18OgCBVogR7kdCt0bZ27o",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJu_18OgCBVogR7kdCt0bZ27o",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.6,
       "reviewCount": 70,
@@ -2562,7 +3111,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Indian Land."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ1b7HzJBsa0wRLrX335PxWTw",
@@ -2574,7 +3131,7 @@
     "address": "911 E White St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ1b7HzJBsa0wRLrX335PxWTw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ1b7HzJBsa0wRLrX335PxWTw",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 5,
       "reviewCount": 32,
@@ -2594,7 +3151,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJk2N6Jg-MVogRqab6Sm3SbQY",
@@ -2606,7 +3169,7 @@
     "address": "4859 Old York Rd #102, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJk2N6Jg-MVogRqab6Sm3SbQY",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk2N6Jg-MVogRqab6Sm3SbQY",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.8,
       "reviewCount": 239,
@@ -2626,7 +3189,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJoW_BLvSFVogRFjmJt7efnAA",
@@ -2638,7 +3207,7 @@
     "address": "1771 Pleasant Rd, Fort Mill, SC 29708, USA",
     "googlePlaceId": "ChIJoW_BLvSFVogRFjmJt7efnAA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJoW_BLvSFVogRFjmJt7efnAA",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.6,
       "reviewCount": 683,
@@ -2658,7 +3227,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJxwCnVgCPVogR-R95hiRDK-s",
@@ -2670,7 +3247,7 @@
     "address": "1425 Riverchase Blvd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJxwCnVgCPVogR-R95hiRDK-s",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxwCnVgCPVogR-R95hiRDK-s",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 73,
@@ -2689,7 +3266,18 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC",
+      "chinese restaurants in Rock Hill SC",
+      "japanese restaurants in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJwUCMBbyJVogRW6jQLczFnlk",
@@ -2701,7 +3289,7 @@
     "address": "135 E Main St Suite 101, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJwUCMBbyJVogRW6jQLczFnlk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwUCMBbyJVogRW6jQLczFnlk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.6,
       "reviewCount": 793,
@@ -2721,7 +3309,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJndOfiAOJVogRWtHqaYICpRU",
@@ -2733,7 +3327,7 @@
     "address": "489 S Herlong Ave Ste 10-11, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJndOfiAOJVogRWtHqaYICpRU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJndOfiAOJVogRWtHqaYICpRU",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 40,
@@ -2752,7 +3346,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJRdf0feyNVogRrYazDgm9_Qk",
@@ -2764,7 +3364,7 @@
     "address": "369 Hands Mill Hwy, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJRdf0feyNVogRrYazDgm9_Qk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRdf0feyNVogRrYazDgm9_Qk",
-    "status": "seeded",
+    "status": "needs_review",
     "google": {
       "rating": 4.8,
       "reviewCount": 132,
@@ -2782,7 +3382,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breweries in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Missing clear restaurant/cafe/bar/meal service Google type.",
+      "Brewery record without explicit restaurant type; verify food-service scope."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJE0631LaIVogRMOFZh2ER1gc",
@@ -2794,7 +3403,7 @@
     "address": "1906 N, 1906 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJE0631LaIVogRMOFZh2ER1gc",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJE0631LaIVogRMOFZh2ER1gc",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 723,
@@ -2815,7 +3424,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Google types indicate retail/grocery rather than a primary restaurant listing.",
+      "Grocery/supermarket listing rather than a restaurant."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJhRweL7fNt4kRVUFh-QXBA18",
@@ -2827,7 +3445,7 @@
     "address": "410 Herlong Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJhRweL7fNt4kRVUFh-QXBA18",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhRweL7fNt4kRVUFh-QXBA18",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 677,
@@ -2850,7 +3468,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJh44S036RVogRUqYMRN4nTHI",
@@ -2862,7 +3487,7 @@
     "address": "501 Crossroads Plaza, Fort Mill, SC 29708, USA",
     "googlePlaceId": "ChIJh44S036RVogRUqYMRN4nTHI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJh44S036RVogRUqYMRN4nTHI",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.2,
       "reviewCount": 704,
@@ -2883,7 +3508,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJCf2QOLGIVogR9fBF91Mt6d4",
@@ -2895,7 +3528,7 @@
     "address": "1932 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJCf2QOLGIVogR9fBF91Mt6d4",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCf2QOLGIVogR9fBF91Mt6d4",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.5,
       "reviewCount": 718,
@@ -2917,7 +3550,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJlyCbdLWJVogRDZ5sPwj-NVE",
@@ -2929,7 +3568,7 @@
     "address": "343 Technology Center Way #102, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJlyCbdLWJVogRDZ5sPwj-NVE",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJlyCbdLWJVogRDZ5sPwj-NVE",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 69,
@@ -2949,7 +3588,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJq42eUD-GVogROYBK_7LpgxU",
@@ -2961,7 +3607,7 @@
     "address": "2255 Cross Pointe Dr, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJq42eUD-GVogROYBK_7LpgxU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq42eUD-GVogROYBK_7LpgxU",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 3189,
@@ -2983,7 +3629,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJAQAMO1ePVogR8WIlZ5EcBIA",
@@ -2995,7 +3647,7 @@
     "address": "1415 Riverchase Blvd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJAQAMO1ePVogR8WIlZ5EcBIA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQAMO1ePVogR8WIlZ5EcBIA",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 1197,
@@ -3015,7 +3667,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ56xZM1OPVogRHEzMLt6yDL4",
@@ -3027,7 +3685,7 @@
     "address": "2387 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ56xZM1OPVogRHEzMLt6yDL4",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ56xZM1OPVogRHEzMLt6yDL4",
-    "status": "seeded",
+    "status": "needs_review",
     "google": {
       "rating": 4.4,
       "reviewCount": 1199,
@@ -3047,7 +3705,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Name suggests a rename or merged listing; verify current branding."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ9d8VFmiJVogR9ueS1DzGT4Q",
@@ -3059,7 +3726,7 @@
     "address": "1735 Heckle Blvd #105, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ9d8VFmiJVogR9ueS1DzGT4Q",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9d8VFmiJVogR9ueS1DzGT4Q",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4,
       "reviewCount": 420,
@@ -3081,7 +3748,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ8eIZ2KyIVogR05vqr8ESnJY",
@@ -3093,7 +3766,7 @@
     "address": "2349 Cherry Rd #35, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ8eIZ2KyIVogR05vqr8ESnJY",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8eIZ2KyIVogR05vqr8ESnJY",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 1125,
@@ -3116,7 +3789,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJJ7zTamWIVogRX1h226Ec-Zk",
@@ -3128,7 +3808,7 @@
     "address": "1349 Firetower Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJJ7zTamWIVogRX1h226Ec-Zk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJ7zTamWIVogRX1h226Ec-Zk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.6,
       "reviewCount": 873,
@@ -3148,7 +3828,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJyRrESImFVogRTFmq9YPrpFU",
@@ -3160,7 +3846,7 @@
     "address": "111 Springs St, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJyRrESImFVogRTFmq9YPrpFU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJyRrESImFVogRTFmq9YPrpFU",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.6,
       "reviewCount": 73,
@@ -3179,7 +3865,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJX_6cYX6dVogRDj4ZhL-AhTc",
@@ -3191,7 +3885,7 @@
     "address": "400 N Polk St B, Pineville, NC 28134, USA",
     "googlePlaceId": "ChIJX_6cYX6dVogRDj4ZhL-AhTc",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJX_6cYX6dVogRDj4ZhL-AhTc",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.6,
       "reviewCount": 484,
@@ -3209,7 +3903,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breweries in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Pineville."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJWxPYs66JVogRWMH2UgeHloU",
@@ -3221,7 +3923,7 @@
     "address": "478 S Herlong Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJWxPYs66JVogRWMH2UgeHloU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJWxPYs66JVogRWMH2UgeHloU",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 97,
@@ -3240,7 +3942,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "japanese restaurants in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ8RF8C1aIVogROZ9Q0f19tTc",
@@ -3252,7 +3961,7 @@
     "address": "121 Caldwell St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ8RF8C1aIVogROZ9Q0f19tTc",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8RF8C1aIVogROZ9Q0f19tTc",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 1271,
@@ -3273,7 +3982,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJOyz8wV2PVogRGxhPYLbNbXg",
@@ -3285,7 +4002,7 @@
     "address": "1175 Stonecrest Blvd, Fort Mill, SC 29708, USA",
     "googlePlaceId": "ChIJOyz8wV2PVogRGxhPYLbNbXg",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJOyz8wV2PVogRGxhPYLbNbXg",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.6,
       "reviewCount": 407,
@@ -3305,7 +4022,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC",
+      "breweries in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJVRhH2S2JVogRAgm65wf3ZAk",
@@ -3317,7 +4043,7 @@
     "address": "378 Technology Center Way Center, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJVRhH2S2JVogRAgm65wf3ZAk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVRhH2S2JVogRAgm65wf3ZAk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 5,
       "reviewCount": 22,
@@ -3337,7 +4063,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ13STop-JVogRK83TBawGPmo",
@@ -3349,7 +4081,7 @@
     "address": "378 Technology Center Way, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ13STop-JVogRK83TBawGPmo",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ13STop-JVogRK83TBawGPmo",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 5,
       "reviewCount": 14,
@@ -3368,7 +4100,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJpd3D2COPVogRt4z94dCPTE8",
@@ -3380,7 +4118,7 @@
     "address": "2435 SC-160, Tega Cay, SC 29708, USA",
     "googlePlaceId": "ChIJpd3D2COPVogRt4z94dCPTE8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpd3D2COPVogRt4z94dCPTE8",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 138,
@@ -3399,7 +4137,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Tega Cay."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJQ7LcviONVogRRcX_tjIHPV4",
@@ -3411,7 +4157,7 @@
     "address": "4875 Old York Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJQ7LcviONVogRRcX_tjIHPV4",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQ7LcviONVogRRcX_tjIHPV4",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 29,
@@ -3430,7 +4176,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJS1O5A1OJVogRFIj4UJeXGek",
@@ -3442,7 +4194,7 @@
     "address": "752 Saluda St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJS1O5A1OJVogRFIj4UJeXGek",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJS1O5A1OJVogRFIj4UJeXGek",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.3,
       "reviewCount": 31,
@@ -3462,7 +4214,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJvbTPMLCJVogRf_4jBuSHN28",
@@ -3474,7 +4232,7 @@
     "address": "502 Cherry Rd Suite 105, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJvbTPMLCJVogRf_4jBuSHN28",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvbTPMLCJVogRf_4jBuSHN28",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 237,
@@ -3495,7 +4253,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJz8DMsSmJVogR-LqmJKeZq6w",
@@ -3507,7 +4271,7 @@
     "address": "727 Dilworth Ln STE 105, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJz8DMsSmJVogR-LqmJKeZq6w",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJz8DMsSmJVogR-LqmJKeZq6w",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 817,
@@ -3527,7 +4291,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJk4BrxWSIVogRAZwNCVORHu8",
@@ -3539,7 +4309,7 @@
     "address": "1405 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJk4BrxWSIVogRAZwNCVORHu8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk4BrxWSIVogRAZwNCVORHu8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.1,
       "reviewCount": 383,
@@ -3559,7 +4329,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJk9SqEGOJVogRBqcgPYRSsec",
@@ -3571,7 +4347,7 @@
     "address": "502 Cherry Rd #106, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJk9SqEGOJVogRBqcgPYRSsec",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJk9SqEGOJVogRBqcgPYRSsec",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 141,
@@ -3592,7 +4368,18 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "pizza in Rock Hill SC",
+      "bbq restaurants in Rock Hill SC",
+      "bars in Rock Hill SC",
+      "breweries in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ_yNHxFWJVogR5UrxyewJNaM",
@@ -3604,7 +4391,7 @@
     "address": "300 Technology Center Way, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ_yNHxFWJVogR5UrxyewJNaM",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_yNHxFWJVogR5UrxyewJNaM",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 686,
@@ -3625,7 +4412,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJJUfDrSOGVogRKU7DNMS3_VI",
@@ -3637,7 +4431,7 @@
     "address": "519 John Ross Pkwy, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJJUfDrSOGVogRKU7DNMS3_VI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJUfDrSOGVogRKU7DNMS3_VI",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 3317,
@@ -3659,7 +4453,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJcV53qKqFVogR3fyWdHBv4GI",
@@ -3671,7 +4471,7 @@
     "address": "229 Main St, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJcV53qKqFVogR3fyWdHBv4GI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcV53qKqFVogR3fyWdHBv4GI",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.8,
       "reviewCount": 227,
@@ -3693,7 +4493,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill.",
+      "Google types indicate retail/grocery rather than a primary restaurant listing."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ6RjCjc6PVogRdhTMUBLcU9k",
@@ -3705,7 +4514,7 @@
     "address": "4124 Celanese Rd #130, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ6RjCjc6PVogRdhTMUBLcU9k",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ6RjCjc6PVogRdhTMUBLcU9k",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 122,
@@ -3725,7 +4534,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJMd3ACa6OVogRcSYhwaC1Epw",
@@ -3737,7 +4554,7 @@
     "address": "4124 Celanese Rd #156, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJMd3ACa6OVogRcSYhwaC1Epw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMd3ACa6OVogRcSYhwaC1Epw",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 585,
@@ -3758,7 +4575,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJSzL6UQCFVogROBHLxWnvqEs",
@@ -3770,7 +4593,7 @@
     "address": "1328 Broadcloth St, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJSzL6UQCFVogROBHLxWnvqEs",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJSzL6UQCFVogROBHLxWnvqEs",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 246,
@@ -3789,7 +4612,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJJ7zTamWIVogRUIXmY2dZ27s",
@@ -3801,7 +4632,7 @@
     "address": "101 Porter Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJJ7zTamWIVogRUIXmY2dZ27s",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJ7zTamWIVogRUIXmY2dZ27s",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.1,
       "reviewCount": 61,
@@ -3823,7 +4654,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ-14s-xqJVogRXAf76c5n1hs",
@@ -3835,7 +4672,7 @@
     "address": "2320 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ-14s-xqJVogRXAf76c5n1hs",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-14s-xqJVogRXAf76c5n1hs",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.8,
       "reviewCount": 132,
@@ -3856,7 +4693,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJJ7Zp4iuPVogRd6YAjJSgb4A",
@@ -3868,7 +4711,7 @@
     "address": "2728 Celanese Rd 400 Ste 400, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJJ7Zp4iuPVogRd6YAjJSgb4A",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJ7Zp4iuPVogRd6YAjJSgb4A",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.1,
       "reviewCount": 234,
@@ -3888,7 +4731,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ5Q2FOviOVogRarA79EmgkUo",
@@ -3900,7 +4749,7 @@
     "address": "3921 Mt Gallant Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ5Q2FOviOVogRarA79EmgkUo",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5Q2FOviOVogRarA79EmgkUo",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 1681,
@@ -3920,7 +4769,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJeVEUGIqJVogRtaF1_0ZUO8M",
@@ -3932,7 +4787,7 @@
     "address": "2245 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJeVEUGIqJVogRtaF1_0ZUO8M",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJeVEUGIqJVogRtaF1_0ZUO8M",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.3,
       "reviewCount": 343,
@@ -3954,7 +4809,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJf5-apeWPVogRb6oqfRSAIJY",
@@ -3966,7 +4827,7 @@
     "address": "2354g Ebenezer Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJf5-apeWPVogRb6oqfRSAIJY",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJf5-apeWPVogRb6oqfRSAIJY",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 414,
@@ -3987,7 +4848,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ_1EgnJmFVogRd8w8qsqJtPw",
@@ -3999,7 +4866,7 @@
     "address": "485 Tom Hall St #103, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJ_1EgnJmFVogRd8w8qsqJtPw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_1EgnJmFVogRd8w8qsqJtPw",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.7,
       "reviewCount": 410,
@@ -4018,7 +4885,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJudTwwm2DVogRd_f7KVDO0A0",
@@ -4030,7 +4905,7 @@
     "address": "9716 Red Stone Dr #400, Indian Land, SC 29707, USA",
     "googlePlaceId": "ChIJudTwwm2DVogRd_f7KVDO0A0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJudTwwm2DVogRd_f7KVDO0A0",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.3,
       "reviewCount": 969,
@@ -4050,7 +4925,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Indian Land."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJPTwo3yuPVogRC_6HsMqGhOw",
@@ -4062,7 +4945,7 @@
     "address": "2760 Celanese Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJPTwo3yuPVogRC_6HsMqGhOw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPTwo3yuPVogRC_6HsMqGhOw",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.1,
       "reviewCount": 1347,
@@ -4082,7 +4965,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJw4mfgV2IVogRFlWaIwGsQRU",
@@ -4094,7 +4983,7 @@
     "address": "1101 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJw4mfgV2IVogRFlWaIwGsQRU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJw4mfgV2IVogRFlWaIwGsQRU",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 496,
@@ -4114,7 +5003,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJHdCh_I6FVogRpokmaSq_GYA",
@@ -4126,7 +5021,7 @@
     "address": "1317 Broadcloth St, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJHdCh_I6FVogRpokmaSq_GYA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJHdCh_I6FVogRpokmaSq_GYA",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.8,
       "reviewCount": 253,
@@ -4144,7 +5039,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breweries in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJp-g5gNSPVogR53IKQ8sMdLo",
@@ -4156,7 +5059,7 @@
     "address": "2124 Celanese Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJp-g5gNSPVogR53IKQ8sMdLo",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJp-g5gNSPVogR53IKQ8sMdLo",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 108,
@@ -4175,7 +5078,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJm8smrb6FVogR1ZENA3LEg8U",
@@ -4187,7 +5096,7 @@
     "address": "819 Terrace Park Suite 103, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJm8smrb6FVogR1ZENA3LEg8U",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJm8smrb6FVogR1ZENA3LEg8U",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 392,
@@ -4207,7 +5116,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "pizza in Rock Hill SC",
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJkym4_raIVogRlla-DnzGuws",
@@ -4219,7 +5135,7 @@
     "address": "1807 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJkym4_raIVogRlla-DnzGuws",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJkym4_raIVogRlla-DnzGuws",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.3,
       "reviewCount": 195,
@@ -4238,7 +5154,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJVVUlClaIVogRO4VaoaEWm_k",
@@ -4250,7 +5172,7 @@
     "address": "121 Caldwell St STE 101, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJVVUlClaIVogRO4VaoaEWm_k",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVVUlClaIVogRO4VaoaEWm_k",
-    "status": "seeded",
+    "status": "needs_review",
     "google": {
       "rating": 4.7,
       "reviewCount": 145,
@@ -4268,7 +5190,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breweries in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Missing clear restaurant/cafe/bar/meal service Google type.",
+      "Brewery/taproom record; verify food-service scope for restaurant tracking."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJZcUQ5aaJVogRG2a9oP6L8FE",
@@ -4280,7 +5211,7 @@
     "address": "139 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJZcUQ5aaJVogRG2a9oP6L8FE",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJZcUQ5aaJVogRG2a9oP6L8FE",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 242,
@@ -4300,7 +5231,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJV9vnD62IVogRBfc2pfnCJvY",
@@ -4312,7 +5249,7 @@
     "address": "2254 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJV9vnD62IVogRBfc2pfnCJvY",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJV9vnD62IVogRBfc2pfnCJvY",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 3386,
@@ -4332,7 +5269,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJnRZ1VjKJVogRjignz7W5PAw",
@@ -4344,7 +5288,7 @@
     "address": "122 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJnRZ1VjKJVogRjignz7W5PAw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJnRZ1VjKJVogRjignz7W5PAw",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 148,
@@ -4363,7 +5307,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJq2PzmoyJVogRMM-Tmj3YnMc",
@@ -4375,7 +5325,7 @@
     "address": "1051 Oakland Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJq2PzmoyJVogRMM-Tmj3YnMc",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJq2PzmoyJVogRMM-Tmj3YnMc",
-    "status": "seeded",
+    "status": "needs_review",
     "google": {
       "rating": 4.9,
       "reviewCount": 14,
@@ -4394,7 +5344,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Missing clear restaurant/cafe/bar/meal service Google type.",
+      "Sparse Google types; verify current operating format and storefront details."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJTbwUWgCJVogRfyPpnHBNsos",
@@ -4406,7 +5365,7 @@
     "address": "1430 Celanese Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJTbwUWgCJVogRfyPpnHBNsos",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTbwUWgCJVogRfyPpnHBNsos",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 5,
       "reviewCount": 6,
@@ -4425,7 +5384,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJe2tE_gibVogROdpgio1vrGM",
@@ -4437,7 +5402,7 @@
     "address": "526-101 Mercantile Pl, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJe2tE_gibVogROdpgio1vrGM",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJe2tE_gibVogROdpgio1vrGM",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.4,
       "reviewCount": 742,
@@ -4457,7 +5422,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJkXoKHTuJVogRxCzOWXPBIjo",
@@ -4469,7 +5442,7 @@
     "address": "3267, 295 Herlong Ave #404, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJkXoKHTuJVogRxCzOWXPBIjo",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJkXoKHTuJVogRxCzOWXPBIjo",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 474,
@@ -4489,7 +5462,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ5xkYaP-IVogRWWaBl6yOV24",
@@ -4501,7 +5480,7 @@
     "address": "463 W Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ5xkYaP-IVogRWWaBl6yOV24",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5xkYaP-IVogRWWaBl6yOV24",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 117,
@@ -4519,7 +5498,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Missing clear restaurant/cafe/bar/meal service Google type.",
+      "Seafood market listing rather than a dine-in restaurant."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJJ4iH8wyNVogRMLntqd6HGds",
@@ -4531,7 +5519,7 @@
     "address": "4971 Old York Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJJ4iH8wyNVogRMLntqd6HGds",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJ4iH8wyNVogRMLntqd6HGds",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.9,
       "reviewCount": 19,
@@ -4552,7 +5540,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC",
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJYSzq06mJVogRJpm9IGzyJU4",
@@ -4564,7 +5561,7 @@
     "address": "2304 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJYSzq06mJVogRJpm9IGzyJU4",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJYSzq06mJVogRJpm9IGzyJU4",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 73,
@@ -4585,7 +5582,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJi6V22g6MVogRNORSFpaia50",
@@ -4597,7 +5602,7 @@
     "address": "4891 Old York Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJi6V22g6MVogRNORSFpaia50",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJi6V22g6MVogRNORSFpaia50",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4,
       "reviewCount": 795,
@@ -4617,7 +5622,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJfe4cz2SIVogR-lHXVhB2mYQ",
@@ -4629,7 +5640,7 @@
     "address": "1415 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJfe4cz2SIVogR-lHXVhB2mYQ",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJfe4cz2SIVogR-lHXVhB2mYQ",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.1,
       "reviewCount": 929,
@@ -4650,7 +5661,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJb0dqvcaIVogRU9GGjvt-GLg",
@@ -4662,7 +5679,7 @@
     "address": "1411 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJb0dqvcaIVogRU9GGjvt-GLg",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJb0dqvcaIVogRU9GGjvt-GLg",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.9,
       "reviewCount": 1337,
@@ -4684,7 +5701,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJwfh21sqJVogRrchdaXERjIA",
@@ -4696,7 +5721,7 @@
     "address": "771 S Heckle Blvd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJwfh21sqJVogRrchdaXERjIA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwfh21sqJVogRrchdaXERjIA",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.9,
       "reviewCount": 651,
@@ -4717,7 +5742,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJF8MlZw2JVogRAcJ4_wc2U5Q",
@@ -4729,7 +5762,7 @@
     "address": "274 Columbia Ave, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJF8MlZw2JVogRAcJ4_wc2U5Q",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF8MlZw2JVogRAcJ4_wc2U5Q",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 274,
@@ -4751,7 +5784,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breweries in Rock Hill SC",
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJK5PCsPmFVogR6pY_9c8pL8w",
@@ -4763,7 +5803,7 @@
     "address": "2781 Cherry Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJK5PCsPmFVogR6pY_9c8pL8w",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJK5PCsPmFVogR6pY_9c8pL8w",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 2848,
@@ -4784,7 +5824,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJu0JZo6SIVogR2p0Jp1v3GNI",
@@ -4796,7 +5842,7 @@
     "address": "550 N Anderson Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJu0JZo6SIVogR2p0Jp1v3GNI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJu0JZo6SIVogR2p0Jp1v3GNI",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.6,
       "reviewCount": 794,
@@ -4816,7 +5862,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC",
+      "food trucks in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ6bVg51WFVogRytCzoiDc3K8",
@@ -4828,7 +5882,7 @@
     "address": "251 Textile Wy, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJ6bVg51WFVogRytCzoiDc3K8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ6bVg51WFVogRytCzoiDc3K8",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.4,
       "reviewCount": 1011,
@@ -4848,7 +5902,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJeXP0AfmFVogRmG5Evhd6YME",
@@ -4860,7 +5922,7 @@
     "address": "2761 Cherry Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJeXP0AfmFVogRmG5Evhd6YME",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJeXP0AfmFVogRmG5Evhd6YME",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.5,
       "reviewCount": 2709,
@@ -4880,7 +5942,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJVxiISACJVogR380iZdYKV4A",
@@ -4892,7 +5960,7 @@
     "address": "220 W White St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJVxiISACJVogR380iZdYKV4A",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVxiISACJVogR380iZdYKV4A",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 92,
@@ -4912,7 +5980,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ__qv5BdfVogRrqM_j9x90z0",
@@ -4924,7 +5998,7 @@
     "address": "4000 Chester Hwy, McConnells, SC 29726, USA",
     "googlePlaceId": "ChIJ__qv5BdfVogRrqM_j9x90z0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ__qv5BdfVogRrqM_j9x90z0",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.5,
       "reviewCount": 838,
@@ -4944,7 +6018,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: McConnells."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ1Wg31laPVogReytf48gJWG8",
@@ -4956,7 +6038,7 @@
     "address": "1625 Celanese Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ1Wg31laPVogReytf48gJWG8",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ1Wg31laPVogReytf48gJWG8",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4,
       "reviewCount": 50,
@@ -4975,7 +6057,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJAQDMzraIVogRxADvnHvgp4M",
@@ -4987,7 +6075,7 @@
     "address": "1919 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJAQDMzraIVogRxADvnHvgp4M",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQDMzraIVogRxADvnHvgp4M",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.2,
       "reviewCount": 992,
@@ -5007,7 +6095,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJi5V30oiJVogR5VlzLL8AsA0",
@@ -5019,7 +6113,7 @@
     "address": "597 Anderson Rd S, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJi5V30oiJVogR5VlzLL8AsA0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJi5V30oiJVogR5VlzLL8AsA0",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 18,
@@ -5038,7 +6132,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJUbYUGwCPVogRf95G75vXK-U",
@@ -5050,7 +6150,7 @@
     "address": "1222 Mt Gallant Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJUbYUGwCPVogRf95G75vXK-U",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUbYUGwCPVogRf95G75vXK-U",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 52,
@@ -5069,7 +6169,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC",
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJR7KqQACJVogRtsI-boi2Cy0",
@@ -5081,7 +6188,7 @@
     "address": "1807 Cherry Rd Ste 103, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJR7KqQACJVogRtsI-boi2Cy0",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJR7KqQACJVogRtsI-boi2Cy0",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.1,
       "reviewCount": 33,
@@ -5100,7 +6207,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJmQXoRKCJVogRe1hxuMNTDxQ",
@@ -5112,7 +6225,7 @@
     "address": "120 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJmQXoRKCJVogRe1hxuMNTDxQ",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJmQXoRKCJVogRe1hxuMNTDxQ",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.6,
       "reviewCount": 626,
@@ -5133,7 +6246,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC",
+      "breweries in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJUYFgtK-JVogR0-isVuNDEuY",
@@ -5145,7 +6265,7 @@
     "address": "300 Technology Center Way Suite 200, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJUYFgtK-JVogR0-isVuNDEuY",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUYFgtK-JVogR0-isVuNDEuY",
-    "status": "seeded",
+    "status": "needs_review",
     "google": {
       "rating": 4.7,
       "reviewCount": 67,
@@ -5165,7 +6285,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Name and location suggest a workplace cafe; verify public-facing restaurant status."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ9aLWUYKFVogRvHB8mSwVb9k",
@@ -5177,7 +6305,7 @@
     "address": "1177 Stonecrest Blvd Suite 104, Tega Cay, SC 29708, USA",
     "googlePlaceId": "ChIJ9aLWUYKFVogRvHB8mSwVb9k",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9aLWUYKFVogRvHB8mSwVb9k",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.7,
       "reviewCount": 247,
@@ -5198,7 +6326,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Tega Cay."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJo9cta7OIVogR_U1YRQeNa4E",
@@ -5210,7 +6346,7 @@
     "address": "1204 Mt Gallant Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJo9cta7OIVogR_U1YRQeNa4E",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJo9cta7OIVogR_U1YRQeNa4E",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 785,
@@ -5230,7 +6366,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ2_Y2DkmPVogRcn-11vrdBbI",
@@ -5242,7 +6384,7 @@
     "address": "2007 Celanese Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ2_Y2DkmPVogRcn-11vrdBbI",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2_Y2DkmPVogRcn-11vrdBbI",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 2097,
@@ -5262,7 +6404,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "bbq restaurants in Rock Hill SC",
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJKUpuDlaIVogRfu5afOkxeiQ",
@@ -5274,7 +6424,7 @@
     "address": "129 Caldwell St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJKUpuDlaIVogRfu5afOkxeiQ",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJKUpuDlaIVogRfu5afOkxeiQ",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 1977,
@@ -5295,7 +6445,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "breakfast restaurants in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ-bbYBVKFVogRS6Lj35rcVBU",
@@ -5307,7 +6465,7 @@
     "address": "204 Main St STE 102, Fort Mill, SC 29715, USA",
     "googlePlaceId": "ChIJ-bbYBVKFVogRS6Lj35rcVBU",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-bbYBVKFVogRS6Lj35rcVBU",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.6,
       "reviewCount": 976,
@@ -5327,7 +6485,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bbq restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Fort Mill."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ_wXBDgOJVogRYOBERuXxi6U",
@@ -5339,7 +6505,7 @@
     "address": "129 Oakland Ave Suite 110, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ_wXBDgOJVogRYOBERuXxi6U",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_wXBDgOJVogRYOBERuXxi6U",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 292,
@@ -5359,7 +6525,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ4baYhOyJVogRO5wOUyZqqaQ",
@@ -5371,7 +6543,7 @@
     "address": "153 E White St Unit B, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ4baYhOyJVogRO5wOUyZqqaQ",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4baYhOyJVogRO5wOUyZqqaQ",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.6,
       "reviewCount": 377,
@@ -5395,7 +6567,16 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Google types indicate retail/grocery rather than a primary restaurant listing.",
+      "Retail/home goods business, not a standalone restaurant record."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJydeHSiqJVogRzLF0MVK6qUA",
@@ -5407,7 +6588,7 @@
     "address": "378 Technology Center Way, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJydeHSiqJVogRzLF0MVK6qUA",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJydeHSiqJVogRzLF0MVK6qUA",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.4,
       "reviewCount": 56,
@@ -5428,7 +6609,18 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "breakfast restaurants in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Venue/complex listing rather than a single restaurant entity."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ85Mg1e6FVogRkattA8ZtiOk",
@@ -5440,7 +6632,7 @@
     "address": "575 Herrons Ferry Road, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ85Mg1e6FVogRkattA8ZtiOk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ85Mg1e6FVogRkattA8ZtiOk",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 4366,
@@ -5461,7 +6653,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "seafood restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ90Au9juJVogRL_ylt6TLxxs",
@@ -5473,7 +6672,7 @@
     "address": "131 S Herlong Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ90Au9juJVogRL_ylt6TLxxs",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ90Au9juJVogRL_ylt6TLxxs",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 183,
@@ -5492,7 +6691,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "bars in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ63x5cwyJVogR3rIPh7P8fKc",
@@ -5504,7 +6710,7 @@
     "address": "1019 McConnells Hwy, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ63x5cwyJVogR3rIPh7P8fKc",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ63x5cwyJVogR3rIPh7P8fKc",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 1155,
@@ -5524,7 +6730,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "breakfast restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJD_CN6d2PVogRcrZPvAsW_3A",
@@ -5536,7 +6748,7 @@
     "address": "850 Patriot Pkwy, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJD_CN6d2PVogRcrZPvAsW_3A",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJD_CN6d2PVogRcrZPvAsW_3A",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 102,
@@ -5555,7 +6767,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "chinese restaurants in Rock Hill SC",
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ4Qq2PrqFVogRPnsysXt-n5I",
@@ -5567,7 +6787,7 @@
     "address": "652 Herrons Ferry Road Suite 109, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ4Qq2PrqFVogRPnsysXt-n5I",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4Qq2PrqFVogRPnsysXt-n5I",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 513,
@@ -5587,7 +6807,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "mexican restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJqbkcR7GIVogRc6Qkan4KNRo",
@@ -5599,7 +6825,7 @@
     "address": "2012 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJqbkcR7GIVogRc6Qkan4KNRo",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJqbkcR7GIVogRc6Qkan4KNRo",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4.1,
       "reviewCount": 1318,
@@ -5620,7 +6846,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "restaurants in Rock Hill SC",
+      "bars in Rock Hill SC",
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJbVf4A-mfVogRMGQqzhligDo",
@@ -5632,7 +6866,7 @@
     "address": "135 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJbVf4A-mfVogRMGQqzhligDo",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJbVf4A-mfVogRMGQqzhligDo",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.9,
       "reviewCount": 15,
@@ -5652,7 +6886,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "food trucks in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJsWP02xldVogRZI2aUZhT95I",
@@ -5664,7 +6904,7 @@
     "address": "994 Old York Rd, Chester, SC 29706, USA",
     "googlePlaceId": "ChIJsWP02xldVogRZI2aUZhT95I",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsWP02xldVogRZI2aUZhT95I",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.6,
       "reviewCount": 277,
@@ -5683,7 +6923,15 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "italian restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Chester."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJr-P5BR6JVogRVr39AFnpMCE",
@@ -5695,7 +6943,7 @@
     "address": "1027 Oakland Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJr-P5BR6JVogRVr39AFnpMCE",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr-P5BR6JVogRVr39AFnpMCE",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 3.9,
       "reviewCount": 976,
@@ -5716,7 +6964,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "burgers in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJM3jVxnWJVogRvf9k2wsYTKw",
@@ -5728,7 +6982,7 @@
     "address": "851 Heckle Blvd #112, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJM3jVxnWJVogRvf9k2wsYTKw",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJM3jVxnWJVogRvf9k2wsYTKw",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 4,
       "reviewCount": 288,
@@ -5748,7 +7002,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "chinese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJ8QNh1dGJVogRiwvgY_UMH1w",
@@ -5760,7 +7020,7 @@
     "address": "2129 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ8QNh1dGJVogRiwvgY_UMH1w",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8QNh1dGJVogRiwvgY_UMH1w",
-    "status": "seeded",
+    "status": "included",
     "google": {
       "rating": 5,
       "reviewCount": 4,
@@ -5780,7 +7040,13 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "coffee shops in Rock Hill SC"
+    ],
+    "reviewNotes": [],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   },
   {
     "id": "ChIJQbUQsr-PVogRiqyBgB_N4mg",
@@ -5792,7 +7058,7 @@
     "address": "2435 SC-160 #111, Tega Cay, SC 29708, USA",
     "googlePlaceId": "ChIJQbUQsr-PVogRiqyBgB_N4mg",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQbUQsr-PVogRiqyBgB_N4mg",
-    "status": "seeded",
+    "status": "excluded",
     "google": {
       "rating": 4.9,
       "reviewCount": 1143,
@@ -5811,6 +7077,14 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z"
+    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "sourceQueries": [
+      "japanese restaurants in Rock Hill SC"
+    ],
+    "reviewNotes": [
+      "Outside Rock Hill target geography: Tega Cay."
+    ],
+    "pipelineStage": "seeded",
+    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
   }
 ]
