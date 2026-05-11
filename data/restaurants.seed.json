@@ -2712,7 +2712,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-11T19:12:45.114Z",
     "sourceQueries": [
       "coffee shops in Rock Hill SC",
       "bars in Rock Hill SC"
@@ -2723,7 +2723,18 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "facebookUrl": "https://www.facebook.com/jackasscafe/",
+    "instagramUrl": "https://www.instagram.com/jackasscafe/",
+    "socialVerificationNotes": [
+      "Manually verified official social profiles"
+    ],
+    "socialLinksVerifiedAt": "2026-05-11T19:12:45.114Z",
+    "socialProfileStatus": {
+      "facebook": "verified",
+      "instagram": "verified",
+      "tiktok": "unknown"
+    }
   },
   {
     "id": "ChIJp_lRg_2HVogRljE-FSxsKSE",
