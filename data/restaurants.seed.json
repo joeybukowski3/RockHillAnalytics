@@ -33,7 +33,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.876Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.424Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJISNW2VWIVogR20NKKcIAdWs",
@@ -75,7 +76,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJcTcio6qFVogR-duzB36vUqA",
@@ -113,7 +115,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJpWJxxniJVogR6quKo-2OugM",
@@ -151,7 +154,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
@@ -189,7 +193,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJGb31ZquJVogRYPowGLppBTo",
@@ -228,7 +233,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
@@ -266,7 +272,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
@@ -306,7 +313,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJCf_amUiPVogRp7hHZob5EEo",
@@ -413,7 +421,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",
@@ -454,7 +463,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJsbHDEy-FVogRmwcJ-pkN0GI",
@@ -495,7 +505,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJux77xBKPVogRtRL5ZExNkR8",
@@ -533,7 +544,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJQYbrfhSFVogRs4wSxMk6yE4",
@@ -574,7 +586,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ88hBbyKJVogRXcpHNy7-oHg",
@@ -613,7 +626,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJdzuQZhyJVogRmmOR5xs3aB8",
@@ -652,7 +666,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJpS6cDEGFVogRN9YwkWWLLBg",
@@ -692,7 +707,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ6zyXE_6HVogR4MrFa5LSHFA",
@@ -730,7 +746,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJnY7fPPmPVogRe1QKAN6534g",
@@ -768,7 +785,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJPQIHUg-MVogR2tLBlY35AFk",
@@ -808,7 +826,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJS2WuvECGVogRS-vvY2xzElQ",
@@ -848,7 +867,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJvzn456CHVogRPrmt-ggKKhk",
@@ -888,7 +908,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJX0wt1bKPVogRVAW4B9smAeU",
@@ -928,7 +949,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJF8N1xjuJVogREnHwzCUYY9I",
@@ -966,7 +988,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJY7K474mJVogR3MeEmWj1U7o",
@@ -978,7 +1001,7 @@
     "address": "125 Elk Ave, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJY7K474mJVogR3MeEmWj1U7o",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY7K474mJVogR3MeEmWj1U7o",
-    "status": "needs_review",
+    "status": "included",
     "google": {
       "rating": 4.5,
       "reviewCount": 4,
@@ -1002,10 +1025,11 @@
     ],
     "reviewNotes": [
       "Missing clear restaurant/cafe/bar/meal service Google type.",
-      "Sparse Google types; verify this is an active standalone restaurant concept."
+      "Public listings show Cibi! Cibi! operating in Rock Hill as a restaurant/food-truck concept at 274 Columbia Ave."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.877Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJu3QAoreIVogR-wBcDGcJVcs",
@@ -1045,7 +1069,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJo3Z_fACNVogRcLgorOviGjk",
@@ -1082,7 +1107,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJBVEtXFSPVogRm94f00Go4a8",
@@ -1120,7 +1146,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJnar9vN-JVogR3jFzfjXEmnE",
@@ -1159,7 +1186,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJB-lN0SSPVogR2YvpCXrzSdE",
@@ -1197,7 +1225,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJvQ2hxh2JVogRKslnRFHqaf8",
@@ -1235,7 +1264,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJUWKsW6-PVogRfmOCHwU7TWE",
@@ -1273,7 +1303,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJP46z4SuPVogR5dl1FlVgolg",
@@ -1311,7 +1342,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJW0dO7cOIVogRyoe_eZMQuL0",
@@ -1349,7 +1381,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJgxjnLEKJVogRtZH81T-ZD7I",
@@ -1388,7 +1421,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJHzznBgCJVogRgKDQv6clUAk",
@@ -1428,7 +1462,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJT318MiiJVogRNoqJ5VvpGmw",
@@ -1467,7 +1502,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJPQIHUg-MVogRYR-MjWRp0nI",
@@ -1507,7 +1543,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ_dlOXVePVogR1C_8IcPVg7Q",
@@ -1549,7 +1586,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJNYuw9UWJVogRigdumjfXGlQ",
@@ -1587,7 +1625,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ49rp2i-JVogRHMSZO4H5ihI",
@@ -1627,7 +1666,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJsew-mYOFVogRReC9gnj-DKg",
@@ -1667,7 +1707,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJLSfOkGuFVogRiXX8JsyAYjk",
@@ -1708,7 +1749,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJlc5cPwSJVogRpwYHHeKotRU",
@@ -1743,7 +1785,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJiR3MpKyJVogRxjmEIcENIQ0",
@@ -1780,7 +1823,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ18UzpKOFVogRc9FTGF-skhY",
@@ -1820,7 +1864,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ2U08EhyJVogRgQ-EtW41p8Y",
@@ -1859,7 +1904,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ3zjcvfmFVogRhQdbmFE98aI",
@@ -1897,7 +1943,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJHe9L48aJVogRdc0Y3fXpnTc",
@@ -1936,7 +1983,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJdQR3fVOPVogRpR_toiZ5Dg4",
@@ -1975,7 +2023,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJq6qekhxgVogRks33YqQT36g",
@@ -2010,7 +2059,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ03znXqeHVogRdhiAR9aqBt4",
@@ -2049,7 +2099,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJc3RF4CuPVogRh-Rw2WYPh7E",
@@ -2089,7 +2140,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJIS45JuyFVogRk5tZ5AiVv5k",
@@ -2130,7 +2182,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ8TBOgkWLVogRWpv6TG755hs",
@@ -2167,7 +2220,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ28ZyrjiGVogRiRAr_LRpqsU",
@@ -2208,7 +2262,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJk_exvzaJVogRUFUM_XovfU8",
@@ -2246,7 +2301,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJOfBc_n-JVogRG02iGVhu1VA",
@@ -2283,7 +2339,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJl96Sfi6PVogR-6vGl8nJdhU",
@@ -2323,7 +2380,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJMztskgmJVogR1OShQkvIZL8",
@@ -2364,7 +2422,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJg2fYjrCJVogRXfMpkzJ-8gc",
@@ -2403,7 +2462,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJWTt20X6FVogRys_wywbCBSg",
@@ -2443,7 +2503,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJV0eou3SGVogR2HTlV1tmir0",
@@ -2482,7 +2543,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJN9pBqfCFVogRL91droHwdjk",
@@ -2520,7 +2582,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJsTmnRPOFVogRtscSstRGaI8",
@@ -2561,7 +2624,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJhRh8_IrzVogR54jCfGwLehw",
@@ -2601,7 +2665,8 @@
       "Outside Rock Hill target geography: York."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ4T1q0XCJVogREyJh-jZljuk",
@@ -2613,7 +2678,7 @@
     "address": "153 E White St Unit B, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ4T1q0XCJVogREyJh-jZljuk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4T1q0XCJVogREyJh-jZljuk",
-    "status": "needs_review",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 55,
@@ -2644,10 +2709,11 @@
     ],
     "reviewNotes": [
       "Google types indicate retail/grocery rather than a primary restaurant listing.",
-      "Mixed-use retail/cafe record; verify it should remain in the restaurant master list."
+      "Official Mercantile pages describe this as a public coffee shop and wine bar in downtown Rock Hill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJp_lRg_2HVogRljE-FSxsKSE",
@@ -2687,7 +2753,8 @@
       "Catering-focused listing; not a standard restaurant storefront."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJS2WuvECGVogR0N9W5QJ3rL8",
@@ -2725,7 +2792,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ0RRP92qJVogRqH1Iu3ja1LA",
@@ -2764,7 +2832,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJcSoLJQCJVogRd2tgtDxlKA0",
@@ -2801,7 +2870,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJHVpGzKWJVogR_q0d8nC_7T8",
@@ -2839,7 +2909,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJb3fG9lmPVogR_Zgeo5kAJEI",
@@ -2878,7 +2949,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJB-P2EnuJVogRx4quXIJ5-HY",
@@ -2919,7 +2991,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJH5YDEv-IVogR3I3nQtefBy8",
@@ -2959,7 +3032,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJUURJWhiRVogR-CTkiLasET8",
@@ -3001,7 +3075,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJqcOEkuqJVogRdDzTYAIirpk",
@@ -3013,7 +3088,7 @@
     "address": "546 N Anderson Rd, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJqcOEkuqJVogRdDzTYAIirpk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJqcOEkuqJVogRdDzTYAIirpk",
-    "status": "needs_review",
+    "status": "excluded",
     "google": {
       "rating": 5,
       "reviewCount": 3,
@@ -3037,10 +3112,11 @@
     ],
     "reviewNotes": [
       "Missing clear restaurant/cafe/bar/meal service Google type.",
-      "Sparse Google types; verify this is an active public-facing restaurant."
+      "Official site describes KO-OP Kitchen as a commissary kitchen rental for food businesses, not a customer-facing restaurant."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ2ZpS_HKPVogRreARbbBfR2g",
@@ -3080,7 +3156,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJu_18OgCBVogR7kdCt0bZ27o",
@@ -3119,7 +3196,8 @@
       "Outside Rock Hill target geography: Indian Land."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ1b7HzJBsa0wRLrX335PxWTw",
@@ -3157,7 +3235,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJk2N6Jg-MVogRqab6Sm3SbQY",
@@ -3195,7 +3274,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJoW_BLvSFVogRFjmJt7efnAA",
@@ -3235,7 +3315,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJxwCnVgCPVogR-R95hiRDK-s",
@@ -3277,7 +3358,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJwUCMBbyJVogRW6jQLczFnlk",
@@ -3315,7 +3397,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJndOfiAOJVogRWtHqaYICpRU",
@@ -3352,7 +3435,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJRdf0feyNVogRrYazDgm9_Qk",
@@ -3364,7 +3448,7 @@
     "address": "369 Hands Mill Hwy, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJRdf0feyNVogRrYazDgm9_Qk",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRdf0feyNVogRrYazDgm9_Qk",
-    "status": "needs_review",
+    "status": "included",
     "google": {
       "rating": 4.8,
       "reviewCount": 132,
@@ -3388,10 +3472,11 @@
     ],
     "reviewNotes": [
       "Missing clear restaurant/cafe/bar/meal service Google type.",
-      "Brewery record without explicit restaurant type; verify food-service scope."
+      "Active public Rock Hill brewery/taproom with regular food-truck service and customer-facing hours."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJE0631LaIVogRMOFZh2ER1gc",
@@ -3433,7 +3518,8 @@
       "Grocery/supermarket listing rather than a restaurant."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJhRweL7fNt4kRVUFh-QXBA18",
@@ -3475,7 +3561,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJh44S036RVogRUqYMRN4nTHI",
@@ -3516,7 +3603,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJCf2QOLGIVogR9fBF91Mt6d4",
@@ -3556,7 +3644,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJlyCbdLWJVogRDZ5sPwj-NVE",
@@ -3595,7 +3684,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJq42eUD-GVogROYBK_7LpgxU",
@@ -3635,7 +3725,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJAQAMO1ePVogR8WIlZ5EcBIA",
@@ -3673,7 +3764,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ56xZM1OPVogRHEzMLt6yDL4",
@@ -3685,7 +3777,7 @@
     "address": "2387 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ56xZM1OPVogRHEzMLt6yDL4",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ56xZM1OPVogRHEzMLt6yDL4",
-    "status": "needs_review",
+    "status": "included",
     "google": {
       "rating": 4.4,
       "reviewCount": 1199,
@@ -3711,10 +3803,11 @@
       "italian restaurants in Rock Hill SC"
     ],
     "reviewNotes": [
-      "Name suggests a rename or merged listing; verify current branding."
+      "Current public restaurant listings show this as the active Rizzo Brothers / former Luigi & Sons location in Rock Hill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ9d8VFmiJVogR9ueS1DzGT4Q",
@@ -3754,7 +3847,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ8eIZ2KyIVogR05vqr8ESnJY",
@@ -3796,7 +3890,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJJ7zTamWIVogRX1h226Ec-Zk",
@@ -3834,7 +3929,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJyRrESImFVogRTFmq9YPrpFU",
@@ -3873,7 +3969,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJX_6cYX6dVogRDj4ZhL-AhTc",
@@ -3911,7 +4008,8 @@
       "Outside Rock Hill target geography: Pineville."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJWxPYs66JVogRWMH2UgeHloU",
@@ -3949,7 +4047,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ8RF8C1aIVogROZ9Q0f19tTc",
@@ -3990,7 +4089,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJOyz8wV2PVogRGxhPYLbNbXg",
@@ -4031,7 +4131,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJVRhH2S2JVogRAgm65wf3ZAk",
@@ -4069,7 +4170,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ13STop-JVogRK83TBawGPmo",
@@ -4106,7 +4208,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJpd3D2COPVogRt4z94dCPTE8",
@@ -4145,7 +4248,8 @@
       "Outside Rock Hill target geography: Tega Cay."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJQ7LcviONVogRRcX_tjIHPV4",
@@ -4182,7 +4286,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJS1O5A1OJVogRFIj4UJeXGek",
@@ -4220,7 +4325,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJvbTPMLCJVogRf_4jBuSHN28",
@@ -4259,7 +4365,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJz8DMsSmJVogR-LqmJKeZq6w",
@@ -4297,7 +4404,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJk4BrxWSIVogRAZwNCVORHu8",
@@ -4335,7 +4443,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJk9SqEGOJVogRBqcgPYRSsec",
@@ -4379,7 +4488,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ_yNHxFWJVogR5UrxyewJNaM",
@@ -4419,7 +4529,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJJUfDrSOGVogRKU7DNMS3_VI",
@@ -4459,7 +4570,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJcV53qKqFVogR3fyWdHBv4GI",
@@ -4502,7 +4614,8 @@
       "Google types indicate retail/grocery rather than a primary restaurant listing."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ6RjCjc6PVogRdhTMUBLcU9k",
@@ -4542,7 +4655,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJMd3ACa6OVogRcSYhwaC1Epw",
@@ -4581,7 +4695,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJSzL6UQCFVogROBHLxWnvqEs",
@@ -4620,7 +4735,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJJ7zTamWIVogRUIXmY2dZ27s",
@@ -4660,7 +4776,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ-14s-xqJVogRXAf76c5n1hs",
@@ -4699,7 +4816,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJJ7Zp4iuPVogRd6YAjJSgb4A",
@@ -4737,7 +4855,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ5Q2FOviOVogRarA79EmgkUo",
@@ -4775,7 +4894,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJeVEUGIqJVogRtaF1_0ZUO8M",
@@ -4815,7 +4935,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJf5-apeWPVogRb6oqfRSAIJY",
@@ -4854,7 +4975,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ_1EgnJmFVogRd8w8qsqJtPw",
@@ -4893,7 +5015,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJudTwwm2DVogRd_f7KVDO0A0",
@@ -4933,7 +5056,8 @@
       "Outside Rock Hill target geography: Indian Land."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJPTwo3yuPVogRC_6HsMqGhOw",
@@ -4971,7 +5095,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJw4mfgV2IVogRFlWaIwGsQRU",
@@ -5009,7 +5134,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJHdCh_I6FVogRpokmaSq_GYA",
@@ -5047,7 +5173,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJp-g5gNSPVogR53IKQ8sMdLo",
@@ -5084,7 +5211,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJm8smrb6FVogR1ZENA3LEg8U",
@@ -5123,7 +5251,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJkym4_raIVogRlla-DnzGuws",
@@ -5160,7 +5289,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJVVUlClaIVogRO4VaoaEWm_k",
@@ -5172,7 +5302,7 @@
     "address": "121 Caldwell St STE 101, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJVVUlClaIVogRO4VaoaEWm_k",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVVUlClaIVogRO4VaoaEWm_k",
-    "status": "needs_review",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 145,
@@ -5196,10 +5326,11 @@
     ],
     "reviewNotes": [
       "Missing clear restaurant/cafe/bar/meal service Google type.",
-      "Brewery/taproom record; verify food-service scope for restaurant tracking."
+      "Active public brewery/taproom in Rock Hill and relevant for restaurant/bar discovery."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJZcUQ5aaJVogRG2a9oP6L8FE",
@@ -5237,7 +5368,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJV9vnD62IVogRBfc2pfnCJvY",
@@ -5276,7 +5408,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJnRZ1VjKJVogRjignz7W5PAw",
@@ -5313,7 +5446,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJq2PzmoyJVogRMM-Tmj3YnMc",
@@ -5350,10 +5484,11 @@
     ],
     "reviewNotes": [
       "Missing clear restaurant/cafe/bar/meal service Google type.",
-      "Sparse Google types; verify current operating format and storefront details."
+      "Recent public directories show an active Rock Hill takeout restaurant, but address/platform data is inconsistent and should be verified manually."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "needs_review"
   },
   {
     "id": "ChIJTbwUWgCJVogRfyPpnHBNsos",
@@ -5390,7 +5525,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJe2tE_gibVogROdpgio1vrGM",
@@ -5430,7 +5566,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJkXoKHTuJVogRxCzOWXPBIjo",
@@ -5468,7 +5605,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ5xkYaP-IVogRWWaBl6yOV24",
@@ -5507,7 +5645,8 @@
       "Seafood market listing rather than a dine-in restaurant."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJJ4iH8wyNVogRMLntqd6HGds",
@@ -5549,7 +5688,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJYSzq06mJVogRJpm9IGzyJU4",
@@ -5590,7 +5730,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJi6V22g6MVogRNORSFpaia50",
@@ -5628,7 +5769,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJfe4cz2SIVogR-lHXVhB2mYQ",
@@ -5667,7 +5809,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJb0dqvcaIVogRU9GGjvt-GLg",
@@ -5709,7 +5852,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJwfh21sqJVogRrchdaXERjIA",
@@ -5750,7 +5894,8 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJF8MlZw2JVogRAcJ4_wc2U5Q",
@@ -5791,7 +5936,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJK5PCsPmFVogR6pY_9c8pL8w",
@@ -5830,7 +5976,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJu0JZo6SIVogR2p0Jp1v3GNI",
@@ -5870,7 +6017,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ6bVg51WFVogRytCzoiDc3K8",
@@ -5910,7 +6058,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJeXP0AfmFVogRmG5Evhd6YME",
@@ -5948,7 +6097,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJVxiISACJVogR380iZdYKV4A",
@@ -5986,7 +6136,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ__qv5BdfVogRrqM_j9x90z0",
@@ -6026,7 +6177,8 @@
       "Outside Rock Hill target geography: McConnells."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ1Wg31laPVogReytf48gJWG8",
@@ -6063,7 +6215,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJAQDMzraIVogRxADvnHvgp4M",
@@ -6101,7 +6254,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJi5V30oiJVogR5VlzLL8AsA0",
@@ -6138,7 +6292,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJUbYUGwCPVogRf95G75vXK-U",
@@ -6176,7 +6331,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJR7KqQACJVogRtsI-boi2Cy0",
@@ -6213,7 +6369,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJmQXoRKCJVogRe1hxuMNTDxQ",
@@ -6253,7 +6410,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJUYFgtK-JVogR0-isVuNDEuY",
@@ -6265,7 +6423,7 @@
     "address": "300 Technology Center Way Suite 200, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJUYFgtK-JVogR0-isVuNDEuY",
     "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUYFgtK-JVogR0-isVuNDEuY",
-    "status": "needs_review",
+    "status": "included",
     "google": {
       "rating": 4.7,
       "reviewCount": 67,
@@ -6290,10 +6448,11 @@
       "coffee shops in Rock Hill SC"
     ],
     "reviewNotes": [
-      "Name and location suggest a workplace cafe; verify public-facing restaurant status."
+      "Official site and recent public reviews show a public-facing robotic coffee cafe in Rock Hill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ9aLWUYKFVogRvHB8mSwVb9k",
@@ -6334,7 +6493,8 @@
       "Outside Rock Hill target geography: Tega Cay."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJo9cta7OIVogR_U1YRQeNa4E",
@@ -6372,7 +6532,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ2_Y2DkmPVogRcn-11vrdBbI",
@@ -6412,7 +6573,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJKUpuDlaIVogRfu5afOkxeiQ",
@@ -6453,7 +6615,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ-bbYBVKFVogRS6Lj35rcVBU",
@@ -6493,7 +6656,8 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ_wXBDgOJVogRYOBERuXxi6U",
@@ -6531,7 +6695,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ4baYhOyJVogRO5wOUyZqqaQ",
@@ -6576,7 +6741,8 @@
       "Retail/home goods business, not a standalone restaurant record."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJydeHSiqJVogRzLF0MVK6qUA",
@@ -6620,7 +6786,8 @@
       "Venue/complex listing rather than a single restaurant entity."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJ85Mg1e6FVogRkattA8ZtiOk",
@@ -6660,7 +6827,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ90Au9juJVogRL_ylt6TLxxs",
@@ -6698,7 +6866,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ63x5cwyJVogR3rIPh7P8fKc",
@@ -6736,7 +6905,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJD_CN6d2PVogRcrZPvAsW_3A",
@@ -6775,7 +6945,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ4Qq2PrqFVogRPnsysXt-n5I",
@@ -6813,7 +6984,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJqbkcR7GIVogRc6Qkan4KNRo",
@@ -6854,7 +7026,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJbVf4A-mfVogRMGQqzhligDo",
@@ -6892,7 +7065,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJsWP02xldVogRZI2aUZhT95I",
@@ -6931,7 +7105,8 @@
       "Outside Rock Hill target geography: Chester."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   },
   {
     "id": "ChIJr-P5BR6JVogRVr39AFnpMCE",
@@ -6970,7 +7145,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJM3jVxnWJVogRvf9k2wsYTKw",
@@ -7008,7 +7184,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJ8QNh1dGJVogRiwvgY_UMH1w",
@@ -7046,7 +7223,8 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "included"
   },
   {
     "id": "ChIJQbUQsr-PVogRiqyBgB_N4mg",
@@ -7085,6 +7263,7 @@
       "Outside Rock Hill target geography: Tega Cay."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:01:07.878Z"
+    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "reviewStatus": "excluded"
   }
 ]

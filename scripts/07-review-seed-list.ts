@@ -69,6 +69,7 @@ async function main(): Promise<void> {
   const sourceQueriesByPlaceId = await loadLatestSourceQueryMap();
   const hydrated = restaurants.map((restaurant) => ({
     ...restaurant,
+    status: restaurant.reviewStatus ?? restaurant.status,
     sourceQueries: Array.from(
       new Set([
         ...(restaurant.sourceQueries ?? []),

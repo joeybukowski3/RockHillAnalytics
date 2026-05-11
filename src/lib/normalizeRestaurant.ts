@@ -28,6 +28,7 @@ export function normalizeGooglePlacesResults(
       googlePlaceId,
       googleMapsUrl: buildGoogleMapsUrl(googlePlaceId),
       status: "included",
+      reviewStatus: "included",
       pipelineStage: "seeded",
       reviewNotes: [],
       sourceQueries: sourceQueriesByPlaceId.get(googlePlaceId) ?? [],
@@ -59,6 +60,7 @@ export function normalizeGooglePlacesResults(
       ...normalized,
       category: existing.category ?? normalized.category,
       address: existing.address ?? normalized.address,
+      reviewStatus: existing.reviewStatus ?? normalized.reviewStatus,
       sourceQueries: Array.from(
         new Set([...(existing.sourceQueries ?? []), ...(normalized.sourceQueries ?? [])])
       ),

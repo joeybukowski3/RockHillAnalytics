@@ -58,6 +58,7 @@ export type RestaurantProfile = {
   instagramUrl?: string;
   tiktokUrl?: string;
   status: RestaurantReviewStatus;
+  reviewStatus?: RestaurantReviewStatus;
   pipelineStage?: RestaurantPipelineStage;
   reviewNotes: string[];
   sourceQueries: string[];

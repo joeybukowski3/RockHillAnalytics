@@ -44,36 +44,52 @@ const MANUAL_OVERRIDES: Record<
     notes: ["Catering-focused listing; not a standard restaurant storefront."]
   },
   "luigi-sons-now-rizzo-brothers": {
-    status: "needs_review",
-    notes: ["Name suggests a rename or merged listing; verify current branding."]
-  },
-  "jackass-caf-wine-bar": {
-    status: "needs_review",
-    notes: ["Mixed-use retail/cafe record; verify it should remain in the restaurant master list."]
+    status: "included",
+    notes: [
+      "Current public restaurant listings show this as the active Rizzo Brothers / former Luigi & Sons location in Rock Hill."
+    ]
   },
   "cibi-cibi": {
-    status: "needs_review",
-    notes: ["Sparse Google types; verify this is an active standalone restaurant concept."]
+    status: "included",
+    notes: [
+      "Public listings show Cibi! Cibi! operating in Rock Hill as a restaurant/food-truck concept at 274 Columbia Ave."
+    ]
+  },
+  "jackass-caf-wine-bar": {
+    status: "included",
+    notes: [
+      "Official Mercantile pages describe this as a public coffee shop and wine bar in downtown Rock Hill."
+    ]
   },
   "ko-op-kitchen": {
-    status: "needs_review",
-    notes: ["Sparse Google types; verify this is an active public-facing restaurant."]
+    status: "excluded",
+    notes: [
+      "Official site describes KO-OP Kitchen as a commissary kitchen rental for food businesses, not a customer-facing restaurant."
+    ]
   },
   "rock-hill-brewing-company": {
-    status: "needs_review",
-    notes: ["Brewery/taproom record; verify food-service scope for restaurant tracking."]
+    status: "included",
+    notes: [
+      "Active public brewery/taproom in Rock Hill and relevant for restaurant/bar discovery."
+    ]
   },
   "lake-wylie-brewing-co-rock-hill": {
-    status: "needs_review",
-    notes: ["Brewery record without explicit restaurant type; verify food-service scope."]
+    status: "included",
+    notes: [
+      "Active public Rock Hill brewery/taproom with regular food-truck service and customer-facing hours."
+    ]
   },
   "techno-caf": {
-    status: "needs_review",
-    notes: ["Name and location suggest a workplace cafe; verify public-facing restaurant status."]
+    status: "included",
+    notes: [
+      "Official site and recent public reviews show a public-facing robotic coffee cafe in Rock Hill."
+    ]
   },
   "royal-eats-wings-and-potatoes": {
     status: "needs_review",
-    notes: ["Sparse Google types; verify current operating format and storefront details."]
+    notes: [
+      "Recent public directories show an active Rock Hill takeout restaurant, but address/platform data is inconsistent and should be verified manually."
+    ]
   }
 };
 
@@ -213,6 +229,7 @@ export function applySeedReview(
     return {
       ...restaurant,
       status: review.status,
+      reviewStatus: review.status,
       reviewNotes: review.reviewNotes,
       sourceQueries: Array.from(new Set(restaurant.sourceQueries ?? [])),
       lastVerifiedAt: review.lastVerifiedAt,
