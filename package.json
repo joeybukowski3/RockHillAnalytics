@@ -1,0 +1,25 @@
+{
+  "name": "rockhillanalytics",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phase 1 local restaurant intelligence data pipeline for Rock Hill, SC.",
+  "type": "module",
+  "scripts": {
+    "find:restaurants": "tsx scripts/01-find-restaurants.ts",
+    "enrich:google": "tsx scripts/02-enrich-google.ts",
+    "enrich:facebook": "tsx scripts/03-enrich-facebook.ts",
+    "enrich:instagram": "tsx scripts/04-enrich-instagram.ts",
+    "score": "tsx scripts/05-score-restaurant.ts",
+    "report": "tsx scripts/06-generate-report.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
