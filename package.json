@@ -14,15 +14,25 @@
     "review:seed": "tsx scripts/07-review-seed-list.ts",
     "add:social": "tsx scripts/08-add-social-links.ts",
     "review:social": "tsx scripts/09-review-social-data.ts",
+    "export:web-data": "tsx scripts/10-export-web-data.ts",
+    "dev": "vite --config vite.config.ts",
+    "build": "vite build --config vite.config.ts",
+    "preview": "vite preview --config vite.config.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "dotenv": "^16.6.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1"
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "vite": "^7.1.10"
   }
 }

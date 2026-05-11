@@ -28,6 +28,10 @@ Phase 2B adds one-restaurant social enrichment through Apify after social URLs h
 
 Phase 2C hardens the social enrichment workflow before scaling. It caps stored social posts, adds review/readiness reporting, and clarifies how to move restaurants through a safe enrichment sequence.
 
+## Local Dashboard
+
+The repository now includes a lightweight local review dashboard built with Vite + React. It is intended for internal review of the current restaurant dataset, not as a public launch site.
+
 ## Stack
 
 - Node.js
@@ -158,6 +162,24 @@ Review current social readiness and enrichment coverage:
 npm run review:social
 ```
 
+Export safe dashboard data and copied reports:
+
+```powershell
+npm run export:web-data
+```
+
+Start the local dashboard:
+
+```powershell
+npm run dev
+```
+
+Build the dashboard:
+
+```powershell
+npm run build
+```
+
 Social profile statuses:
 
 - `verified`: a manually verified official public profile URL was stored
@@ -182,6 +204,13 @@ Recommended order for each restaurant:
 6. `npm run review:social`
 
 This keeps manual URL verification ahead of scraping, limits cost exposure, and makes it easier to review quality before scaling.
+
+Dashboard review flow:
+
+1. `npm run export:web-data`
+2. `npm run dev`
+3. Open the local Vite URL shown in the terminal
+4. Re-run `npm run export:web-data` after seed or report changes
 
 ## Example Workflow
 
@@ -211,3 +240,4 @@ npm run report -- "Legal Remedy Brewing"
 - Raw Facebook and Instagram actor payloads are stored locally under `data/raw/facebook/` and `data/raw/instagram/`.
 - Social/profile URLs should be manually verified before any future scraping workflow uses them.
 - Stored Facebook and Instagram recent posts are capped by `SOCIAL_MAX_POSTS`, which defaults to `10`.
+- Dashboard data is exported to `public/data/restaurants.json` and excludes raw API payloads and unnecessary personal/commenter data.
