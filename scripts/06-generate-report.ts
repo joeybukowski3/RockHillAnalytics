@@ -2,8 +2,13 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadEnv } from "../src/lib/env.js";
 import { findRestaurant } from "../src/lib/findRestaurant.js";
+import {
+  getLatestPostDate,
+  getSocialProfileStatus,
+  normalizeRestaurantSocialData
+} from "../src/lib/social.js";
 import { summarizePublicSentiment } from "../src/lib/sentiment.js";
-import { RestaurantProfile } from "../src/types/restaurant.js";
+import { RestaurantProfile, SocialPost } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
 loadEnv();
@@ -41,18 +46,24 @@ function listDataAvailability(restaurant: RestaurantProfile): string[] {
 
 function listMissingSteps(restaurant: RestaurantProfile): string[] {
   const missing: string[] = [];
+  const facebookStatus = getSocialProfileStatus(restaurant, "facebook");
+  const instagramStatus = getSocialProfileStatus(restaurant, "instagram");
 
   if (!restaurant.google?.reviews?.length) {
     missing.push("Run Google detail enrichment to capture recent reviews and opening hours.");
   }
 
-  if (!restaurant.facebookUrl && !restaurant.facebook?.pageUrl) {
+  if (facebookStatus === "not_found") {
+    missing.push("No official Facebook profile was found during manual review; treat this as a marketing gap, not a scrape failure.");
+  } else if (!restaurant.facebookUrl && !restaurant.facebook?.pageUrl) {
     missing.push("Find and verify the public Facebook page URL.");
   } else if (!(restaurant.facebook?.recentPosts?.length ?? 0)) {
     missing.push("Run Facebook enrichment to capture recent public page posts.");
   }
 
-  if (!restaurant.instagramUrl && !restaurant.instagram?.profileUrl) {
+  if (instagramStatus === "not_found") {
+    missing.push("No official Instagram profile was found during manual review; treat this as a marketing gap, not a scrape failure.");
+  } else if (!restaurant.instagramUrl && !restaurant.instagram?.profileUrl) {
     missing.push("Find and verify the public Instagram profile URL.");
   } else if (!(restaurant.instagram?.recentPosts?.length ?? 0)) {
     missing.push("Run Instagram enrichment to capture recent public profile posts.");
@@ -69,13 +80,27 @@ function buildRecommendations(restaurant: RestaurantProfile): string[] {
   const recommendations: string[] = [];
   const rating = restaurant.google?.rating ?? 0;
   const reviewCount = restaurant.google?.reviewCount ?? 0;
+  const socialScore = restaurant.scores?.socialPresence ?? 0;
 
   if (rating >= 4.3 && reviewCount >= 100) {
     recommendations.push("Use strong Google reputation as the lead proof point in marketing.");
   }
 
-  if (!restaurant.facebookUrl && !restaurant.instagramUrl) {
+  if (
+    getSocialProfileStatus(restaurant, "facebook") === "not_found" ||
+    getSocialProfileStatus(restaurant, "instagram") === "not_found"
+  ) {
+    recommendations.push("Treat missing social profiles as a marketing opportunity to establish a stronger public presence.");
+  } else if (!restaurant.facebookUrl && !restaurant.instagramUrl) {
     recommendations.push("Prioritize public social profile discovery and consistent branding.");
+  }
+
+  if ((restaurant.scores?.reputation ?? 0) >= 80 && socialScore <= 45) {
+    recommendations.push("Strong reputation plus weak social presence suggests above-average marketing upside.");
+  }
+
+  if ((restaurant.scores?.reputation ?? 0) >= 80 && socialScore >= 70) {
+    recommendations.push("Strong reputation and strong social presence indicate solid public momentum with lower immediate opportunity urgency.");
   }
 
   if ((restaurant.google?.reviews?.length ?? 0) === 0) {
@@ -89,23 +114,13 @@ function buildRecommendations(restaurant: RestaurantProfile): string[] {
   return recommendations;
 }
 
-function getLatestPostDate(posts: NonNullable<RestaurantProfile["facebook"]>["recentPosts"] | NonNullable<RestaurantProfile["instagram"]>["recentPosts"]): string {
-  const latest = (posts ?? [])
-    .map((post) => post.publishedAt)
-    .filter((value): value is string => Boolean(value))
-    .sort()
-    .at(-1);
-
-  return latest ?? "n/a";
-}
-
-function getEngagementSummary(posts: RestaurantProfile["facebook"] extends infer F ? any : never): string {
+function getEngagementSummary(posts?: SocialPost[]): string {
   if (!posts?.length) {
     return "n/a";
   }
 
   const totals = posts.reduce(
-    (acc: { likes: number; comments: number; shares: number; views: number }, post: any) => ({
+    (acc: { likes: number; comments: number; shares: number; views: number }, post) => ({
       likes: acc.likes + (post.engagement?.likes ?? 0),
       comments: acc.comments + (post.engagement?.comments ?? 0),
       shares: acc.shares + (post.engagement?.shares ?? 0),
@@ -118,10 +133,26 @@ function getEngagementSummary(posts: RestaurantProfile["facebook"] extends infer
 }
 
 function toMarkdown(restaurant: RestaurantProfile): string {
+  const normalizedRestaurant = normalizeRestaurantSocialData(restaurant);
   const availability = listDataAvailability(restaurant);
   const missing = listMissingSteps(restaurant);
-  const recommendations = buildRecommendations(restaurant);
-  const sentiment = summarizePublicSentiment(restaurant.google?.reviews ?? []);
+  const recommendations = buildRecommendations(normalizedRestaurant);
+  const sentiment = summarizePublicSentiment(normalizedRestaurant.google?.reviews ?? []);
+  const facebookStatus = getSocialProfileStatus(normalizedRestaurant, "facebook");
+  const instagramStatus = getSocialProfileStatus(normalizedRestaurant, "instagram");
+  const tiktokStatus = getSocialProfileStatus(normalizedRestaurant, "tiktok");
+  const facebookNote =
+    facebookStatus === "not_found"
+      ? "No official Facebook profile found."
+      : facebookStatus === "verified" && !(normalizedRestaurant.facebook?.recentPosts?.length ?? 0)
+        ? "Verified Facebook profile exists but has not been enriched yet."
+        : "n/a";
+  const instagramNote =
+    instagramStatus === "not_found"
+      ? "No official Instagram profile found."
+      : instagramStatus === "verified" && !(normalizedRestaurant.instagram?.recentPosts?.length ?? 0)
+        ? "Verified Instagram profile exists but has not been enriched yet."
+        : "n/a";
 
   return `# Restaurant Intelligence Report
 
@@ -143,33 +174,36 @@ function toMarkdown(restaurant: RestaurantProfile): string {
 - Phone: ${restaurant.phone ?? "n/a"}
 - Google Maps URL: ${restaurant.googleMapsUrl ?? restaurant.google?.mapsUrl ?? "n/a"}
 - Opening hours: ${
-    restaurant.google?.openingHours?.length
-      ? restaurant.google.openingHours.join("; ")
+    normalizedRestaurant.google?.openingHours?.length
+      ? normalizedRestaurant.google.openingHours.join("; ")
       : "n/a"
   }
 - Sentiment summary: ${sentiment}
 
 ## Social Presence
 
-- Facebook URL: ${restaurant.facebookUrl ?? restaurant.facebook?.pageUrl ?? "n/a"}
-- Facebook status: ${restaurant.socialProfileStatus?.facebook ?? "unknown"}
-- Facebook recent post count: ${restaurant.facebook?.recentPosts?.length ?? 0}
-- Facebook latest post date: ${getLatestPostDate(restaurant.facebook?.recentPosts)}
-- Facebook engagement summary: ${getEngagementSummary(restaurant.facebook?.recentPosts)}
-- Instagram URL: ${restaurant.instagramUrl ?? restaurant.instagram?.profileUrl ?? "n/a"}
-- Instagram status: ${restaurant.socialProfileStatus?.instagram ?? "unknown"}
-- Instagram recent post count: ${restaurant.instagram?.recentPosts?.length ?? 0}
-- Instagram latest post date: ${getLatestPostDate(restaurant.instagram?.recentPosts)}
-- Instagram engagement summary: ${getEngagementSummary(restaurant.instagram?.recentPosts)}
-- TikTok URL: ${restaurant.tiktokUrl ?? "n/a"}
-- TikTok status: ${restaurant.socialProfileStatus?.tiktok ?? "unknown"}
+- Facebook URL: ${normalizedRestaurant.facebookUrl ?? normalizedRestaurant.facebook?.pageUrl ?? "n/a"}
+- Facebook status: ${facebookStatus}
+- Facebook recent post count: ${normalizedRestaurant.facebook?.recentPosts?.length ?? 0}
+- Facebook latest post date: ${getLatestPostDate(normalizedRestaurant.facebook?.recentPosts) ?? "n/a"}
+- Facebook engagement summary: ${getEngagementSummary(normalizedRestaurant.facebook?.recentPosts)}
+- Facebook note: ${facebookNote}
+- Instagram URL: ${normalizedRestaurant.instagramUrl ?? normalizedRestaurant.instagram?.profileUrl ?? "n/a"}
+- Instagram status: ${instagramStatus}
+- Instagram recent post count: ${normalizedRestaurant.instagram?.recentPosts?.length ?? 0}
+- Instagram latest post date: ${getLatestPostDate(normalizedRestaurant.instagram?.recentPosts) ?? "n/a"}
+- Instagram engagement summary: ${getEngagementSummary(normalizedRestaurant.instagram?.recentPosts)}
+- Instagram note: ${instagramNote}
+- TikTok URL: ${normalizedRestaurant.tiktokUrl ?? "n/a"}
+- TikTok status: ${tiktokStatus}
+- Social enrichment status: ${normalizedRestaurant.socialEnrichmentStatus ?? "not_ready"}
 
 ## Scores
 
-- Reputation: ${restaurant.scores?.reputation ?? "n/a"}
-- Social Presence: ${restaurant.scores?.socialPresence ?? "n/a"}
-- Opportunity: ${restaurant.scores?.opportunity ?? "n/a"}
-- Overall: ${restaurant.scores?.overall ?? "n/a"}
+- Reputation: ${normalizedRestaurant.scores?.reputation ?? "n/a"}
+- Social Presence: ${normalizedRestaurant.scores?.socialPresence ?? "n/a"}
+- Opportunity: ${normalizedRestaurant.scores?.opportunity ?? "n/a"}
+- Overall: ${normalizedRestaurant.scores?.overall ?? "n/a"}
 
 ## Current Data Available
 
@@ -181,11 +215,15 @@ ${missing.length ? missing.map((item) => `- ${item}`).join("\n") : "- No major g
 
 ## Review Notes
 
-${restaurant.reviewNotes.length ? restaurant.reviewNotes.map((item) => `- ${item}`).join("\n") : "- No review notes recorded."}
+${normalizedRestaurant.reviewNotes.length ? normalizedRestaurant.reviewNotes.map((item) => `- ${item}`).join("\n") : "- No review notes recorded."}
 
 ## Social Verification Notes
 
-${restaurant.socialVerificationNotes?.length ? restaurant.socialVerificationNotes.map((item) => `- ${item}`).join("\n") : "- No social verification notes recorded."}
+${normalizedRestaurant.socialVerificationNotes?.length ? normalizedRestaurant.socialVerificationNotes.map((item) => `- ${item}`).join("\n") : "- No social verification notes recorded."}
+
+## Social Enrichment Notes
+
+${normalizedRestaurant.socialEnrichmentNotes?.length ? normalizedRestaurant.socialEnrichmentNotes.map((item) => `- ${item}`).join("\n") : "- No social enrichment notes recorded."}
 
 ## Initial Recommendations
 

@@ -3,6 +3,12 @@ import path from "node:path";
 import { fetchApifyDatasetItems, runApifyActor } from "../src/apis/apify.js";
 import { loadEnv } from "../src/lib/env.js";
 import { findRestaurant } from "../src/lib/findRestaurant.js";
+import {
+  buildEnrichmentSummary,
+  getLatestPostDate,
+  getSocialMaxPosts,
+  limitRecentPosts
+} from "../src/lib/social.js";
 import { RestaurantProfile, SocialPost } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -51,20 +57,22 @@ function timestampForFile(date = new Date()): string {
 }
 
 function normalizeFacebookPosts(items: FacebookActorItem[]): SocialPost[] {
-  return items.map((item) => ({
-    platform: "facebook",
-    source: "facebook",
-    postUrl: item.url,
-    url: item.url,
-    caption: item.text,
-    publishedAt: item.time,
-    contentType: item.media?.[0]?.__typename ?? "post",
-    engagement: {
-      likes: item.likes ?? item.topReactionsCount,
-      comments: item.comments,
-      shares: item.shares
-    }
-  }));
+  return limitRecentPosts(
+    items.map((item) => ({
+      platform: "facebook",
+      source: "facebook",
+      postUrl: item.url,
+      url: item.url,
+      caption: item.text,
+      publishedAt: item.time,
+      contentType: item.media?.[0]?.__typename ?? "post",
+      engagement: {
+        likes: item.likes ?? item.topReactionsCount,
+        comments: item.comments,
+        shares: item.shares
+      }
+    }))
+  );
 }
 
 async function main(): Promise<void> {
@@ -79,7 +87,7 @@ async function main(): Promise<void> {
   const actorId = getFacebookActorId();
   const actorInput = {
     startUrls: [{ url: restaurant.facebookUrl }],
-    resultsLimit: 10,
+    resultsLimit: getSocialMaxPosts(),
     captionText: false
   };
 
@@ -97,11 +105,22 @@ async function main(): Promise<void> {
 
   const recentPosts = normalizeFacebookPosts(items);
   const now = new Date().toISOString();
+  const latestPostDate = getLatestPostDate(recentPosts);
+  const missingSignals = [
+    latestPostDate ? undefined : "no published post timestamps",
+    recentPosts.some((post) => !post.postUrl) ? "some posts missing postUrl" : undefined,
+    recentPosts.every((post) => !post.caption) ? "all posts missing caption/text" : undefined
+  ].filter((value): value is string => Boolean(value));
 
   const updatedRestaurants = restaurants.map((entry) =>
     entry.id === restaurant.id
       ? {
           ...entry,
+          socialEnrichmentStatus: "enriched" as const,
+          socialEnrichmentNotes: [
+            `Facebook enrichment completed via ${actorId} on ${now}.`,
+            ...(entry.socialEnrichmentNotes ?? [])
+          ],
           facebook: {
             ...entry.facebook,
             pageUrl: entry.facebookUrl ?? entry.facebook?.pageUrl,
@@ -122,9 +141,18 @@ async function main(): Promise<void> {
   );
 
   console.log(`Facebook enrichment complete: ${restaurant.name}`);
-  console.log(`Actor: ${actorId}`);
-  console.log(`Raw output: ${rawFilePath}`);
-  console.log(`Recent posts stored: ${recentPosts.length}`);
+  for (const line of buildEnrichmentSummary({
+    restaurantName: restaurant.name,
+    platform: "facebook",
+    actorId,
+    rawItemsReturned: items.length,
+    normalizedPostsStored: recentPosts.length,
+    latestPostDate,
+    rawFilePath,
+    missingSignals
+  })) {
+    console.log(line);
+  }
   console.log("Only public Facebook page posts were used. Private/member-only groups were not scraped.");
 }
 

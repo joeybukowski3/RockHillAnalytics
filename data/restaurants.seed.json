@@ -34,7 +34,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.424Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJISNW2VWIVogR20NKKcIAdWs",
@@ -77,7 +78,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJcTcio6qFVogR-duzB36vUqA",
@@ -116,7 +118,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJpWJxxniJVogR6quKo-2OugM",
@@ -155,7 +158,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
@@ -194,7 +198,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJGb31ZquJVogRYPowGLppBTo",
@@ -234,7 +239,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
@@ -273,7 +279,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
@@ -314,7 +321,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJCf_amUiPVogRp7hHZob5EEo",
@@ -432,7 +440,8 @@
       "facebook": "not_found",
       "instagram": "not_found",
       "tiktok": "unknown"
-    }
+    },
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",
@@ -474,7 +483,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJsbHDEy-FVogRmwcJ-pkN0GI",
@@ -516,7 +526,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJux77xBKPVogRtRL5ZExNkR8",
@@ -555,7 +566,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJQYbrfhSFVogRs4wSxMk6yE4",
@@ -597,7 +609,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ88hBbyKJVogRXcpHNy7-oHg",
@@ -637,7 +650,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJdzuQZhyJVogRmmOR5xs3aB8",
@@ -677,7 +691,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJpS6cDEGFVogRN9YwkWWLLBg",
@@ -718,7 +733,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ6zyXE_6HVogR4MrFa5LSHFA",
@@ -757,7 +773,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJnY7fPPmPVogRe1QKAN6534g",
@@ -796,7 +813,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJPQIHUg-MVogR2tLBlY35AFk",
@@ -837,7 +855,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJS2WuvECGVogRS-vvY2xzElQ",
@@ -878,7 +897,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJvzn456CHVogRPrmt-ggKKhk",
@@ -919,7 +939,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJX0wt1bKPVogRVAW4B9smAeU",
@@ -960,7 +981,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJF8N1xjuJVogREnHwzCUYY9I",
@@ -999,7 +1021,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJY7K474mJVogR3MeEmWj1U7o",
@@ -1039,7 +1062,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJu3QAoreIVogR-wBcDGcJVcs",
@@ -1080,7 +1104,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJo3Z_fACNVogRcLgorOviGjk",
@@ -1118,7 +1143,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJBVEtXFSPVogRm94f00Go4a8",
@@ -1157,7 +1183,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJnar9vN-JVogR3jFzfjXEmnE",
@@ -1197,7 +1224,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJB-lN0SSPVogR2YvpCXrzSdE",
@@ -1236,7 +1264,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJvQ2hxh2JVogRKslnRFHqaf8",
@@ -1275,7 +1304,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJUWKsW6-PVogRfmOCHwU7TWE",
@@ -1314,7 +1344,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJP46z4SuPVogR5dl1FlVgolg",
@@ -1353,7 +1384,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJW0dO7cOIVogRyoe_eZMQuL0",
@@ -1392,7 +1424,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJgxjnLEKJVogRtZH81T-ZD7I",
@@ -1432,7 +1465,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJHzznBgCJVogRgKDQv6clUAk",
@@ -1473,7 +1507,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJT318MiiJVogRNoqJ5VvpGmw",
@@ -1513,7 +1548,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJPQIHUg-MVogRYR-MjWRp0nI",
@@ -1554,7 +1590,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ_dlOXVePVogR1C_8IcPVg7Q",
@@ -1597,7 +1634,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJNYuw9UWJVogRigdumjfXGlQ",
@@ -1636,7 +1674,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ49rp2i-JVogRHMSZO4H5ihI",
@@ -1677,7 +1716,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJsew-mYOFVogRReC9gnj-DKg",
@@ -1718,7 +1758,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJLSfOkGuFVogRiXX8JsyAYjk",
@@ -1760,7 +1801,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJlc5cPwSJVogRpwYHHeKotRU",
@@ -1796,7 +1838,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJiR3MpKyJVogRxjmEIcENIQ0",
@@ -1834,7 +1877,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ18UzpKOFVogRc9FTGF-skhY",
@@ -1875,7 +1919,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ2U08EhyJVogRgQ-EtW41p8Y",
@@ -1915,7 +1960,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ3zjcvfmFVogRhQdbmFE98aI",
@@ -1954,7 +2000,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJHe9L48aJVogRdc0Y3fXpnTc",
@@ -1994,7 +2041,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJdQR3fVOPVogRpR_toiZ5Dg4",
@@ -2034,7 +2082,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJq6qekhxgVogRks33YqQT36g",
@@ -2070,7 +2119,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ03znXqeHVogRdhiAR9aqBt4",
@@ -2110,7 +2160,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJc3RF4CuPVogRh-Rw2WYPh7E",
@@ -2151,7 +2202,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJIS45JuyFVogRk5tZ5AiVv5k",
@@ -2193,7 +2245,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ8TBOgkWLVogRWpv6TG755hs",
@@ -2231,7 +2284,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ28ZyrjiGVogRiRAr_LRpqsU",
@@ -2273,7 +2327,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJk_exvzaJVogRUFUM_XovfU8",
@@ -2312,7 +2367,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJOfBc_n-JVogRG02iGVhu1VA",
@@ -2350,7 +2406,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJl96Sfi6PVogR-6vGl8nJdhU",
@@ -2391,7 +2448,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJMztskgmJVogR1OShQkvIZL8",
@@ -2433,7 +2491,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJg2fYjrCJVogRXfMpkzJ-8gc",
@@ -2473,7 +2532,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJWTt20X6FVogRys_wywbCBSg",
@@ -2514,7 +2574,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJV0eou3SGVogR2HTlV1tmir0",
@@ -2554,7 +2615,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJN9pBqfCFVogRL91droHwdjk",
@@ -2593,7 +2655,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJsTmnRPOFVogRtscSstRGaI8",
@@ -2635,7 +2698,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJhRh8_IrzVogR54jCfGwLehw",
@@ -2676,7 +2740,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ4T1q0XCJVogREyJh-jZljuk",
@@ -2712,7 +2777,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T20:08:58.885Z",
+    "updatedAt": "2026-05-11T20:19:05.280Z",
     "sourceQueries": [
       "coffee shops in Rock Hill SC",
       "bars in Rock Hill SC"
@@ -2722,7 +2787,7 @@
       "Official Mercantile pages describe this as a public coffee shop and wine bar in downtown Rock Hill."
     ],
     "pipelineStage": "scored",
-    "lastVerifiedAt": "2026-05-11T20:08:58.885Z",
+    "lastVerifiedAt": "2026-05-11T20:19:05.280Z",
     "reviewStatus": "included",
     "facebookUrl": "https://www.facebook.com/jackasscafe/",
     "instagramUrl": "https://www.instagram.com/jackasscafe/",
@@ -2894,34 +2959,6 @@
             "likes": 19,
             "comments": 0
           }
-        },
-        {
-          "platform": "instagram",
-          "source": "instagram",
-          "postUrl": "https://www.instagram.com/p/DXOvbK8DzsN/",
-          "url": "https://www.instagram.com/p/DXOvbK8DzsN/",
-          "publishedAt": "2026-04-17T11:00:00.000Z",
-          "caption": "Everyone wish Arielle the happiest of birthdays! Arielle can do it all within the cafe, but most often you’ll see her serving up delicious sandwiches, pastries and more! A lover of Warped Tour and all things alternative, she’s also a birthday twin to Logan, who’s part of the Merc fam! It’s a double feature of course!\n\nIf you see Arielle, wish her the happiest of birthdays (same with Logan)",
-          "contentType": "Sidecar",
-          "hashtags": [],
-          "engagement": {
-            "likes": 19,
-            "comments": 0
-          }
-        },
-        {
-          "platform": "instagram",
-          "source": "instagram",
-          "postUrl": "https://www.instagram.com/p/DXM1wtEjlid/",
-          "url": "https://www.instagram.com/p/DXM1wtEjlid/",
-          "publishedAt": "2026-04-16T17:17:25.000Z",
-          "caption": "We’ve got a special for come see me fest starting today! \n\nLeap Frog Juice is an orange juice, lime jello and sprite refresher topped with edible glitter making it perfect for warm days (like today) \n\nStop by and come try it!",
-          "contentType": "Sidecar",
-          "hashtags": [],
-          "engagement": {
-            "likes": 12,
-            "comments": 0
-          }
         }
       ],
       "lastEnrichedAt": "2026-05-11T20:04:48.923Z"
@@ -3073,10 +3110,13 @@
       "notes": [
         "Reputation is based on Google rating and review volume.",
         "Social presence uses verified social profiles, recent post volume, post recency, and lightweight engagement signals.",
-        "Opportunity is highest when reputation is strong and social presence is weak."
+        "Opportunity is higher when reputation is strong but social presence is still weak or missing.",
+        "No social profile found is treated as a marketing opportunity rather than a data failure.",
+        "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
       ],
-      "calculatedAt": "2026-05-11T20:08:58.884Z"
-    }
+      "calculatedAt": "2026-05-11T20:19:05.279Z"
+    },
+    "socialEnrichmentStatus": "enriched"
   },
   {
     "id": "ChIJp_lRg_2HVogRljE-FSxsKSE",
@@ -3117,7 +3157,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJS2WuvECGVogR0N9W5QJ3rL8",
@@ -3156,7 +3197,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ0RRP92qJVogRqH1Iu3ja1LA",
@@ -3196,7 +3238,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJcSoLJQCJVogRd2tgtDxlKA0",
@@ -3234,7 +3277,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJHVpGzKWJVogR_q0d8nC_7T8",
@@ -3273,7 +3317,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJb3fG9lmPVogR_Zgeo5kAJEI",
@@ -3313,7 +3358,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJB-P2EnuJVogRx4quXIJ5-HY",
@@ -3355,7 +3401,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJH5YDEv-IVogR3I3nQtefBy8",
@@ -3396,7 +3443,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJUURJWhiRVogR-CTkiLasET8",
@@ -3439,7 +3487,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJqcOEkuqJVogRdDzTYAIirpk",
@@ -3479,7 +3528,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ2ZpS_HKPVogRreARbbBfR2g",
@@ -3520,7 +3570,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJu_18OgCBVogR7kdCt0bZ27o",
@@ -3560,7 +3611,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ1b7HzJBsa0wRLrX335PxWTw",
@@ -3599,7 +3651,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJk2N6Jg-MVogRqab6Sm3SbQY",
@@ -3638,7 +3691,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJoW_BLvSFVogRFjmJt7efnAA",
@@ -3679,7 +3733,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJxwCnVgCPVogR-R95hiRDK-s",
@@ -3722,7 +3777,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJwUCMBbyJVogRW6jQLczFnlk",
@@ -3761,7 +3817,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJndOfiAOJVogRWtHqaYICpRU",
@@ -3799,7 +3856,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJRdf0feyNVogRrYazDgm9_Qk",
@@ -3839,7 +3897,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJE0631LaIVogRMOFZh2ER1gc",
@@ -3882,7 +3941,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJhRweL7fNt4kRVUFh-QXBA18",
@@ -3925,7 +3985,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJh44S036RVogRUqYMRN4nTHI",
@@ -3967,7 +4028,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJCf2QOLGIVogR9fBF91Mt6d4",
@@ -4008,7 +4070,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJlyCbdLWJVogRDZ5sPwj-NVE",
@@ -4048,7 +4111,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJq42eUD-GVogROYBK_7LpgxU",
@@ -4089,7 +4153,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJAQAMO1ePVogR8WIlZ5EcBIA",
@@ -4128,7 +4193,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ56xZM1OPVogRHEzMLt6yDL4",
@@ -4170,7 +4236,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ9d8VFmiJVogR9ueS1DzGT4Q",
@@ -4211,7 +4278,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ8eIZ2KyIVogR05vqr8ESnJY",
@@ -4254,7 +4322,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJJ7zTamWIVogRX1h226Ec-Zk",
@@ -4293,7 +4362,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJyRrESImFVogRTFmq9YPrpFU",
@@ -4333,7 +4403,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJX_6cYX6dVogRDj4ZhL-AhTc",
@@ -4372,7 +4443,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJWxPYs66JVogRWMH2UgeHloU",
@@ -4411,7 +4483,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ8RF8C1aIVogROZ9Q0f19tTc",
@@ -4453,7 +4526,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJOyz8wV2PVogRGxhPYLbNbXg",
@@ -4495,7 +4569,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJVRhH2S2JVogRAgm65wf3ZAk",
@@ -4534,7 +4609,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ13STop-JVogRK83TBawGPmo",
@@ -4572,7 +4648,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJpd3D2COPVogRt4z94dCPTE8",
@@ -4612,7 +4689,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJQ7LcviONVogRRcX_tjIHPV4",
@@ -4650,7 +4728,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJS1O5A1OJVogRFIj4UJeXGek",
@@ -4689,7 +4768,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJvbTPMLCJVogRf_4jBuSHN28",
@@ -4729,7 +4809,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJz8DMsSmJVogR-LqmJKeZq6w",
@@ -4768,7 +4849,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJk4BrxWSIVogRAZwNCVORHu8",
@@ -4807,7 +4889,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJk9SqEGOJVogRBqcgPYRSsec",
@@ -4852,7 +4935,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ_yNHxFWJVogR5UrxyewJNaM",
@@ -4893,7 +4977,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJJUfDrSOGVogRKU7DNMS3_VI",
@@ -4934,7 +5019,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJcV53qKqFVogR3fyWdHBv4GI",
@@ -4978,7 +5064,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ6RjCjc6PVogRdhTMUBLcU9k",
@@ -5019,7 +5106,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJMd3ACa6OVogRcSYhwaC1Epw",
@@ -5059,7 +5147,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJSzL6UQCFVogROBHLxWnvqEs",
@@ -5099,7 +5188,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJJ7zTamWIVogRUIXmY2dZ27s",
@@ -5140,7 +5230,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ-14s-xqJVogRXAf76c5n1hs",
@@ -5180,7 +5271,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJJ7Zp4iuPVogRd6YAjJSgb4A",
@@ -5219,7 +5311,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ5Q2FOviOVogRarA79EmgkUo",
@@ -5258,7 +5351,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJeVEUGIqJVogRtaF1_0ZUO8M",
@@ -5299,7 +5393,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJf5-apeWPVogRb6oqfRSAIJY",
@@ -5339,7 +5434,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ_1EgnJmFVogRd8w8qsqJtPw",
@@ -5379,7 +5475,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJudTwwm2DVogRd_f7KVDO0A0",
@@ -5420,7 +5517,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJPTwo3yuPVogRC_6HsMqGhOw",
@@ -5459,7 +5557,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJw4mfgV2IVogRFlWaIwGsQRU",
@@ -5498,7 +5597,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJHdCh_I6FVogRpokmaSq_GYA",
@@ -5537,7 +5637,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJp-g5gNSPVogR53IKQ8sMdLo",
@@ -5575,7 +5676,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJm8smrb6FVogR1ZENA3LEg8U",
@@ -5615,7 +5717,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJkym4_raIVogRlla-DnzGuws",
@@ -5653,7 +5756,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJVVUlClaIVogRO4VaoaEWm_k",
@@ -5693,7 +5797,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJZcUQ5aaJVogRG2a9oP6L8FE",
@@ -5732,7 +5837,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJV9vnD62IVogRBfc2pfnCJvY",
@@ -5772,7 +5878,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJnRZ1VjKJVogRjignz7W5PAw",
@@ -5810,7 +5917,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJq2PzmoyJVogRMM-Tmj3YnMc",
@@ -5851,7 +5959,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "needs_review"
+    "reviewStatus": "needs_review",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJTbwUWgCJVogRfyPpnHBNsos",
@@ -5889,7 +5998,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJe2tE_gibVogROdpgio1vrGM",
@@ -5930,7 +6040,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJkXoKHTuJVogRxCzOWXPBIjo",
@@ -5969,7 +6080,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ5xkYaP-IVogRWWaBl6yOV24",
@@ -6009,7 +6121,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJJ4iH8wyNVogRMLntqd6HGds",
@@ -6052,7 +6165,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJYSzq06mJVogRJpm9IGzyJU4",
@@ -6094,7 +6208,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJi6V22g6MVogRNORSFpaia50",
@@ -6133,7 +6248,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJfe4cz2SIVogR-lHXVhB2mYQ",
@@ -6173,7 +6289,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJb0dqvcaIVogRU9GGjvt-GLg",
@@ -6216,7 +6333,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJwfh21sqJVogRrchdaXERjIA",
@@ -6258,7 +6376,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJF8MlZw2JVogRAcJ4_wc2U5Q",
@@ -6300,7 +6419,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJK5PCsPmFVogR6pY_9c8pL8w",
@@ -6340,7 +6460,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJu0JZo6SIVogR2p0Jp1v3GNI",
@@ -6381,7 +6502,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ6bVg51WFVogRytCzoiDc3K8",
@@ -6422,7 +6544,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJeXP0AfmFVogRmG5Evhd6YME",
@@ -6461,7 +6584,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJVxiISACJVogR380iZdYKV4A",
@@ -6500,7 +6624,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ__qv5BdfVogRrqM_j9x90z0",
@@ -6541,7 +6666,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ1Wg31laPVogReytf48gJWG8",
@@ -6579,7 +6705,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJAQDMzraIVogRxADvnHvgp4M",
@@ -6618,7 +6745,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJi5V30oiJVogR5VlzLL8AsA0",
@@ -6656,7 +6784,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJUbYUGwCPVogRf95G75vXK-U",
@@ -6695,7 +6824,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJR7KqQACJVogRtsI-boi2Cy0",
@@ -6733,7 +6863,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJmQXoRKCJVogRe1hxuMNTDxQ",
@@ -6774,7 +6905,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJUYFgtK-JVogR0-isVuNDEuY",
@@ -6815,7 +6947,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ9aLWUYKFVogRvHB8mSwVb9k",
@@ -6857,7 +6990,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJo9cta7OIVogR_U1YRQeNa4E",
@@ -6896,7 +7030,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ2_Y2DkmPVogRcn-11vrdBbI",
@@ -6937,7 +7072,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJKUpuDlaIVogRfu5afOkxeiQ",
@@ -6979,7 +7115,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ-bbYBVKFVogRS6Lj35rcVBU",
@@ -7020,7 +7157,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ_wXBDgOJVogRYOBERuXxi6U",
@@ -7059,7 +7197,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ4baYhOyJVogRO5wOUyZqqaQ",
@@ -7105,7 +7244,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJydeHSiqJVogRzLF0MVK6qUA",
@@ -7150,7 +7290,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ85Mg1e6FVogRkattA8ZtiOk",
@@ -7191,7 +7332,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ90Au9juJVogRL_ylt6TLxxs",
@@ -7230,7 +7372,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ63x5cwyJVogR3rIPh7P8fKc",
@@ -7269,7 +7412,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJD_CN6d2PVogRcrZPvAsW_3A",
@@ -7309,7 +7453,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ4Qq2PrqFVogRPnsysXt-n5I",
@@ -7348,7 +7493,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJqbkcR7GIVogRc6Qkan4KNRo",
@@ -7390,7 +7536,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJbVf4A-mfVogRMGQqzhligDo",
@@ -7429,7 +7576,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJsWP02xldVogRZI2aUZhT95I",
@@ -7469,7 +7617,8 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJr-P5BR6JVogRVr39AFnpMCE",
@@ -7509,7 +7658,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJM3jVxnWJVogRvf9k2wsYTKw",
@@ -7548,7 +7698,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJ8QNh1dGJVogRiwvgY_UMH1w",
@@ -7587,7 +7738,8 @@
     "reviewNotes": [],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "included"
+    "reviewStatus": "included",
+    "socialEnrichmentStatus": "not_ready"
   },
   {
     "id": "ChIJQbUQsr-PVogRiqyBgB_N4mg",
@@ -7627,6 +7779,7 @@
     ],
     "pipelineStage": "seeded",
     "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
-    "reviewStatus": "excluded"
+    "reviewStatus": "excluded",
+    "socialEnrichmentStatus": "not_ready"
   }
 ]

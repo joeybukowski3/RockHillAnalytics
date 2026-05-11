@@ -27,13 +27,16 @@
 - Facebook recent post count: 10
 - Facebook latest post date: 2026-05-11T18:25:17.000Z
 - Facebook engagement summary: likes 33, comments 3, shares 1, views 0
+- Facebook note: n/a
 - Instagram URL: https://www.instagram.com/jackasscafe/
 - Instagram status: verified
-- Instagram recent post count: 12
+- Instagram recent post count: 10
 - Instagram latest post date: 2026-05-11T18:25:12.000Z
-- Instagram engagement summary: likes 106, comments 0, shares 0, views 0
+- Instagram engagement summary: likes 75, comments 0, shares 0, views 0
+- Instagram note: n/a
 - TikTok URL: n/a
 - TikTok status: unknown
+- Social enrichment status: enriched
 
 ## Scores
 
@@ -64,6 +67,11 @@
 
 - Manually verified official social profiles
 
+## Social Enrichment Notes
+
+- No social enrichment notes recorded.
+
 ## Initial Recommendations
 
+- Strong reputation and strong social presence indicate solid public momentum with lower immediate opportunity urgency.
 - Enrich Google details to capture recent review themes.

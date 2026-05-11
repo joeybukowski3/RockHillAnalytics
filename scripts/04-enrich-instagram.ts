@@ -3,6 +3,12 @@ import path from "node:path";
 import { fetchApifyDatasetItems, runApifyActor } from "../src/apis/apify.js";
 import { loadEnv } from "../src/lib/env.js";
 import { findRestaurant } from "../src/lib/findRestaurant.js";
+import {
+  buildEnrichmentSummary,
+  getLatestPostDate,
+  getSocialMaxPosts,
+  limitRecentPosts
+} from "../src/lib/social.js";
 import { RestaurantProfile, SocialPost } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -57,21 +63,23 @@ function timestampForFile(date = new Date()): string {
 }
 
 function normalizeInstagramPosts(profile: InstagramActorProfile | undefined): SocialPost[] {
-  return (profile?.latestPosts ?? []).map((post) => ({
-    platform: "instagram",
-    source: "instagram",
-    postUrl: post.url,
-    url: post.url,
-    publishedAt: post.timestamp,
-    caption: post.caption,
-    contentType: post.type,
-    hashtags: post.hashtags ?? [],
-    engagement: {
-      likes: post.likesCount,
-      comments: post.commentsCount,
-      views: post.videoViewCount
-    }
-  }));
+  return limitRecentPosts(
+    (profile?.latestPosts ?? []).map((post) => ({
+      platform: "instagram",
+      source: "instagram",
+      postUrl: post.url,
+      url: post.url,
+      publishedAt: post.timestamp,
+      caption: post.caption,
+      contentType: post.type,
+      hashtags: post.hashtags ?? [],
+      engagement: {
+        likes: post.likesCount,
+        comments: post.commentsCount,
+        views: post.videoViewCount
+      }
+    }))
+  );
 }
 
 async function main(): Promise<void> {
@@ -87,7 +95,7 @@ async function main(): Promise<void> {
   const actorInput = {
     directUrls: [restaurant.instagramUrl],
     resultsType: "details",
-    resultsLimit: 10,
+    resultsLimit: getSocialMaxPosts(),
     searchType: "user",
     searchLimit: 1
   };
@@ -107,11 +115,22 @@ async function main(): Promise<void> {
 
   const recentPosts = normalizeInstagramPosts(profile);
   const now = new Date().toISOString();
+  const latestPostDate = getLatestPostDate(recentPosts);
+  const missingSignals = [
+    profile?.followersCount === undefined ? "followersCount missing" : undefined,
+    latestPostDate ? undefined : "no published post timestamps",
+    recentPosts.some((post) => !post.postUrl) ? "some posts missing postUrl" : undefined
+  ].filter((value): value is string => Boolean(value));
 
   const updatedRestaurants = restaurants.map((entry) =>
     entry.id === restaurant.id
       ? {
           ...entry,
+          socialEnrichmentStatus: "enriched" as const,
+          socialEnrichmentNotes: [
+            `Instagram enrichment completed via ${actorId} on ${now}.`,
+            ...(entry.socialEnrichmentNotes ?? [])
+          ],
           instagram: {
             ...entry.instagram,
             profileUrl: entry.instagramUrl ?? entry.instagram?.profileUrl,
@@ -133,9 +152,18 @@ async function main(): Promise<void> {
   );
 
   console.log(`Instagram enrichment complete: ${restaurant.name}`);
-  console.log(`Actor: ${actorId}`);
-  console.log(`Raw output: ${rawFilePath}`);
-  console.log(`Recent posts stored: ${recentPosts.length}`);
+  for (const line of buildEnrichmentSummary({
+    restaurantName: restaurant.name,
+    platform: "instagram",
+    actorId,
+    rawItemsReturned: items.length,
+    normalizedPostsStored: recentPosts.length,
+    latestPostDate,
+    rawFilePath,
+    missingSignals
+  })) {
+    console.log(line);
+  }
 }
 
 main().catch((error) => {

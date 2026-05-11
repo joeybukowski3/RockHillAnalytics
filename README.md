@@ -24,6 +24,10 @@ Phase 2A adds a manual social URL verification workflow. This phase does not scr
 
 Phase 2B adds one-restaurant social enrichment through Apify after social URLs have been manually verified. This phase is still intentionally narrow: it runs against one restaurant at a time, preserves raw actor output locally, normalizes a small recent-post sample, updates scoring, and refreshes the report.
 
+## Phase 2C Goal
+
+Phase 2C hardens the social enrichment workflow before scaling. It caps stored social posts, adds review/readiness reporting, and clarifies how to move restaurants through a safe enrichment sequence.
+
 ## Stack
 
 - Node.js
@@ -92,6 +96,7 @@ Copy-Item .env.example .env.local
 - `APIFY_TOKEN` for Apify-backed Facebook and Instagram enrichment
 - `APIFY_INSTAGRAM_ACTOR_ID` for the Instagram actor, currently tested with `apify/instagram-scraper`
 - `APIFY_FACEBOOK_ACTOR_ID` for the Facebook Posts Scraper actor, currently tested with `apify/facebook-posts-scraper`
+- `SOCIAL_MAX_POSTS` to cap stored recent social posts per platform. Defaults to `10`.
 - `OPENAI_API_KEY` reserved for future analysis and report enhancements
 
 ## Commands
@@ -147,6 +152,12 @@ Run one-restaurant Facebook enrichment after URLs are verified:
 npm run enrich:facebook -- "Jackass Café & Wine Bar"
 ```
 
+Review current social readiness and enrichment coverage:
+
+```powershell
+npm run review:social
+```
+
 Social profile statuses:
 
 - `verified`: a manually verified official public profile URL was stored
@@ -158,6 +169,19 @@ Run typecheck:
 ```powershell
 npm run typecheck
 ```
+
+## Safe Scaling Process
+
+Recommended order for each restaurant:
+
+1. `npm run add:social -- "Restaurant Name" ...`
+2. `npm run enrich:instagram -- "Restaurant Name"`
+3. `npm run enrich:facebook -- "Restaurant Name"`
+4. `npm run score -- "Restaurant Name"`
+5. `npm run report -- "Restaurant Name"`
+6. `npm run review:social`
+
+This keeps manual URL verification ahead of scraping, limits cost exposure, and makes it easier to review quality before scaling.
 
 ## Example Workflow
 
@@ -186,3 +210,4 @@ npm run report -- "Legal Remedy Brewing"
 - Raw Google payloads are stored locally under `data/raw/google/`.
 - Raw Facebook and Instagram actor payloads are stored locally under `data/raw/facebook/` and `data/raw/instagram/`.
 - Social/profile URLs should be manually verified before any future scraping workflow uses them.
+- Stored Facebook and Instagram recent posts are capped by `SOCIAL_MAX_POSTS`, which defaults to `10`.

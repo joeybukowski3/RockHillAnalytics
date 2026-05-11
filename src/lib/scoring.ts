@@ -1,3 +1,4 @@
+import { getLatestPostDate } from "./social.js";
 import { RestaurantProfile, ScoreSummary } from "../types/restaurant.js";
 
 function clampScore(value: number): number {
@@ -5,16 +6,19 @@ function clampScore(value: number): number {
 }
 
 function getLatestPostTimestamp(restaurant: RestaurantProfile): number | undefined {
-  const timestamps = [
-    ...(restaurant.facebook?.recentPosts ?? []).map((post) => Date.parse(post.publishedAt ?? "")),
-    ...(restaurant.instagram?.recentPosts ?? []).map((post) => Date.parse(post.publishedAt ?? ""))
-  ].filter((value) => Number.isFinite(value));
+  const latest = [
+    getLatestPostDate(restaurant.facebook?.recentPosts),
+    getLatestPostDate(restaurant.instagram?.recentPosts)
+  ]
+    .filter((value): value is string => Boolean(value))
+    .map((value) => Date.parse(value))
+    .filter((value) => Number.isFinite(value));
 
-  if (timestamps.length === 0) {
+  if (latest.length === 0) {
     return undefined;
   }
 
-  return Math.max(...timestamps);
+  return Math.max(...latest);
 }
 
 function getAverageEngagement(restaurant: RestaurantProfile): number {
@@ -57,14 +61,20 @@ export function calculateSocialPresenceScore(restaurant: RestaurantProfile): num
 
   if (facebookStatus === "verified" && (restaurant.facebookUrl || restaurant.facebook?.pageUrl)) {
     score += 20;
+  } else if (facebookStatus === "not_found") {
+    score += 2;
   }
 
   if (instagramStatus === "verified" && (restaurant.instagramUrl || restaurant.instagram?.profileUrl)) {
     score += 20;
+  } else if (instagramStatus === "not_found") {
+    score += 2;
   }
 
   if (tiktokStatus === "verified" && restaurant.tiktokUrl) {
     score += 10;
+  } else if (tiktokStatus === "not_found") {
+    score += 1;
   }
 
   score += Math.min(20, facebookPosts.length * 2 + instagramPosts.length * 2);
@@ -109,7 +119,9 @@ export function calculateOverallScore(restaurant: RestaurantProfile): ScoreSumma
     notes: [
       "Reputation is based on Google rating and review volume.",
       "Social presence uses verified social profiles, recent post volume, post recency, and lightweight engagement signals.",
-      "Opportunity is highest when reputation is strong and social presence is weak."
+      "Opportunity is higher when reputation is strong but social presence is still weak or missing.",
+      "No social profile found is treated as a marketing opportunity rather than a data failure.",
+      "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
     ],
     calculatedAt: new Date().toISOString()
   };

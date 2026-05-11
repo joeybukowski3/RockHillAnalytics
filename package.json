@@ -13,6 +13,7 @@
     "report": "tsx scripts/06-generate-report.ts",
     "review:seed": "tsx scripts/07-review-seed-list.ts",
     "add:social": "tsx scripts/08-add-social-links.ts",
+    "review:social": "tsx scripts/09-review-social-data.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

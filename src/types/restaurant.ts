@@ -51,6 +51,12 @@ export type SocialProfileVerificationStatus =
   | "not_found"
   | "unknown";
 
+export type SocialEnrichmentStatus =
+  | "not_ready"
+  | "ready"
+  | "enriched"
+  | "failed";
+
 export type RestaurantProfile = {
   id: string;
   name: string;
@@ -79,6 +85,8 @@ export type RestaurantProfile = {
     instagram: SocialProfileVerificationStatus;
     tiktok: SocialProfileVerificationStatus;
   };
+  socialEnrichmentStatus?: SocialEnrichmentStatus;
+  socialEnrichmentNotes?: string[];
   google?: {
     rating?: number;
     reviewCount?: number;
