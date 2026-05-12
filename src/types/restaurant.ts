@@ -67,6 +67,12 @@ export type WorkflowStage =
   | "ready_for_report"
   | "report_generated";
 
+export type DuplicateReviewStatus =
+  | "unique"
+  | "exact_duplicate"
+  | "possible_duplicate"
+  | "multi_location";
+
 export type RestaurantProfile = {
   id: string;
   name: string;
@@ -105,6 +111,10 @@ export type RestaurantProfile = {
   lastScoredAt?: string;
   readyForReport?: boolean;
   dataCompletenessScore?: number;
+  duplicateReviewStatus?: DuplicateReviewStatus;
+  duplicateReviewNotes?: string[];
+  duplicateGroupKey?: string;
+  duplicateReviewedAt?: string;
   google?: {
     rating?: number;
     reviewCount?: number;

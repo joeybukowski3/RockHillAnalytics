@@ -30,6 +30,9 @@ type DashboardRestaurant = {
   lastSocialReviewedAt?: string;
   lastSocialEnrichedAt?: string;
   lastScoredAt?: string;
+  duplicateReviewStatus?: RestaurantProfile["duplicateReviewStatus"];
+  duplicateReviewNotes: string[];
+  duplicateGroupKey?: string;
   google?: {
     rating?: number;
     reviewCount?: number;
@@ -129,6 +132,9 @@ function toDashboardRestaurant(
     lastSocialReviewedAt: normalizedRestaurant.lastSocialReviewedAt,
     lastSocialEnrichedAt: normalizedRestaurant.lastSocialEnrichedAt,
     lastScoredAt: normalizedRestaurant.lastScoredAt,
+    duplicateReviewStatus: normalizedRestaurant.duplicateReviewStatus,
+    duplicateReviewNotes: normalizedRestaurant.duplicateReviewNotes ?? [],
+    duplicateGroupKey: normalizedRestaurant.duplicateGroupKey,
     google: normalizedRestaurant.google
       ? {
           rating: normalizedRestaurant.google.rating,

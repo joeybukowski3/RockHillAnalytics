@@ -187,6 +187,12 @@ Review the current workflow queue and stage distribution:
 npm run review:workflow
 ```
 
+Review likely duplicates while preserving legitimate multi-location restaurants:
+
+```powershell
+npm run review:duplicates
+```
+
 Preview the next controlled Google enrichment batch:
 
 ```powershell
@@ -261,6 +267,13 @@ This keeps manual URL verification ahead of scraping, limits cost exposure, and 
   - `--limit 10`
   - `--status included`
   - `--start-after "Restaurant Name"`
+
+Duplicate review notes:
+
+- Same-name restaurants are not automatically duplicates.
+- If restaurants have different Google Place IDs, addresses, phone numbers, or clearly separate locations, they should usually remain separate records.
+- Multi-location businesses should keep location-specific records so each location can retain its own Google reviews, social links, scores, and future report path.
+- `npm run review:duplicates` flags records as `exact_duplicate`, `possible_duplicate`, `multi_location`, or `unique` without deleting or merging anything automatically.
 
 Dashboard review flow:
 

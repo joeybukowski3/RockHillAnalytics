@@ -25,6 +25,9 @@ type DashboardRestaurant = {
   lastSocialReviewedAt?: string;
   lastSocialEnrichedAt?: string;
   lastScoredAt?: string;
+  duplicateReviewStatus?: string;
+  duplicateReviewNotes: string[];
+  duplicateGroupKey?: string;
   google?: {
     rating?: number;
     reviewCount?: number;
@@ -115,13 +118,23 @@ function badgeTone(value: string): string {
     value === "Ready for Instagram enrichment" ||
     value === "Ready for Facebook enrichment" ||
     value === "Needs scoring" ||
-    value === "Ready for report"
+    value === "Ready for report" ||
+    value === "possible_duplicate"
   ) {
     return "warn";
   }
 
-  if (value === "excluded" || value === "closed" || value === "failed") {
+  if (
+    value === "excluded" ||
+    value === "closed" ||
+    value === "failed" ||
+    value === "exact_duplicate"
+  ) {
     return "bad";
+  }
+
+  if (value === "multi_location") {
+    return "neutral";
   }
 
   return "neutral";
@@ -205,7 +218,10 @@ export default function App() {
       socialEnriched: count((restaurant) => restaurant.workflowStage === "social_enriched"),
       scored: count((restaurant) => restaurant.workflowStage === "scored"),
       readyForReport: count((restaurant) => restaurant.readyForReport),
-      reportsGenerated: count((restaurant) => restaurant.reportExists)
+      reportsGenerated: count((restaurant) => restaurant.reportExists),
+      exactDuplicates: count((restaurant) => restaurant.duplicateReviewStatus === "exact_duplicate"),
+      possibleDuplicates: count((restaurant) => restaurant.duplicateReviewStatus === "possible_duplicate"),
+      multiLocation: count((restaurant) => restaurant.duplicateReviewStatus === "multi_location")
     };
   }, [includedRestaurants]);
 
@@ -390,6 +406,9 @@ export default function App() {
         <StatCard label="Scored" value={workflowCounts.scored} />
         <StatCard label="Ready for report" value={workflowCounts.readyForReport} />
         <StatCard label="Reports generated" value={workflowCounts.reportsGenerated} />
+        <StatCard label="Exact duplicates" value={workflowCounts.exactDuplicates} />
+        <StatCard label="Possible duplicates" value={workflowCounts.possibleDuplicates} />
+        <StatCard label="Multi-location records" value={workflowCounts.multiLocation} />
       </section>
 
       <section className="section-block">
@@ -646,6 +665,16 @@ export default function App() {
                   `Data completeness: ${selectedRestaurant.dataCompletenessScore}%`,
                   `Ready for report: ${selectedRestaurant.readyForReport ? "yes" : "no"}`,
                   `Report exists: ${selectedRestaurant.reportExists ? "yes" : "no"}`
+                ]}
+              />
+              <DetailGroup
+                title="Duplicate review"
+                lines={[
+                  `Duplicate review status: ${selectedRestaurant.duplicateReviewStatus ?? "unique"}`,
+                  `Duplicate group key: ${selectedRestaurant.duplicateGroupKey ?? "n/a"}`,
+                  ...(selectedRestaurant.duplicateReviewNotes.length
+                    ? selectedRestaurant.duplicateReviewNotes
+                    : ["No duplicate concerns recorded."])
                 ]}
               />
               <DetailGroup

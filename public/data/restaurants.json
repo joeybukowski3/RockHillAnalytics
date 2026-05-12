@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-12T12:24:45.110Z",
+  "exportedAt": "2026-05-12T13:15:15.294Z",
   "totalRestaurants": 179,
   "restaurants": [
     {
@@ -30,6 +30,8 @@
         "npm run add:social -- \"354 SkyBar\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:22.199Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 72,
@@ -78,6 +80,8 @@
         "npm run add:social -- \"Amélie's French Bakery & Café\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:23.613Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 1308,
@@ -124,6 +128,8 @@
         "npm run score -- \"Amor Artis Brewing\"",
         "npm run report -- \"Amor Artis Brewing\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 351,
@@ -164,6 +170,8 @@
         "npm run add:social -- \"Anna J's\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:24.779Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 242,
@@ -212,6 +220,8 @@
         "npm run add:social -- \"Another Broken Egg Cafe\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:25.971Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 639,
@@ -260,6 +270,8 @@
         "npm run add:social -- \"Ay Papi Tacos & Tequila\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:27.112Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 443,
@@ -308,6 +320,8 @@
         "npm run add:social -- \"BearWalrus\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:28.299Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 164,
@@ -354,6 +368,8 @@
         "npm run score -- \"Big Wok Fort Mill\"",
         "npm run report -- \"Big Wok Fort Mill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 675,
@@ -396,6 +412,8 @@
         "npm run report -- \"Big Wok II\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:29.450Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4,
         "reviewCount": 182,
@@ -467,6 +485,8 @@
         "npm run add:social -- \"Blend Riverwalk\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:30.621Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 189,
@@ -513,6 +533,8 @@
         "npm run score -- \"Blue Bar & Smokehouse\"",
         "npm run report -- \"Blue Bar & Smokehouse\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 944,
@@ -554,6 +576,8 @@
         "npm run add:social -- \"Borboleta Café\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:31.806Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 95,
@@ -600,6 +624,8 @@
         "npm run score -- \"Brixx Wood Fired Pizza + Craft Bar\"",
         "npm run report -- \"Brixx Wood Fired Pizza + Craft Bar\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 947,
@@ -641,6 +667,8 @@
         "npm run add:social -- \"Brooklyn pizza & pasta\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:24:32.957Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 311,
@@ -669,34 +697,47 @@
       "state": "SC",
       "category": "establishment",
       "address": "111 Cherry Rd, Rock Hill, SC 29732, USA",
+      "phone": "(803) 328-3926",
+      "website": "http://www.burgersandbarleysc.com/",
       "googlePlaceId": "ChIJdzuQZhyJVogRmmOR5xs3aB8",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJdzuQZhyJVogRmmOR5xs3aB8",
+      "googleMapsUrl": "https://maps.google.com/?cid=2263119405742384026",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Burgers & Barley\""
+        "npm run add:social -- \"Burgers & Barley\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:14.129Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
-        "reviewCount": 2422,
-        "businessStatus": "OPERATIONAL"
+        "reviewCount": 2423,
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 11:00 AM – 10:00 PM",
+          "Tuesday: 11:00 AM – 10:00 PM",
+          "Wednesday: 11:00 AM – 10:00 PM",
+          "Thursday: 11:00 AM – 10:00 PM",
+          "Friday: 11:00 AM – 10:00 PM",
+          "Saturday: 11:00 AM – 10:00 PM",
+          "Sunday: 11:00 AM – 9:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:14.129Z"
     },
     {
       "id": "ChIJpS6cDEGFVogRN9YwkWWLLBg",
@@ -724,6 +765,8 @@
         "npm run score -- \"Captain Steve's Family Seafood Restaurant\"",
         "npm run report -- \"Captain Steve's Family Seafood Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 5603,
@@ -745,34 +788,47 @@
       "state": "SC",
       "category": "establishment",
       "address": "2338 Dave Lyle Blvd, Rock Hill, SC 29730, USA",
+      "phone": "(803) 328-3001",
+      "website": "http://casadelagavebarandgrill.com/",
       "googlePlaceId": "ChIJ6zyXE_6HVogR4MrFa5LSHFA",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ6zyXE_6HVogR4MrFa5LSHFA",
+      "googleMapsUrl": "https://maps.google.com/?cid=5772720348697316064",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Casa Del Agave Bar & Grill\""
+        "npm run add:social -- \"Casa Del Agave Bar & Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:15.522Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
-        "reviewCount": 202,
-        "businessStatus": "OPERATIONAL"
+        "reviewCount": 205,
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 11:00 AM – 9:30 PM",
+          "Tuesday: 11:00 AM – 9:30 PM",
+          "Wednesday: 11:00 AM – 9:30 PM",
+          "Thursday: 11:00 AM – 9:30 PM",
+          "Friday: 11:00 AM – 10:00 PM",
+          "Saturday: 11:00 AM – 10:00 PM",
+          "Sunday: 11:00 AM – 9:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:15.522Z"
     },
     {
       "id": "ChIJnY7fPPmPVogRe1QKAN6534g",
@@ -782,34 +838,47 @@
       "state": "SC",
       "category": "establishment",
       "address": "2215 India Hook Rd, Rock Hill, SC 29732, USA",
+      "phone": "(803) 329-1930",
+      "website": "http://casatequilamexgrill.com/",
       "googlePlaceId": "ChIJnY7fPPmPVogRe1QKAN6534g",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJnY7fPPmPVogRe1QKAN6534g",
+      "googleMapsUrl": "https://maps.google.com/?cid=9862806072099230843",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Casa Tequila Mexican Grill\""
+        "npm run add:social -- \"Casa Tequila Mexican Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:16.687Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 896,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 11:00 AM – 9:30 PM",
+          "Tuesday: 11:00 AM – 9:30 PM",
+          "Wednesday: 11:00 AM – 9:30 PM",
+          "Thursday: 11:00 AM – 9:30 PM",
+          "Friday: 11:00 AM – 10:00 PM",
+          "Saturday: 11:00 AM – 10:00 PM",
+          "Sunday: 11:00 AM – 9:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:16.687Z"
     },
     {
       "id": "ChIJPQIHUg-MVogR2tLBlY35AFk",
@@ -819,28 +888,44 @@
       "state": "SC",
       "category": "establishment",
       "address": "4811 Old York Rd Ste 101, Rock Hill, SC 29732, USA",
+      "phone": "(803) 328-6400",
+      "website": "https://www.charandamexicanrestaurant.com/",
       "googlePlaceId": "ChIJPQIHUg-MVogR2tLBlY35AFk",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJPQIHUg-MVogR2tLBlY35AFk",
+      "googleMapsUrl": "https://maps.google.com/?cid=6413400255873798874",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Charanda Of Newport\""
+        "npm run add:social -- \"Charanda Of Newport\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:17.844Z",
+      "duplicateReviewStatus": "possible_duplicate",
+      "duplicateReviewNotes": [
+        "Same website but different or missing address data. Recommended action: manual review needed."
+      ],
+      "duplicateGroupKey": "possible-website:charandamexicanrestaurant.com",
       "google": {
         "rating": 4.2,
         "reviewCount": 1174,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 11:00 AM – 10:00 PM",
+          "Tuesday: 11:00 AM – 10:00 PM",
+          "Wednesday: 11:00 AM – 10:00 PM",
+          "Thursday: 11:00 AM – 10:00 PM",
+          "Friday: 11:00 AM – 11:00 PM",
+          "Saturday: 11:00 AM – 10:30 PM",
+          "Sunday: 11:00 AM – 10:00 PM"
+        ]
       },
       "reviewNotes": [
         "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
@@ -848,7 +933,7 @@
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:17.844Z"
     },
     {
       "id": "ChIJS2WuvECGVogRS-vvY2xzElQ",
@@ -858,28 +943,44 @@
       "state": "SC",
       "category": "establishment",
       "address": "2260 Cross Pointe Dr #96, Rock Hill, SC 29730, USA",
+      "phone": "(803) 985-0809",
+      "website": "https://www.charandamexicanrestaurant.com/",
       "googlePlaceId": "ChIJS2WuvECGVogRS-vvY2xzElQ",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJS2WuvECGVogRS-vvY2xzElQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=6058031358137068363",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Charanda of Rock Hill\""
+        "npm run add:social -- \"Charanda of Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:19.033Z",
+      "duplicateReviewStatus": "possible_duplicate",
+      "duplicateReviewNotes": [
+        "Same website but different or missing address data. Recommended action: manual review needed."
+      ],
+      "duplicateGroupKey": "possible-website:charandamexicanrestaurant.com",
       "google": {
         "rating": 4.2,
-        "reviewCount": 1440,
-        "businessStatus": "OPERATIONAL"
+        "reviewCount": 1441,
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 11:00 AM – 10:00 PM",
+          "Tuesday: 11:00 AM – 10:00 PM",
+          "Wednesday: 11:00 AM – 10:00 PM",
+          "Thursday: 11:00 AM – 10:00 PM",
+          "Friday: 11:00 AM – 11:00 PM",
+          "Saturday: 11:00 AM – 11:00 PM",
+          "Sunday: 11:00 AM – 10:00 PM"
+        ]
       },
       "reviewNotes": [
         "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
@@ -887,7 +988,7 @@
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:19.033Z"
     },
     {
       "id": "ChIJvzn456CHVogRPrmt-ggKKhk",
@@ -897,28 +998,44 @@
       "state": "SC",
       "category": "establishment",
       "address": "2391 Dave Lyle Blvd, Rock Hill, SC 29730, USA",
+      "phone": "(803) 324-8483",
+      "website": "http://chexgrill.com/",
       "googlePlaceId": "ChIJvzn456CHVogRPrmt-ggKKhk",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJvzn456CHVogRPrmt-ggKKhk",
+      "googleMapsUrl": "https://maps.google.com/?cid=1813272833651751230",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Chex Grill & Wings\""
+        "npm run add:social -- \"Chex Grill & Wings\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:20.223Z",
+      "duplicateReviewStatus": "possible_duplicate",
+      "duplicateReviewNotes": [
+        "Same website but different or missing address data. Recommended action: manual review needed."
+      ],
+      "duplicateGroupKey": "possible-website:chexgrill.com",
       "google": {
         "rating": 4.9,
         "reviewCount": 734,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 10:00 AM – 10:00 PM",
+          "Tuesday: 10:00 AM – 10:00 PM",
+          "Wednesday: 10:00 AM – 10:00 PM",
+          "Thursday: 10:00 AM – 10:00 PM",
+          "Friday: 10:00 AM – 11:00 PM",
+          "Saturday: 10:00 AM – 11:00 PM",
+          "Sunday: 11:00 AM – 9:00 PM"
+        ]
       },
       "reviewNotes": [
         "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
@@ -926,7 +1043,7 @@
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:20.223Z"
     },
     {
       "id": "ChIJX0wt1bKPVogRVAW4B9smAeU",
@@ -936,28 +1053,44 @@
       "state": "SC",
       "category": "establishment",
       "address": "1912 Mt Gallant Rd Suite 106, Rock Hill, SC 29732, USA",
+      "phone": "(803) 326-5220",
+      "website": "http://chexgrill.com/",
       "googlePlaceId": "ChIJX0wt1bKPVogRVAW4B9smAeU",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJX0wt1bKPVogRVAW4B9smAeU",
+      "googleMapsUrl": "https://maps.google.com/?cid=16501513231831401812",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Chex Grill & Wings\""
+        "npm run add:social -- \"Chex Grill & Wings\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:21.377Z",
+      "duplicateReviewStatus": "possible_duplicate",
+      "duplicateReviewNotes": [
+        "Same website but different or missing address data. Recommended action: manual review needed."
+      ],
+      "duplicateGroupKey": "possible-website:chexgrill.com",
       "google": {
         "rating": 4.8,
-        "reviewCount": 541,
-        "businessStatus": "OPERATIONAL"
+        "reviewCount": 542,
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 10:00 AM – 10:00 PM",
+          "Tuesday: 10:00 AM – 10:00 PM",
+          "Wednesday: 10:00 AM – 10:00 PM",
+          "Thursday: 10:00 AM – 10:00 PM",
+          "Friday: 10:00 AM – 11:00 PM",
+          "Saturday: 10:00 AM – 11:00 PM",
+          "Sunday: 11:00 AM – 9:00 PM"
+        ]
       },
       "reviewNotes": [
         "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
@@ -965,7 +1098,7 @@
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:21.377Z"
     },
     {
       "id": "ChIJF8N1xjuJVogREnHwzCUYY9I",
@@ -975,34 +1108,47 @@
       "state": "SC",
       "category": "establishment",
       "address": "1726 Ebenezer Rd, Rock Hill, SC 29732, USA",
+      "phone": "(803) 366-8898",
+      "website": "http://chinasctogo.com/",
       "googlePlaceId": "ChIJF8N1xjuJVogREnHwzCUYY9I",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJF8N1xjuJVogREnHwzCUYY9I",
+      "googleMapsUrl": "https://maps.google.com/?cid=15159987321290387730",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"China\""
+        "npm run add:social -- \"China\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:22.538Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.7,
         "reviewCount": 235,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: Closed",
+          "Tuesday: 11:00 AM – 9:30 PM",
+          "Wednesday: 11:00 AM – 9:30 PM",
+          "Thursday: 11:00 AM – 9:30 PM",
+          "Friday: 11:00 AM – 9:30 PM",
+          "Saturday: 11:00 AM – 9:30 PM",
+          "Sunday: 12:00 – 9:30 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:22.538Z"
     },
     {
       "id": "ChIJY7K474mJVogR3MeEmWj1U7o",
@@ -1034,6 +1180,8 @@
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:03:21.659Z",
       "lastScoredAt": "2026-05-12T12:05:09.836Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 4,
@@ -1096,34 +1244,47 @@
       "state": "SC",
       "category": "establishment",
       "address": "1807 Cherry Rd, Rock Hill, SC 29732, USA",
+      "phone": "(803) 324-3433",
+      "website": "https://www.cicis.com/locations/sc-rock-hill-1807-cherry-rd?utm_source=google&utm_medium=local&utm_campaign=google-local",
       "googlePlaceId": "ChIJu3QAoreIVogR-wBcDGcJVcs",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJu3QAoreIVogR-wBcDGcJVcs",
+      "googleMapsUrl": "https://maps.google.com/?cid=14651627300913414395",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Cicis Pizza\""
+        "npm run add:social -- \"Cicis Pizza\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:23.741Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.5,
         "reviewCount": 1415,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 11:00 AM – 10:00 PM",
+          "Tuesday: 11:00 AM – 10:00 PM",
+          "Wednesday: 11:00 AM – 10:00 PM",
+          "Thursday: 11:00 AM – 10:00 PM",
+          "Friday: 11:00 AM – 10:00 PM",
+          "Saturday: 11:00 AM – 10:00 PM",
+          "Sunday: 11:00 AM – 10:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:23.741Z"
     },
     {
       "id": "ChIJo3Z_fACNVogRcLgorOviGjk",
@@ -1133,34 +1294,47 @@
       "state": "SC",
       "category": "establishment",
       "address": "5001 Old York Rd, Rock Hill, SC 29732, USA",
+      "phone": "(803) 659-3373",
+      "website": "https://www.citybbq.com/order",
       "googlePlaceId": "ChIJo3Z_fACNVogRcLgorOviGjk",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJo3Z_fACNVogRcLgorOviGjk",
+      "googleMapsUrl": "https://maps.google.com/?cid=4114850711389911152",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"City Barbeque\""
+        "npm run add:social -- \"City Barbeque\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T13:05:24.895Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 295,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 10:30 AM – 9:00 PM",
+          "Tuesday: 10:30 AM – 9:00 PM",
+          "Wednesday: 10:30 AM – 9:00 PM",
+          "Thursday: 10:30 AM – 9:00 PM",
+          "Friday: 10:30 AM – 10:00 PM",
+          "Saturday: 10:30 AM – 10:00 PM",
+          "Sunday: 10:30 AM – 9:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T13:05:24.895Z"
     },
     {
       "id": "ChIJBVEtXFSPVogRm94f00Go4a8",
@@ -1188,6 +1362,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Cook Out\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.9,
         "reviewCount": 3077,
@@ -1225,6 +1401,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Dank Burrito\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 307,
@@ -1262,6 +1440,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Delicacy Chinese Bistro\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 501,
@@ -1299,6 +1479,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Dragon Express\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.1,
         "reviewCount": 342,
@@ -1336,6 +1518,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Dutch Bros Coffee\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 80,
@@ -1373,6 +1557,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Eggs Up Grill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 948,
@@ -1410,6 +1596,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"El Cancun Mexican Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 1454,
@@ -1447,6 +1635,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"El Tapatio\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 542,
@@ -1484,6 +1674,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Elk Ave Tavern\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.9,
         "reviewCount": 362,
@@ -1521,6 +1713,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Elsie's at Kounter\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 36,
@@ -1558,6 +1752,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Empire Pizza Newport\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 1824,
@@ -1597,6 +1793,11 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Empire Pizza Rock Hill\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:empire-rock-hill",
       "google": {
         "rating": 4.3,
         "reviewCount": 1913,
@@ -1636,6 +1837,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Fiery Crab Juicy Seafood\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 1404,
@@ -1673,6 +1876,11 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"First Watch\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:first-watch",
       "google": {
         "rating": 4.5,
         "reviewCount": 456,
@@ -1712,6 +1920,11 @@
         "npm run score -- \"First Watch\"",
         "npm run report -- \"First Watch\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:first-watch",
       "google": {
         "rating": 4.5,
         "reviewCount": 1816,
@@ -1751,6 +1964,8 @@
         "npm run score -- \"Fish Market\"",
         "npm run report -- \"Fish Market\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 1500,
@@ -1790,6 +2005,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Flavor\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "businessStatus": "OPERATIONAL"
       },
@@ -1825,6 +2042,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Flora Coffee\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.9,
         "reviewCount": 81,
@@ -1862,6 +2081,8 @@
         "npm run score -- \"FM (Fortes Mill) Eatery\"",
         "npm run report -- \"FM (Fortes Mill) Eatery\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 258,
@@ -1901,6 +2122,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Ford’s Felt & Tavern\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 569,
@@ -1938,6 +2161,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Freddy's Frozen Custard & Steakburgers\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 1830,
@@ -1975,6 +2200,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Fresh Asian kitchen\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 177,
@@ -2012,6 +2239,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"FUJI JAPAN Japanese Steakhouse and Hibachi Grill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 1514,
@@ -2049,6 +2278,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Gardner's BBQ, Hash\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "businessStatus": "OPERATIONAL"
       },
@@ -2084,6 +2315,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Ginza Buffet of Rock Hill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.9,
         "reviewCount": 3091,
@@ -2121,6 +2354,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Golden China Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.4,
         "reviewCount": 244,
@@ -2158,6 +2393,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Grapevine - Riverwalk\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 356,
@@ -2195,6 +2432,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Happy City Cairo Cuisine Food Truck\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 32,
@@ -2232,6 +2471,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Hartland's Bar\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 1476,
@@ -2269,6 +2510,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Helen's Hot Chicken & Seafood Rock Hill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 566,
@@ -2306,6 +2549,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Hibachi Express\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4,
         "reviewCount": 302,
@@ -2343,6 +2588,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Hickory Tavern\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 1844,
@@ -2380,6 +2627,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Hobo's\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 1130,
@@ -2417,6 +2666,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Hoppin’ Rock Hill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 645,
@@ -2454,6 +2705,8 @@
         "npm run score -- \"Humble Cup Coffee Co.\"",
         "npm run report -- \"Humble Cup Coffee Co.\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 322,
@@ -2493,6 +2746,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Ichiro Rock Hill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4,
         "reviewCount": 678,
@@ -2530,6 +2785,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"IHOP\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 2525,
@@ -2567,6 +2824,8 @@
         "npm run score -- \"Inizio Pizza Napoletana\"",
         "npm run report -- \"Inizio Pizza Napoletana\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 502,
@@ -2606,6 +2865,8 @@
         "npm run score -- \"Italian Garden Restaurant\"",
         "npm run report -- \"Italian Garden Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 999,
@@ -2649,6 +2910,8 @@
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:03:36.423Z",
       "lastScoredAt": "2026-05-12T12:05:18.692Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 55,
@@ -2735,6 +2998,8 @@
         "npm run score -- \"Jennie Mae's Southern Cuisine, LLC | Catering Services\"",
         "npm run report -- \"Jennie Mae's Southern Cuisine, LLC | Catering Services\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4,
         "reviewCount": 33,
@@ -2775,6 +3040,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Jing Jing Chinese Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.8,
         "reviewCount": 857,
@@ -2812,6 +3079,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Junior Varsity\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 73,
@@ -2849,6 +3118,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"K.C's Little Kitchen\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 30,
@@ -2886,6 +3157,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"KAILO\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.9,
         "reviewCount": 13,
@@ -2923,6 +3196,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"KamKam Chicken\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 50,
@@ -2960,6 +3235,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Katana Kitchen of Rock Hill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 190,
@@ -2997,6 +3274,11 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Knowledge Perk Coffee Company\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:knowledge-perk-coffee",
       "google": {
         "rating": 4.7,
         "reviewCount": 406,
@@ -3036,6 +3318,11 @@
         "npm run score -- \"Knowledge Perk Coffee Company\"",
         "npm run report -- \"Knowledge Perk Coffee Company\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:knowledge-perk-coffee",
       "google": {
         "rating": 4.7,
         "reviewCount": 269,
@@ -3075,6 +3362,8 @@
         "npm run score -- \"KO-OP Kitchen\"",
         "npm run report -- \"KO-OP Kitchen\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 5,
         "reviewCount": 3,
@@ -3115,6 +3404,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Kobe Japanese Steak House\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 287,
@@ -3152,6 +3443,8 @@
         "npm run score -- \"Kobe Japanese Steakhouse Indian land\"",
         "npm run report -- \"Kobe Japanese Steakhouse Indian land\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 70,
@@ -3191,6 +3484,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Koda & Co Coffee\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 5,
         "reviewCount": 32,
@@ -3228,6 +3523,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Koizumi Express\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.8,
         "reviewCount": 239,
@@ -3265,6 +3562,8 @@
         "npm run score -- \"Konnichiwa\"",
         "npm run report -- \"Konnichiwa\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 683,
@@ -3304,6 +3603,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"KONNICHIWA ROCK HILL\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 73,
@@ -3343,6 +3644,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Kounter\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 793,
@@ -3380,6 +3683,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Krave 489\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 40,
@@ -3417,6 +3722,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Lake Wylie Brewing Co.- ROCK HILL\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 132,
@@ -3457,6 +3764,8 @@
         "npm run score -- \"Las Americas Supermarket\"",
         "npm run report -- \"Las Americas Supermarket\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 723,
@@ -3497,6 +3806,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Ledo Pizza\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 677,
@@ -3534,6 +3845,8 @@
         "npm run score -- \"Let's Crab\"",
         "npm run report -- \"Let's Crab\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 704,
@@ -3573,6 +3886,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Little Caesars Pizza\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.5,
         "reviewCount": 718,
@@ -3610,6 +3925,11 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Little Empire Pizza Rock Hill\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:empire-rock-hill",
       "google": {
         "rating": 4.2,
         "reviewCount": 69,
@@ -3647,6 +3967,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"LongHorn Steakhouse\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 3189,
@@ -3684,6 +4006,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Los Cantaritos\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 1197,
@@ -3721,6 +4045,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Luigi & Sons Now Rizzo Brothers\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 1199,
@@ -3760,6 +4086,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Marco's Pizza\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4,
         "reviewCount": 420,
@@ -3797,6 +4125,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Mario's Pizza & Italian Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 1125,
@@ -3834,6 +4164,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Mary's Cafe\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 873,
@@ -3871,6 +4203,8 @@
         "npm run score -- \"Maui Açai Food Truck\"",
         "npm run report -- \"Maui Açai Food Truck\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 73,
@@ -3910,6 +4244,8 @@
         "npm run score -- \"Middle James Brewing Company\"",
         "npm run report -- \"Middle James Brewing Company\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 484,
@@ -3949,6 +4285,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Mikado Sushi & Hibachi\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 97,
@@ -3986,6 +4324,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Millstone Pizza and Taphouse\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 1271,
@@ -4023,6 +4363,8 @@
         "npm run score -- \"Model A Brewing Co.\"",
         "npm run report -- \"Model A Brewing Co.\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 407,
@@ -4062,6 +4404,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Most Dope Coffee Company\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 5,
         "reviewCount": 22,
@@ -4099,6 +4443,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Mug & Maple\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 5,
         "reviewCount": 14,
@@ -4136,6 +4482,8 @@
         "npm run score -- \"Napoli's Pizzeria Tega Cay\"",
         "npm run report -- \"Napoli's Pizzeria Tega Cay\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 138,
@@ -4175,6 +4523,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Nash & Smashed - Walmart Super Center\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 29,
@@ -4212,6 +4562,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Neighborhoods Grill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.3,
         "reviewCount": 31,
@@ -4249,6 +4601,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Ninety's Dessert Bar\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 237,
@@ -4286,6 +4640,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Nishie G's\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 817,
@@ -4323,6 +4679,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"No 1 Kitchen\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.1,
         "reviewCount": 383,
@@ -4360,6 +4718,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Off The Tracks Brewing\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 141,
@@ -4397,6 +4757,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Old Town Kitchen & Cocktails\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 686,
@@ -4434,6 +4796,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Olive Garden Italian Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 3317,
@@ -4471,6 +4835,8 @@
         "npm run score -- \"Olive's Mud Puddle\"",
         "npm run report -- \"Olive's Mud Puddle\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 227,
@@ -4511,6 +4877,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Outsiders Tavern\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 122,
@@ -4548,6 +4916,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Ouzo's Pizza\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 585,
@@ -4585,6 +4955,8 @@
         "npm run score -- \"Paco’s Tacos & Tequila\"",
         "npm run report -- \"Paco’s Tacos & Tequila\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 246,
@@ -4624,6 +4996,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Palmetto Sports Bar\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.1,
         "reviewCount": 61,
@@ -4661,6 +5035,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Panda Express\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.8,
         "reviewCount": 132,
@@ -4698,6 +5074,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Papa Johns Pizza\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.1,
         "reviewCount": 234,
@@ -4735,6 +5113,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Pier 51\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 1681,
@@ -4772,6 +5152,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Pizza Hut\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.3,
         "reviewCount": 343,
@@ -4809,6 +5191,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Pop's Cafe\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 414,
@@ -4846,6 +5230,8 @@
         "npm run score -- \"Poppyseed Kitchen\"",
         "npm run report -- \"Poppyseed Kitchen\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 410,
@@ -4885,6 +5271,8 @@
         "npm run score -- \"Portofino’s Italian Restaurant Indian Land\"",
         "npm run report -- \"Portofino’s Italian Restaurant Indian Land\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 969,
@@ -4924,6 +5312,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Red Bowl Asian Bistro\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.1,
         "reviewCount": 1347,
@@ -4961,6 +5351,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Red's Grill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 496,
@@ -4998,6 +5390,8 @@
         "npm run score -- \"Replay Brewing\"",
         "npm run report -- \"Replay Brewing\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 253,
@@ -5037,6 +5431,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Rey Azteca\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 108,
@@ -5074,6 +5470,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Richie's Italian Bistro at Riverwalk\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 392,
@@ -5111,6 +5509,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Rock City Tavern\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.3,
         "reviewCount": 195,
@@ -5151,6 +5551,8 @@
       ],
       "lastGoogleEnrichedAt": "2026-05-12T12:05:00.735Z",
       "lastScoredAt": "2026-05-12T12:05:27.979Z",
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 145,
@@ -5240,6 +5642,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Rock Hill Coffee\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 242,
@@ -5277,6 +5681,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Rock Hill Diner\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 3386,
@@ -5314,6 +5720,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Rock Taco\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 148,
@@ -5351,6 +5759,8 @@
         "npm run score -- \"Royal Eats Wings and Potatoes\"",
         "npm run report -- \"Royal Eats Wings and Potatoes\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.9,
         "reviewCount": 14,
@@ -5391,6 +5801,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Sabores Hondumex\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 5,
         "reviewCount": 6,
@@ -5428,6 +5840,8 @@
         "npm run score -- \"Salmeri's Italian Kitchen\"",
         "npm run report -- \"Salmeri's Italian Kitchen\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 742,
@@ -5467,6 +5881,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Salsarita's Fresh Mexican Grill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 474,
@@ -5504,6 +5920,8 @@
         "npm run score -- \"Salt Water Seafood Market Inc\"",
         "npm run report -- \"Salt Water Seafood Market Inc\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 117,
@@ -5544,6 +5962,11 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Scooter's Coffee\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:scooter-s-coffee",
       "google": {
         "rating": 4.9,
         "reviewCount": 19,
@@ -5583,6 +6006,11 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Scooter's Coffee\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:scooter-s-coffee",
       "google": {
         "rating": 4.4,
         "reviewCount": 73,
@@ -5622,6 +6050,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Shane's Rib Shack\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4,
         "reviewCount": 795,
@@ -5659,6 +6089,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Shawkers Grill & Bar\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.1,
         "reviewCount": 929,
@@ -5696,6 +6128,11 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Shrimp Boat - Cherry Location\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:shrimp-boat-cherry-location",
       "google": {
         "rating": 3.9,
         "reviewCount": 1337,
@@ -5735,6 +6172,11 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Shrimp Boat - Heckle Location\""
       ],
+      "duplicateReviewStatus": "multi_location",
+      "duplicateReviewNotes": [
+        "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
+      ],
+      "duplicateGroupKey": "multi:shrimp-boat-cherry-location",
       "google": {
         "rating": 3.9,
         "reviewCount": 651,
@@ -5774,6 +6216,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Slow Play Brewing\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 274,
@@ -5811,6 +6255,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Sonny's BBQ\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 2848,
@@ -5848,6 +6294,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Sonny's Dutch Mill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 794,
@@ -5885,6 +6333,8 @@
         "npm run score -- \"Spice Asian Kitchen\"",
         "npm run report -- \"Spice Asian Kitchen\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 1011,
@@ -5924,6 +6374,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Steak 'n Shake\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.5,
         "reviewCount": 2709,
@@ -5961,6 +6413,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Sully's Steamers\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 92,
@@ -5998,6 +6452,8 @@
         "npm run score -- \"Sweet Caroline’s\"",
         "npm run report -- \"Sweet Caroline’s\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 838,
@@ -6037,6 +6493,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Taqueria Celeste\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4,
         "reviewCount": 50,
@@ -6074,6 +6532,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Taqueria El Manhattan Mexican Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.2,
         "reviewCount": 992,
@@ -6111,6 +6571,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Taqueria hidalguense\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 18,
@@ -6148,6 +6610,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Taqueria Juquila\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.8,
         "reviewCount": 52,
@@ -6185,6 +6649,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Taquerias Rosey\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.1,
         "reviewCount": 33,
@@ -6222,6 +6688,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Tattooed Brews\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 626,
@@ -6259,6 +6727,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Techno Café\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 67,
@@ -6298,6 +6768,8 @@
         "npm run score -- \"Tega Cay Coffee Co.\"",
         "npm run report -- \"Tega Cay Coffee Co.\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.7,
         "reviewCount": 247,
@@ -6337,6 +6809,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Tex Mex bar & Grill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 785,
@@ -6374,6 +6848,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"The Dixie Pig Rock Hill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 2097,
@@ -6411,6 +6887,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"The Flipside Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.5,
         "reviewCount": 1977,
@@ -6448,6 +6926,8 @@
         "npm run score -- \"The Improper Pig @ Fort Mill\"",
         "npm run report -- \"The Improper Pig @ Fort Mill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 976,
@@ -6487,6 +6967,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"The Journeyman Tavern\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 292,
@@ -6524,6 +7006,8 @@
         "npm run score -- \"The Mercantile by Copper Dwelling & Design\"",
         "npm run report -- \"The Mercantile by Copper Dwelling & Design\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 377,
@@ -6564,6 +7048,8 @@
         "npm run score -- \"The Power House - Luxury Living, Entertainment, Events and Restaurants\"",
         "npm run report -- \"The Power House - Luxury Living, Entertainment, Events and Restaurants\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 56,
@@ -6603,6 +7089,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"The Pump House\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 4366,
@@ -6640,6 +7128,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Time Out\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 183,
@@ -6677,6 +7167,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"TJ's Family Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 1155,
@@ -6714,6 +7206,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Tokyo Japan Hibachi Grill, Sushi, Ramen & Japanese Steakhouse\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 102,
@@ -6751,6 +7245,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Tony's Cantina Mexican Grill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.4,
         "reviewCount": 513,
@@ -6788,6 +7284,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Towne Tavern at Rock Hill\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.1,
         "reviewCount": 1318,
@@ -6825,6 +7323,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Twisted Eats Food Truck\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.9,
         "reviewCount": 15,
@@ -6862,6 +7362,8 @@
         "npm run score -- \"Vinny's Taste Of Italy Restaurant\"",
         "npm run report -- \"Vinny's Taste Of Italy Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.6,
         "reviewCount": 277,
@@ -6901,6 +7403,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Wingbonz\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 3.9,
         "reviewCount": 976,
@@ -6938,6 +7442,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"Wingwah Chinese Restaurant\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4,
         "reviewCount": 288,
@@ -6975,6 +7481,8 @@
       "suggestedCommands": [
         "npm run enrich:google -- \"YHWH Latte\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 5,
         "reviewCount": 4,
@@ -7012,6 +7520,8 @@
         "npm run score -- \"Yoshi Ramen\"",
         "npm run report -- \"Yoshi Ramen\""
       ],
+      "duplicateReviewStatus": "unique",
+      "duplicateReviewNotes": [],
       "google": {
         "rating": 4.9,
         "reviewCount": 1143,
