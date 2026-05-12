@@ -50,6 +50,10 @@ function hasGoogleDetailEnrichment(restaurant: RestaurantProfile): boolean {
   );
 }
 
+function hasGoogleCoverage(restaurant: RestaurantProfile): boolean {
+  return hasGoogleSeedData(restaurant) || hasGoogleDetailEnrichment(restaurant);
+}
+
 function hasVerifiedStatus(value: SocialProfileVerificationStatus): boolean {
   return value === "verified";
 }
@@ -89,7 +93,7 @@ function buildMissingData(restaurant: RestaurantProfile): string[] {
     return missing;
   }
 
-  if (!hasGoogleDetailEnrichment(restaurant)) {
+  if (!hasGoogleCoverage(restaurant)) {
     missing.push("google enrichment");
   }
 
@@ -233,7 +237,7 @@ export function getWorkflowStage(restaurant: RestaurantProfile): WorkflowStage {
     return "social_review_needed";
   }
 
-  if (hasGoogleDetailEnrichment(restaurant) || restaurant.pipelineStage === "enriched") {
+  if (hasGoogleCoverage(restaurant) || restaurant.pipelineStage === "enriched") {
     return "google_enriched";
   }
 
@@ -245,7 +249,7 @@ export function getNextRecommendedAction(restaurant: RestaurantProfile): Workflo
     return "Complete for MVP";
   }
 
-  if (!hasGoogleDetailEnrichment(restaurant)) {
+  if (!hasGoogleCoverage(restaurant)) {
     return "Needs Google enrichment";
   }
 
@@ -275,7 +279,7 @@ export function getNextRecommendedAction(restaurant: RestaurantProfile): Workflo
 export function getWorkflowSnapshot(restaurant: RestaurantProfile): WorkflowSnapshot {
   const readyForReport = Boolean(
     isIncludedRestaurant(restaurant) &&
-      hasGoogleDetailEnrichment(restaurant) &&
+      hasGoogleCoverage(restaurant) &&
       hasScore(restaurant) &&
       hasSocialReviewCoverage(restaurant) &&
       (!hasVerifiedSocialLink(restaurant, "instagram") || (restaurant.instagram?.recentPosts?.length ?? 0) > 0) &&
@@ -346,7 +350,7 @@ export function findWorkflowInconsistencies(restaurant: RestaurantProfile): stri
     issues.push("Facebook marked verified but facebookUrl is missing.");
   }
 
-  if (isIncludedRestaurant(restaurant) && hasScore(restaurant) && !hasGoogleDetailEnrichment(restaurant)) {
+  if (isIncludedRestaurant(restaurant) && hasScore(restaurant) && !hasGoogleCoverage(restaurant)) {
     issues.push("Scoring exists before Google detail enrichment was completed.");
   }
 

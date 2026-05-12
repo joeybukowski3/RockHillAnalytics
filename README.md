@@ -193,6 +193,13 @@ Review likely duplicates while preserving legitimate multi-location restaurants:
 npm run review:duplicates
 ```
 
+Reconcile workflow metadata from the current restaurant data:
+
+```powershell
+npm run reconcile:workflow -- --dry-run
+npm run reconcile:workflow -- --confirm
+```
+
 Preview the next controlled Google enrichment batch:
 
 ```powershell
@@ -274,6 +281,13 @@ Duplicate review notes:
 - If restaurants have different Google Place IDs, addresses, phone numbers, or clearly separate locations, they should usually remain separate records.
 - Multi-location businesses should keep location-specific records so each location can retain its own Google reviews, social links, scores, and future report path.
 - `npm run review:duplicates` flags records as `exact_duplicate`, `possible_duplicate`, `multi_location`, or `unique` without deleting or merging anything automatically.
+
+Workflow reconciliation notes:
+
+- `npm run reconcile:workflow -- --dry-run` recalculates workflow stage metadata without writing changes.
+- `npm run reconcile:workflow -- --confirm` writes the recalculated workflow metadata back to `data/restaurants.seed.json`.
+- Excluded and closed records are left untouched unless their metadata is already clearly invalid.
+- Use reconciliation when the dashboard or workflow funnel drifts from the current restaurant data after batch enrichment runs.
 
 Dashboard review flow:
 

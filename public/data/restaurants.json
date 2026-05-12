@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-12T13:15:15.294Z",
+  "exportedAt": "2026-05-12T14:47:41.231Z",
   "totalRestaurants": 179,
   "restaurants": [
     {
@@ -908,11 +908,11 @@
         "npm run add:social -- \"Charanda Of Newport\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T13:05:17.844Z",
-      "duplicateReviewStatus": "possible_duplicate",
+      "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
-        "Same website but different or missing address data. Recommended action: manual review needed."
+        "Same website and brand name, but different address and different Google Place IDs indicate separate locations. Recommended action: keep separate location-specific records."
       ],
-      "duplicateGroupKey": "possible-website:charandamexicanrestaurant.com",
+      "duplicateGroupKey": "multi:charanda-of-newport",
       "google": {
         "rating": 4.2,
         "reviewCount": 1174,
@@ -963,11 +963,11 @@
         "npm run add:social -- \"Charanda of Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T13:05:19.033Z",
-      "duplicateReviewStatus": "possible_duplicate",
+      "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
-        "Same website but different or missing address data. Recommended action: manual review needed."
+        "Same website and brand name, but different address and different Google Place IDs indicate separate locations. Recommended action: keep separate location-specific records."
       ],
-      "duplicateGroupKey": "possible-website:charandamexicanrestaurant.com",
+      "duplicateGroupKey": "multi:charanda-of-newport",
       "google": {
         "rating": 4.2,
         "reviewCount": 1441,
@@ -1018,11 +1018,11 @@
         "npm run add:social -- \"Chex Grill & Wings\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T13:05:20.223Z",
-      "duplicateReviewStatus": "possible_duplicate",
+      "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
-        "Same website but different or missing address data. Recommended action: manual review needed."
+        "Same website and brand name, but different address and different Google Place IDs indicate separate locations. Recommended action: keep separate location-specific records."
       ],
-      "duplicateGroupKey": "possible-website:chexgrill.com",
+      "duplicateGroupKey": "multi:chex-wings",
       "google": {
         "rating": 4.9,
         "reviewCount": 734,
@@ -1073,11 +1073,11 @@
         "npm run add:social -- \"Chex Grill & Wings\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "lastGoogleEnrichedAt": "2026-05-12T13:05:21.377Z",
-      "duplicateReviewStatus": "possible_duplicate",
+      "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
-        "Same website but different or missing address data. Recommended action: manual review needed."
+        "Same website and brand name, but different address and different Google Place IDs indicate separate locations. Recommended action: keep separate location-specific records."
       ],
-      "duplicateGroupKey": "possible-website:chexgrill.com",
+      "duplicateGroupKey": "multi:chex-wings",
       "google": {
         "rating": 4.8,
         "reviewCount": 542,
@@ -1349,18 +1349,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Cook Out\""
+        "npm run add:social -- \"Cook Out\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1388,18 +1387,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Dank Burrito\""
+        "npm run add:social -- \"Dank Burrito\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1427,18 +1425,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Delicacy Chinese Bistro\""
+        "npm run add:social -- \"Delicacy Chinese Bistro\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1466,18 +1463,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Dragon Express\""
+        "npm run add:social -- \"Dragon Express\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1505,18 +1501,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Dutch Bros Coffee\""
+        "npm run add:social -- \"Dutch Bros Coffee\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1544,18 +1539,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Eggs Up Grill\""
+        "npm run add:social -- \"Eggs Up Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1583,18 +1577,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"El Cancun Mexican Restaurant\""
+        "npm run add:social -- \"El Cancun Mexican Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1622,18 +1615,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"El Tapatio\""
+        "npm run add:social -- \"El Tapatio\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1661,18 +1653,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Elk Ave Tavern\""
+        "npm run add:social -- \"Elk Ave Tavern\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1700,18 +1691,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Elsie's at Kounter\""
+        "npm run add:social -- \"Elsie's at Kounter\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1739,18 +1729,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Empire Pizza Newport\""
+        "npm run add:social -- \"Empire Pizza Newport\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1780,18 +1769,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Empire Pizza Rock Hill\""
+        "npm run add:social -- \"Empire Pizza Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
@@ -1824,18 +1812,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Fiery Crab Juicy Seafood\""
+        "npm run add:social -- \"Fiery Crab Juicy Seafood\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -1863,18 +1850,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"First Watch\""
+        "npm run add:social -- \"First Watch\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
@@ -1992,18 +1978,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Flavor\""
+        "npm run add:social -- \"Flavor\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2029,18 +2014,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Flora Coffee\""
+        "npm run add:social -- \"Flora Coffee\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2109,18 +2093,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Ford’s Felt & Tavern\""
+        "npm run add:social -- \"Ford’s Felt & Tavern\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2148,18 +2131,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Freddy's Frozen Custard & Steakburgers\""
+        "npm run add:social -- \"Freddy's Frozen Custard & Steakburgers\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2187,18 +2169,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Fresh Asian kitchen\""
+        "npm run add:social -- \"Fresh Asian kitchen\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2226,18 +2207,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"FUJI JAPAN Japanese Steakhouse and Hibachi Grill\""
+        "npm run add:social -- \"FUJI JAPAN Japanese Steakhouse and Hibachi Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2265,18 +2245,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Gardner's BBQ, Hash\""
+        "npm run add:social -- \"Gardner's BBQ, Hash\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2302,18 +2281,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Ginza Buffet of Rock Hill\""
+        "npm run add:social -- \"Ginza Buffet of Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2341,18 +2319,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Golden China Restaurant\""
+        "npm run add:social -- \"Golden China Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2380,18 +2357,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Grapevine - Riverwalk\""
+        "npm run add:social -- \"Grapevine - Riverwalk\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2419,18 +2395,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Happy City Cairo Cuisine Food Truck\""
+        "npm run add:social -- \"Happy City Cairo Cuisine Food Truck\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2458,18 +2433,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Hartland's Bar\""
+        "npm run add:social -- \"Hartland's Bar\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2497,18 +2471,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Helen's Hot Chicken & Seafood Rock Hill\""
+        "npm run add:social -- \"Helen's Hot Chicken & Seafood Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2536,18 +2509,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Hibachi Express\""
+        "npm run add:social -- \"Hibachi Express\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2575,18 +2547,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Hickory Tavern\""
+        "npm run add:social -- \"Hickory Tavern\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2614,18 +2585,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Hobo's\""
+        "npm run add:social -- \"Hobo's\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2653,18 +2623,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Hoppin’ Rock Hill\""
+        "npm run add:social -- \"Hoppin’ Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2733,18 +2702,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Ichiro Rock Hill\""
+        "npm run add:social -- \"Ichiro Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -2772,18 +2740,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"IHOP\""
+        "npm run add:social -- \"IHOP\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3027,18 +2994,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Jing Jing Chinese Restaurant\""
+        "npm run add:social -- \"Jing Jing Chinese Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3066,18 +3032,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Junior Varsity\""
+        "npm run add:social -- \"Junior Varsity\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3105,18 +3070,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"K.C's Little Kitchen\""
+        "npm run add:social -- \"K.C's Little Kitchen\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3144,18 +3108,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"KAILO\""
+        "npm run add:social -- \"KAILO\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3183,18 +3146,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"KamKam Chicken\""
+        "npm run add:social -- \"KamKam Chicken\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3222,18 +3184,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Katana Kitchen of Rock Hill\""
+        "npm run add:social -- \"Katana Kitchen of Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3261,18 +3222,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Knowledge Perk Coffee Company\""
+        "npm run add:social -- \"Knowledge Perk Coffee Company\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
@@ -3391,18 +3351,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Kobe Japanese Steak House\""
+        "npm run add:social -- \"Kobe Japanese Steak House\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3471,18 +3430,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Koda & Co Coffee\""
+        "npm run add:social -- \"Koda & Co Coffee\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3510,18 +3468,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Koizumi Express\""
+        "npm run add:social -- \"Koizumi Express\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3590,18 +3547,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"KONNICHIWA ROCK HILL\""
+        "npm run add:social -- \"KONNICHIWA ROCK HILL\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3631,18 +3587,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Kounter\""
+        "npm run add:social -- \"Kounter\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3670,18 +3625,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Krave 489\""
+        "npm run add:social -- \"Krave 489\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3709,18 +3663,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Lake Wylie Brewing Co.- ROCK HILL\""
+        "npm run add:social -- \"Lake Wylie Brewing Co.- ROCK HILL\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3793,18 +3746,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Ledo Pizza\""
+        "npm run add:social -- \"Ledo Pizza\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3873,18 +3825,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Little Caesars Pizza\""
+        "npm run add:social -- \"Little Caesars Pizza\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3912,18 +3863,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Little Empire Pizza Rock Hill\""
+        "npm run add:social -- \"Little Empire Pizza Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
@@ -3954,18 +3904,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"LongHorn Steakhouse\""
+        "npm run add:social -- \"LongHorn Steakhouse\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -3993,18 +3942,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Los Cantaritos\""
+        "npm run add:social -- \"Los Cantaritos\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4032,18 +3980,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Luigi & Sons Now Rizzo Brothers\""
+        "npm run add:social -- \"Luigi & Sons Now Rizzo Brothers\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4073,18 +4020,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Marco's Pizza\""
+        "npm run add:social -- \"Marco's Pizza\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4112,18 +4058,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Mario's Pizza & Italian Restaurant\""
+        "npm run add:social -- \"Mario's Pizza & Italian Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4151,18 +4096,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Mary's Cafe\""
+        "npm run add:social -- \"Mary's Cafe\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4272,18 +4216,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Mikado Sushi & Hibachi\""
+        "npm run add:social -- \"Mikado Sushi & Hibachi\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4311,18 +4254,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Millstone Pizza and Taphouse\""
+        "npm run add:social -- \"Millstone Pizza and Taphouse\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4391,18 +4333,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Most Dope Coffee Company\""
+        "npm run add:social -- \"Most Dope Coffee Company\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4430,18 +4371,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Mug & Maple\""
+        "npm run add:social -- \"Mug & Maple\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4510,18 +4450,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Nash & Smashed - Walmart Super Center\""
+        "npm run add:social -- \"Nash & Smashed - Walmart Super Center\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4549,18 +4488,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Neighborhoods Grill\""
+        "npm run add:social -- \"Neighborhoods Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4588,18 +4526,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Ninety's Dessert Bar\""
+        "npm run add:social -- \"Ninety's Dessert Bar\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4627,18 +4564,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Nishie G's\""
+        "npm run add:social -- \"Nishie G's\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4666,18 +4602,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"No 1 Kitchen\""
+        "npm run add:social -- \"No 1 Kitchen\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4705,18 +4640,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Off The Tracks Brewing\""
+        "npm run add:social -- \"Off The Tracks Brewing\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4744,18 +4678,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Old Town Kitchen & Cocktails\""
+        "npm run add:social -- \"Old Town Kitchen & Cocktails\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4783,18 +4716,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Olive Garden Italian Restaurant\""
+        "npm run add:social -- \"Olive Garden Italian Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4864,18 +4796,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Outsiders Tavern\""
+        "npm run add:social -- \"Outsiders Tavern\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4903,18 +4834,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Ouzo's Pizza\""
+        "npm run add:social -- \"Ouzo's Pizza\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -4983,18 +4913,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Palmetto Sports Bar\""
+        "npm run add:social -- \"Palmetto Sports Bar\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5022,18 +4951,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Panda Express\""
+        "npm run add:social -- \"Panda Express\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5061,18 +4989,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Papa Johns Pizza\""
+        "npm run add:social -- \"Papa Johns Pizza\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5100,18 +5027,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Pier 51\""
+        "npm run add:social -- \"Pier 51\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5139,18 +5065,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Pizza Hut\""
+        "npm run add:social -- \"Pizza Hut\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5178,18 +5103,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Pop's Cafe\""
+        "npm run add:social -- \"Pop's Cafe\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5299,18 +5223,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Red Bowl Asian Bistro\""
+        "npm run add:social -- \"Red Bowl Asian Bistro\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5338,18 +5261,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Red's Grill\""
+        "npm run add:social -- \"Red's Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5418,18 +5340,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Rey Azteca\""
+        "npm run add:social -- \"Rey Azteca\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5457,18 +5378,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Richie's Italian Bistro at Riverwalk\""
+        "npm run add:social -- \"Richie's Italian Bistro at Riverwalk\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5496,18 +5416,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Rock City Tavern\""
+        "npm run add:social -- \"Rock City Tavern\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5629,18 +5548,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Rock Hill Coffee\""
+        "npm run add:social -- \"Rock Hill Coffee\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5668,18 +5586,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Rock Hill Diner\""
+        "npm run add:social -- \"Rock Hill Diner\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5707,18 +5624,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Rock Taco\""
+        "npm run add:social -- \"Rock Taco\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5788,18 +5704,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Sabores Hondumex\""
+        "npm run add:social -- \"Sabores Hondumex\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5868,18 +5783,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Salsarita's Fresh Mexican Grill\""
+        "npm run add:social -- \"Salsarita's Fresh Mexican Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -5949,18 +5863,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Scooter's Coffee\""
+        "npm run add:social -- \"Scooter's Coffee\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
@@ -5993,18 +5906,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Scooter's Coffee\""
+        "npm run add:social -- \"Scooter's Coffee\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
@@ -6037,18 +5949,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Shane's Rib Shack\""
+        "npm run add:social -- \"Shane's Rib Shack\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6076,18 +5987,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Shawkers Grill & Bar\""
+        "npm run add:social -- \"Shawkers Grill & Bar\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6115,18 +6025,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Shrimp Boat - Cherry Location\""
+        "npm run add:social -- \"Shrimp Boat - Cherry Location\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
@@ -6159,18 +6068,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Shrimp Boat - Heckle Location\""
+        "npm run add:social -- \"Shrimp Boat - Heckle Location\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "multi_location",
       "duplicateReviewNotes": [
@@ -6203,18 +6111,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Slow Play Brewing\""
+        "npm run add:social -- \"Slow Play Brewing\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6242,18 +6149,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Sonny's BBQ\""
+        "npm run add:social -- \"Sonny's BBQ\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6281,18 +6187,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Sonny's Dutch Mill\""
+        "npm run add:social -- \"Sonny's Dutch Mill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6361,18 +6266,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Steak 'n Shake\""
+        "npm run add:social -- \"Steak 'n Shake\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6400,18 +6304,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Sully's Steamers\""
+        "npm run add:social -- \"Sully's Steamers\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6480,18 +6383,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Taqueria Celeste\""
+        "npm run add:social -- \"Taqueria Celeste\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6519,18 +6421,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Taqueria El Manhattan Mexican Restaurant\""
+        "npm run add:social -- \"Taqueria El Manhattan Mexican Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6558,18 +6459,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Taqueria hidalguense\""
+        "npm run add:social -- \"Taqueria hidalguense\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6597,18 +6497,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Taqueria Juquila\""
+        "npm run add:social -- \"Taqueria Juquila\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6636,18 +6535,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Taquerias Rosey\""
+        "npm run add:social -- \"Taquerias Rosey\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6675,18 +6573,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Tattooed Brews\""
+        "npm run add:social -- \"Tattooed Brews\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6714,18 +6611,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Techno Café\""
+        "npm run add:social -- \"Techno Café\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6796,18 +6692,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Tex Mex bar & Grill\""
+        "npm run add:social -- \"Tex Mex bar & Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6835,18 +6730,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"The Dixie Pig Rock Hill\""
+        "npm run add:social -- \"The Dixie Pig Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6874,18 +6768,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"The Flipside Restaurant\""
+        "npm run add:social -- \"The Flipside Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -6954,18 +6847,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"The Journeyman Tavern\""
+        "npm run add:social -- \"The Journeyman Tavern\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7076,18 +6968,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"The Pump House\""
+        "npm run add:social -- \"The Pump House\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7115,18 +7006,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Time Out\""
+        "npm run add:social -- \"Time Out\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7154,18 +7044,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"TJ's Family Restaurant\""
+        "npm run add:social -- \"TJ's Family Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7193,18 +7082,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Tokyo Japan Hibachi Grill, Sushi, Ramen & Japanese Steakhouse\""
+        "npm run add:social -- \"Tokyo Japan Hibachi Grill, Sushi, Ramen & Japanese Steakhouse\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7232,18 +7120,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Tony's Cantina Mexican Grill\""
+        "npm run add:social -- \"Tony's Cantina Mexican Grill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7271,18 +7158,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Towne Tavern at Rock Hill\""
+        "npm run add:social -- \"Towne Tavern at Rock Hill\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7310,18 +7196,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Twisted Eats Food Truck\""
+        "npm run add:social -- \"Twisted Eats Food Truck\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7390,18 +7275,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Wingbonz\""
+        "npm run add:social -- \"Wingbonz\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7429,18 +7313,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Wingwah Chinese Restaurant\""
+        "npm run add:social -- \"Wingwah Chinese Restaurant\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],
@@ -7468,18 +7351,17 @@
       "reviewStatus": "included",
       "pipelineStage": "seeded",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
       "dataCompletenessScore": 20,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"YHWH Latte\""
+        "npm run add:social -- \"YHWH Latte\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
       "duplicateReviewStatus": "unique",
       "duplicateReviewNotes": [],

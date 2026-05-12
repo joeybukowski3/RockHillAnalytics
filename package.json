@@ -18,6 +18,7 @@
     "review:workflow": "tsx scripts/11-review-workflow.ts",
     "batch:google": "tsx scripts/12-batch-enrich-google.ts",
     "review:duplicates": "tsx scripts/13-review-duplicates.ts",
+    "reconcile:workflow": "tsx scripts/14-reconcile-workflow.ts",
     "dev": "vite --config vite.config.ts",
     "build": "vite build --config vite.config.ts",
     "preview": "vite preview --config vite.config.ts",
