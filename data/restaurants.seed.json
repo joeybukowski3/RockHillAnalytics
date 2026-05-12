@@ -1217,7 +1217,7 @@
     "category": "establishment",
     "address": "125 Elk Ave, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJY7K474mJVogR3MeEmWj1U7o",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY7K474mJVogR3MeEmWj1U7o",
+    "googleMapsUrl": "https://maps.google.com/?cid=13426344743722600412",
     "status": "included",
     "google": {
       "rating": 4.5,
@@ -1228,7 +1228,43 @@
         "food",
         "point_of_interest"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY7K474mJVogR3MeEmWj1U7o"
+      "mapsUrl": "https://maps.google.com/?cid=13426344743722600412",
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\cibi-cibi-details.json",
+      "reviews": [
+        {
+          "authorName": "K",
+          "rating": 5,
+          "text": "",
+          "relativeTimeDescription": "a year ago",
+          "publishedAt": "2024-06-07T00:22:26.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Alex van Vierssen",
+          "rating": 3,
+          "text": "The food is great but took a while to get our food.. Expect to wait longer than they tell you",
+          "relativeTimeDescription": "2 years ago",
+          "publishedAt": "2024-04-26T00:00:06.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Alyssa",
+          "rating": 5,
+          "text": "Cibi! Cibi! is the BEST food truck. Period. I would rather have this than a fancy meal any day.\n\nThe Chomp Swaddle (think a much elevated, fresher version of Taco Bell’s Crunchwrap Supreme) is my favorite meal ever. So fresh and flavorful!\n\nThe Burger is one of the very best around. Be sure to get extra burger sauce - it’s amazing!\n\nNapa Cabbage Chop Salad is one of the best salads I’ve had. Unexpected ingredients which make it stellar!",
+          "relativeTimeDescription": "2 years ago",
+          "publishedAt": "2024-04-20T15:22:01.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Lindsay Nickalo",
+          "rating": 5,
+          "text": "Always good food! Burgers are some of the best in town!\nThis is a food truck parked outside of Hoppin' Rock Hill.",
+          "relativeTimeDescription": "2 years ago",
+          "publishedAt": "2024-03-23T15:47:10.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:03:21.659Z"
     },
     "insights": {
       "strengths": [],
@@ -1236,7 +1272,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-12T09:56:55.983Z",
+    "updatedAt": "2026-05-12T12:05:09.836Z",
     "sourceQueries": [
       "food trucks in Rock Hill SC"
     ],
@@ -1245,7 +1281,7 @@
       "Public listings show Cibi! Cibi! operating in Rock Hill as a restaurant/food-truck concept at 274 Columbia Ave."
     ],
     "pipelineStage": "reported",
-    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
+    "lastVerifiedAt": "2026-05-12T12:05:09.836Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "enriched",
     "facebookUrl": "https://www.facebook.com/cibicibifoodtruck/",
@@ -1565,16 +1601,20 @@
         "No social profile found is treated as a marketing opportunity rather than a data failure.",
         "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
       ],
-      "calculatedAt": "2026-05-12T09:56:55.981Z"
+      "calculatedAt": "2026-05-12T12:05:09.835Z"
     },
     "workflowStage": "report_generated",
     "workflowNotes": [
       "Current stage: report_generated.",
-      "Next action: Needs Google enrichment.",
-      "Record still has workflow gaps before final reporting."
+      "Next action: Complete for MVP.",
+      "Record has enough structured data to generate a final report later."
     ],
-    "readyForReport": false,
-    "dataCompletenessScore": 85
+    "readyForReport": true,
+    "dataCompletenessScore": 100,
+    "phone": "(803) 524-8716",
+    "website": "https://order.online/business/cibi-cibi-food-truck-203037",
+    "lastGoogleEnrichedAt": "2026-05-12T12:03:21.659Z",
+    "lastScoredAt": "2026-05-12T12:05:09.836Z"
   },
   {
     "id": "ChIJu3QAoreIVogR-wBcDGcJVcs",
@@ -3591,7 +3631,7 @@
     "category": "bakery",
     "address": "153 E White St Unit B, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ4T1q0XCJVogREyJh-jZljuk",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4T1q0XCJVogREyJh-jZljuk",
+    "googleMapsUrl": "https://maps.google.com/?cid=16829500144333431315",
     "status": "included",
     "google": {
       "rating": 4.8,
@@ -3608,7 +3648,60 @@
         "point_of_interest",
         "store"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4T1q0XCJVogREyJh-jZljuk"
+      "mapsUrl": "https://maps.google.com/?cid=16829500144333431315",
+      "openingHours": [
+        "Monday: 8:00 AM – 8:00 PM",
+        "Tuesday: 8:00 AM – 6:00 PM",
+        "Wednesday: 8:00 AM – 6:00 PM",
+        "Thursday: 8:00 AM – 7:00 PM",
+        "Friday: 8:00 AM – 7:00 PM",
+        "Saturday: 9:00 AM – 7:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\jackass-caf-wine-bar-details.json",
+      "reviews": [
+        {
+          "authorName": "Zayda Kimbrell",
+          "rating": 5,
+          "text": "So cute and the bagel was delicious! They gave great recommendations for coffee for my first time too!",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-25T20:55:09.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Jill Dawson",
+          "rating": 4,
+          "text": "",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-22T16:40:14.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Maureen Davis",
+          "rating": 4,
+          "text": "Very nice place to gather with food and drinks. Great place for group activities such as hat bar, candle and soap making. Cute gifts and crafts.",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-03-22T10:17:31.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Melanie Hossler",
+          "rating": 5,
+          "text": "I met my Daughter in Law here for a girls day out and had THE most AMAZING day! I purchased a fast pass for two and it was fabulous! Their DIY bars where you can make your own candles, soaps, soups, spice mixes, flower arrangements, and way more, were SO MUCH FUN!  They also now have a “Match Bar” where you can pick 50 matches (various colors) and a container, was really cool! Their employees are super friendly and helpful!\nThe food and coffee was fabulous! The barista was great!\nI had the toasted cheese sandwich with Tomato bisque soup. Delicious!  My daughter in law had the Build Your Own sandwich on an everything bagel. Fresh mozzarella cheese, delicious ham, and she said the bagel tasted homemade!\nThis is absolutely a Must Do if you go to Rock Hill!\nSorry, I didn’t take photos of the food.",
+          "relativeTimeDescription": "3 months ago",
+          "publishedAt": "2026-02-08T15:01:58.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Linda Bauer",
+          "rating": 3,
+          "text": "",
+          "relativeTimeDescription": "3 months ago",
+          "publishedAt": "2026-01-28T17:06:45.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:03:36.423Z"
     },
     "insights": {
       "strengths": [],
@@ -3616,7 +3709,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T20:19:05.280Z",
+    "updatedAt": "2026-05-12T12:05:18.692Z",
     "sourceQueries": [
       "coffee shops in Rock Hill SC",
       "bars in Rock Hill SC"
@@ -3626,7 +3719,7 @@
       "Official Mercantile pages describe this as a public coffee shop and wine bar in downtown Rock Hill."
     ],
     "pipelineStage": "reported",
-    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
+    "lastVerifiedAt": "2026-05-12T12:05:18.692Z",
     "reviewStatus": "included",
     "facebookUrl": "https://www.facebook.com/jackasscafe/",
     "instagramUrl": "https://www.instagram.com/jackasscafe/",
@@ -3953,17 +4046,21 @@
         "No social profile found is treated as a marketing opportunity rather than a data failure.",
         "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
       ],
-      "calculatedAt": "2026-05-11T20:19:05.279Z"
+      "calculatedAt": "2026-05-12T12:05:18.690Z"
     },
     "socialEnrichmentStatus": "enriched",
     "workflowStage": "report_generated",
     "workflowNotes": [
       "Current stage: report_generated.",
-      "Next action: Needs Google enrichment.",
-      "Record still has workflow gaps before final reporting."
+      "Next action: Complete for MVP.",
+      "Record has enough structured data to generate a final report later."
     ],
-    "readyForReport": false,
-    "dataCompletenessScore": 85
+    "readyForReport": true,
+    "dataCompletenessScore": 100,
+    "phone": "(803) 366-6372",
+    "website": "https://cdmercantile.com/jackass-cafe/",
+    "lastGoogleEnrichedAt": "2026-05-12T12:03:36.423Z",
+    "lastScoredAt": "2026-05-12T12:05:18.692Z"
   },
   {
     "id": "ChIJp_lRg_2HVogRljE-FSxsKSE",
@@ -7127,7 +7224,7 @@
     "category": "establishment",
     "address": "121 Caldwell St STE 101, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJVVUlClaIVogRO4VaoaEWm_k",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVVUlClaIVogRO4VaoaEWm_k",
+    "googleMapsUrl": "https://maps.google.com/?cid=17985994420286817595",
     "status": "included",
     "google": {
       "rating": 4.7,
@@ -7138,7 +7235,60 @@
         "food",
         "point_of_interest"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVVUlClaIVogRO4VaoaEWm_k"
+      "mapsUrl": "https://maps.google.com/?cid=17985994420286817595",
+      "openingHours": [
+        "Monday: Closed",
+        "Tuesday: 4:00 – 9:00 PM",
+        "Wednesday: 4:00 – 9:00 PM",
+        "Thursday: 4:00 – 9:00 PM",
+        "Friday: 2:00 – 10:00 PM",
+        "Saturday: 12:00 – 10:00 PM",
+        "Sunday: 12:00 – 8:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\rock-hill-brewing-company-details.json",
+      "reviews": [
+        {
+          "authorName": "S M",
+          "rating": 4,
+          "text": "",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-04-08T23:59:23.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Greg DeCicco",
+          "rating": 5,
+          "text": "Great place to hang out. Tasty beer and yummy food.  Service was great.",
+          "relativeTimeDescription": "6 months ago",
+          "publishedAt": "2025-10-23T22:20:11.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Denise Shemenski",
+          "rating": 5,
+          "text": "Love the coffee, but love you can sit down relax and mingle feel",
+          "relativeTimeDescription": "7 months ago",
+          "publishedAt": "2025-09-30T23:33:17.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Barbra Petzold",
+          "rating": 5,
+          "text": "We had some really good beers and the drinks! Really loved Austin who was so helpful!",
+          "relativeTimeDescription": "7 months ago",
+          "publishedAt": "2025-09-21T21:14:43.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "dannyboy22317",
+          "rating": 5,
+          "text": "",
+          "relativeTimeDescription": "10 months ago",
+          "publishedAt": "2025-07-13T23:07:30.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:05:00.735Z"
     },
     "insights": {
       "strengths": [],
@@ -7146,7 +7296,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-12T09:54:39.959Z",
+    "updatedAt": "2026-05-12T12:05:27.979Z",
     "sourceQueries": [
       "breweries in Rock Hill SC"
     ],
@@ -7155,7 +7305,7 @@
       "Active public brewery/taproom in Rock Hill and relevant for restaurant/bar discovery."
     ],
     "pipelineStage": "reported",
-    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
+    "lastVerifiedAt": "2026-05-12T12:05:27.979Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "enriched",
     "facebookUrl": "https://www.facebook.com/rockhillbrewingcompany/",
@@ -7486,16 +7636,19 @@
         "No social profile found is treated as a marketing opportunity rather than a data failure.",
         "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
       ],
-      "calculatedAt": "2026-05-12T09:54:39.957Z"
+      "calculatedAt": "2026-05-12T12:05:27.978Z"
     },
     "workflowStage": "report_generated",
     "workflowNotes": [
       "Current stage: report_generated.",
-      "Next action: Needs Google enrichment.",
-      "Record still has workflow gaps before final reporting."
+      "Next action: Complete for MVP.",
+      "Record has enough structured data to generate a final report later."
     ],
-    "readyForReport": false,
-    "dataCompletenessScore": 85
+    "readyForReport": true,
+    "dataCompletenessScore": 100,
+    "website": "http://millstonepizzaandtap.com/",
+    "lastGoogleEnrichedAt": "2026-05-12T12:05:00.735Z",
+    "lastScoredAt": "2026-05-12T12:05:27.979Z"
   },
   {
     "id": "ChIJZcUQ5aaJVogRG2a9oP6L8FE",

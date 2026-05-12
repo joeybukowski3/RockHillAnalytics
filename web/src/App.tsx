@@ -245,6 +245,14 @@ export default function App() {
     [includedRestaurants]
   );
 
+  const googleQueue = useMemo(
+    () =>
+      includedRestaurants
+        .filter((restaurant) => restaurant.nextAction === "Needs Google enrichment")
+        .slice(0, 10),
+    [includedRestaurants]
+  );
+
   const filteredRestaurants = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
 
@@ -435,6 +443,62 @@ export default function App() {
               </ul>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="section-block">
+        <div className="section-header">
+          <h2>Google enrichment queue</h2>
+          <p>Controlled batch candidate list for the next Google detail run.</p>
+        </div>
+        <div className="featured-grid">
+          <article className="featured-card">
+            <div className="featured-head">
+              <div>
+                <h3>Need Google enrichment</h3>
+                <p>{includedRestaurants.filter((restaurant) => restaurant.nextAction === "Needs Google enrichment").length} included restaurants currently queued</p>
+              </div>
+              <strong className="funnel-count">{googleQueue.length}</strong>
+            </div>
+            <ul className="queue-list">
+              {googleQueue.length ? (
+                googleQueue.map((restaurant) => (
+                  <li key={restaurant.id}>
+                    <strong>{getDisplayName(restaurant)}</strong>
+                    <span>{restaurant.address ?? restaurant.slug}</span>
+                  </li>
+                ))
+              ) : (
+                <li>
+                  <strong>None</strong>
+                  <span>No restaurants are currently queued for Google enrichment.</span>
+                </li>
+              )}
+            </ul>
+          </article>
+          <article className="featured-card">
+            <div className="featured-head">
+              <div>
+                <h3>Suggested batch commands</h3>
+                <p>Preview first, then confirm the live run.</p>
+              </div>
+              <span className="badge neutral">Controlled batch</span>
+            </div>
+            <ul className="queue-list">
+              <li>
+                <strong>Dry run</strong>
+                <span>npm run batch:google -- --limit 10 --dry-run</span>
+              </li>
+              <li>
+                <strong>Live run</strong>
+                <span>npm run batch:google -- --limit 10 --confirm</span>
+              </li>
+              <li>
+                <strong>Review after batch</strong>
+                <span>npm run review:workflow && npm run export:web-data</span>
+              </li>
+            </ul>
+          </article>
         </div>
       </section>
 

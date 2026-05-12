@@ -3,8 +3,8 @@ import path from "node:path";
 import { getPlaceDetails } from "../src/apis/googlePlaces.js";
 import { loadEnv } from "../src/lib/env.js";
 import { findRestaurant } from "../src/lib/findRestaurant.js";
-import { applyWorkflowMetadata } from "../src/lib/workflow.js";
-import { RestaurantProfile, Review } from "../src/types/restaurant.js";
+import { applyGoogleDetailEnrichment } from "../src/lib/googleEnrichment.js";
+import { RestaurantProfile } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
 loadEnv();
@@ -23,27 +23,6 @@ async function loadRestaurants(): Promise<RestaurantProfile[]> {
   const seedPath = path.join(ROOT, "data", "restaurants.seed.json");
   const raw = await readFile(seedPath, "utf8");
   return JSON.parse(raw) as RestaurantProfile[];
-}
-
-function mapReviews(
-  reviews:
-    | Array<{
-        author_name?: string;
-        rating?: number;
-        text?: string;
-        relative_time_description?: string;
-        time?: number;
-      }>
-    | undefined
-): Review[] | undefined {
-  return reviews?.map((review) => ({
-    authorName: review.author_name,
-    rating: review.rating,
-    text: review.text,
-    relativeTimeDescription: review.relative_time_description,
-    publishedAt: review.time ? new Date(review.time * 1000).toISOString() : undefined,
-    source: "google"
-  }));
 }
 
 async function main(): Promise<void> {
@@ -72,29 +51,11 @@ async function main(): Promise<void> {
       return entry;
     }
 
-    return applyWorkflowMetadata({
-      ...entry,
-      address: details.result?.formatted_address ?? entry.address,
-      phone: details.result?.formatted_phone_number ?? entry.phone,
-      website: details.result?.website ?? entry.website,
-      googleMapsUrl: details.result?.url ?? entry.googleMapsUrl,
-      pipelineStage: "enriched" as const,
-      lastGoogleEnrichedAt: now,
-      google: {
-        ...entry.google,
-        rating: details.result?.rating ?? entry.google?.rating,
-        reviewCount: details.result?.user_ratings_total ?? entry.google?.reviewCount,
-        priceLevel: details.result?.price_level ?? entry.google?.priceLevel,
-        businessStatus: details.result?.business_status ?? entry.google?.businessStatus,
-        types: details.result?.types ?? entry.google?.types,
-        openingHours: details.result?.opening_hours?.weekday_text ?? entry.google?.openingHours,
-        mapsUrl: details.result?.url ?? entry.google?.mapsUrl,
-        rawReference: rawFilePath,
-        reviews: mapReviews(details.result?.reviews) ?? entry.google?.reviews,
-        lastEnrichedAt: now
-      },
-      lastVerifiedAt: now,
-      updatedAt: now
+    return applyGoogleDetailEnrichment({
+      restaurant: entry,
+      details,
+      rawFilePath,
+      now
     });
   });
 

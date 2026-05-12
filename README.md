@@ -187,6 +187,18 @@ Review the current workflow queue and stage distribution:
 npm run review:workflow
 ```
 
+Preview the next controlled Google enrichment batch:
+
+```powershell
+npm run batch:google -- --limit 10 --dry-run
+```
+
+Run a confirmed live Google enrichment batch:
+
+```powershell
+npm run batch:google -- --limit 10 --confirm
+```
+
 Export safe dashboard data and copied reports:
 
 ```powershell
@@ -223,17 +235,32 @@ Recommended order for the workflow:
 
 1. `npm run find:restaurants`
 2. `npm run review:seed`
-3. `npm run enrich:google -- "Restaurant Name"`
-4. `npm run add:social -- "Restaurant Name" ...`
-5. `npm run review:social`
-6. `npm run enrich:instagram -- "Restaurant Name"`
-7. `npm run enrich:facebook -- "Restaurant Name"`
-8. `npm run score -- "Restaurant Name"`
-9. `npm run review:workflow`
-10. `npm run export:web-data`
-11. `npm run dev`
+3. `npm run batch:google -- --limit 10 --dry-run`
+4. `npm run batch:google -- --limit 10 --confirm`
+5. `npm run review:workflow`
+6. `npm run export:web-data`
+7. Review the dashboard and inspect the batch results
+8. `npm run add:social -- "Restaurant Name" ...`
+9. `npm run review:social`
+10. `npm run enrich:instagram -- "Restaurant Name"`
+11. `npm run enrich:facebook -- "Restaurant Name"`
+12. `npm run score -- "Restaurant Name"`
+13. `npm run review:workflow`
+14. `npm run export:web-data`
+15. `npm run dev`
 
 This keeps manual URL verification ahead of scraping, limits cost exposure, and makes it easier to review quality before scaling. Final report generation is intentionally deferred until a restaurant has stable workflow coverage.
+
+`batch:google` safety notes:
+
+- The default batch size is `10`.
+- `--dry-run` shows the next candidates without calling Google.
+- Live Google enrichment requires `--confirm`.
+- Progress is written back to `data/restaurants.seed.json` after each restaurant so a mid-run failure does not lose earlier work.
+- Optional flags:
+  - `--limit 10`
+  - `--status included`
+  - `--start-after "Restaurant Name"`
 
 Dashboard review flow:
 

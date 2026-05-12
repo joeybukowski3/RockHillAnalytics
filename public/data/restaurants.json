@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-12T11:05:56.170Z",
+  "exportedAt": "2026-05-12T12:11:57.119Z",
   "totalRestaurants": 179,
   "restaurants": [
     {
@@ -913,22 +913,28 @@
       "state": "SC",
       "category": "establishment",
       "address": "125 Elk Ave, Rock Hill, SC 29730, USA",
+      "phone": "(803) 524-8716",
+      "website": "https://order.online/business/cibi-cibi-food-truck-203037",
       "googlePlaceId": "ChIJY7K474mJVogR3MeEmWj1U7o",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY7K474mJVogR3MeEmWj1U7o",
+      "googleMapsUrl": "https://maps.google.com/?cid=13426344743722600412",
       "reviewStatus": "included",
       "pipelineStage": "reported",
       "socialEnrichmentStatus": "enriched",
       "workflowStage": "report_generated",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 85,
-      "missingData": [
-        "google enrichment",
-        "report readiness"
-      ],
-      "readyForReport": false,
+      "nextAction": "Complete for MVP",
+      "dataCompletenessScore": 100,
+      "missingData": [],
+      "readyForReport": true,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Cibi! Cibi!\""
+        "npm run enrich:google -- \"Cibi! Cibi!\"",
+        "npm run add:social -- \"Cibi! Cibi!\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\"",
+        "npm run enrich:instagram -- \"Cibi! Cibi!\"",
+        "npm run enrich:facebook -- \"Cibi! Cibi!\"",
+        "npm run score -- \"Cibi! Cibi!\"",
+        "npm run report -- \"Cibi! Cibi!\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:03:21.659Z",
+      "lastScoredAt": "2026-05-12T12:05:09.836Z",
       "google": {
         "rating": 4.5,
         "reviewCount": 4,
@@ -966,7 +972,7 @@
           "No social profile found is treated as a marketing opportunity rather than a data failure.",
           "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
         ],
-        "calculatedAt": "2026-05-12T09:56:55.981Z"
+        "calculatedAt": "2026-05-12T12:05:09.835Z"
       },
       "reviewNotes": [
         "Missing clear restaurant/cafe/bar/meal service Google type.",
@@ -981,7 +987,7 @@
       ],
       "reportPath": "/reports/cibi-cibi.md",
       "reportExists": true,
-      "updatedAt": "2026-05-12T09:56:55.983Z"
+      "updatedAt": "2026-05-12T12:05:09.836Z"
     },
     {
       "id": "ChIJu3QAoreIVogR-wBcDGcJVcs",
@@ -2522,26 +2528,41 @@
       "state": "SC",
       "category": "bakery",
       "address": "153 E White St Unit B, Rock Hill, SC 29730, USA",
+      "phone": "(803) 366-6372",
+      "website": "https://cdmercantile.com/jackass-cafe/",
       "googlePlaceId": "ChIJ4T1q0XCJVogREyJh-jZljuk",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4T1q0XCJVogREyJh-jZljuk",
+      "googleMapsUrl": "https://maps.google.com/?cid=16829500144333431315",
       "reviewStatus": "included",
       "pipelineStage": "reported",
       "socialEnrichmentStatus": "enriched",
       "workflowStage": "report_generated",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 85,
-      "missingData": [
-        "google enrichment",
-        "report readiness"
-      ],
-      "readyForReport": false,
+      "nextAction": "Complete for MVP",
+      "dataCompletenessScore": 100,
+      "missingData": [],
+      "readyForReport": true,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Jackass Café & Wine Bar\""
+        "npm run enrich:google -- \"Jackass Café & Wine Bar\"",
+        "npm run add:social -- \"Jackass Café & Wine Bar\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\"",
+        "npm run enrich:instagram -- \"Jackass Café & Wine Bar\"",
+        "npm run enrich:facebook -- \"Jackass Café & Wine Bar\"",
+        "npm run score -- \"Jackass Café & Wine Bar\"",
+        "npm run report -- \"Jackass Café & Wine Bar\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:03:36.423Z",
+      "lastScoredAt": "2026-05-12T12:05:18.692Z",
       "google": {
         "rating": 4.8,
         "reviewCount": 55,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 8:00 AM – 8:00 PM",
+          "Tuesday: 8:00 AM – 6:00 PM",
+          "Wednesday: 8:00 AM – 6:00 PM",
+          "Thursday: 8:00 AM – 7:00 PM",
+          "Friday: 8:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 7:00 PM",
+          "Sunday: 10:00 AM – 5:00 PM"
+        ]
       },
       "facebookUrl": "https://www.facebook.com/jackasscafe/",
       "instagramUrl": "https://www.instagram.com/jackasscafe/",
@@ -2575,7 +2596,7 @@
           "No social profile found is treated as a marketing opportunity rather than a data failure.",
           "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
         ],
-        "calculatedAt": "2026-05-11T20:19:05.279Z"
+        "calculatedAt": "2026-05-12T12:05:18.690Z"
       },
       "reviewNotes": [
         "Google types indicate retail/grocery rather than a primary restaurant listing.",
@@ -2587,7 +2608,7 @@
       "socialEnrichmentNotes": [],
       "reportPath": "/reports/jackass-caf-wine-bar.md",
       "reportExists": true,
-      "updatedAt": "2026-05-11T20:19:05.280Z"
+      "updatedAt": "2026-05-12T12:05:18.692Z"
     },
     {
       "id": "ChIJp_lRg_2HVogRljE-FSxsKSE",
@@ -5010,26 +5031,40 @@
       "state": "SC",
       "category": "establishment",
       "address": "121 Caldwell St STE 101, Rock Hill, SC 29730, USA",
+      "website": "http://millstonepizzaandtap.com/",
       "googlePlaceId": "ChIJVVUlClaIVogRO4VaoaEWm_k",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVVUlClaIVogRO4VaoaEWm_k",
+      "googleMapsUrl": "https://maps.google.com/?cid=17985994420286817595",
       "reviewStatus": "included",
       "pipelineStage": "reported",
       "socialEnrichmentStatus": "enriched",
       "workflowStage": "report_generated",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 85,
-      "missingData": [
-        "google enrichment",
-        "report readiness"
-      ],
-      "readyForReport": false,
+      "nextAction": "Complete for MVP",
+      "dataCompletenessScore": 100,
+      "missingData": [],
+      "readyForReport": true,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Rock Hill Brewing Company\""
+        "npm run enrich:google -- \"Rock Hill Brewing Company\"",
+        "npm run add:social -- \"Rock Hill Brewing Company\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\"",
+        "npm run enrich:instagram -- \"Rock Hill Brewing Company\"",
+        "npm run enrich:facebook -- \"Rock Hill Brewing Company\"",
+        "npm run score -- \"Rock Hill Brewing Company\"",
+        "npm run report -- \"Rock Hill Brewing Company\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:05:00.735Z",
+      "lastScoredAt": "2026-05-12T12:05:27.979Z",
       "google": {
         "rating": 4.7,
         "reviewCount": 145,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: Closed",
+          "Tuesday: 4:00 – 9:00 PM",
+          "Wednesday: 4:00 – 9:00 PM",
+          "Thursday: 4:00 – 9:00 PM",
+          "Friday: 2:00 – 10:00 PM",
+          "Saturday: 12:00 – 10:00 PM",
+          "Sunday: 12:00 – 8:00 PM"
+        ]
       },
       "facebookUrl": "https://www.facebook.com/rockhillbrewingcompany/",
       "instagramUrl": "https://www.instagram.com/rockhillbrewingco/",
@@ -5063,7 +5098,7 @@
           "No social profile found is treated as a marketing opportunity rather than a data failure.",
           "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
         ],
-        "calculatedAt": "2026-05-12T09:54:39.957Z"
+        "calculatedAt": "2026-05-12T12:05:27.978Z"
       },
       "reviewNotes": [
         "Missing clear restaurant/cafe/bar/meal service Google type.",
@@ -5078,7 +5113,7 @@
       ],
       "reportPath": "/reports/rock-hill-brewing-company.md",
       "reportExists": true,
-      "updatedAt": "2026-05-12T09:54:39.959Z"
+      "updatedAt": "2026-05-12T12:05:27.979Z"
     },
     {
       "id": "ChIJZcUQ5aaJVogRG2a9oP6L8FE",
