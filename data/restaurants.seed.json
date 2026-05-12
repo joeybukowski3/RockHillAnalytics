@@ -8,7 +8,7 @@
     "category": "bar",
     "address": "354 Technology Center Way, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJD59Vt-WJVogR5iFvSmKJ6n0",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJD59Vt-WJVogR5iFvSmKJ6n0",
+    "googleMapsUrl": "https://maps.google.com/?cid=9073215454539882982",
     "status": "included",
     "google": {
       "rating": 4.4,
@@ -19,7 +19,60 @@
         "establishment",
         "point_of_interest"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJD59Vt-WJVogR5iFvSmKJ6n0"
+      "mapsUrl": "https://maps.google.com/?cid=9073215454539882982",
+      "openingHours": [
+        "Monday: 5:00 – 11:00 PM",
+        "Tuesday: 5:00 – 11:00 PM",
+        "Wednesday: 5:00 – 11:00 PM",
+        "Thursday: 5:00 – 11:00 PM",
+        "Friday: 5:00 – 11:00 PM",
+        "Saturday: 5:00 – 11:00 PM",
+        "Sunday: 5:00 – 11:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\354-skybar-details.json",
+      "reviews": [
+        {
+          "authorName": "Zach N",
+          "rating": 5,
+          "text": "Alaina is amazing bar tender",
+          "relativeTimeDescription": "2 months ago",
+          "publishedAt": "2026-03-03T00:20:21.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Randy Smith",
+          "rating": 5,
+          "text": "Amazing place 6th floor",
+          "relativeTimeDescription": "3 months ago",
+          "publishedAt": "2026-01-27T11:18:16.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Brandon Brennan",
+          "rating": 5,
+          "text": "If I could give more than five stars, I truly would. 354 Skybar is one of those rare places that manages to feel both sophisticated and welcoming at the same time — a hidden gem perched above the city where the food is delicious, the service is exceptional, and the atmosphere just feels right from the moment you arrive.\n\nThe setting itself is gorgeous — sleek yet comfortable, with just the right blend of energy and ease. Whether you’re there for a casual drink after work or a full evening out, it’s the kind of place that makes you want to stay longer than you planned. But what truly makes this spot shine is the people — and in particular, the incredible bartender, Alaina.\n\nAlaina has that rare ability to make you feel like an old friend, even if it’s your first visit. She’s attentive without ever being intrusive, always greeting you with a genuine smile and a warmth that instantly makes you feel at home. Beyond her kindness, she’s a true professional — her cocktails are perfectly balanced, creative, and clearly crafted with care. You can tell she takes pride in what she does, and it makes all the difference.\n\nThe food deserves its own round of applause — every bite tastes like something made with passion and precision. It’s far beyond what you’d expect from a rooftop bar, blending flavor and presentation in a way that complements the entire experience.\n\nBy the end of the night, you don’t just leave full — you leave happy. Between the amazing dishes, Elaina’s top-notch service, and the warm, inviting energy of the place, 354 Skybar has earned a permanent spot on my list of favorites. It’s not just a bar — it’s a little escape above the city, made unforgettable by the people who bring it to life.",
+          "relativeTimeDescription": "7 months ago",
+          "publishedAt": "2025-10-13T21:46:52.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Shay Davis",
+          "rating": 5,
+          "text": "Came here tonight and we were served by Collin. Coming from another bartender, top tier service. Amazing drinks, conversations, and vibes along with an amazing view. We will definitely be coming back!!!",
+          "relativeTimeDescription": "7 months ago",
+          "publishedAt": "2025-10-09T23:54:02.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Matt Burnett",
+          "rating": 1,
+          "text": "",
+          "relativeTimeDescription": "8 months ago",
+          "publishedAt": "2025-09-01T01:47:49.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:22.199Z"
     },
     "insights": {
       "strengths": [],
@@ -27,23 +80,26 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:22.199Z",
     "sourceQueries": [
       "bars in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.436Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:22.199Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 324-0004",
+    "website": "https://www.cambriarockhill.com/resourcefiles/pdf/skybar-menu.pdf",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:22.199Z"
   },
   {
     "id": "ChIJISNW2VWIVogR20NKKcIAdWs",
@@ -54,7 +110,7 @@
     "category": "bakery",
     "address": "157 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJISNW2VWIVogR20NKKcIAdWs",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJISNW2VWIVogR20NKKcIAdWs",
+    "googleMapsUrl": "https://maps.google.com/?cid=7743095968249824219",
     "status": "included",
     "google": {
       "rating": 4.5,
@@ -70,7 +126,60 @@
         "restaurant",
         "store"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJISNW2VWIVogR20NKKcIAdWs"
+      "mapsUrl": "https://maps.google.com/?cid=7743095968249824219",
+      "openingHours": [
+        "Monday: 7:00 AM – 7:00 PM",
+        "Tuesday: 7:00 AM – 7:00 PM",
+        "Wednesday: 7:00 AM – 7:00 PM",
+        "Thursday: 7:00 AM – 7:00 PM",
+        "Friday: 7:00 AM – 9:00 PM",
+        "Saturday: 7:00 AM – 9:00 PM",
+        "Sunday: 8:00 AM – 6:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\am-lies-french-bakery-caf-details.json",
+      "reviews": [
+        {
+          "authorName": "Hannah olthof",
+          "rating": 5,
+          "text": "I love coming here the staff is always so friendly and they have great coffee. Their gluten free bread is actually good too!",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-08T00:58:05.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "MITCHELL AVIDON",
+          "rating": 5,
+          "text": "Great bakery goods",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-05T20:01:42.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Patty Ramos",
+          "rating": 5,
+          "text": "I love grabbing a coffee, pastry or lunch here. It's a great place to do some work or have coffee with friends. One of the best coffee shops in town! And they have gluten-free bread that actually tastes like bread!",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-05T18:11:57.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Hayden Powell",
+          "rating": 1,
+          "text": "👎didn’t heat up my cinnamon rowl",
+          "relativeTimeDescription": "a week ago",
+          "publishedAt": "2026-04-30T23:01:41.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Martha Brandon",
+          "rating": 5,
+          "text": "Delicious",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-26T15:33:54.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:23.613Z"
     },
     "insights": {
       "strengths": [],
@@ -78,24 +187,27 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:23.613Z",
     "sourceQueries": [
       "breakfast restaurants in Rock Hill SC",
       "coffee shops in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.439Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:23.613Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 403-9409",
+    "website": "http://www.ameliesfrenchbakery.com/?utm_source=local&utm_medium=organic",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:23.613Z"
   },
   {
     "id": "ChIJcTcio6qFVogR-duzB36vUqA",
@@ -154,7 +266,7 @@
     "category": "establishment",
     "address": "135 S Herlong Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJpWJxxniJVogR6quKo-2OugM",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpWJxxniJVogR6quKo-2OugM",
+    "googleMapsUrl": "https://maps.google.com/?cid=268684279084133354",
     "status": "included",
     "google": {
       "rating": 4.4,
@@ -167,7 +279,60 @@
         "point_of_interest",
         "restaurant"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpWJxxniJVogR6quKo-2OugM"
+      "mapsUrl": "https://maps.google.com/?cid=268684279084133354",
+      "openingHours": [
+        "Monday: 6:00 AM – 2:00 PM",
+        "Tuesday: Closed",
+        "Wednesday: 6:00 AM – 2:00 PM",
+        "Thursday: 6:00 AM – 2:00 PM",
+        "Friday: 6:00 AM – 2:00 PM",
+        "Saturday: 6:00 AM – 2:00 PM",
+        "Sunday: 6:00 AM – 2:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\anna-js-details.json",
+      "reviews": [
+        {
+          "authorName": "Kristen Gore",
+          "rating": 5,
+          "text": "Great place for easy, quick, no frills food. It's good. The people are nice. It's for sure a good local spot.",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-10T00:42:07.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "deborah cannon",
+          "rating": 1,
+          "text": "I asked you for just a cheeseburger. Nothing on it just a cheeseburger and you charged me $6.99 for just a cheeseburger that's flat out ridiculous do better people",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-08T17:15:56.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Andre Carelock",
+          "rating": 5,
+          "text": "",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-25T17:36:17.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Chet Smith",
+          "rating": 4,
+          "text": "",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-25T00:14:52.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Marva Roseborough",
+          "rating": 5,
+          "text": "Home town feel and food that reminds me of eating breakfast in my grandma's kitchen!",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-21T21:52:32.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:24.779Z"
     },
     "insights": {
       "strengths": [],
@@ -175,23 +340,25 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:24.779Z",
     "sourceQueries": [
       "breakfast restaurants in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.439Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:24.779Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 366-0026",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:24.779Z"
   },
   {
     "id": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
@@ -202,11 +369,11 @@
     "category": "establishment",
     "address": "502 Cherry Rd Suite 101, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr-wVHMKJVogRVC1RaCDjqUw",
+    "googleMapsUrl": "https://maps.google.com/?cid=5524196146275233108",
     "status": "included",
     "google": {
       "rating": 4.5,
-      "reviewCount": 638,
+      "reviewCount": 639,
       "priceLevel": 2,
       "businessStatus": "OPERATIONAL",
       "types": [
@@ -215,7 +382,60 @@
         "point_of_interest",
         "restaurant"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr-wVHMKJVogRVC1RaCDjqUw"
+      "mapsUrl": "https://maps.google.com/?cid=5524196146275233108",
+      "openingHours": [
+        "Monday: 7:00 AM – 2:00 PM",
+        "Tuesday: 7:00 AM – 2:00 PM",
+        "Wednesday: 7:00 AM – 2:00 PM",
+        "Thursday: 7:00 AM – 2:00 PM",
+        "Friday: 7:00 AM – 2:00 PM",
+        "Saturday: 7:00 AM – 3:00 PM",
+        "Sunday: 7:00 AM – 3:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\another-broken-egg-cafe-details.json",
+      "reviews": [
+        {
+          "authorName": "Brandon Hicks",
+          "rating": 5,
+          "text": "I had a great breakfast this morning with the most polite employee Leann! She is amazing! Would highly recommend",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-11T21:13:07.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Richard Hoffman",
+          "rating": 5,
+          "text": "Had a great breakfast here- the chicken and waffles were my favorite.  Chicken had perfect seasoning and was served with a sweet chili sauce. Waffles were crispy and just a touch sweet, they paired so well together.\n\nThe place was pretty busy and looked to be shortstaffed, but JoJo didnt miss a beat and was so attentive. She made sure we got everything we needed, including a mimosa recommendation that hit just right! (Strawberry St. Germaine)  so good!",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-11T10:52:03.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Christine Norton",
+          "rating": 5,
+          "text": "Jojo was absolutely amazing today waited a bit longer than expected after calling in on the waitlist and needed to keep it moving as we had a plane to catch. Not only did she get us taken care of quickly but we felt relaxed and calm and enjoyed our Mother’s Day breakfast and got to the airport in plenty of time. Thank you so much Jojo and happy Mother’s Day!",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-10T22:26:37.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Kelly Malter-Hoffman",
+          "rating": 5,
+          "text": "This place never disappoints. Normally we get the cinnamon roll french toast, which is amazing, but the Huevos Rancheros, Bourbon Pancakes, chicken and waffles were incredible! JoJo took such great care of us, we will definitely be back and look for her!",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-10T19:40:33.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "isabella hoffman",
+          "rating": 5,
+          "text": "We loved jojo!!!",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-10T19:36:53.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:25.971Z"
     },
     "insights": {
       "strengths": [],
@@ -223,23 +443,26 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:25.971Z",
     "sourceQueries": [
       "breakfast restaurants in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:25.971Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 262-2185",
+    "website": "https://www.anotherbrokenegg.com/locations/rock-hill-sc/",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:25.971Z"
   },
   {
     "id": "ChIJGb31ZquJVogRYPowGLppBTo",
@@ -250,7 +473,7 @@
     "category": "establishment",
     "address": "210 E Main St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJGb31ZquJVogRYPowGLppBTo",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJGb31ZquJVogRYPowGLppBTo",
+    "googleMapsUrl": "https://maps.google.com/?cid=4180864077074070112",
     "status": "included",
     "google": {
       "rating": 4.6,
@@ -263,7 +486,60 @@
         "point_of_interest",
         "restaurant"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJGb31ZquJVogRYPowGLppBTo"
+      "mapsUrl": "https://maps.google.com/?cid=4180864077074070112",
+      "openingHours": [
+        "Monday: Closed",
+        "Tuesday: 11:30 AM – 10:00 PM",
+        "Wednesday: 11:30 AM – 10:00 PM",
+        "Thursday: 11:30 AM – 10:00 PM",
+        "Friday: 11:30 AM – 10:00 PM",
+        "Saturday: 11:30 AM – 10:00 PM",
+        "Sunday: 11:00 AM – 7:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\ay-papi-tacos-tequila-details.json",
+      "reviews": [
+        {
+          "authorName": "Ross brooks",
+          "rating": 5,
+          "text": "First time visit. Great food and reasonable price. Laura was our server and was great! 🙂",
+          "relativeTimeDescription": "3 weeks ago",
+          "publishedAt": "2026-04-18T18:00:32.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Charles Scott",
+          "rating": 5,
+          "text": "Ordered a whole variety of different tacos, each had unique flavor combination. Good potion sizes, great value. 10/10 would eat again. I met the owner, he is a cool guy. Staff was very friendly and service was quick.",
+          "relativeTimeDescription": "3 weeks ago",
+          "publishedAt": "2026-04-18T17:01:05.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Francis digiampaolo",
+          "rating": 5,
+          "text": "This place is badass!!!!",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-04-11T22:35:22.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Elle W.",
+          "rating": 5,
+          "text": "I had such a great experience eating at Ay Papi. I came in to eat with my daughter and right off everyone was so friendly. Our server MacKenzie was incredible! She was so kind to my daughter and even supplied a coloring book and pencils for her to color. She made some awesome recommendations and was just incredibly pleasant overall. The food was amazing as well. I got the 3 taco flight along with 1/2 beans 1/2 rice. The portions were perfect and the flavor was amazing! I will absolutely be back!",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-03-29T01:38:47.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "He Who Knows Things",
+          "rating": 5,
+          "text": "",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-03-24T23:22:08.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:27.112Z"
     },
     "insights": {
       "strengths": [],
@@ -271,24 +547,27 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:27.112Z",
     "sourceQueries": [
       "mexican restaurants in Rock Hill SC",
       "food trucks in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:27.112Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 324-3444",
+    "website": "https://aypapirockhill.com/",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:27.112Z"
   },
   {
     "id": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
@@ -299,7 +578,7 @@
     "category": "establishment",
     "address": "130 W White St, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0SrMeleJVogRJC_xqHaS9nQ",
+    "googleMapsUrl": "https://maps.google.com/?cid=8428084791008636708",
     "status": "included",
     "google": {
       "rating": 4.5,
@@ -311,7 +590,60 @@
         "point_of_interest",
         "restaurant"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0SrMeleJVogRJC_xqHaS9nQ"
+      "mapsUrl": "https://maps.google.com/?cid=8428084791008636708",
+      "openingHours": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 11:00 AM – 9:00 PM",
+        "Thursday: 11:00 AM – 9:00 PM",
+        "Friday: 11:00 AM – 11:00 PM",
+        "Saturday: 11:00 AM – 11:00 PM",
+        "Sunday: 11:00 AM – 3:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\bearwalrus-details.json",
+      "reviews": [
+        {
+          "authorName": "Sierra MorningStarr",
+          "rating": 5,
+          "text": "🔥Thank you, lovelies, for an amazing Mum's day brunch and flowers. Everything fresh, scrumptious & beautimus, as always! We 💜 BW.",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-11T17:10:42.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Doug Bateman",
+          "rating": 5,
+          "text": "While jazz music was ok it got a bit old after a while. Hopefully some variety next time. Food great. Lovely waitress.",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-10T12:36:17.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "J",
+          "rating": 5,
+          "text": "They sat us at a very cramped table. The food overall was decent but was incredibly salty. Especially the pulled pork I got. If they dial back the salt I think it would be a lot better.",
+          "relativeTimeDescription": "a week ago",
+          "publishedAt": "2026-05-04T00:35:08.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "adam reid",
+          "rating": 3,
+          "text": "This place was a massive disappointment. Been eyeing this menu for a few months. Finally made it to town to try and meh.\nSo I know how to cook and might have set a bar too high. But the spare ribs were cooked but not tender and lacking flavor. It was hard to physically eat. The brisket was fully cooked but crusted with 3/8 in of burn char on top.\nThe wait staff never did a follow up on how the meal was or if we wanted a second beverage.\nI truly hope you can recenter and put out a good product in the future.",
+          "relativeTimeDescription": "a week ago",
+          "publishedAt": "2026-05-02T22:51:33.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Angie Freeman",
+          "rating": 5,
+          "text": "Tostado Beef Cheek was Awesome, would have loved a house salsa with it to balance it. Rib absolutely perfect",
+          "relativeTimeDescription": "a week ago",
+          "publishedAt": "2026-05-02T19:43:25.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:28.299Z"
     },
     "insights": {
       "strengths": [],
@@ -319,24 +651,27 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:28.299Z",
     "sourceQueries": [
       "bbq restaurants in Rock Hill SC",
       "seafood restaurants in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:28.299Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 324-2327",
+    "website": "http://bearwalrus.com/",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:28.299Z"
   },
   {
     "id": "ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
@@ -463,7 +798,7 @@
           "source": "google"
         }
       ],
-      "lastEnrichedAt": "2026-05-11T17:53:13.082Z"
+      "lastEnrichedAt": "2026-05-12T12:24:29.450Z"
     },
     "insights": {
       "strengths": [],
@@ -471,7 +806,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T18:52:01.675Z",
+    "updatedAt": "2026-05-12T12:24:29.450Z",
     "phone": "(803) 980-8889",
     "website": "https://www.bigwokii.com/",
     "scores": {
@@ -493,7 +828,7 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "reported",
-    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
+    "lastVerifiedAt": "2026-05-12T12:24:29.450Z",
     "reviewStatus": "included",
     "socialVerificationNotes": [
       "Manual social URL workflow test; no URLs added yet",
@@ -513,7 +848,8 @@
       "Record has enough structured data to generate a final report later."
     ],
     "readyForReport": true,
-    "dataCompletenessScore": 90
+    "dataCompletenessScore": 90,
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:29.450Z"
   },
   {
     "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",
@@ -524,7 +860,7 @@
     "category": "cafe",
     "address": "652 Herrons Ferry Road Suite 113, Rock Hill, SC 29730, USA",
     "googlePlaceId": "ChIJd67lS1qFVogRzl4nN13V0Lk",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd67lS1qFVogRzl4nN13V0Lk",
+    "googleMapsUrl": "https://maps.google.com/?cid=13389436288506486478",
     "status": "included",
     "google": {
       "rating": 4.7,
@@ -538,7 +874,60 @@
         "point_of_interest",
         "restaurant"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd67lS1qFVogRzl4nN13V0Lk"
+      "mapsUrl": "https://maps.google.com/?cid=13389436288506486478",
+      "openingHours": [
+        "Monday: 9:00 AM – 4:00 PM",
+        "Tuesday: 9:00 AM – 4:00 PM",
+        "Wednesday: 9:00 AM – 4:00 PM",
+        "Thursday: 9:00 AM – 4:00 PM",
+        "Friday: 9:00 AM – 7:00 PM",
+        "Saturday: 9:00 AM – 7:00 PM",
+        "Sunday: 9:00 AM – 4:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\blend-riverwalk-details.json",
+      "reviews": [
+        {
+          "authorName": "Ryan Fleming",
+          "rating": 5,
+          "text": "Great lunch without feeling heavy. I will definitely order again.",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-10T19:37:06.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "David Dixon",
+          "rating": 5,
+          "text": "Always fresh ingredients, generous portions, and clear someone takes pride in their work.",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-10T09:30:48.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Joe Swafford",
+          "rating": 5,
+          "text": "I had an awesome experience at The Blend Riverwalk! The food was absolutely amazing. I ordered the chicken pesto panini and it was incredibly fresh and full of flavor. The homemade pasta salad really hit the spot too, and I’m pretty picky when it comes to pasta salad, so that says a lot.\n\nI topped it all off with a piña colada smoothie that was so refreshing and honestly one of the best I’ve had.\n\nWhat really stood out was the staff. They took the time to walk me through the menu and helped me decide what to get, which made the whole experience even better.\n\nIt’s also a great spot for a business 1-to-1. Sitting outside in the shade made for a relaxed and comfortable setting.\n\nHighly recommend checking this place out!",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-05T21:21:59.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Michael Ŕoberts",
+          "rating": 4,
+          "text": "My wife had the classic egg sandwich and I ordered the west coast breakfast burrito.  Food was good, warm and fresh.  Place is in a cool location and the staff were wonderful.  It's has nice outdoor seating area.  Needs more condiments readily available but that is really picking at something that isn't super important. Would love to go back to try other options on the menu.",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-05T16:50:11.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Chelsea Burgess",
+          "rating": 5,
+          "text": "",
+          "relativeTimeDescription": "a week ago",
+          "publishedAt": "2026-04-29T14:50:59.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:30.621Z"
     },
     "insights": {
       "strengths": [],
@@ -546,25 +935,28 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:30.621Z",
     "sourceQueries": [
       "breakfast restaurants in Rock Hill SC",
       "coffee shops in Rock Hill SC",
       "food trucks in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:30.621Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 324-3113",
+    "website": "https://blendriverwalk.com/?utm_source=google",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:30.621Z"
   },
   {
     "id": "ChIJsbHDEy-FVogRmwcJ-pkN0GI",
@@ -626,7 +1018,7 @@
     "category": "cafe",
     "address": "2425 Cherry Rd, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJux77xBKPVogRtRL5ZExNkR8",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJux77xBKPVogRtRL5ZExNkR8",
+    "googleMapsUrl": "https://maps.google.com/?cid=2274684277305709237",
     "status": "included",
     "google": {
       "rating": 4.8,
@@ -639,7 +1031,60 @@
         "point_of_interest",
         "store"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJux77xBKPVogRtRL5ZExNkR8"
+      "mapsUrl": "https://maps.google.com/?cid=2274684277305709237",
+      "openingHours": [
+        "Monday: Closed",
+        "Tuesday: 8:30 AM – 3:00 PM",
+        "Wednesday: 9:00 AM – 1:00 PM",
+        "Thursday: 8:30 AM – 3:00 PM",
+        "Friday: 9:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 4:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\borboleta-caf-details.json",
+      "reviews": [
+        {
+          "authorName": "Juergen Kaiserling",
+          "rating": 5,
+          "text": "This coffee place is awesome. Where did the owner find such an animated, friendly staff? It is a treat to come here. Whether it's a drink and pastry or bagel or croissant, there is nothing that I wouldn't recommend.",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-25T20:34:36.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Anne Queen",
+          "rating": 5,
+          "text": "The ladies in here are very nice and the store is absolutely adorable 😍.",
+          "relativeTimeDescription": "3 weeks ago",
+          "publishedAt": "2026-04-17T15:14:18.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Trinity",
+          "rating": 5,
+          "text": "",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-04-10T16:37:17.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Emerson",
+          "rating": 5,
+          "text": "Amazing food and drinks",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-04-09T23:08:43.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Sophia Irias",
+          "rating": 5,
+          "text": "Such good drinks and service. One of the barista’s (so nice by the way) introduced me to matcha and I’m so hooked!! Great flavors and seasonal drinks. My only complaint is I wish the cup sizes were larger because they’re pretty small. Glad to support this local spot.",
+          "relativeTimeDescription": "a month ago",
+          "publishedAt": "2026-04-08T21:43:45.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:31.806Z"
     },
     "insights": {
       "strengths": [],
@@ -647,23 +1092,26 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:31.806Z",
     "sourceQueries": [
       "coffee shops in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:31.806Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 565-0859",
+    "website": "https://borboletacafe.square.site/",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:31.806Z"
   },
   {
     "id": "ChIJQYbrfhSFVogRs4wSxMk6yE4",
@@ -725,7 +1173,7 @@
     "category": "establishment",
     "address": "133 S Herlong Ave, Rock Hill, SC 29732, USA",
     "googlePlaceId": "ChIJ88hBbyKJVogRXcpHNy7-oHg",
-    "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ88hBbyKJVogRXcpHNy7-oHg",
+    "googleMapsUrl": "https://maps.google.com/?cid=8692226755274459741",
     "status": "included",
     "google": {
       "rating": 4.4,
@@ -738,7 +1186,60 @@
         "point_of_interest",
         "restaurant"
       ],
-      "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ88hBbyKJVogRXcpHNy7-oHg"
+      "mapsUrl": "https://maps.google.com/?cid=8692226755274459741",
+      "openingHours": [
+        "Monday: 11:00 AM – 10:00 PM",
+        "Tuesday: 11:00 AM – 10:00 PM",
+        "Wednesday: 11:00 AM – 10:00 PM",
+        "Thursday: 11:00 AM – 10:00 PM",
+        "Friday: 11:00 AM – 10:00 PM",
+        "Saturday: 11:00 AM – 10:00 PM",
+        "Sunday: 11:00 AM – 10:00 PM"
+      ],
+      "rawReference": "C:\\Users\\jbloo\\RockHillAnalytics\\data\\raw\\google\\brooklyn-pizza-pasta-details.json",
+      "reviews": [
+        {
+          "authorName": "MITCHELL AVIDON",
+          "rating": 5,
+          "text": "Pizza is suppurb",
+          "relativeTimeDescription": "in the last week",
+          "publishedAt": "2026-05-05T20:02:14.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Karen Grant",
+          "rating": 5,
+          "text": "The best pizza I have had since moving to SC. I will return next time ordering a meal",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-28T09:41:35.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Dj Farrand",
+          "rating": 5,
+          "text": "Solid pizza, great service",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-27T20:03:45.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Randy Nowosielski",
+          "rating": 5,
+          "text": "",
+          "relativeTimeDescription": "2 weeks ago",
+          "publishedAt": "2026-04-22T12:09:45.000Z",
+          "source": "google"
+        },
+        {
+          "authorName": "Philip Cain Jr",
+          "rating": 5,
+          "text": "No frills just good pizza and that’s what we need",
+          "relativeTimeDescription": "3 weeks ago",
+          "publishedAt": "2026-04-18T13:23:51.000Z",
+          "source": "google"
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T12:24:32.957Z"
     },
     "insights": {
       "strengths": [],
@@ -746,24 +1247,27 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T12:24:32.957Z",
     "sourceQueries": [
       "pizza in Rock Hill SC",
       "italian restaurants in Rock Hill SC"
     ],
     "reviewNotes": [],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
+    "pipelineStage": "enriched",
+    "lastVerifiedAt": "2026-05-12T12:24:32.957Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "discovered",
+    "workflowStage": "google_enriched",
     "workflowNotes": [
-      "Current stage: discovered.",
-      "Next action: Needs Google enrichment.",
+      "Current stage: google_enriched.",
+      "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
     "readyForReport": false,
-    "dataCompletenessScore": 20
+    "dataCompletenessScore": 40,
+    "phone": "(803) 366-6888",
+    "website": "http://www.brooklynpizzapastasc.com/",
+    "lastGoogleEnrichedAt": "2026-05-12T12:24:32.957Z"
   },
   {
     "id": "ChIJdzuQZhyJVogRmmOR5xs3aB8",

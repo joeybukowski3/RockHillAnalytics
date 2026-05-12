@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-12T12:11:57.119Z",
+  "exportedAt": "2026-05-12T12:24:45.110Z",
   "totalRestaurants": 179,
   "restaurants": [
     {
@@ -10,34 +10,45 @@
       "state": "SC",
       "category": "bar",
       "address": "354 Technology Center Way, Rock Hill, SC 29730, USA",
+      "phone": "(803) 324-0004",
+      "website": "https://www.cambriarockhill.com/resourcefiles/pdf/skybar-menu.pdf",
       "googlePlaceId": "ChIJD59Vt-WJVogR5iFvSmKJ6n0",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJD59Vt-WJVogR5iFvSmKJ6n0",
+      "googleMapsUrl": "https://maps.google.com/?cid=9073215454539882982",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"354 SkyBar\""
+        "npm run add:social -- \"354 SkyBar\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:22.199Z",
       "google": {
         "rating": 4.4,
         "reviewCount": 72,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 5:00 – 11:00 PM",
+          "Tuesday: 5:00 – 11:00 PM",
+          "Wednesday: 5:00 – 11:00 PM",
+          "Thursday: 5:00 – 11:00 PM",
+          "Friday: 5:00 – 11:00 PM",
+          "Saturday: 5:00 – 11:00 PM",
+          "Sunday: 5:00 – 11:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:22.199Z"
     },
     {
       "id": "ChIJISNW2VWIVogR20NKKcIAdWs",
@@ -47,34 +58,45 @@
       "state": "SC",
       "category": "bakery",
       "address": "157 E Main St, Rock Hill, SC 29730, USA",
+      "phone": "(803) 403-9409",
+      "website": "http://www.ameliesfrenchbakery.com/?utm_source=local&utm_medium=organic",
       "googlePlaceId": "ChIJISNW2VWIVogR20NKKcIAdWs",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJISNW2VWIVogR20NKKcIAdWs",
+      "googleMapsUrl": "https://maps.google.com/?cid=7743095968249824219",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Amélie's French Bakery & Café\""
+        "npm run add:social -- \"Amélie's French Bakery & Café\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:23.613Z",
       "google": {
         "rating": 4.5,
         "reviewCount": 1308,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 7:00 AM – 7:00 PM",
+          "Tuesday: 7:00 AM – 7:00 PM",
+          "Wednesday: 7:00 AM – 7:00 PM",
+          "Thursday: 7:00 AM – 7:00 PM",
+          "Friday: 7:00 AM – 9:00 PM",
+          "Saturday: 7:00 AM – 9:00 PM",
+          "Sunday: 8:00 AM – 6:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:23.613Z"
     },
     {
       "id": "ChIJcTcio6qFVogR-duzB36vUqA",
@@ -123,34 +145,44 @@
       "state": "SC",
       "category": "establishment",
       "address": "135 S Herlong Ave, Rock Hill, SC 29732, USA",
+      "phone": "(803) 366-0026",
       "googlePlaceId": "ChIJpWJxxniJVogR6quKo-2OugM",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpWJxxniJVogR6quKo-2OugM",
+      "googleMapsUrl": "https://maps.google.com/?cid=268684279084133354",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Anna J's\""
+        "npm run add:social -- \"Anna J's\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:24.779Z",
       "google": {
         "rating": 4.4,
         "reviewCount": 242,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 6:00 AM – 2:00 PM",
+          "Tuesday: Closed",
+          "Wednesday: 6:00 AM – 2:00 PM",
+          "Thursday: 6:00 AM – 2:00 PM",
+          "Friday: 6:00 AM – 2:00 PM",
+          "Saturday: 6:00 AM – 2:00 PM",
+          "Sunday: 6:00 AM – 2:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:24.779Z"
     },
     {
       "id": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
@@ -160,34 +192,45 @@
       "state": "SC",
       "category": "establishment",
       "address": "502 Cherry Rd Suite 101, Rock Hill, SC 29732, USA",
+      "phone": "(803) 262-2185",
+      "website": "https://www.anotherbrokenegg.com/locations/rock-hill-sc/",
       "googlePlaceId": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJr-wVHMKJVogRVC1RaCDjqUw",
+      "googleMapsUrl": "https://maps.google.com/?cid=5524196146275233108",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Another Broken Egg Cafe\""
+        "npm run add:social -- \"Another Broken Egg Cafe\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:25.971Z",
       "google": {
         "rating": 4.5,
-        "reviewCount": 638,
-        "businessStatus": "OPERATIONAL"
+        "reviewCount": 639,
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 7:00 AM – 2:00 PM",
+          "Tuesday: 7:00 AM – 2:00 PM",
+          "Wednesday: 7:00 AM – 2:00 PM",
+          "Thursday: 7:00 AM – 2:00 PM",
+          "Friday: 7:00 AM – 2:00 PM",
+          "Saturday: 7:00 AM – 3:00 PM",
+          "Sunday: 7:00 AM – 3:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:25.971Z"
     },
     {
       "id": "ChIJGb31ZquJVogRYPowGLppBTo",
@@ -197,34 +240,45 @@
       "state": "SC",
       "category": "establishment",
       "address": "210 E Main St, Rock Hill, SC 29730, USA",
+      "phone": "(803) 324-3444",
+      "website": "https://aypapirockhill.com/",
       "googlePlaceId": "ChIJGb31ZquJVogRYPowGLppBTo",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJGb31ZquJVogRYPowGLppBTo",
+      "googleMapsUrl": "https://maps.google.com/?cid=4180864077074070112",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Ay Papi Tacos & Tequila\""
+        "npm run add:social -- \"Ay Papi Tacos & Tequila\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:27.112Z",
       "google": {
         "rating": 4.6,
         "reviewCount": 443,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: Closed",
+          "Tuesday: 11:30 AM – 10:00 PM",
+          "Wednesday: 11:30 AM – 10:00 PM",
+          "Thursday: 11:30 AM – 10:00 PM",
+          "Friday: 11:30 AM – 10:00 PM",
+          "Saturday: 11:30 AM – 10:00 PM",
+          "Sunday: 11:00 AM – 7:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:27.112Z"
     },
     {
       "id": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
@@ -234,34 +288,45 @@
       "state": "SC",
       "category": "establishment",
       "address": "130 W White St, Rock Hill, SC 29730, USA",
+      "phone": "(803) 324-2327",
+      "website": "http://bearwalrus.com/",
       "googlePlaceId": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0SrMeleJVogRJC_xqHaS9nQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=8428084791008636708",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"BearWalrus\""
+        "npm run add:social -- \"BearWalrus\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:28.299Z",
       "google": {
         "rating": 4.5,
         "reviewCount": 164,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: 11:00 AM – 9:00 PM",
+          "Thursday: 11:00 AM – 9:00 PM",
+          "Friday: 11:00 AM – 11:00 PM",
+          "Saturday: 11:00 AM – 11:00 PM",
+          "Sunday: 11:00 AM – 3:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:28.299Z"
     },
     {
       "id": "ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
@@ -330,6 +395,7 @@
         "npm run score -- \"Big Wok II\"",
         "npm run report -- \"Big Wok II\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:29.450Z",
       "google": {
         "rating": 4,
         "reviewCount": 182,
@@ -371,7 +437,7 @@
       "socialEnrichmentNotes": [],
       "reportPath": "/reports/big-wok-ii.md",
       "reportExists": true,
-      "updatedAt": "2026-05-11T18:52:01.675Z"
+      "updatedAt": "2026-05-12T12:24:29.450Z"
     },
     {
       "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",
@@ -381,34 +447,45 @@
       "state": "SC",
       "category": "cafe",
       "address": "652 Herrons Ferry Road Suite 113, Rock Hill, SC 29730, USA",
+      "phone": "(803) 324-3113",
+      "website": "https://blendriverwalk.com/?utm_source=google",
       "googlePlaceId": "ChIJd67lS1qFVogRzl4nN13V0Lk",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd67lS1qFVogRzl4nN13V0Lk",
+      "googleMapsUrl": "https://maps.google.com/?cid=13389436288506486478",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Blend Riverwalk\""
+        "npm run add:social -- \"Blend Riverwalk\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:30.621Z",
       "google": {
         "rating": 4.7,
         "reviewCount": 189,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 9:00 AM – 4:00 PM",
+          "Tuesday: 9:00 AM – 4:00 PM",
+          "Wednesday: 9:00 AM – 4:00 PM",
+          "Thursday: 9:00 AM – 4:00 PM",
+          "Friday: 9:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 7:00 PM",
+          "Sunday: 9:00 AM – 4:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:30.621Z"
     },
     {
       "id": "ChIJsbHDEy-FVogRmwcJ-pkN0GI",
@@ -457,34 +534,45 @@
       "state": "SC",
       "category": "cafe",
       "address": "2425 Cherry Rd, Rock Hill, SC 29732, USA",
+      "phone": "(803) 565-0859",
+      "website": "https://borboletacafe.square.site/",
       "googlePlaceId": "ChIJux77xBKPVogRtRL5ZExNkR8",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJux77xBKPVogRtRL5ZExNkR8",
+      "googleMapsUrl": "https://maps.google.com/?cid=2274684277305709237",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Borboleta Café\""
+        "npm run add:social -- \"Borboleta Café\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:31.806Z",
       "google": {
         "rating": 4.8,
         "reviewCount": 95,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: Closed",
+          "Tuesday: 8:30 AM – 3:00 PM",
+          "Wednesday: 9:00 AM – 1:00 PM",
+          "Thursday: 8:30 AM – 3:00 PM",
+          "Friday: 9:00 AM – 6:00 PM",
+          "Saturday: 9:00 AM – 6:00 PM",
+          "Sunday: 9:00 AM – 4:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:31.806Z"
     },
     {
       "id": "ChIJQYbrfhSFVogRs4wSxMk6yE4",
@@ -533,34 +621,45 @@
       "state": "SC",
       "category": "establishment",
       "address": "133 S Herlong Ave, Rock Hill, SC 29732, USA",
+      "phone": "(803) 366-6888",
+      "website": "http://www.brooklynpizzapastasc.com/",
       "googlePlaceId": "ChIJ88hBbyKJVogRXcpHNy7-oHg",
-      "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ88hBbyKJVogRXcpHNy7-oHg",
+      "googleMapsUrl": "https://maps.google.com/?cid=8692226755274459741",
       "reviewStatus": "included",
-      "pipelineStage": "seeded",
+      "pipelineStage": "enriched",
       "socialEnrichmentStatus": "not_ready",
-      "workflowStage": "discovered",
-      "nextAction": "Needs Google enrichment",
-      "dataCompletenessScore": 20,
+      "workflowStage": "google_enriched",
+      "nextAction": "Needs social URL review",
+      "dataCompletenessScore": 40,
       "missingData": [
-        "google enrichment",
         "social URL review",
         "scoring",
         "report readiness"
       ],
       "readyForReport": false,
       "suggestedCommands": [
-        "npm run enrich:google -- \"Brooklyn pizza & pasta\""
+        "npm run add:social -- \"Brooklyn pizza & pasta\" --facebook \"URL\" --instagram \"URL\" --notes \"Manually verified official social profiles\""
       ],
+      "lastGoogleEnrichedAt": "2026-05-12T12:24:32.957Z",
       "google": {
         "rating": 4.4,
         "reviewCount": 311,
-        "businessStatus": "OPERATIONAL"
+        "businessStatus": "OPERATIONAL",
+        "openingHours": [
+          "Monday: 11:00 AM – 10:00 PM",
+          "Tuesday: 11:00 AM – 10:00 PM",
+          "Wednesday: 11:00 AM – 10:00 PM",
+          "Thursday: 11:00 AM – 10:00 PM",
+          "Friday: 11:00 AM – 10:00 PM",
+          "Saturday: 11:00 AM – 10:00 PM",
+          "Sunday: 11:00 AM – 10:00 PM"
+        ]
       },
       "reviewNotes": [],
       "socialVerificationNotes": [],
       "socialEnrichmentNotes": [],
       "reportExists": false,
-      "updatedAt": "2026-05-11T17:48:58.132Z"
+      "updatedAt": "2026-05-12T12:24:32.957Z"
     },
     {
       "id": "ChIJdzuQZhyJVogRmmOR5xs3aB8",
