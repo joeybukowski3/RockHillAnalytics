@@ -212,6 +212,10 @@ a:hover {
   margin-bottom: 14px;
 }
 
+.toolbar-wide {
+  grid-template-columns: minmax(240px, 1.5fr) repeat(7, minmax(150px, 0.8fr));
+}
+
 .toolbar input,
 .toolbar select {
   width: 100%;
@@ -277,6 +281,23 @@ tbody tr:hover,
   padding: 22px;
 }
 
+.detail-topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.detail-topline h3 {
+  margin: 0 0 6px;
+}
+
+.detail-topline p {
+  margin: 0;
+  color: #637387;
+}
+
 .detail-grid {
   display: grid;
   gap: 16px;
@@ -317,6 +338,10 @@ tbody tr:hover,
 @media (max-width: 900px) {
   .toolbar {
     grid-template-columns: 1fr;
+  }
+
+  .detail-topline {
+    flex-direction: column;
   }
 
   .page-shell {
