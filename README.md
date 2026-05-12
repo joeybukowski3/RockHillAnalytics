@@ -71,6 +71,7 @@ scripts/
   09-review-social-data.ts
   10-export-web-data.ts
   11-review-workflow.ts
+  15-social-review-queue.ts
 
 src/
   apis/
@@ -179,6 +180,12 @@ Review current social readiness and enrichment coverage:
 
 ```powershell
 npm run review:social
+```
+
+Review the manual social URL queue:
+
+```powershell
+npm run queue:social -- --limit 10
 ```
 
 Review the current workflow queue and stage distribution:
@@ -295,6 +302,23 @@ Dashboard review flow:
 2. `npm run dev`
 3. Open the local Vite URL shown in the terminal
 4. Re-run `npm run export:web-data` after seed or report changes
+
+### Social Review Loop
+
+Before any Apify-based social enrichment, use this order:
+
+1. `npm run queue:social -- --limit 10`
+2. `npm run add:social -- "Restaurant" --facebook "URL" --instagram "URL" --notes "Manually verified official social profiles"`
+3. `npm run add:social -- "Restaurant" --no-facebook --no-instagram --notes "No official Facebook or Instagram found during manual check"`
+4. `npm run review:social`
+5. `npm run enrich:instagram -- "Restaurant"`
+6. `npm run enrich:facebook -- "Restaurant"`
+7. `npm run score -- "Restaurant"`
+8. `npm run review:workflow`
+9. `npm run export:web-data`
+10. `npm run dev`
+
+This keeps manual URL review ahead of scraping and makes the dashboard queues easier to trust.
 
 ## Example Workflow
 

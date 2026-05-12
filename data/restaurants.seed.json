@@ -89,9 +89,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:22.199Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -102,7 +103,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:22.199Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJISNW2VWIVogR20NKKcIAdWs",
@@ -200,9 +202,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:23.613Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -213,7 +216,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:23.613Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJcTcio6qFVogR-duzB36vUqA",
@@ -257,6 +261,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -264,7 +269,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJpWJxxniJVogR6quKo-2OugM",
@@ -358,9 +364,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:24.779Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -370,7 +377,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:24.779Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
@@ -464,9 +472,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:25.971Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -477,7 +486,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:25.971Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJGb31ZquJVogRYPowGLppBTo",
@@ -572,9 +582,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:27.112Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -585,7 +596,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:27.112Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
@@ -679,9 +691,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:28.299Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -692,7 +705,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:28.299Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
@@ -738,6 +752,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -745,7 +760,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJCf_amUiPVogRp7hHZob5EEo",
@@ -868,15 +884,17 @@
     "workflowStage": "report_generated",
     "workflowNotes": [
       "Current stage: report_generated.",
+      "Social review status: not_found.",
       "Next action: Complete for MVP.",
       "Record has enough structured data to generate a final report later."
     ],
     "readyForReport": true,
-    "dataCompletenessScore": 90,
+    "dataCompletenessScore": 87,
     "lastGoogleEnrichedAt": "2026-05-12T12:24:29.450Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_found"
   },
   {
     "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",
@@ -973,9 +991,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:30.621Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -986,7 +1005,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:30.621Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJsbHDEy-FVogRmwcJ-pkN0GI",
@@ -1033,6 +1053,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1040,7 +1061,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJux77xBKPVogRtRL5ZExNkR8",
@@ -1134,9 +1156,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:31.806Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1147,7 +1170,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:31.806Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJQYbrfhSFVogRs4wSxMk6yE4",
@@ -1194,6 +1218,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1201,7 +1226,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ88hBbyKJVogRXcpHNy7-oHg",
@@ -1296,9 +1322,10 @@
     "lastVerifiedAt": "2026-05-12T12:24:32.957Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1309,7 +1336,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T12:24:32.957Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJdzuQZhyJVogRmmOR5xs3aB8",
@@ -1404,9 +1432,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:14.129Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1417,7 +1446,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T13:05:14.129Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJpS6cDEGFVogRN9YwkWWLLBg",
@@ -1463,6 +1493,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1470,7 +1501,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ6zyXE_6HVogR4MrFa5LSHFA",
@@ -1564,9 +1596,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:15.522Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1577,7 +1610,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T13:05:15.522Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJnY7fPPmPVogRe1QKAN6534g",
@@ -1671,9 +1705,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:16.687Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1684,7 +1719,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T13:05:16.687Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJPQIHUg-MVogR2tLBlY35AFk",
@@ -1780,9 +1816,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:17.844Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1796,7 +1833,8 @@
       "Same website and brand name, but different address and different Google Place IDs indicate separate locations. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:charanda-of-newport",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJS2WuvECGVogRS-vvY2xzElQ",
@@ -1892,9 +1930,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:19.033Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -1908,7 +1947,8 @@
       "Same website and brand name, but different address and different Google Place IDs indicate separate locations. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:charanda-of-newport",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJvzn456CHVogRPrmt-ggKKhk",
@@ -2004,9 +2044,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:20.223Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -2020,7 +2061,8 @@
       "Same website and brand name, but different address and different Google Place IDs indicate separate locations. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:chex-wings",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJX0wt1bKPVogRVAW4B9smAeU",
@@ -2116,9 +2158,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:21.377Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -2132,7 +2175,8 @@
       "Same website and brand name, but different address and different Google Place IDs indicate separate locations. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:chex-wings",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJF8N1xjuJVogREnHwzCUYY9I",
@@ -2226,9 +2270,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:22.538Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -2239,7 +2284,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T13:05:22.538Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJY7K474mJVogR3MeEmWj1U7o",
@@ -2639,6 +2685,7 @@
     "workflowStage": "report_generated",
     "workflowNotes": [
       "Current stage: report_generated.",
+      "Social review status: verified.",
       "Next action: Complete for MVP.",
       "Record has enough structured data to generate a final report later."
     ],
@@ -2650,7 +2697,8 @@
     "lastScoredAt": "2026-05-12T12:05:09.836Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "verified"
   },
   {
     "id": "ChIJu3QAoreIVogR-wBcDGcJVcs",
@@ -2746,9 +2794,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:23.741Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -2759,7 +2808,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T13:05:23.741Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJo3Z_fACNVogRcLgorOviGjk",
@@ -2852,9 +2902,10 @@
     "lastVerifiedAt": "2026-05-12T13:05:24.895Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -2865,7 +2916,8 @@
     "lastGoogleEnrichedAt": "2026-05-12T13:05:24.895Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJBVEtXFSPVogRm94f00Go4a8",
@@ -2906,9 +2958,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -2916,7 +2969,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJnar9vN-JVogR3jFzfjXEmnE",
@@ -2958,9 +3012,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -2968,7 +3023,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJB-lN0SSPVogR2YvpCXrzSdE",
@@ -3009,9 +3065,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3019,7 +3076,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJvQ2hxh2JVogRKslnRFHqaf8",
@@ -3060,9 +3118,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3070,7 +3129,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJUWKsW6-PVogRfmOCHwU7TWE",
@@ -3111,9 +3171,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3121,7 +3182,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJP46z4SuPVogR5dl1FlVgolg",
@@ -3162,9 +3224,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3172,7 +3235,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJW0dO7cOIVogRyoe_eZMQuL0",
@@ -3213,9 +3277,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3223,7 +3288,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJgxjnLEKJVogRtZH81T-ZD7I",
@@ -3265,9 +3331,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3275,7 +3342,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJHzznBgCJVogRgKDQv6clUAk",
@@ -3318,9 +3386,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3328,7 +3397,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJT318MiiJVogRNoqJ5VvpGmw",
@@ -3370,9 +3440,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3380,7 +3451,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJPQIHUg-MVogRYR-MjWRp0nI",
@@ -3423,9 +3495,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3433,7 +3506,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ_dlOXVePVogR1C_8IcPVg7Q",
@@ -3478,9 +3552,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3491,7 +3566,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:empire-rock-hill",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJNYuw9UWJVogRigdumjfXGlQ",
@@ -3532,9 +3608,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3542,7 +3619,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ49rp2i-JVogRHMSZO4H5ihI",
@@ -3585,9 +3663,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3598,7 +3677,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:first-watch",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJsew-mYOFVogRReC9gnj-DKg",
@@ -3644,6 +3724,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3654,7 +3735,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:first-watch",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJLSfOkGuFVogRiXX8JsyAYjk",
@@ -3701,6 +3783,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3708,7 +3791,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJlc5cPwSJVogRpwYHHeKotRU",
@@ -3746,9 +3830,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3756,7 +3841,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJiR3MpKyJVogRxjmEIcENIQ0",
@@ -3796,9 +3882,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3806,7 +3893,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ18UzpKOFVogRc9FTGF-skhY",
@@ -3852,6 +3940,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3859,7 +3948,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ2U08EhyJVogRgQ-EtW41p8Y",
@@ -3901,9 +3991,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3911,7 +4002,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ3zjcvfmFVogRhQdbmFE98aI",
@@ -3952,9 +4044,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -3962,7 +4055,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJHe9L48aJVogRdc0Y3fXpnTc",
@@ -4004,9 +4098,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4014,7 +4109,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJdQR3fVOPVogRpR_toiZ5Dg4",
@@ -4056,9 +4152,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4066,7 +4163,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJq6qekhxgVogRks33YqQT36g",
@@ -4104,9 +4202,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4114,7 +4213,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ03znXqeHVogRdhiAR9aqBt4",
@@ -4156,9 +4256,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4166,7 +4267,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJc3RF4CuPVogRh-Rw2WYPh7E",
@@ -4209,9 +4311,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4219,7 +4322,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJIS45JuyFVogRk5tZ5AiVv5k",
@@ -4263,9 +4367,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4273,7 +4378,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ8TBOgkWLVogRWpv6TG755hs",
@@ -4313,9 +4419,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4323,7 +4430,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ28ZyrjiGVogRiRAr_LRpqsU",
@@ -4367,9 +4475,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4377,7 +4486,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJk_exvzaJVogRUFUM_XovfU8",
@@ -4418,9 +4528,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4428,7 +4539,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJOfBc_n-JVogRG02iGVhu1VA",
@@ -4468,9 +4580,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4478,7 +4591,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJl96Sfi6PVogR-6vGl8nJdhU",
@@ -4521,9 +4635,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4531,7 +4646,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJMztskgmJVogR1OShQkvIZL8",
@@ -4575,9 +4691,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4585,7 +4702,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJg2fYjrCJVogRXfMpkzJ-8gc",
@@ -4627,9 +4745,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4637,7 +4756,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJWTt20X6FVogRys_wywbCBSg",
@@ -4683,6 +4803,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4690,7 +4811,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJV0eou3SGVogR2HTlV1tmir0",
@@ -4732,9 +4854,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4742,7 +4865,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJN9pBqfCFVogRL91droHwdjk",
@@ -4783,9 +4907,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4793,7 +4918,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJsTmnRPOFVogRtscSstRGaI8",
@@ -4840,6 +4966,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4847,7 +4974,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJhRh8_IrzVogR54jCfGwLehw",
@@ -4893,6 +5021,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -4900,7 +5029,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ4T1q0XCJVogREyJh-jZljuk",
@@ -5332,6 +5462,7 @@
     "workflowStage": "report_generated",
     "workflowNotes": [
       "Current stage: report_generated.",
+      "Social review status: verified.",
       "Next action: Complete for MVP.",
       "Record has enough structured data to generate a final report later."
     ],
@@ -5343,7 +5474,8 @@
     "lastScoredAt": "2026-05-12T12:05:18.692Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "verified"
   },
   {
     "id": "ChIJp_lRg_2HVogRljE-FSxsKSE",
@@ -5389,6 +5521,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5396,7 +5529,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJS2WuvECGVogR0N9W5QJ3rL8",
@@ -5437,9 +5571,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5447,7 +5582,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ0RRP92qJVogRqH1Iu3ja1LA",
@@ -5489,9 +5625,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5499,7 +5636,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJcSoLJQCJVogRd2tgtDxlKA0",
@@ -5539,9 +5677,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5549,7 +5688,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJHVpGzKWJVogR_q0d8nC_7T8",
@@ -5590,9 +5730,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5600,7 +5741,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJb3fG9lmPVogR_Zgeo5kAJEI",
@@ -5642,9 +5784,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5652,7 +5795,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJB-P2EnuJVogRx4quXIJ5-HY",
@@ -5696,9 +5840,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5706,7 +5851,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJH5YDEv-IVogR3I3nQtefBy8",
@@ -5749,9 +5895,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5762,7 +5909,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:knowledge-perk-coffee",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJUURJWhiRVogR-CTkiLasET8",
@@ -5810,6 +5958,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5820,7 +5969,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:knowledge-perk-coffee",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJqcOEkuqJVogRdDzTYAIirpk",
@@ -5865,6 +6015,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5872,7 +6023,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ2ZpS_HKPVogRreARbbBfR2g",
@@ -5915,9 +6067,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5925,7 +6078,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJu_18OgCBVogR7kdCt0bZ27o",
@@ -5970,6 +6124,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -5977,7 +6132,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ1b7HzJBsa0wRLrX335PxWTw",
@@ -6018,9 +6174,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6028,7 +6185,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJk2N6Jg-MVogRqab6Sm3SbQY",
@@ -6069,9 +6227,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6079,7 +6238,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJoW_BLvSFVogRFjmJt7efnAA",
@@ -6125,6 +6285,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6132,7 +6293,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJxwCnVgCPVogR-R95hiRDK-s",
@@ -6177,9 +6339,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6187,7 +6350,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJwUCMBbyJVogRW6jQLczFnlk",
@@ -6228,9 +6392,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6238,7 +6403,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJndOfiAOJVogRWtHqaYICpRU",
@@ -6278,9 +6444,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6288,7 +6455,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJRdf0feyNVogRrYazDgm9_Qk",
@@ -6330,9 +6498,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6340,7 +6509,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJE0631LaIVogRMOFZh2ER1gc",
@@ -6388,6 +6558,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6395,7 +6566,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJhRweL7fNt4kRVUFh-QXBA18",
@@ -6440,9 +6612,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6450,7 +6623,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJh44S036RVogRUqYMRN4nTHI",
@@ -6497,6 +6671,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6504,7 +6679,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJCf2QOLGIVogR9fBF91Mt6d4",
@@ -6547,9 +6723,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6557,7 +6734,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJlyCbdLWJVogRDZ5sPwj-NVE",
@@ -6599,9 +6777,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6612,7 +6791,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:empire-rock-hill",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJq42eUD-GVogROYBK_7LpgxU",
@@ -6655,9 +6835,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6665,7 +6846,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJAQAMO1ePVogR8WIlZ5EcBIA",
@@ -6706,9 +6888,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6716,7 +6899,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ56xZM1OPVogRHEzMLt6yDL4",
@@ -6760,9 +6944,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6770,7 +6955,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ9d8VFmiJVogR9ueS1DzGT4Q",
@@ -6813,9 +6999,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6823,7 +7010,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ8eIZ2KyIVogR05vqr8ESnJY",
@@ -6868,9 +7056,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6878,7 +7067,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJJ7zTamWIVogRX1h226Ec-Zk",
@@ -6919,9 +7109,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6929,7 +7120,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJyRrESImFVogRTFmq9YPrpFU",
@@ -6974,6 +7166,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -6981,7 +7174,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJX_6cYX6dVogRDj4ZhL-AhTc",
@@ -7025,6 +7219,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7032,7 +7227,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJWxPYs66JVogRWMH2UgeHloU",
@@ -7073,9 +7269,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7083,7 +7280,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ8RF8C1aIVogROZ9Q0f19tTc",
@@ -7127,9 +7325,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7137,7 +7336,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJOyz8wV2PVogRGxhPYLbNbXg",
@@ -7184,6 +7384,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7191,7 +7392,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJVRhH2S2JVogRAgm65wf3ZAk",
@@ -7232,9 +7434,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7242,7 +7445,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ13STop-JVogRK83TBawGPmo",
@@ -7282,9 +7486,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7292,7 +7497,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJpd3D2COPVogRt4z94dCPTE8",
@@ -7337,6 +7543,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7344,7 +7551,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJQ7LcviONVogRRcX_tjIHPV4",
@@ -7384,9 +7592,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7394,7 +7603,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJS1O5A1OJVogRFIj4UJeXGek",
@@ -7435,9 +7645,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7445,7 +7656,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJvbTPMLCJVogRf_4jBuSHN28",
@@ -7487,9 +7699,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7497,7 +7710,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJz8DMsSmJVogR-LqmJKeZq6w",
@@ -7538,9 +7752,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7548,7 +7763,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJk4BrxWSIVogRAZwNCVORHu8",
@@ -7589,9 +7805,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7599,7 +7816,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJk9SqEGOJVogRBqcgPYRSsec",
@@ -7646,9 +7864,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7656,7 +7875,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ_yNHxFWJVogR5UrxyewJNaM",
@@ -7699,9 +7919,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7709,7 +7930,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJJUfDrSOGVogRKU7DNMS3_VI",
@@ -7752,9 +7974,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7762,7 +7985,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJcV53qKqFVogR3fyWdHBv4GI",
@@ -7811,6 +8035,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7818,7 +8043,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ6RjCjc6PVogRdhTMUBLcU9k",
@@ -7861,9 +8087,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7871,7 +8098,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJMd3ACa6OVogRcSYhwaC1Epw",
@@ -7913,9 +8141,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7923,7 +8152,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJSzL6UQCFVogROBHLxWnvqEs",
@@ -7968,6 +8198,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -7975,7 +8206,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJJ7zTamWIVogRUIXmY2dZ27s",
@@ -8018,9 +8250,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8028,7 +8261,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ-14s-xqJVogRXAf76c5n1hs",
@@ -8070,9 +8304,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8080,7 +8315,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJJ7Zp4iuPVogRd6YAjJSgb4A",
@@ -8121,9 +8357,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8131,7 +8368,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ5Q2FOviOVogRarA79EmgkUo",
@@ -8172,9 +8410,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8182,7 +8421,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJeVEUGIqJVogRtaF1_0ZUO8M",
@@ -8225,9 +8465,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8235,7 +8476,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJf5-apeWPVogRb6oqfRSAIJY",
@@ -8277,9 +8519,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8287,7 +8530,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ_1EgnJmFVogRd8w8qsqJtPw",
@@ -8332,6 +8576,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8339,7 +8584,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJudTwwm2DVogRd_f7KVDO0A0",
@@ -8385,6 +8631,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8392,7 +8639,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJPTwo3yuPVogRC_6HsMqGhOw",
@@ -8433,9 +8681,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8443,7 +8692,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJw4mfgV2IVogRFlWaIwGsQRU",
@@ -8484,9 +8734,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8494,7 +8745,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJHdCh_I6FVogRpokmaSq_GYA",
@@ -8538,6 +8790,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8545,7 +8798,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJp-g5gNSPVogR53IKQ8sMdLo",
@@ -8585,9 +8839,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8595,7 +8850,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJm8smrb6FVogR1ZENA3LEg8U",
@@ -8637,9 +8893,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8647,7 +8904,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJkym4_raIVogRlla-DnzGuws",
@@ -8687,9 +8945,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -8697,7 +8956,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJVVUlClaIVogRO4VaoaEWm_k",
@@ -9125,6 +9385,7 @@
     "workflowStage": "report_generated",
     "workflowNotes": [
       "Current stage: report_generated.",
+      "Social review status: verified.",
       "Next action: Complete for MVP.",
       "Record has enough structured data to generate a final report later."
     ],
@@ -9135,7 +9396,8 @@
     "lastScoredAt": "2026-05-12T12:05:27.979Z",
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "verified"
   },
   {
     "id": "ChIJZcUQ5aaJVogRG2a9oP6L8FE",
@@ -9176,9 +9438,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9186,7 +9449,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJV9vnD62IVogRBfc2pfnCJvY",
@@ -9228,9 +9492,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9238,7 +9503,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJnRZ1VjKJVogRjignz7W5PAw",
@@ -9278,9 +9544,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9288,7 +9555,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJq2PzmoyJVogRMM-Tmj3YnMc",
@@ -9334,6 +9602,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9341,7 +9610,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJTbwUWgCJVogRfyPpnHBNsos",
@@ -9381,9 +9651,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9391,7 +9662,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJe2tE_gibVogROdpgio1vrGM",
@@ -9437,6 +9709,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9444,7 +9717,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJkXoKHTuJVogRxCzOWXPBIjo",
@@ -9485,9 +9759,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9495,7 +9770,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ5xkYaP-IVogRWWaBl6yOV24",
@@ -9540,6 +9816,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9547,7 +9824,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJJ4iH8wyNVogRMLntqd6HGds",
@@ -9592,9 +9870,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9605,7 +9884,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:scooter-s-coffee",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJYSzq06mJVogRJpm9IGzyJU4",
@@ -9649,9 +9929,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9662,7 +9943,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:scooter-s-coffee",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJi6V22g6MVogRNORSFpaia50",
@@ -9703,9 +9985,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9713,7 +9996,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJfe4cz2SIVogR-lHXVhB2mYQ",
@@ -9755,9 +10039,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9765,7 +10050,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJb0dqvcaIVogRU9GGjvt-GLg",
@@ -9810,9 +10096,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9823,7 +10110,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:shrimp-boat-cherry-location",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJwfh21sqJVogRrchdaXERjIA",
@@ -9867,9 +10155,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9880,7 +10169,8 @@
       "Similar business name but different address and different Google Place IDs. Recommended action: keep separate location-specific records."
     ],
     "duplicateGroupKey": "multi:shrimp-boat-cherry-location",
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJF8MlZw2JVogRAcJ4_wc2U5Q",
@@ -9924,9 +10214,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9934,7 +10225,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJK5PCsPmFVogR6pY_9c8pL8w",
@@ -9976,9 +10268,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -9986,7 +10279,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJu0JZo6SIVogR2p0Jp1v3GNI",
@@ -10029,9 +10323,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10039,7 +10334,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ6bVg51WFVogRytCzoiDc3K8",
@@ -10085,6 +10381,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10092,7 +10389,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJeXP0AfmFVogRmG5Evhd6YME",
@@ -10133,9 +10431,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10143,7 +10442,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJVxiISACJVogR380iZdYKV4A",
@@ -10184,9 +10484,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10194,7 +10495,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ__qv5BdfVogRrqM_j9x90z0",
@@ -10240,6 +10542,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10247,7 +10550,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ1Wg31laPVogReytf48gJWG8",
@@ -10287,9 +10591,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10297,7 +10602,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJAQDMzraIVogRxADvnHvgp4M",
@@ -10338,9 +10644,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10348,7 +10655,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJi5V30oiJVogR5VlzLL8AsA0",
@@ -10388,9 +10696,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10398,7 +10707,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJUbYUGwCPVogRf95G75vXK-U",
@@ -10439,9 +10749,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10449,7 +10760,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJR7KqQACJVogRtsI-boi2Cy0",
@@ -10489,9 +10801,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10499,7 +10812,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJmQXoRKCJVogRe1hxuMNTDxQ",
@@ -10542,9 +10856,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10552,7 +10867,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJUYFgtK-JVogR0-isVuNDEuY",
@@ -10595,9 +10911,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10605,7 +10922,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ9aLWUYKFVogRvHB8mSwVb9k",
@@ -10652,6 +10970,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10659,7 +10978,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJo9cta7OIVogR_U1YRQeNa4E",
@@ -10700,9 +11020,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10710,7 +11031,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ2_Y2DkmPVogRcn-11vrdBbI",
@@ -10753,9 +11075,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10763,7 +11086,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJKUpuDlaIVogRfu5afOkxeiQ",
@@ -10807,9 +11131,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10817,7 +11142,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ-bbYBVKFVogRS6Lj35rcVBU",
@@ -10863,6 +11189,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10870,7 +11197,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ_wXBDgOJVogRYOBERuXxi6U",
@@ -10911,9 +11239,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10921,7 +11250,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ4baYhOyJVogRO5wOUyZqqaQ",
@@ -10972,6 +11302,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -10979,7 +11310,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJydeHSiqJVogRzLF0MVK6qUA",
@@ -11029,6 +11361,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11036,7 +11369,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ85Mg1e6FVogRkattA8ZtiOk",
@@ -11079,9 +11413,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11089,7 +11424,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ90Au9juJVogRL_ylt6TLxxs",
@@ -11130,9 +11466,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11140,7 +11477,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ63x5cwyJVogR3rIPh7P8fKc",
@@ -11181,9 +11519,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11191,7 +11530,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJD_CN6d2PVogRcrZPvAsW_3A",
@@ -11233,9 +11573,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11243,7 +11584,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ4Qq2PrqFVogRPnsysXt-n5I",
@@ -11284,9 +11626,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11294,7 +11637,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJqbkcR7GIVogRc6Qkan4KNRo",
@@ -11338,9 +11682,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11348,7 +11693,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJbVf4A-mfVogRMGQqzhligDo",
@@ -11389,9 +11735,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11399,7 +11746,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJsWP02xldVogRZI2aUZhT95I",
@@ -11444,6 +11792,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11451,7 +11800,8 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJr-P5BR6JVogRVr39AFnpMCE",
@@ -11493,9 +11843,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.444Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11503,7 +11854,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJM3jVxnWJVogRvf9k2wsYTKw",
@@ -11544,9 +11896,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.444Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11554,7 +11907,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJ8QNh1dGJVogRiwvgY_UMH1w",
@@ -11595,9 +11949,10 @@
     "lastVerifiedAt": "2026-05-12T11:04:52.444Z",
     "reviewStatus": "included",
     "socialEnrichmentStatus": "not_ready",
-    "workflowStage": "google_enriched",
+    "workflowStage": "social_review_needed",
     "workflowNotes": [
-      "Current stage: google_enriched.",
+      "Current stage: social_review_needed.",
+      "Social review status: not_started.",
       "Next action: Needs social URL review.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11605,7 +11960,8 @@
     "dataCompletenessScore": 20,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   },
   {
     "id": "ChIJQbUQsr-PVogRiqyBgB_N4mg",
@@ -11650,6 +12006,7 @@
     "workflowStage": "discovered",
     "workflowNotes": [
       "Current stage: discovered.",
+      "Social review status: not_started.",
       "Next action: Complete for MVP.",
       "Record still has workflow gaps before final reporting."
     ],
@@ -11657,6 +12014,7 @@
     "dataCompletenessScore": 0,
     "duplicateReviewStatus": "unique",
     "duplicateReviewNotes": [],
-    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z"
+    "duplicateReviewedAt": "2026-05-12T13:44:37.788Z",
+    "socialReviewStatus": "not_started"
   }
 ]

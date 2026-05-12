@@ -51,6 +51,13 @@ export type SocialProfileVerificationStatus =
   | "not_found"
   | "unknown";
 
+export type SocialReviewStatus =
+  | "not_started"
+  | "in_progress"
+  | "verified"
+  | "not_found"
+  | "partial";
+
 export type SocialEnrichmentStatus =
   | "not_ready"
   | "ready"
@@ -95,6 +102,8 @@ export type RestaurantProfile = {
   sourceQueries: string[];
   lastVerifiedAt: string;
   socialVerificationNotes?: string[];
+  socialReviewStatus?: SocialReviewStatus;
+  socialReviewNotes?: string[];
   socialLinksVerifiedAt?: string;
   socialProfileStatus?: {
     facebook: SocialProfileVerificationStatus;

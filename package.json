@@ -16,6 +16,7 @@
     "review:social": "tsx scripts/09-review-social-data.ts",
     "export:web-data": "tsx scripts/10-export-web-data.ts",
     "review:workflow": "tsx scripts/11-review-workflow.ts",
+    "queue:social": "tsx scripts/15-social-review-queue.ts",
     "batch:google": "tsx scripts/12-batch-enrich-google.ts",
     "review:duplicates": "tsx scripts/13-review-duplicates.ts",
     "reconcile:workflow": "tsx scripts/14-reconcile-workflow.ts",

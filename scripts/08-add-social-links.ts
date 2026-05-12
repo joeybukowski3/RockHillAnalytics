@@ -5,7 +5,8 @@ import { findRestaurant } from "../src/lib/findRestaurant.js";
 import { applyWorkflowMetadata } from "../src/lib/workflow.js";
 import {
   RestaurantProfile,
-  SocialProfileVerificationStatus
+  SocialProfileVerificationStatus,
+  SocialReviewStatus
 } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -140,6 +141,36 @@ function validateUrl(value: string, kind: "facebook" | "instagram" | "tiktok" | 
   }
 }
 
+function deriveSocialReviewStatus(
+  currentStatus: {
+    facebook: SocialProfileVerificationStatus;
+    instagram: SocialProfileVerificationStatus;
+    tiktok: SocialProfileVerificationStatus;
+  },
+  previousStatus?: SocialReviewStatus
+): SocialReviewStatus {
+  if (currentStatus.facebook === "not_found" && currentStatus.instagram === "not_found") {
+    return "not_found";
+  }
+
+  if (
+    (currentStatus.facebook === "verified" && currentStatus.instagram === "not_found") ||
+    (currentStatus.instagram === "verified" && currentStatus.facebook === "not_found") ||
+    (currentStatus.facebook === "verified" && currentStatus.instagram === "verified")
+  ) {
+    return "verified";
+  }
+
+  if (
+    currentStatus.facebook !== "unknown" ||
+    currentStatus.instagram !== "unknown"
+  ) {
+    return "partial";
+  }
+
+  return previousStatus ?? "not_started";
+}
+
 async function loadRestaurants(): Promise<RestaurantProfile[]> {
   const raw = await readFile(path.join(ROOT, "data", "restaurants.seed.json"), "utf8");
   return JSON.parse(raw) as RestaurantProfile[];
@@ -174,14 +205,38 @@ async function main(): Promise<void> {
       return entry;
     }
 
-    const notes = parsedArgs.notes
-      ? Array.from(new Set([...(entry.socialVerificationNotes ?? []), parsedArgs.notes]))
-      : entry.socialVerificationNotes;
     const currentStatus = entry.socialProfileStatus ?? {
       facebook: "unknown" as SocialProfileVerificationStatus,
       instagram: "unknown" as SocialProfileVerificationStatus,
       tiktok: "unknown" as SocialProfileVerificationStatus
     };
+    const updatedStatus = {
+      facebook: parsedArgs.facebook
+        ? "verified"
+        : parsedArgs.noFacebook
+          ? "not_found"
+          : currentStatus.facebook,
+      instagram: parsedArgs.instagram
+        ? "verified"
+        : parsedArgs.noInstagram
+          ? "not_found"
+          : currentStatus.instagram,
+      tiktok: parsedArgs.tiktok
+        ? "verified"
+        : parsedArgs.noTiktok
+          ? "not_found"
+          : currentStatus.tiktok
+    } as const;
+    const notes = parsedArgs.notes
+      ? Array.from(new Set([...(entry.socialVerificationNotes ?? []), parsedArgs.notes]))
+      : entry.socialVerificationNotes;
+    const socialReviewNotes = Array.from(
+      new Set([
+        ...(entry.socialReviewNotes ?? []),
+        `Social review update: facebook=${updatedStatus.facebook}, instagram=${updatedStatus.instagram}, tiktok=${updatedStatus.tiktok}`,
+        ...(parsedArgs.notes ? [parsedArgs.notes] : [])
+      ])
+    );
 
     return applyWorkflowMetadata({
       ...entry,
@@ -194,24 +249,10 @@ async function main(): Promise<void> {
       tiktokUrl: parsedArgs.noTiktok ? undefined : parsedArgs.tiktok ?? entry.tiktokUrl,
       website: parsedArgs.website ?? entry.website,
       socialVerificationNotes: notes,
+      socialReviewNotes,
       socialLinksVerifiedAt: now,
-      socialProfileStatus: {
-        facebook: parsedArgs.facebook
-          ? "verified"
-          : parsedArgs.noFacebook
-            ? "not_found"
-            : currentStatus.facebook,
-        instagram: parsedArgs.instagram
-          ? "verified"
-          : parsedArgs.noInstagram
-            ? "not_found"
-            : currentStatus.instagram,
-        tiktok: parsedArgs.tiktok
-          ? "verified"
-          : parsedArgs.noTiktok
-            ? "not_found"
-            : currentStatus.tiktok
-      },
+      socialReviewStatus: deriveSocialReviewStatus(updatedStatus, entry.socialReviewStatus),
+      socialProfileStatus: updatedStatus,
       lastSocialReviewedAt: now,
       updatedAt: now
     });

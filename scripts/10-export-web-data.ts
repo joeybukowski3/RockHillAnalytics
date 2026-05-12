@@ -20,6 +20,7 @@ type DashboardRestaurant = {
   reviewStatus: string;
   pipelineStage?: string;
   socialEnrichmentStatus?: string;
+  socialReviewStatus?: string;
   workflowStage?: string;
   nextAction: string;
   dataCompletenessScore: number;
@@ -59,6 +60,7 @@ type DashboardRestaurant = {
   scores?: RestaurantProfile["scores"];
   reviewNotes: string[];
   socialVerificationNotes: string[];
+  socialReviewNotes: string[];
   socialEnrichmentNotes: string[];
   reportPath?: string;
   reportExists: boolean;
@@ -122,6 +124,7 @@ function toDashboardRestaurant(
     reviewStatus: normalizedRestaurant.reviewStatus ?? normalizedRestaurant.status,
     pipelineStage: normalizedRestaurant.pipelineStage,
     socialEnrichmentStatus: normalizedRestaurant.socialEnrichmentStatus,
+    socialReviewStatus: normalizedRestaurant.socialReviewStatus,
     workflowStage: snapshot.workflowStage,
     nextAction: snapshot.nextAction,
     dataCompletenessScore: snapshot.dataCompletenessScore,
@@ -167,6 +170,7 @@ function toDashboardRestaurant(
     scores: normalizedRestaurant.scores,
     reviewNotes: normalizedRestaurant.reviewNotes ?? [],
     socialVerificationNotes: normalizedRestaurant.socialVerificationNotes ?? [],
+    socialReviewNotes: normalizedRestaurant.socialReviewNotes ?? [],
     socialEnrichmentNotes: normalizedRestaurant.socialEnrichmentNotes ?? [],
     reportPath,
     reportExists: Boolean(reportPath),

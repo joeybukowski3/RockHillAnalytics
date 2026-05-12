@@ -1,7 +1,8 @@
-import { getLatestPostDate, getSocialProfileStatus, hasRecentSocialPosts } from "./social.js";
+import { getSocialProfileStatus, hasRecentSocialPosts } from "./social.js";
 import {
   RestaurantProfile,
   SocialProfileVerificationStatus,
+  SocialReviewStatus,
   WorkflowStage
 } from "../types/restaurant.js";
 
@@ -20,6 +21,7 @@ export type WorkflowSnapshot = {
   dataCompletenessScore: number;
   missingData: string[];
   readyForReport: boolean;
+  socialReviewStatus: SocialReviewStatus;
   workflowNotes: string[];
   suggestedCommands: string[];
 };
@@ -58,20 +60,58 @@ function hasVerifiedStatus(value: SocialProfileVerificationStatus): boolean {
   return value === "verified";
 }
 
-function hasSocialReviewCoverage(restaurant: RestaurantProfile): boolean {
-  const facebook = getSocialProfileStatus(restaurant, "facebook");
-  const instagram = getSocialProfileStatus(restaurant, "instagram");
-  return facebook !== "unknown" && instagram !== "unknown";
+function hasReviewedSocialProfile(value: SocialProfileVerificationStatus): boolean {
+  return value !== "unknown";
 }
 
-function hasPartialSocialReview(restaurant: RestaurantProfile): boolean {
-  const facebook = getSocialProfileStatus(restaurant, "facebook");
-  const instagram = getSocialProfileStatus(restaurant, "instagram");
-  return facebook !== "unknown" || instagram !== "unknown" || Boolean(restaurant.lastSocialReviewedAt);
+function isSocialReviewComplete(status: SocialReviewStatus): boolean {
+  return status === "verified" || status === "not_found";
+}
+
+function isSocialReviewIncomplete(status: SocialReviewStatus): boolean {
+  return status === "not_started" || status === "in_progress" || status === "partial";
 }
 
 function hasVerifiedSocialLink(restaurant: RestaurantProfile, platform: "facebook" | "instagram"): boolean {
   return hasVerifiedStatus(getSocialProfileStatus(restaurant, platform));
+}
+
+export function getSocialReviewStatus(restaurant: RestaurantProfile): SocialReviewStatus {
+  const facebook = getSocialProfileStatus(restaurant, "facebook");
+  const instagram = getSocialProfileStatus(restaurant, "instagram");
+  const reviewedProfiles = [facebook, instagram].filter(hasReviewedSocialProfile);
+
+  if (facebook === "not_found" && instagram === "not_found") {
+    return "not_found";
+  }
+
+  if (
+    (facebook === "verified" && instagram === "not_found") ||
+    (instagram === "verified" && facebook === "not_found") ||
+    (facebook === "verified" && instagram === "verified")
+  ) {
+    return "verified";
+  }
+
+  if (reviewedProfiles.length > 0) {
+    return "partial";
+  }
+
+  const explicit = restaurant.socialReviewStatus;
+
+  if (explicit === "verified" || explicit === "not_found" || explicit === "partial" || explicit === "in_progress") {
+    return explicit;
+  }
+
+  return restaurant.lastSocialReviewedAt ? "in_progress" : "not_started";
+}
+
+function hasSocialReviewCoverage(restaurant: RestaurantProfile): boolean {
+  return isSocialReviewComplete(getSocialReviewStatus(restaurant));
+}
+
+function hasPartialSocialReview(restaurant: RestaurantProfile): boolean {
+  return isSocialReviewIncomplete(getSocialReviewStatus(restaurant));
 }
 
 function hasSocialEnrichment(restaurant: RestaurantProfile): boolean {
@@ -97,7 +137,9 @@ function buildMissingData(restaurant: RestaurantProfile): string[] {
     missing.push("google enrichment");
   }
 
-  if (!hasSocialReviewCoverage(restaurant)) {
+  const socialReviewStatus = getSocialReviewStatus(restaurant);
+
+  if (isSocialReviewIncomplete(socialReviewStatus)) {
     missing.push("social URL review");
   }
 
@@ -109,7 +151,7 @@ function buildMissingData(restaurant: RestaurantProfile): string[] {
     missing.push("facebook enrichment");
   }
 
-  if (!hasScore(restaurant)) {
+  if (!hasScore(restaurant) && !isSocialReviewIncomplete(socialReviewStatus)) {
     missing.push("scoring");
   }
 
@@ -122,40 +164,39 @@ function buildMissingData(restaurant: RestaurantProfile): string[] {
 
 function buildSuggestedCommands(restaurant: RestaurantProfile, nextAction: WorkflowAction): string[] {
   const name = restaurant.name.replace(/"/g, '\\"');
-  const commands = [
-    `npm run enrich:google -- "${name}"`,
-    `npm run add:social -- "${name}" --facebook "URL" --instagram "URL" --notes "Manually verified official social profiles"`,
-    `npm run enrich:instagram -- "${name}"`,
-    `npm run enrich:facebook -- "${name}"`,
-    `npm run score -- "${name}"`,
-    `npm run report -- "${name}"`
-  ];
+  const googleCommand = `npm run enrich:google -- "${name}"`;
+  const verifiedSocialCommand = `npm run add:social -- "${name}" --facebook "URL" --instagram "URL" --notes "Manually verified official social profiles"`;
+  const noSocialCommand = `npm run add:social -- "${name}" --no-facebook --no-instagram --notes "No official Facebook or Instagram found during manual check"`;
+  const instagramCommand = `npm run enrich:instagram -- "${name}"`;
+  const facebookCommand = `npm run enrich:facebook -- "${name}"`;
+  const scoreCommand = `npm run score -- "${name}"`;
+  const reportCommand = `npm run report -- "${name}"`;
 
   if (nextAction === "Needs Google enrichment") {
-    return [commands[0]];
+    return [googleCommand];
   }
 
   if (nextAction === "Needs social URL review") {
-    return [commands[1]];
+    return [verifiedSocialCommand, noSocialCommand];
   }
 
   if (nextAction === "Ready for Instagram enrichment") {
-    return [commands[2]];
+    return [instagramCommand];
   }
 
   if (nextAction === "Ready for Facebook enrichment") {
-    return [commands[3]];
+    return [facebookCommand];
   }
 
   if (nextAction === "Needs scoring") {
-    return [commands[4], commands[5]];
+    return [scoreCommand, reportCommand];
   }
 
   if (nextAction === "Ready for report") {
-    return [commands[5]];
+    return [reportCommand];
   }
 
-  return commands;
+  return [googleCommand, verifiedSocialCommand, noSocialCommand, instagramCommand, facebookCommand, scoreCommand, reportCommand];
 }
 
 function calculateCompleteness(restaurant: RestaurantProfile): number {
@@ -165,9 +206,7 @@ function calculateCompleteness(restaurant: RestaurantProfile): number {
 
   let points = 0;
 
-  if (isIncludedRestaurant(restaurant)) {
-    points += 10;
-  }
+  points += 10;
 
   if (hasGoogleSeedData(restaurant)) {
     points += 10;
@@ -177,8 +216,16 @@ function calculateCompleteness(restaurant: RestaurantProfile): number {
     points += 20;
   }
 
-  if (hasSocialReviewCoverage(restaurant)) {
+  const socialReviewStatus = getSocialReviewStatus(restaurant);
+
+  if (socialReviewStatus === "verified") {
     points += 15;
+  } else if (socialReviewStatus === "not_found") {
+    points += 12;
+  } else if (socialReviewStatus === "partial") {
+    points += 8;
+  } else if (socialReviewStatus === "in_progress") {
+    points += 5;
   }
 
   if (hasVerifiedSocialLink(restaurant, "instagram") || getSocialProfileStatus(restaurant, "instagram") === "not_found") {
@@ -221,24 +268,30 @@ export function getWorkflowStage(restaurant: RestaurantProfile): WorkflowStage {
     return "ready_for_report";
   }
 
-  if (hasScore(restaurant)) {
-    return "scored";
-  }
-
   if (hasSocialEnrichment(restaurant)) {
     return "social_enriched";
   }
 
-  if (hasSocialReviewCoverage(restaurant)) {
+  const socialReviewStatus = getSocialReviewStatus(restaurant);
+
+  if (socialReviewStatus === "verified") {
     return "social_links_verified";
   }
 
-  if (hasPartialSocialReview(restaurant)) {
+  if (socialReviewStatus === "not_found" && hasScore(restaurant)) {
+    return "scored";
+  }
+
+  if (socialReviewStatus === "not_found" || hasPartialSocialReview(restaurant)) {
     return "social_review_needed";
   }
 
-  if (hasGoogleCoverage(restaurant) || restaurant.pipelineStage === "enriched") {
-    return "google_enriched";
+  if (hasScore(restaurant)) {
+    return "scored";
+  }
+
+  if (hasGoogleCoverage(restaurant)) {
+    return "social_review_needed";
   }
 
   return "discovered";
@@ -253,7 +306,9 @@ export function getNextRecommendedAction(restaurant: RestaurantProfile): Workflo
     return "Needs Google enrichment";
   }
 
-  if (!hasSocialReviewCoverage(restaurant)) {
+  const socialReviewStatus = getSocialReviewStatus(restaurant);
+
+  if (isSocialReviewIncomplete(socialReviewStatus)) {
     return "Needs social URL review";
   }
 
@@ -263,6 +318,10 @@ export function getNextRecommendedAction(restaurant: RestaurantProfile): Workflo
 
   if (hasVerifiedSocialLink(restaurant, "facebook") && !(restaurant.facebook?.recentPosts?.length ?? 0)) {
     return "Ready for Facebook enrichment";
+  }
+
+  if (socialReviewStatus === "not_found" && !hasScore(restaurant)) {
+    return "Needs scoring";
   }
 
   if (!hasScore(restaurant)) {
@@ -277,11 +336,12 @@ export function getNextRecommendedAction(restaurant: RestaurantProfile): Workflo
 }
 
 export function getWorkflowSnapshot(restaurant: RestaurantProfile): WorkflowSnapshot {
+  const socialReviewStatus = getSocialReviewStatus(restaurant);
   const readyForReport = Boolean(
     isIncludedRestaurant(restaurant) &&
       hasGoogleCoverage(restaurant) &&
       hasScore(restaurant) &&
-      hasSocialReviewCoverage(restaurant) &&
+      !isSocialReviewIncomplete(socialReviewStatus) &&
       (!hasVerifiedSocialLink(restaurant, "instagram") || (restaurant.instagram?.recentPosts?.length ?? 0) > 0) &&
       (!hasVerifiedSocialLink(restaurant, "facebook") || (restaurant.facebook?.recentPosts?.length ?? 0) > 0)
   );
@@ -299,6 +359,7 @@ export function getWorkflowSnapshot(restaurant: RestaurantProfile): WorkflowSnap
   });
   const workflowNotes = [
     `Current stage: ${workflowStage}.`,
+    `Social review status: ${socialReviewStatus}.`,
     `Next action: ${nextAction}.`,
     readyForReport
       ? "Record has enough structured data to generate a final report later."
@@ -310,10 +371,12 @@ export function getWorkflowSnapshot(restaurant: RestaurantProfile): WorkflowSnap
     nextAction,
     dataCompletenessScore: calculateCompleteness({
       ...restaurant,
+      socialReviewStatus,
       readyForReport
     }),
     missingData,
     readyForReport,
+    socialReviewStatus,
     workflowNotes,
     suggestedCommands: buildSuggestedCommands(restaurant, nextAction)
   };
@@ -327,12 +390,14 @@ export function applyWorkflowMetadata(restaurant: RestaurantProfile): Restaurant
     workflowStage: snapshot.workflowStage,
     workflowNotes: snapshot.workflowNotes,
     readyForReport: snapshot.readyForReport,
-    dataCompletenessScore: snapshot.dataCompletenessScore
+    dataCompletenessScore: snapshot.dataCompletenessScore,
+    socialReviewStatus: snapshot.socialReviewStatus
   };
 }
 
 export function findWorkflowInconsistencies(restaurant: RestaurantProfile): string[] {
   const issues: string[] = [];
+  const socialReviewStatus = getSocialReviewStatus(restaurant);
 
   if (restaurant.readyForReport && !hasScore(restaurant)) {
     issues.push("readyForReport is true but no score is stored.");
@@ -354,8 +419,20 @@ export function findWorkflowInconsistencies(restaurant: RestaurantProfile): stri
     issues.push("Scoring exists before Google detail enrichment was completed.");
   }
 
-  if (isIncludedRestaurant(restaurant) && hasSocialEnrichment(restaurant) && !hasSocialReviewCoverage(restaurant)) {
+  if (isIncludedRestaurant(restaurant) && hasSocialEnrichment(restaurant) && !isSocialReviewComplete(socialReviewStatus)) {
     issues.push("Social enrichment exists before Facebook/Instagram review statuses were fully set.");
+  }
+
+  if (restaurant.socialReviewStatus === "verified" && !isSocialReviewComplete(socialReviewStatus)) {
+    issues.push("socialReviewStatus is verified but Facebook/Instagram review statuses are incomplete.");
+  }
+
+  if (restaurant.socialReviewStatus === "not_found" && hasVerifiedSocialLink(restaurant, "facebook")) {
+    issues.push("socialReviewStatus is not_found but Facebook is verified.");
+  }
+
+  if (restaurant.socialReviewStatus === "not_found" && hasVerifiedSocialLink(restaurant, "instagram")) {
+    issues.push("socialReviewStatus is not_found but Instagram is verified.");
   }
 
   return issues;

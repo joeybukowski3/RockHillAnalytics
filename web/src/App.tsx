@@ -15,6 +15,7 @@ type DashboardRestaurant = {
   reviewStatus: string;
   pipelineStage?: string;
   socialEnrichmentStatus?: string;
+  socialReviewStatus?: string;
   workflowStage?: string;
   nextAction: string;
   dataCompletenessScore: number;
@@ -63,6 +64,7 @@ type DashboardRestaurant = {
   };
   reviewNotes: string[];
   socialVerificationNotes: string[];
+  socialReviewNotes: string[];
   socialEnrichmentNotes: string[];
   reportPath?: string;
   reportExists: boolean;
@@ -114,7 +116,12 @@ function badgeTone(value: string): string {
     value === "ready" ||
     value === "social_review_needed" ||
     value === "social_links_verified" ||
+    value === "not_started" ||
+    value === "partial" ||
+    value === "in_progress" ||
     value === "Needs social URL review" ||
+    value === "Partial social review" ||
+    value === "Social reviewed but no profiles found" ||
     value === "Ready for Instagram enrichment" ||
     value === "Ready for Facebook enrichment" ||
     value === "Needs scoring" ||
@@ -133,7 +140,7 @@ function badgeTone(value: string): string {
     return "bad";
   }
 
-  if (value === "multi_location") {
+  if (value === "multi_location" || value === "not_found") {
     return "neutral";
   }
 
@@ -150,6 +157,10 @@ function getDisplayName(restaurant: DashboardRestaurant): string {
 
 function hasGoogleEnriched(restaurant: DashboardRestaurant): boolean {
   return Boolean(restaurant.lastGoogleEnrichedAt || restaurant.google?.rating !== undefined || restaurant.phone || restaurant.website);
+}
+
+function getSocialReviewStatus(restaurant: DashboardRestaurant): string {
+  return restaurant.socialReviewStatus ?? "not_started";
 }
 
 function hasSocialPosts(restaurant: DashboardRestaurant): boolean {
@@ -172,7 +183,8 @@ function getScoreExplanation(restaurant: DashboardRestaurant): string[] {
     `Reputation Score: ${restaurant.scores?.reputation ?? "n/a"} based on Google rating and review count.`,
     `Social Presence Score: ${restaurant.scores?.socialPresence ?? "n/a"} based on verified profiles, post counts, recency, and engagement.`,
     `Opportunity Score: ${restaurant.scores?.opportunity ?? "n/a"} rises when reputation is strong but social presence is weaker or missing.`,
-    "Strong reputation and strong social presence improve public presence, but lower immediate opportunity urgency."
+    "Strong reputation and strong social presence improve public presence, but lower immediate opportunity urgency.",
+    "No social profile found is a marketing opportunity, not a data failure."
   ];
 }
 
@@ -225,6 +237,25 @@ export default function App() {
     };
   }, [includedRestaurants]);
 
+  const socialReviewCounts = useMemo(() => {
+    const count = (predicate: (restaurant: DashboardRestaurant) => boolean) =>
+      includedRestaurants.filter(predicate).length;
+
+    return {
+      notStarted: count((restaurant) => getSocialReviewStatus(restaurant) === "not_started"),
+      partial: count((restaurant) => getSocialReviewStatus(restaurant) === "partial"),
+      verified: count((restaurant) => getSocialReviewStatus(restaurant) === "verified"),
+      notFound: count((restaurant) => getSocialReviewStatus(restaurant) === "not_found"),
+      inProgress: count((restaurant) => getSocialReviewStatus(restaurant) === "in_progress"),
+      readyForInstagram: count(
+        (restaurant) => restaurant.nextAction === "Ready for Instagram enrichment"
+      ),
+      readyForFacebook: count(
+        (restaurant) => restaurant.nextAction === "Ready for Facebook enrichment"
+      )
+    };
+  }, [includedRestaurants]);
+
   const stageFunnel = useMemo(
     () =>
       [
@@ -258,6 +289,43 @@ export default function App() {
           .filter((restaurant) => restaurant.nextAction === action)
           .slice(0, 8)
       })),
+    [includedRestaurants]
+  );
+
+  const socialReviewQueue = useMemo(
+    () =>
+      [
+        {
+          title: "Needs social URL review",
+          restaurants: includedRestaurants
+            .filter((restaurant) => restaurant.nextAction === "Needs social URL review")
+            .slice(0, 8)
+        },
+        {
+          title: "Partial social review",
+          restaurants: includedRestaurants
+            .filter((restaurant) => getSocialReviewStatus(restaurant) === "partial")
+            .slice(0, 8)
+        },
+        {
+          title: "Ready for Instagram enrichment",
+          restaurants: includedRestaurants
+            .filter((restaurant) => restaurant.nextAction === "Ready for Instagram enrichment")
+            .slice(0, 8)
+        },
+        {
+          title: "Ready for Facebook enrichment",
+          restaurants: includedRestaurants
+            .filter((restaurant) => restaurant.nextAction === "Ready for Facebook enrichment")
+            .slice(0, 8)
+        },
+        {
+          title: "Social reviewed but no profiles found",
+          restaurants: includedRestaurants
+            .filter((restaurant) => getSocialReviewStatus(restaurant) === "not_found")
+            .slice(0, 8)
+        }
+      ],
     [includedRestaurants]
   );
 
@@ -432,6 +500,63 @@ export default function App() {
 
       <section className="section-block">
         <div className="section-header">
+          <h2>Social review progress</h2>
+          <p>Manual social URL review status before any Apify enrichment.</p>
+        </div>
+        <div className="featured-grid">
+          <article className="featured-card compact-card">
+            <div className="featured-head">
+              <div>
+                <h3>Not started</h3>
+              </div>
+              <strong className="funnel-count">{socialReviewCounts.notStarted}</strong>
+            </div>
+          </article>
+          <article className="featured-card compact-card">
+            <div className="featured-head">
+              <div>
+                <h3>Partial</h3>
+              </div>
+              <strong className="funnel-count">{socialReviewCounts.partial}</strong>
+            </div>
+          </article>
+          <article className="featured-card compact-card">
+            <div className="featured-head">
+              <div>
+                <h3>Verified</h3>
+              </div>
+              <strong className="funnel-count">{socialReviewCounts.verified}</strong>
+            </div>
+          </article>
+          <article className="featured-card compact-card">
+            <div className="featured-head">
+              <div>
+                <h3>Not found</h3>
+              </div>
+              <strong className="funnel-count">{socialReviewCounts.notFound}</strong>
+            </div>
+          </article>
+          <article className="featured-card compact-card">
+            <div className="featured-head">
+              <div>
+                <h3>Ready for Instagram enrichment</h3>
+              </div>
+              <strong className="funnel-count">{socialReviewCounts.readyForInstagram}</strong>
+            </div>
+          </article>
+          <article className="featured-card compact-card">
+            <div className="featured-head">
+              <div>
+                <h3>Ready for Facebook enrichment</h3>
+              </div>
+              <strong className="funnel-count">{socialReviewCounts.readyForFacebook}</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section className="section-block">
+        <div className="section-header">
           <h2>Action queue</h2>
           <p>Which restaurants need the next operational step.</p>
         </div>
@@ -457,6 +582,41 @@ export default function App() {
                   <li>
                     <strong>None</strong>
                     <span>No restaurants currently in this queue.</span>
+                  </li>
+                )}
+              </ul>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="section-block">
+        <div className="section-header">
+          <h2>Social review queue</h2>
+          <p>Restaurants that still need manual social URL review or follow-up.</p>
+        </div>
+        <div className="featured-grid">
+          {socialReviewQueue.map((group) => (
+            <article key={group.title} className="featured-card">
+              <div className="featured-head">
+                <div>
+                  <h3>{group.title}</h3>
+                  <p>{group.restaurants.length} shown</p>
+                </div>
+                <span className={`badge ${badgeTone(group.title)}`}>{group.title}</span>
+              </div>
+              <ul className="queue-list">
+                {group.restaurants.length ? (
+                  group.restaurants.map((restaurant) => (
+                    <li key={restaurant.id}>
+                      <strong>{getDisplayName(restaurant)}</strong>
+                      <span>{restaurant.nextAction}</span>
+                    </li>
+                  ))
+                ) : (
+                  <li>
+                    <strong>None</strong>
+                    <span>No restaurants currently in this social review bucket.</span>
                   </li>
                 )}
               </ul>
@@ -586,6 +746,7 @@ export default function App() {
                   <th>Restaurant</th>
                   <th>Workflow Stage</th>
                   <th>Next Action</th>
+                  <th>Social Review</th>
                   <th>Completeness</th>
                   <th>Google Status</th>
                   <th>Instagram Status</th>
@@ -620,6 +781,11 @@ export default function App() {
                     <td>
                       <span className={`badge ${badgeTone(restaurant.nextAction)}`}>
                         {restaurant.nextAction}
+                      </span>
+                    </td>
+                    <td>
+                      <span className={`badge ${badgeTone(getSocialReviewStatus(restaurant))}`}>
+                        {getSocialReviewStatus(restaurant)}
                       </span>
                     </td>
                     <td>{restaurant.dataCompletenessScore}%</td>
@@ -675,6 +841,16 @@ export default function App() {
                   ...(selectedRestaurant.duplicateReviewNotes.length
                     ? selectedRestaurant.duplicateReviewNotes
                     : ["No duplicate concerns recorded."])
+                ]}
+              />
+              <DetailGroup
+                title="Social review"
+                lines={[
+                  `Social review status: ${getSocialReviewStatus(selectedRestaurant)}`,
+                  `Last social review: ${formatDate(selectedRestaurant.lastSocialReviewedAt)}`,
+                  ...(selectedRestaurant.socialReviewNotes.length
+                    ? selectedRestaurant.socialReviewNotes
+                    : ["No social review notes recorded."])
                 ]}
               />
               <DetailGroup
@@ -740,10 +916,12 @@ export default function App() {
                 lines={[
                   ...selectedRestaurant.reviewNotes,
                   ...selectedRestaurant.socialVerificationNotes,
+                  ...selectedRestaurant.socialReviewNotes,
                   ...selectedRestaurant.socialEnrichmentNotes
                 ].length ? [
                   ...selectedRestaurant.reviewNotes,
                   ...selectedRestaurant.socialVerificationNotes,
+                  ...selectedRestaurant.socialReviewNotes,
                   ...selectedRestaurant.socialEnrichmentNotes
                 ] : ["No notes recorded."]}
               />

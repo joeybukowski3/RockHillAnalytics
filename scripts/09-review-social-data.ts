@@ -10,6 +10,7 @@ import {
   isStaleLatestPost,
   normalizeRestaurantSocialData
 } from "../src/lib/social.js";
+import { getSocialReviewStatus } from "../src/lib/workflow.js";
 import { RestaurantProfile } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -24,7 +25,8 @@ async function main(): Promise<void> {
   const restaurants = await loadRestaurants();
   const normalizedRestaurants = restaurants.map((restaurant) => ({
     ...normalizeRestaurantSocialData(restaurant),
-    socialEnrichmentStatus: deriveSocialEnrichmentStatus(restaurant)
+    socialEnrichmentStatus: deriveSocialEnrichmentStatus(restaurant),
+    socialReviewStatus: getSocialReviewStatus(restaurant)
   }));
 
   await writeFile(
@@ -59,6 +61,21 @@ async function main(): Promise<void> {
           ) === "unknown"
       )
   );
+  const notStartedReviews = normalizedRestaurants.filter(
+    (restaurant) => getSocialReviewStatus(restaurant) === "not_started"
+  );
+  const partialReviews = normalizedRestaurants.filter(
+    (restaurant) => getSocialReviewStatus(restaurant) === "partial"
+  );
+  const verifiedReviews = normalizedRestaurants.filter(
+    (restaurant) => getSocialReviewStatus(restaurant) === "verified"
+  );
+  const notFoundReviews = normalizedRestaurants.filter(
+    (restaurant) => getSocialReviewStatus(restaurant) === "not_found"
+  );
+  const inProgressReviews = normalizedRestaurants.filter(
+    (restaurant) => getSocialReviewStatus(restaurant) === "in_progress"
+  );
   const withRecentPosts = normalizedRestaurants.filter(hasRecentSocialPosts);
   const staleLatestPost = normalizedRestaurants.filter(
     (restaurant) =>
@@ -79,6 +96,11 @@ async function main(): Promise<void> {
   console.log(`Restaurants with verified Facebook: ${verifiedFacebook.length}`);
   console.log(`Restaurants with not_found social profiles: ${notFoundProfiles.length}`);
   console.log(`Restaurants with unknown social profiles: ${unknownProfiles.length}`);
+  console.log(`Social review status - not started: ${notStartedReviews.length}`);
+  console.log(`Social review status - partial: ${partialReviews.length}`);
+  console.log(`Social review status - verified: ${verifiedReviews.length}`);
+  console.log(`Social review status - not found: ${notFoundReviews.length}`);
+  console.log(`Social review status - in progress: ${inProgressReviews.length}`);
   console.log(`Restaurants with recentPosts stored: ${withRecentPosts.length}`);
   console.log(`Restaurants with stale latest post date: ${staleLatestPost.length}`);
   console.log(`Restaurants with social URLs but no enrichment data: ${urlsButNoEnrichment.length}`);
