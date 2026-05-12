@@ -3,6 +3,7 @@ import path from "node:path";
 import { loadEnv } from "../src/lib/env.js";
 import { findRestaurant } from "../src/lib/findRestaurant.js";
 import { calculateOverallScore } from "../src/lib/scoring.js";
+import { applyWorkflowMetadata, getWorkflowSnapshot } from "../src/lib/workflow.js";
 import { RestaurantProfile } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -30,17 +31,27 @@ async function main(): Promise<void> {
   const scores = calculateOverallScore(restaurant);
   const now = new Date().toISOString();
 
-  const updatedRestaurants = restaurants.map((entry) =>
-    entry.id === restaurant.id
-      ? {
-          ...entry,
-          scores,
-          pipelineStage: "scored" as const,
-          lastVerifiedAt: now,
-          updatedAt: now
-        }
-      : entry
-  );
+  const updatedRestaurants = restaurants.map((entry) => {
+    if (entry.id !== restaurant.id) {
+      return entry;
+    }
+
+    const snapshot = getWorkflowSnapshot({
+      ...entry,
+      scores,
+      lastScoredAt: now
+    });
+
+    return applyWorkflowMetadata({
+      ...entry,
+      scores,
+      pipelineStage: "scored" as const,
+      lastScoredAt: now,
+      readyForReport: snapshot.readyForReport,
+      lastVerifiedAt: now,
+      updatedAt: now
+    });
+  });
 
   await writeFile(
     path.join(ROOT, "data", "restaurants.seed.json"),

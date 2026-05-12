@@ -15,6 +15,16 @@ type DashboardRestaurant = {
   reviewStatus: string;
   pipelineStage?: string;
   socialEnrichmentStatus?: string;
+  workflowStage?: string;
+  nextAction: string;
+  dataCompletenessScore: number;
+  missingData: string[];
+  readyForReport: boolean;
+  suggestedCommands: string[];
+  lastGoogleEnrichedAt?: string;
+  lastSocialReviewedAt?: string;
+  lastSocialEnrichedAt?: string;
+  lastScoredAt?: string;
   google?: {
     rating?: number;
     reviewCount?: number;
@@ -69,15 +79,8 @@ type SortKey =
   | "reputation"
   | "socialPresence"
   | "opportunity"
-  | "overall";
-
-type NextAction =
-  | "Needs Google enrichment"
-  | "Needs social link review"
-  | "Ready for Instagram enrichment"
-  | "Ready for Facebook enrichment"
-  | "Needs score/report refresh"
-  | "Complete for MVP";
+  | "overall"
+  | "completeness";
 
 function formatDate(value?: string): string {
   if (!value) {
@@ -97,6 +100,7 @@ function badgeTone(value: string): string {
     value === "included" ||
     value === "verified" ||
     value === "enriched" ||
+    value === "report_generated" ||
     value === "Complete for MVP"
   ) {
     return "good";
@@ -105,10 +109,13 @@ function badgeTone(value: string): string {
   if (
     value === "needs_review" ||
     value === "ready" ||
-    value === "Needs score/report refresh" ||
+    value === "social_review_needed" ||
+    value === "social_links_verified" ||
+    value === "Needs social URL review" ||
     value === "Ready for Instagram enrichment" ||
     value === "Ready for Facebook enrichment" ||
-    value === "Needs social link review"
+    value === "Needs scoring" ||
+    value === "Ready for report"
   ) {
     return "warn";
   }
@@ -120,13 +127,16 @@ function badgeTone(value: string): string {
   return "neutral";
 }
 
-function hasGoogleEnrichment(restaurant: DashboardRestaurant): boolean {
-  return Boolean(
-    restaurant.google?.rating !== undefined ||
-      restaurant.google?.reviewCount !== undefined ||
-      restaurant.phone ||
-      restaurant.website
-  );
+function getDisplayName(restaurant: DashboardRestaurant): string {
+  return restaurant.name
+    .replaceAll("Ã©", "é")
+    .replaceAll("â€™", "’")
+    .replaceAll("â€“", "–")
+    .replaceAll("â€¦", "…");
+}
+
+function hasGoogleEnriched(restaurant: DashboardRestaurant): boolean {
+  return Boolean(restaurant.lastGoogleEnrichedAt || restaurant.google?.rating !== undefined || restaurant.phone || restaurant.website);
 }
 
 function hasSocialPosts(restaurant: DashboardRestaurant): boolean {
@@ -136,68 +146,34 @@ function hasSocialPosts(restaurant: DashboardRestaurant): boolean {
   );
 }
 
-function getNextAction(restaurant: DashboardRestaurant): NextAction {
-  const facebookStatus = restaurant.socialProfileStatus?.facebook ?? "unknown";
-  const instagramStatus = restaurant.socialProfileStatus?.instagram ?? "unknown";
-  const hasGoogle = hasGoogleEnrichment(restaurant);
-  const hasReport = restaurant.reportExists;
-  const hasScores = Boolean(restaurant.scores);
-  const hasInstagramPosts = (restaurant.instagram?.recentPostCount ?? 0) > 0;
-  const hasFacebookPosts = (restaurant.facebook?.recentPostCount ?? 0) > 0;
-
-  if (!hasGoogle) {
-    return "Needs Google enrichment";
-  }
-
-  if (
-    facebookStatus === "unknown" ||
-    instagramStatus === "unknown" ||
-    restaurant.socialEnrichmentStatus === "not_ready"
-  ) {
-    return "Needs social link review";
-  }
-
-  if (instagramStatus === "verified" && !hasInstagramPosts) {
-    return "Ready for Instagram enrichment";
-  }
-
-  if (facebookStatus === "verified" && !hasFacebookPosts) {
-    return "Ready for Facebook enrichment";
-  }
-
-  if (!hasScores || !hasReport || restaurant.pipelineStage !== "reported") {
-    return "Needs score/report refresh";
-  }
-
-  return "Complete for MVP";
+function getLastEnrichedLabel(restaurant: DashboardRestaurant): string {
+  return (
+    formatDate(restaurant.lastSocialEnrichedAt) !== "n/a"
+      ? formatDate(restaurant.lastSocialEnrichedAt)
+      : formatDate(restaurant.lastGoogleEnrichedAt)
+  );
 }
 
 function getScoreExplanation(restaurant: DashboardRestaurant): string[] {
   return [
-    `Reputation Score reflects Google rating and review volume. Current value: ${restaurant.scores?.reputation ?? "n/a"}.`,
-    `Social Presence Score reflects verified profiles, recent posting activity, and lightweight engagement signals. Current value: ${restaurant.scores?.socialPresence ?? "n/a"}.`,
-    `Opportunity Score rises when reputation is strong but social presence is weak or missing. Current value: ${restaurant.scores?.opportunity ?? "n/a"}.`,
-    "If social is strong and reputation is strong, immediate marketing opportunity is lower but public presence is healthier."
+    `Reputation Score: ${restaurant.scores?.reputation ?? "n/a"} based on Google rating and review count.`,
+    `Social Presence Score: ${restaurant.scores?.socialPresence ?? "n/a"} based on verified profiles, post counts, recency, and engagement.`,
+    `Opportunity Score: ${restaurant.scores?.opportunity ?? "n/a"} rises when reputation is strong but social presence is weaker or missing.`,
+    "Strong reputation and strong social presence improve public presence, but lower immediate opportunity urgency."
   ];
-}
-
-function getDisplayName(restaurant: DashboardRestaurant): string {
-  return restaurant.name
-    .replaceAll("Ã©", "é")
-    .replaceAll("â€™", "’")
-    .replaceAll("â€“", "–")
-    .replaceAll("â€¦", "…");
 }
 
 export default function App() {
   const [payload, setPayload] = useState<DashboardPayload | null>(null);
   const [query, setQuery] = useState("");
-  const [reviewFilter, setReviewFilter] = useState("all");
-  const [googleFilter, setGoogleFilter] = useState("all");
-  const [instagramFilter, setInstagramFilter] = useState("all");
-  const [facebookFilter, setFacebookFilter] = useState("all");
-  const [socialPostsFilter, setSocialPostsFilter] = useState("all");
+  const [workflowFilter, setWorkflowFilter] = useState("all");
+  const [actionFilter, setActionFilter] = useState("all");
   const [readyFilter, setReadyFilter] = useState("all");
+  const [includedOnly, setIncludedOnly] = useState(false);
+  const [hasInstagramUrl, setHasInstagramUrl] = useState(false);
+  const [hasFacebookUrl, setHasFacebookUrl] = useState(false);
+  const [hasPostsOnly, setHasPostsOnly] = useState(false);
+  const [missingSocialReviewOnly, setMissingSocialReviewOnly] = useState(false);
   const [sortKey, setSortKey] = useState<SortKey>("overall");
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
@@ -208,47 +184,65 @@ export default function App() {
         setPayload(json);
         setSelectedId(json.restaurants[0]?.id ?? null);
       })
-      .catch((error) => {
-        console.error(error);
-      });
+      .catch((error) => console.error(error));
   }, []);
 
   const restaurants = payload?.restaurants ?? [];
+  const includedRestaurants = useMemo(
+    () => restaurants.filter((restaurant) => restaurant.reviewStatus === "included"),
+    [restaurants]
+  );
 
-  const stats = useMemo(() => {
-    const included = restaurants.filter((r) => r.reviewStatus === "included").length;
-    const needsReview = restaurants.filter((r) => r.reviewStatus === "needs_review").length;
-    const excluded = restaurants.filter((r) => r.reviewStatus === "excluded").length;
-    const closed = restaurants.filter((r) => r.reviewStatus === "closed").length;
-    const googleEnriched = restaurants.filter(hasGoogleEnrichment).length;
-    const verifiedInstagram = restaurants.filter(
-      (r) => r.socialProfileStatus?.instagram === "verified"
-    ).length;
-    const verifiedFacebook = restaurants.filter(
-      (r) => r.socialProfileStatus?.facebook === "verified"
-    ).length;
-    const socialPosts = restaurants.filter(hasSocialPosts).length;
-    const reports = restaurants.filter((r) => r.reportExists).length;
+  const workflowCounts = useMemo(() => {
+    const count = (predicate: (restaurant: DashboardRestaurant) => boolean) =>
+      includedRestaurants.filter(predicate).length;
 
     return {
-      included,
-      needsReview,
-      excluded,
-      closed,
-      googleEnriched,
-      verifiedInstagram,
-      verifiedFacebook,
-      socialPosts,
-      reports
+      included: includedRestaurants.length,
+      googleEnriched: count(hasGoogleEnriched),
+      socialReviewNeeded: count((restaurant) => restaurant.workflowStage === "social_review_needed"),
+      socialLinksVerified: count((restaurant) => restaurant.workflowStage === "social_links_verified"),
+      socialEnriched: count((restaurant) => restaurant.workflowStage === "social_enriched"),
+      scored: count((restaurant) => restaurant.workflowStage === "scored"),
+      readyForReport: count((restaurant) => restaurant.readyForReport),
+      reportsGenerated: count((restaurant) => restaurant.reportExists)
     };
-  }, [restaurants]);
+  }, [includedRestaurants]);
 
-  const featured = useMemo(
+  const stageFunnel = useMemo(
     () =>
-      ["big-wok-ii", "jackass-caf-wine-bar"]
-        .map((slug) => restaurants.find((restaurant) => restaurant.slug === slug))
-        .filter((restaurant): restaurant is DashboardRestaurant => Boolean(restaurant)),
-    [restaurants]
+      [
+        "discovered",
+        "google_enriched",
+        "social_review_needed",
+        "social_links_verified",
+        "social_enriched",
+        "scored",
+        "ready_for_report",
+        "report_generated"
+      ].map((stage) => ({
+        stage,
+        count: includedRestaurants.filter((restaurant) => restaurant.workflowStage === stage).length
+      })),
+    [includedRestaurants]
+  );
+
+  const actionQueue = useMemo(
+    () =>
+      [
+        "Needs Google enrichment",
+        "Needs social URL review",
+        "Ready for Instagram enrichment",
+        "Ready for Facebook enrichment",
+        "Needs scoring",
+        "Ready for report"
+      ].map((action) => ({
+        action,
+        restaurants: includedRestaurants
+          .filter((restaurant) => restaurant.nextAction === action)
+          .slice(0, 8)
+      })),
+    [includedRestaurants]
   );
 
   const filteredRestaurants = useMemo(() => {
@@ -256,8 +250,6 @@ export default function App() {
 
     return [...restaurants]
       .filter((restaurant) => {
-        const nextAction = getNextAction(restaurant);
-
         if (
           normalizedQuery &&
           ![
@@ -265,7 +257,8 @@ export default function App() {
             restaurant.slug,
             restaurant.category ?? "",
             restaurant.address ?? "",
-            nextAction
+            restaurant.nextAction,
+            restaurant.workflowStage ?? ""
           ]
             .join(" ")
             .toLowerCase()
@@ -274,45 +267,45 @@ export default function App() {
           return false;
         }
 
-        if (reviewFilter !== "all" && restaurant.reviewStatus !== reviewFilter) {
+        if (workflowFilter !== "all" && restaurant.workflowStage !== workflowFilter) {
           return false;
         }
 
-        if (googleFilter === "enriched" && !hasGoogleEnrichment(restaurant)) {
+        if (actionFilter !== "all" && restaurant.nextAction !== actionFilter) {
           return false;
         }
 
-        if (googleFilter === "missing" && hasGoogleEnrichment(restaurant)) {
+        if (readyFilter === "ready" && !restaurant.readyForReport) {
+          return false;
+        }
+
+        if (readyFilter === "not_ready" && restaurant.readyForReport) {
+          return false;
+        }
+
+        if (includedOnly && restaurant.reviewStatus !== "included") {
+          return false;
+        }
+
+        if (hasInstagramUrl && !restaurant.instagramUrl) {
+          return false;
+        }
+
+        if (hasFacebookUrl && !restaurant.facebookUrl) {
+          return false;
+        }
+
+        if (hasPostsOnly && !hasSocialPosts(restaurant)) {
           return false;
         }
 
         if (
-          instagramFilter !== "all" &&
-          (restaurant.socialProfileStatus?.instagram ?? "unknown") !== instagramFilter
+          missingSocialReviewOnly &&
+          !(
+            restaurant.nextAction === "Needs social URL review" ||
+            restaurant.workflowStage === "social_review_needed"
+          )
         ) {
-          return false;
-        }
-
-        if (
-          facebookFilter !== "all" &&
-          (restaurant.socialProfileStatus?.facebook ?? "unknown") !== facebookFilter
-        ) {
-          return false;
-        }
-
-        if (socialPostsFilter === "has_posts" && !hasSocialPosts(restaurant)) {
-          return false;
-        }
-
-        if (socialPostsFilter === "no_posts" && hasSocialPosts(restaurant)) {
-          return false;
-        }
-
-        if (readyFilter === "ready" && !nextAction.startsWith("Ready for")) {
-          return false;
-        }
-
-        if (readyFilter === "not_ready" && nextAction.startsWith("Ready for")) {
           return false;
         }
 
@@ -331,19 +324,23 @@ export default function App() {
           return (right.google?.reviewCount ?? -1) - (left.google?.reviewCount ?? -1);
         }
 
-        const leftValue = left.scores?.[sortKey] ?? -1;
-        const rightValue = right.scores?.[sortKey] ?? -1;
-        return rightValue - leftValue;
+        if (sortKey === "completeness") {
+          return right.dataCompletenessScore - left.dataCompletenessScore;
+        }
+
+        return (right.scores?.[sortKey] ?? -1) - (left.scores?.[sortKey] ?? -1);
       });
   }, [
     restaurants,
     query,
-    reviewFilter,
-    googleFilter,
-    instagramFilter,
-    facebookFilter,
-    socialPostsFilter,
+    workflowFilter,
+    actionFilter,
     readyFilter,
+    includedOnly,
+    hasInstagramUrl,
+    hasFacebookUrl,
+    hasPostsOnly,
+    missingSocialReviewOnly,
     sortKey
   ]);
 
@@ -361,95 +358,46 @@ export default function App() {
     <div className="page-shell">
       <header className="hero">
         <div>
-          <p className="eyebrow">Rock Hill Restaurant Intelligence</p>
+          <p className="eyebrow">Rock Hill Restaurant Workflow Command Center</p>
           <h1>RockHillAnalytics</h1>
           <p className="hero-copy">
-            Local restaurant reputation, social presence, and opportunity tracking for
-            Rock Hill, SC.
+            Internal workflow control center for restaurant discovery, enrichment,
+            scoring, and report readiness in Rock Hill, SC.
           </p>
         </div>
         <div className="badge-row">
-          <span className="badge neutral">Phase 1: Google discovery complete</span>
-          <span className="badge warn">Phase 2: Social enrichment testing</span>
-          <span className="badge neutral">Data source: restaurants.seed.json</span>
+          <span className="badge neutral">Workflow-first phase</span>
+          <span className="badge warn">Final reports intentionally secondary</span>
+          <span className="badge neutral">Exported from restaurants.seed.json</span>
         </div>
       </header>
 
       <section className="stats-grid">
         <StatCard label="Total restaurants" value={payload.totalRestaurants} />
-        <StatCard label="Included" value={stats.included} />
-        <StatCard label="Needs review" value={stats.needsReview} />
-        <StatCard label="Excluded" value={stats.excluded} />
-        <StatCard label="Closed" value={stats.closed} />
-        <StatCard label="Google enriched" value={stats.googleEnriched} />
-        <StatCard label="Verified Instagram" value={stats.verifiedInstagram} />
-        <StatCard label="Verified Facebook" value={stats.verifiedFacebook} />
-        <StatCard label="Restaurants with social posts" value={stats.socialPosts} />
-        <StatCard label="Generated reports" value={stats.reports} />
+        <StatCard label="Included restaurants" value={workflowCounts.included} />
+        <StatCard label="Google enriched" value={workflowCounts.googleEnriched} />
+        <StatCard label="Social review needed" value={workflowCounts.socialReviewNeeded} />
+        <StatCard label="Social links verified" value={workflowCounts.socialLinksVerified} />
+        <StatCard label="Social enriched" value={workflowCounts.socialEnriched} />
+        <StatCard label="Scored" value={workflowCounts.scored} />
+        <StatCard label="Ready for report" value={workflowCounts.readyForReport} />
+        <StatCard label="Reports generated" value={workflowCounts.reportsGenerated} />
       </section>
 
       <section className="section-block">
         <div className="section-header">
-          <h2>Featured test restaurants</h2>
-          <p>Quick visual checks for the current Google-only and social-enriched examples.</p>
+          <h2>Workflow funnel</h2>
+          <p>Counts by current workflow stage across the restaurant master list.</p>
         </div>
         <div className="featured-grid">
-          {featured.map((restaurant) => (
-            <article key={restaurant.id} className="featured-card">
+          {stageFunnel.map((entry) => (
+            <article key={entry.stage} className="featured-card compact-card">
               <div className="featured-head">
                 <div>
-                  <h3>{getDisplayName(restaurant)}</h3>
-                  <p>
-                    {restaurant.slug === "big-wok-ii"
-                      ? "Google-only test"
-                      : "Google + Instagram + Facebook test"}
-                  </p>
+                  <h3>{entry.stage}</h3>
                 </div>
-                <span className={`badge ${badgeTone(restaurant.reviewStatus)}`}>
-                  {restaurant.reviewStatus}
-                </span>
+                <strong className="funnel-count">{entry.count}</strong>
               </div>
-              <dl className="metric-list">
-                <div>
-                  <dt>Rating</dt>
-                  <dd>{restaurant.google?.rating ?? "n/a"}</dd>
-                </div>
-                <div>
-                  <dt>Reviews</dt>
-                  <dd>{restaurant.google?.reviewCount ?? "n/a"}</dd>
-                </div>
-                <div>
-                  <dt>Instagram status</dt>
-                  <dd>{restaurant.socialProfileStatus?.instagram ?? "unknown"}</dd>
-                </div>
-                <div>
-                  <dt>Facebook status</dt>
-                  <dd>{restaurant.socialProfileStatus?.facebook ?? "unknown"}</dd>
-                </div>
-                <div>
-                  <dt>Instagram posts</dt>
-                  <dd>{restaurant.instagram?.recentPostCount ?? 0}</dd>
-                </div>
-                <div>
-                  <dt>Facebook posts</dt>
-                  <dd>{restaurant.facebook?.recentPostCount ?? 0}</dd>
-                </div>
-                <div>
-                  <dt>Overall score</dt>
-                  <dd>{restaurant.scores?.overall ?? "n/a"}</dd>
-                </div>
-                <div>
-                  <dt>Next action</dt>
-                  <dd>{getNextAction(restaurant)}</dd>
-                </div>
-              </dl>
-              {restaurant.reportPath ? (
-                <a className="report-link" href={restaurant.reportPath} target="_blank" rel="noreferrer">
-                  Open report
-                </a>
-              ) : (
-                <span className="report-link muted">No report yet</span>
-              )}
             </article>
           ))}
         </div>
@@ -457,67 +405,94 @@ export default function App() {
 
       <section className="section-block">
         <div className="section-header">
-          <h2>Restaurant review table</h2>
-          <p>Search, filter, sort, and decide what to enrich next.</p>
+          <h2>Action queue</h2>
+          <p>Which restaurants need the next operational step.</p>
+        </div>
+        <div className="featured-grid">
+          {actionQueue.map((group) => (
+            <article key={group.action} className="featured-card">
+              <div className="featured-head">
+                <div>
+                  <h3>{group.action}</h3>
+                  <p>{group.restaurants.length} shown</p>
+                </div>
+                <span className={`badge ${badgeTone(group.action)}`}>{group.action}</span>
+              </div>
+              <ul className="queue-list">
+                {group.restaurants.length ? (
+                  group.restaurants.map((restaurant) => (
+                    <li key={restaurant.id}>
+                      <strong>{getDisplayName(restaurant)}</strong>
+                      <span>{restaurant.suggestedCommands[0] ?? "No command suggestion"}</span>
+                    </li>
+                  ))
+                ) : (
+                  <li>
+                    <strong>None</strong>
+                    <span>No restaurants currently in this queue.</span>
+                  </li>
+                )}
+              </ul>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="section-block">
+        <div className="section-header">
+          <h2>Restaurant workflow table</h2>
+          <p>Filter, sort, and select restaurants for the next enrichment step.</p>
         </div>
         <div className="toolbar toolbar-wide">
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search restaurant, slug, category, address, or next action"
+            placeholder="Search restaurant, slug, category, workflow stage, or next action"
           />
-          <select value={reviewFilter} onChange={(event) => setReviewFilter(event.target.value)}>
-            <option value="all">All review statuses</option>
-            <option value="included">Included</option>
-            <option value="needs_review">Needs review</option>
-            <option value="excluded">Excluded</option>
-            <option value="closed">Closed</option>
+          <select value={workflowFilter} onChange={(event) => setWorkflowFilter(event.target.value)}>
+            <option value="all">All workflow stages</option>
+            <option value="discovered">discovered</option>
+            <option value="google_enriched">google_enriched</option>
+            <option value="social_review_needed">social_review_needed</option>
+            <option value="social_links_verified">social_links_verified</option>
+            <option value="social_enriched">social_enriched</option>
+            <option value="scored">scored</option>
+            <option value="ready_for_report">ready_for_report</option>
+            <option value="report_generated">report_generated</option>
           </select>
-          <select value={googleFilter} onChange={(event) => setGoogleFilter(event.target.value)}>
-            <option value="all">All Google states</option>
-            <option value="enriched">Google enriched</option>
-            <option value="missing">Google not enriched</option>
-          </select>
-          <select
-            value={instagramFilter}
-            onChange={(event) => setInstagramFilter(event.target.value)}
-          >
-            <option value="all">All Instagram states</option>
-            <option value="verified">Instagram verified</option>
-            <option value="not_found">Instagram not_found</option>
-            <option value="unknown">Instagram unknown</option>
-          </select>
-          <select
-            value={facebookFilter}
-            onChange={(event) => setFacebookFilter(event.target.value)}
-          >
-            <option value="all">All Facebook states</option>
-            <option value="verified">Facebook verified</option>
-            <option value="not_found">Facebook not_found</option>
-            <option value="unknown">Facebook unknown</option>
-          </select>
-          <select
-            value={socialPostsFilter}
-            onChange={(event) => setSocialPostsFilter(event.target.value)}
-          >
-            <option value="all">All social post states</option>
-            <option value="has_posts">Has social posts</option>
-            <option value="no_posts">No social posts</option>
+          <select value={actionFilter} onChange={(event) => setActionFilter(event.target.value)}>
+            <option value="all">All next actions</option>
+            <option value="Needs Google enrichment">Needs Google enrichment</option>
+            <option value="Needs social URL review">Needs social URL review</option>
+            <option value="Ready for Instagram enrichment">Ready for Instagram enrichment</option>
+            <option value="Ready for Facebook enrichment">Ready for Facebook enrichment</option>
+            <option value="Needs scoring">Needs scoring</option>
+            <option value="Ready for report">Ready for report</option>
+            <option value="Complete for MVP">Complete for MVP</option>
           </select>
           <select value={readyFilter} onChange={(event) => setReadyFilter(event.target.value)}>
-            <option value="all">All readiness states</option>
-            <option value="ready">Ready for enrichment</option>
-            <option value="not_ready">Not ready for enrichment</option>
+            <option value="all">All report readiness</option>
+            <option value="ready">Ready for report</option>
+            <option value="not_ready">Not ready for report</option>
           </select>
           <select value={sortKey} onChange={(event) => setSortKey(event.target.value as SortKey)}>
             <option value="overall">Sort by Overall Score</option>
             <option value="opportunity">Sort by Opportunity Score</option>
             <option value="socialPresence">Sort by Social Presence Score</option>
             <option value="reputation">Sort by Reputation Score</option>
-            <option value="googleRating">Sort by Google rating</option>
-            <option value="reviewCount">Sort by review count</option>
-            <option value="name">Sort by restaurant name</option>
+            <option value="googleRating">Sort by Google Rating</option>
+            <option value="reviewCount">Sort by Review Count</option>
+            <option value="completeness">Sort by Completeness %</option>
+            <option value="name">Sort by Name</option>
           </select>
+        </div>
+
+        <div className="toggle-row">
+          <label><input type="checkbox" checked={includedOnly} onChange={() => setIncludedOnly((value) => !value)} /> Included only</label>
+          <label><input type="checkbox" checked={hasInstagramUrl} onChange={() => setHasInstagramUrl((value) => !value)} /> Has Instagram URL</label>
+          <label><input type="checkbox" checked={hasFacebookUrl} onChange={() => setHasFacebookUrl((value) => !value)} /> Has Facebook URL</label>
+          <label><input type="checkbox" checked={hasPostsOnly} onChange={() => setHasPostsOnly((value) => !value)} /> Has social posts</label>
+          <label><input type="checkbox" checked={missingSocialReviewOnly} onChange={() => setMissingSocialReviewOnly((value) => !value)} /> Missing social review</label>
         </div>
 
         <div className="table-card">
@@ -526,15 +501,14 @@ export default function App() {
               <thead>
                 <tr>
                   <th>Restaurant</th>
+                  <th>Workflow Stage</th>
                   <th>Next Action</th>
-                  <th>Review Status</th>
-                  <th>Category</th>
-                  <th>Google Rating</th>
-                  <th>Review Count</th>
+                  <th>Completeness</th>
+                  <th>Google Status</th>
                   <th>Instagram Status</th>
                   <th>Facebook Status</th>
-                  <th>Instagram Posts</th>
-                  <th>Facebook Posts</th>
+                  <th>Social Posts</th>
+                  <th>Last Enriched</th>
                   <th>Reputation</th>
                   <th>Social</th>
                   <th>Opportunity</th>
@@ -543,52 +517,41 @@ export default function App() {
                 </tr>
               </thead>
               <tbody>
-                {filteredRestaurants.map((restaurant) => {
-                  const nextAction = getNextAction(restaurant);
-
-                  return (
-                    <tr
-                      key={restaurant.id}
-                      className={restaurant.id === selectedRestaurant?.id ? "selected-row" : ""}
-                      onClick={() => setSelectedId(restaurant.id)}
-                    >
-                      <td>
-                        <div className="table-name">
-                          <strong>{getDisplayName(restaurant)}</strong>
-                          <span>{restaurant.city}</span>
-                        </div>
-                      </td>
-                      <td>
-                        <span className={`badge ${badgeTone(nextAction)}`}>{nextAction}</span>
-                      </td>
-                      <td>
-                        <span className={`badge ${badgeTone(restaurant.reviewStatus)}`}>
-                          {restaurant.reviewStatus}
-                        </span>
-                      </td>
-                      <td>{restaurant.category ?? "n/a"}</td>
-                      <td>{restaurant.google?.rating ?? "n/a"}</td>
-                      <td>{restaurant.google?.reviewCount ?? "n/a"}</td>
-                      <td>{restaurant.socialProfileStatus?.instagram ?? "unknown"}</td>
-                      <td>{restaurant.socialProfileStatus?.facebook ?? "unknown"}</td>
-                      <td>{restaurant.instagram?.recentPostCount ?? 0}</td>
-                      <td>{restaurant.facebook?.recentPostCount ?? 0}</td>
-                      <td>{restaurant.scores?.reputation ?? "n/a"}</td>
-                      <td>{restaurant.scores?.socialPresence ?? "n/a"}</td>
-                      <td>{restaurant.scores?.opportunity ?? "n/a"}</td>
-                      <td>{restaurant.scores?.overall ?? "n/a"}</td>
-                      <td>
-                        {restaurant.reportPath ? (
-                          <a href={restaurant.reportPath} target="_blank" rel="noreferrer">
-                            Report
-                          </a>
-                        ) : (
-                          "n/a"
-                        )}
-                      </td>
-                    </tr>
-                  );
-                })}
+                {filteredRestaurants.map((restaurant) => (
+                  <tr
+                    key={restaurant.id}
+                    className={restaurant.id === selectedRestaurant?.id ? "selected-row" : ""}
+                    onClick={() => setSelectedId(restaurant.id)}
+                  >
+                    <td>
+                      <div className="table-name">
+                        <strong>{getDisplayName(restaurant)}</strong>
+                        <span>{restaurant.category ?? restaurant.city}</span>
+                      </div>
+                    </td>
+                    <td>
+                      <span className={`badge ${badgeTone(restaurant.workflowStage ?? "discovered")}`}>
+                        {restaurant.workflowStage ?? "discovered"}
+                      </span>
+                    </td>
+                    <td>
+                      <span className={`badge ${badgeTone(restaurant.nextAction)}`}>
+                        {restaurant.nextAction}
+                      </span>
+                    </td>
+                    <td>{restaurant.dataCompletenessScore}%</td>
+                    <td>{hasGoogleEnriched(restaurant) ? "enriched" : "missing"}</td>
+                    <td>{restaurant.socialProfileStatus?.instagram ?? "unknown"}</td>
+                    <td>{restaurant.socialProfileStatus?.facebook ?? "unknown"}</td>
+                    <td>{(restaurant.instagram?.recentPostCount ?? 0) + (restaurant.facebook?.recentPostCount ?? 0)}</td>
+                    <td>{getLastEnrichedLabel(restaurant)}</td>
+                    <td>{restaurant.scores?.reputation ?? "n/a"}</td>
+                    <td>{restaurant.scores?.socialPresence ?? "n/a"}</td>
+                    <td>{restaurant.scores?.opportunity ?? "n/a"}</td>
+                    <td>{restaurant.scores?.overall ?? "n/a"}</td>
+                    <td>{restaurant.reportPath ? <a href={restaurant.reportPath} target="_blank" rel="noreferrer">Report</a> : "n/a"}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
@@ -598,7 +561,7 @@ export default function App() {
       <section className="section-block">
         <div className="section-header">
           <h2>Restaurant detail</h2>
-          <p>Click a row above to inspect the current stored signals and next decisions.</p>
+          <p>Command suggestions and missing data for the selected restaurant.</p>
         </div>
         {selectedRestaurant ? (
           <div className="detail-card">
@@ -607,27 +570,39 @@ export default function App() {
                 <h3>{getDisplayName(selectedRestaurant)}</h3>
                 <p>{selectedRestaurant.address ?? "No address available"}</p>
               </div>
-              <span className={`badge ${badgeTone(getNextAction(selectedRestaurant))}`}>
-                {getNextAction(selectedRestaurant)}
+              <span className={`badge ${badgeTone(selectedRestaurant.nextAction)}`}>
+                {selectedRestaurant.nextAction}
               </span>
             </div>
             <div className="detail-grid">
               <DetailGroup
-                title="Core profile"
+                title="Workflow"
                 lines={[
-                  `Phone: ${selectedRestaurant.phone ?? "n/a"}`,
-                  `Website: ${selectedRestaurant.website ?? "n/a"}`,
-                  `Category: ${selectedRestaurant.category ?? "n/a"}`,
-                  `Pipeline stage: ${selectedRestaurant.pipelineStage ?? "seeded"}`
+                  `Current workflow stage: ${selectedRestaurant.workflowStage ?? "discovered"}`,
+                  `Data completeness: ${selectedRestaurant.dataCompletenessScore}%`,
+                  `Ready for report: ${selectedRestaurant.readyForReport ? "yes" : "no"}`,
+                  `Report exists: ${selectedRestaurant.reportExists ? "yes" : "no"}`
                 ]}
+              />
+              <DetailGroup
+                title="Missing data"
+                lines={
+                  selectedRestaurant.missingData.length
+                    ? selectedRestaurant.missingData
+                    : ["No current workflow gaps."]
+                }
+              />
+              <DetailGroup
+                title="Next recommended commands"
+                lines={selectedRestaurant.suggestedCommands}
               />
               <DetailGroup
                 title="Google details"
                 lines={[
                   `Rating: ${selectedRestaurant.google?.rating ?? "n/a"}`,
                   `Review count: ${selectedRestaurant.google?.reviewCount ?? "n/a"}`,
-                  `Business status: ${selectedRestaurant.google?.businessStatus ?? "n/a"}`,
-                  `Google Maps: ${selectedRestaurant.googleMapsUrl ?? "n/a"}`
+                  `Phone: ${selectedRestaurant.phone ?? "n/a"}`,
+                  `Website: ${selectedRestaurant.website ?? "n/a"}`
                 ]}
               />
               <DetailGroup
@@ -640,12 +615,21 @@ export default function App() {
                 ]}
               />
               <DetailGroup
-                title="Recent post signals"
+                title="Latest enrichment dates"
                 lines={[
-                  `Facebook post count: ${selectedRestaurant.facebook?.recentPostCount ?? 0}`,
-                  `Latest Facebook post: ${formatDate(selectedRestaurant.facebook?.latestPostDate)}`,
-                  `Instagram post count: ${selectedRestaurant.instagram?.recentPostCount ?? 0}`,
-                  `Latest Instagram post: ${formatDate(selectedRestaurant.instagram?.latestPostDate)}`
+                  `Last Google enrichment: ${formatDate(selectedRestaurant.lastGoogleEnrichedAt)}`,
+                  `Last social review: ${formatDate(selectedRestaurant.lastSocialReviewedAt)}`,
+                  `Last social enrichment: ${formatDate(selectedRestaurant.lastSocialEnrichedAt)}`,
+                  `Last scoring: ${formatDate(selectedRestaurant.lastScoredAt)}`
+                ]}
+              />
+              <DetailGroup
+                title="Recent social posts"
+                lines={[
+                  `Instagram posts stored: ${selectedRestaurant.instagram?.recentPostCount ?? 0}`,
+                  `Latest Instagram post: ${formatDate(selectedRestaurant.instagram?.latestPostDate)}`,
+                  `Facebook posts stored: ${selectedRestaurant.facebook?.recentPostCount ?? 0}`,
+                  `Latest Facebook post: ${formatDate(selectedRestaurant.facebook?.latestPostDate)}`
                 ]}
               />
               <DetailGroup
@@ -659,20 +643,16 @@ export default function App() {
               />
               <DetailGroup title="Score explanations" lines={getScoreExplanation(selectedRestaurant)} />
               <DetailGroup
-                title="Review notes"
-                lines={
-                  selectedRestaurant.reviewNotes.length
-                    ? selectedRestaurant.reviewNotes
-                    : ["No review notes recorded."]
-                }
-              />
-              <DetailGroup
-                title="Social verification notes"
-                lines={
-                  selectedRestaurant.socialVerificationNotes.length
-                    ? selectedRestaurant.socialVerificationNotes
-                    : ["No social verification notes recorded."]
-                }
+                title="Notes"
+                lines={[
+                  ...selectedRestaurant.reviewNotes,
+                  ...selectedRestaurant.socialVerificationNotes,
+                  ...selectedRestaurant.socialEnrichmentNotes
+                ].length ? [
+                  ...selectedRestaurant.reviewNotes,
+                  ...selectedRestaurant.socialVerificationNotes,
+                  ...selectedRestaurant.socialEnrichmentNotes
+                ] : ["No notes recorded."]}
               />
             </div>
             {selectedRestaurant.reportPath ? (
@@ -703,7 +683,9 @@ function DetailGroup({ title, lines }: { title: string; lines: string[] }) {
     <article className="detail-group">
       <h3>{title}</h3>
       <ul>
-        {lines.length ? lines.map((line, index) => <li key={`${title}-${index}`}>{line}</li>) : <li>n/a</li>}
+        {lines.map((line, index) => (
+          <li key={`${title}-${index}`}>{line}</li>
+        ))}
       </ul>
     </article>
   );

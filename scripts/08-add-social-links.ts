@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadEnv } from "../src/lib/env.js";
 import { findRestaurant } from "../src/lib/findRestaurant.js";
+import { applyWorkflowMetadata } from "../src/lib/workflow.js";
 import {
   RestaurantProfile,
   SocialProfileVerificationStatus
@@ -182,7 +183,7 @@ async function main(): Promise<void> {
       tiktok: "unknown" as SocialProfileVerificationStatus
     };
 
-    return {
+    return applyWorkflowMetadata({
       ...entry,
       facebookUrl: parsedArgs.noFacebook
         ? undefined
@@ -211,8 +212,9 @@ async function main(): Promise<void> {
             ? "not_found"
             : currentStatus.tiktok
       },
+      lastSocialReviewedAt: now,
       updatedAt: now
-    };
+    });
   });
 
   await writeFile(

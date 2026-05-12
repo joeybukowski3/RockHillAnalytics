@@ -57,6 +57,16 @@ export type SocialEnrichmentStatus =
   | "enriched"
   | "failed";
 
+export type WorkflowStage =
+  | "discovered"
+  | "google_enriched"
+  | "social_review_needed"
+  | "social_links_verified"
+  | "social_enriched"
+  | "scored"
+  | "ready_for_report"
+  | "report_generated";
+
 export type RestaurantProfile = {
   id: string;
   name: string;
@@ -87,6 +97,14 @@ export type RestaurantProfile = {
   };
   socialEnrichmentStatus?: SocialEnrichmentStatus;
   socialEnrichmentNotes?: string[];
+  workflowStage?: WorkflowStage;
+  workflowNotes?: string[];
+  lastGoogleEnrichedAt?: string;
+  lastSocialReviewedAt?: string;
+  lastSocialEnrichedAt?: string;
+  lastScoredAt?: string;
+  readyForReport?: boolean;
+  dataCompletenessScore?: number;
   google?: {
     rating?: number;
     reviewCount?: number;

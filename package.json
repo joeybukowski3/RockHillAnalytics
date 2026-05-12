@@ -15,6 +15,7 @@
     "add:social": "tsx scripts/08-add-social-links.ts",
     "review:social": "tsx scripts/09-review-social-data.ts",
     "export:web-data": "tsx scripts/10-export-web-data.ts",
+    "review:workflow": "tsx scripts/11-review-workflow.ts",
     "dev": "vite --config vite.config.ts",
     "build": "vite build --config vite.config.ts",
     "preview": "vite preview --config vite.config.ts",

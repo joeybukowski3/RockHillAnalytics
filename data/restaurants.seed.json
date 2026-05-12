@@ -33,9 +33,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.424Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.436Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJISNW2VWIVogR20NKKcIAdWs",
@@ -77,9 +85,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.439Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJcTcio6qFVogR-duzB36vUqA",
@@ -117,9 +133,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.439Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJpWJxxniJVogR6quKo-2OugM",
@@ -157,9 +181,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.439Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJr-wVHMKJVogRVC1RaCDjqUw",
@@ -197,9 +229,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJGb31ZquJVogRYPowGLppBTo",
@@ -238,9 +278,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ0SrMeleJVogRJC_xqHaS9nQ",
@@ -278,9 +326,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ2Ygyz0OFVogRaOjjD7mXq1A",
@@ -320,9 +376,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJCf_amUiPVogRp7hHZob5EEo",
@@ -428,8 +492,8 @@
     "reviewNotes": [
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "pipelineStage": "reported",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
     "socialVerificationNotes": [
       "Manual social URL workflow test; no URLs added yet",
@@ -441,7 +505,15 @@
       "instagram": "not_found",
       "tiktok": "unknown"
     },
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "report_generated",
+    "workflowNotes": [
+      "Current stage: report_generated.",
+      "Next action: Complete for MVP.",
+      "Record has enough structured data to generate a final report later."
+    ],
+    "readyForReport": true,
+    "dataCompletenessScore": 90
   },
   {
     "id": "ChIJd67lS1qFVogRzl4nN13V0Lk",
@@ -482,9 +554,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJsbHDEy-FVogRmwcJ-pkN0GI",
@@ -525,9 +605,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJux77xBKPVogRtRL5ZExNkR8",
@@ -565,9 +653,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJQYbrfhSFVogRs4wSxMk6yE4",
@@ -608,9 +704,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ88hBbyKJVogRXcpHNy7-oHg",
@@ -649,9 +753,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJdzuQZhyJVogRmmOR5xs3aB8",
@@ -690,9 +802,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJpS6cDEGFVogRN9YwkWWLLBg",
@@ -732,9 +852,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ6zyXE_6HVogR4MrFa5LSHFA",
@@ -772,9 +900,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJnY7fPPmPVogRe1QKAN6534g",
@@ -812,9 +948,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJPQIHUg-MVogR2tLBlY35AFk",
@@ -854,9 +998,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJS2WuvECGVogRS-vvY2xzElQ",
@@ -896,9 +1048,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJvzn456CHVogRPrmt-ggKKhk",
@@ -938,9 +1098,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJX0wt1bKPVogRVAW4B9smAeU",
@@ -980,9 +1148,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJF8N1xjuJVogREnHwzCUYY9I",
@@ -1020,9 +1196,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJY7K474mJVogR3MeEmWj1U7o",
@@ -1052,7 +1236,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T09:56:55.983Z",
     "sourceQueries": [
       "food trucks in Rock Hill SC"
     ],
@@ -1060,10 +1244,337 @@
       "Missing clear restaurant/cafe/bar/meal service Google type.",
       "Public listings show Cibi! Cibi! operating in Rock Hill as a restaurant/food-truck concept at 274 Columbia Ave."
     ],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "pipelineStage": "reported",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "enriched",
+    "facebookUrl": "https://www.facebook.com/cibicibifoodtruck/",
+    "instagramUrl": "https://www.instagram.com/cibicibifoodtruck/",
+    "socialVerificationNotes": [
+      "Manually verified official social profiles"
+    ],
+    "socialLinksVerifiedAt": "2026-05-12T09:52:57.774Z",
+    "socialProfileStatus": {
+      "facebook": "verified",
+      "instagram": "verified",
+      "tiktok": "unknown"
+    },
+    "socialEnrichmentNotes": [
+      "Facebook enrichment completed via apify/facebook-posts-scraper on 2026-05-12T09:56:42.388Z.",
+      "Instagram enrichment completed via apify/instagram-scraper on 2026-05-12T09:55:51.429Z."
+    ],
+    "instagram": {
+      "profileUrl": "https://www.instagram.com/cibicibifoodtruck/",
+      "followers": 10252,
+      "postCount": 1349,
+      "recentPosts": [
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DI1QXMPupZt/",
+          "url": "https://www.instagram.com/p/DI1QXMPupZt/",
+          "publishedAt": "2025-04-24T14:08:34.000Z",
+          "caption": "thanks to @visityorkcountysc for the feature in their most recent destination guide. pick up a copy to find out what else is happening in york county. \n\nweekend dinner special: coffee rubbed bone-in 12oz pork chops in collaboration with our friends at @rockhillcoffee \n\nserving these chops with neese’s sausage dirty rice, charred pineapple salsa, grilled wild ramps, and rock hill coffee-molasses bbq sauce.\n\nlunch 11:30-3\ndinner 5-9\nbar til 10",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 295,
+            "comments": 15
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DIB-Z-2ODcn/",
+          "url": "https://www.instagram.com/p/DIB-Z-2ODcn/",
+          "publishedAt": "2025-04-04T16:10:24.000Z",
+          "caption": "cheesesteaks, chili-slaw dogs, bratwurst, and loaded steak nachos tonight for beach bash right out front of @elkavetavern 🌭🤘🤠👍💯",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 68,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DHMJx9uPny3/",
+          "url": "https://www.instagram.com/p/DHMJx9uPny3/",
+          "publishedAt": "2025-03-14T18:30:48.000Z",
+          "caption": "our pastrami reuben—house smoked corned beef, sauerkraut, 1000 russian islands dressing, melted swiss, toasted rye. the perfect compliment to your st paddy’s weekend. \n\nour kitchen will be open 11:30-9 tomorrow for rock hill’s st. patrick’s day festival. the bar’s pouring guiness til 10. \n\nour new hot dog cart (@cibicibidogcart ) will be located outside the tavern on black st serving custom dogs, cheesesteaks, and loaded nachos. \n\nguiness and smithwick’s available at the cart as well.\n\nhave a beautiful weekend.",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 134,
+            "comments": 4
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DFfdgWjuRLh/",
+          "url": "https://www.instagram.com/p/DFfdgWjuRLh/",
+          "publishedAt": "2025-01-31T13:25:57.000Z",
+          "caption": "psa: we’ll be open for dinner service on tuesdays starting next week, feb 4.",
+          "contentType": "Sidecar",
+          "hashtags": [],
+          "engagement": {
+            "likes": 135,
+            "comments": 6
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DEXdgGSu3FC/",
+          "url": "https://www.instagram.com/p/DEXdgGSu3FC/",
+          "publishedAt": "2025-01-03T14:20:35.000Z",
+          "caption": "six months. \n\nunreal. what a fuckin trip. i should’ve probably made a fancy reel or something. \n\nthis first six months could not have gone better. \n\nsure, there’ve been plenty of challenges, a couple (maybe several) mental breakdowns, and a hell of a lot of long days, but you all have showed up week after week. \n\nyou’ve made it all worth it.\n\nthank you, rock hill. thank you to our incredible staff—the best of the best. thank you to everyone who’s played a role in making this possible.\n\nour goal is to deliver the best customer experience we can, and we’ll continue to do whatever it takes to make that happen. \n\nlooking forward to many more half years. hope to see you soon.",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 796,
+            "comments": 47
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/C88BUg7pHeu/",
+          "url": "https://www.instagram.com/p/C88BUg7pHeu/",
+          "publishedAt": "2024-07-02T22:55:05.000Z",
+          "caption": "we’re so close you can taste it…tomorrow. see you for lunch in the am.",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 619,
+            "comments": 50
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/C8epQaSOtBO/",
+          "url": "https://www.instagram.com/p/C8epQaSOtBO/",
+          "publishedAt": "2024-06-21T13:06:50.000Z",
+          "caption": "LAST WEEKEND AT HOPPIN’!\n\nMany thanks to the @hoppinrh crew for hosting us during our last six months of service.\n\nWe’d love to see you this weekend if you’ve got the time. Otherwise, we’ll see you on the other side at @elkavetavern \n\n✌️",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 84,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/C8Ml-PmJreA/",
+          "url": "https://www.instagram.com/p/C8Ml-PmJreA/",
+          "publishedAt": "2024-06-14T12:51:49.000Z",
+          "caption": "this is where it started.\n\ntwo driven (and pretty damn naive) cooks, a big blue truck, and a funny name. we had no clue what we were in for. \n\nthe past six years have been some of the most challenging and rewarding of our lives. it’s been nothing short of a wild ride.\n\nso this is one of those bitter sweet moments.\n\nsunday june 23rd will be our final day on the truck as we prepare to open @elkavetavern\n\nas always, we’re incredibly thankful for all the love and support. we could not have gotten here without it. \n\nwe can’t wait to see you at the tavern.",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 722,
+            "comments": 42
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/C76eGMdpw-E/",
+          "url": "https://www.instagram.com/p/C76eGMdpw-E/",
+          "publishedAt": "2024-06-07T11:56:40.000Z",
+          "caption": "We’re getting closer, everybody. \n\nSend us an email at elkavetavern@gmail.com if you’re interested in joining our team.\n\nWe still have open positions available for cooks, servers, bartenders, and hosts.\n\nPlease include a resume or list of references, as well as the position you’re seeking.",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 269,
+            "comments": 13
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/C7zo4bPpijP/",
+          "url": "https://www.instagram.com/p/C7zo4bPpijP/",
+          "publishedAt": "2024-06-04T20:16:13.000Z",
+          "caption": "TACO TUESDAY 🌮🌮🌮\n\n5-9pm at @hoppinrh 👍",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 9,
+            "comments": 4
+          }
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T09:55:51.429Z"
+    },
+    "facebook": {
+      "pageUrl": "https://www.facebook.com/cibicibifoodtruck/",
+      "postCount": 10,
+      "recentPosts": [
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid0w8uFUqgafG8BQBknxQL9CVgLmHmJnc8witcevz3UV1fG89m5dWYdpbp44Z7FL6fYl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid0w8uFUqgafG8BQBknxQL9CVgLmHmJnc8witcevz3UV1fG89m5dWYdpbp44Z7FL6fYl",
+          "caption": "this is where it started.\n\ntwo driven (and pretty damn naive) cooks, a big blue truck, and a funny name. we had no clue what we were in for. \n\nthe past six years have been some of the most challenging and rewarding of our lives. it’s been nothing short of a wild ride.\n\nso this is one of those bitter sweet moments.\n\nsunday june 23rd will be our final day on the truck as we prepare to open @elkavetavern\n\nas always, we’re incredibly thankful for all the love and support. we could not have gotten here without it. \n\nwe can’t wait to see you at the tavern.",
+          "publishedAt": "2024-06-14T12:51:54.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 424,
+            "comments": 57,
+            "shares": 16
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02qXEd42XNzLjTtKmsGJAcEXT63y54dQ9MKa9R8qKfXvW3GJYPMAQX5sowFUiuj79cl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02qXEd42XNzLjTtKmsGJAcEXT63y54dQ9MKa9R8qKfXvW3GJYPMAQX5sowFUiuj79cl",
+          "caption": "TACO TUESDAY 🌮🌮🌮\n\n5-9pm at @hoppinrh 👍",
+          "publishedAt": "2024-06-04T20:16:18.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 1,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02iuoKThHmKmRcRyzhJwugAr6mg8Tx3B1ktYpNZJXsXe7bJU3XY1ULnU4egvc6wVdVl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02iuoKThHmKmRcRyzhJwugAr6mg8Tx3B1ktYpNZJXsXe7bJU3XY1ULnU4egvc6wVdVl",
+          "caption": "Happy One Year Anniversary to our friends at @hoppinrh 🥳🍾🍻🎉\n\nWe’ll be celebrating all day 12-3/4-9pm 🍔",
+          "publishedAt": "2024-06-01T12:33:33.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 8,
+            "comments": 2,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid0LCwjduxNduZuE6ERqV8fhHxZMbVCLJ3Lgoa4zYtM3izMZEhXDUqbkAGbq3fWccLNl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid0LCwjduxNduZuE6ERqV8fhHxZMbVCLJ3Lgoa4zYtM3izMZEhXDUqbkAGbq3fWccLNl",
+          "caption": "FRIDAY 🍔🍟🍻\n\nWe’re open 12-3/4-9pm at @hoppinrh 👍\n\nHave a great weekend 😁",
+          "publishedAt": "2024-05-31T14:34:38.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 4,
+            "comments": 1,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02eaj2Pm9u11NqEtAa9o7aDM5i6VJ6JgQ7RL42uzxzjYBBWRH2PvzdAubd1AyZ3X6Hl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02eaj2Pm9u11NqEtAa9o7aDM5i6VJ6JgQ7RL42uzxzjYBBWRH2PvzdAubd1AyZ3X6Hl",
+          "caption": "THURSDAY at @hoppinrh 5-9pm 🍻",
+          "publishedAt": "2024-05-30T20:40:30.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 3,
+            "shares": 2
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02x12aieCyM5qN7P3WTuavAos6zNqcYaXeVruJYGXSzMp2GF6oWquiAo4w4mt1o4xhl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02x12aieCyM5qN7P3WTuavAos6zNqcYaXeVruJYGXSzMp2GF6oWquiAo4w4mt1o4xhl",
+          "caption": "Still rollin’ with these mojo pork tacos with the fresh pico and jalapeño crema 👍\n\nHighly recommend 🤠\n\nCome and see us 5-9pm at @hoppinrh 🍻",
+          "publishedAt": "2024-05-29T15:50:09.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 1,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02TmXnwqiDNnTGYdjpdDMX1wCwgg8t2jwLV2AU31VFwf1FivEKXoqqc8xpFCupxhzNl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02TmXnwqiDNnTGYdjpdDMX1wCwgg8t2jwLV2AU31VFwf1FivEKXoqqc8xpFCupxhzNl",
+          "caption": "JUICY MOJO PORK TACOS 🤤\n\nMojo marinated and braised, served the freshest of pico and charred jalapeño crème…for Taco Tuesday of course 🌮🌮🌮\n\nCatch us this evening and thru the week at @hoppinrh 🍻\n\nTue 5-9pm\nWed 5-9pm\nThur 5-9pm\nFri 12-3/4-9pm\nSat 12-3/4-9pm\nSun 12-3/4-7pm",
+          "publishedAt": "2024-05-28T19:51:38.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 4,
+            "comments": 1,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid023chBiDj5BPoAuVgKi4MGMyRRfTuxWihgdQvZy2BS1AincQu6ywe28LRhsVHJEkDgl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid023chBiDj5BPoAuVgKi4MGMyRRfTuxWihgdQvZy2BS1AincQu6ywe28LRhsVHJEkDgl",
+          "caption": "SUNDAY 12-3/4-7PM @hoppinrh 🍻",
+          "publishedAt": "2024-05-26T15:39:52.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 8,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02xDb1jx147WitsYCDfvtHMPTHxxgFub64yQCe1bKuF74xpyGMiJf4BnfeM3eidbbSl",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02xDb1jx147WitsYCDfvtHMPTHxxgFub64yQCe1bKuF74xpyGMiJf4BnfeM3eidbbSl",
+          "caption": "BLACKENED SALMON BL(NO T)O \n🐟🥓🥬❌🍅❌🧅\n\nIt’s got that charred jalapeño mayo on it 😋\n\nOnly have a handful so come n get em ☺️\n\nOpen 12-3/4-9pm at @hoppinrh 🍻",
+          "publishedAt": "2024-05-25T16:03:12.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 13,
+            "comments": 5,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02gCVAK1hMZRUDjFfCgK58D79TMrLncM5sj4QoBgYLPwci41B59t3Nbc6FyBDBWr1l",
+          "url": "https://www.facebook.com/cibicibifoodtruck/posts/pfbid02gCVAK1hMZRUDjFfCgK58D79TMrLncM5sj4QoBgYLPwci41B59t3Nbc6FyBDBWr1l",
+          "caption": "Open for lunch and dinner today and thru the weekend at @hoppinrh 🍔🍻\n\nFriday 12-3/4-9pm\nSaturday 12-3/4-9pm\nSunday 12-3/4-7pm",
+          "publishedAt": "2024-05-24T13:30:35.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 4,
+            "shares": 2
+          }
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T09:56:42.388Z"
+    },
+    "scores": {
+      "reputation": 73,
+      "socialPresence": 70,
+      "opportunity": 60,
+      "overall": 68,
+      "notes": [
+        "Reputation is based on Google rating and review volume.",
+        "Social presence uses verified social profiles, recent post volume, post recency, and lightweight engagement signals.",
+        "Opportunity is higher when reputation is strong but social presence is still weak or missing.",
+        "No social profile found is treated as a marketing opportunity rather than a data failure.",
+        "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
+      ],
+      "calculatedAt": "2026-05-12T09:56:55.981Z"
+    },
+    "workflowStage": "report_generated",
+    "workflowNotes": [
+      "Current stage: report_generated.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 85
   },
   {
     "id": "ChIJu3QAoreIVogR-wBcDGcJVcs",
@@ -1103,9 +1614,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJo3Z_fACNVogRcLgorOviGjk",
@@ -1142,9 +1661,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJBVEtXFSPVogRm94f00Go4a8",
@@ -1182,9 +1709,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJnar9vN-JVogR3jFzfjXEmnE",
@@ -1223,9 +1758,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.440Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJB-lN0SSPVogR2YvpCXrzSdE",
@@ -1263,9 +1806,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJvQ2hxh2JVogRKslnRFHqaf8",
@@ -1303,9 +1854,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJUWKsW6-PVogRfmOCHwU7TWE",
@@ -1343,9 +1902,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJP46z4SuPVogR5dl1FlVgolg",
@@ -1383,9 +1950,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJW0dO7cOIVogRyoe_eZMQuL0",
@@ -1423,9 +1998,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJgxjnLEKJVogRtZH81T-ZD7I",
@@ -1464,9 +2047,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJHzznBgCJVogRgKDQv6clUAk",
@@ -1506,9 +2097,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJT318MiiJVogRNoqJ5VvpGmw",
@@ -1547,9 +2146,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJPQIHUg-MVogRYR-MjWRp0nI",
@@ -1589,9 +2196,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ_dlOXVePVogR1C_8IcPVg7Q",
@@ -1633,9 +2248,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJNYuw9UWJVogRigdumjfXGlQ",
@@ -1673,9 +2296,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ49rp2i-JVogRHMSZO4H5ihI",
@@ -1715,9 +2346,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJsew-mYOFVogRReC9gnj-DKg",
@@ -1757,9 +2396,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJLSfOkGuFVogRiXX8JsyAYjk",
@@ -1800,9 +2447,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJlc5cPwSJVogRpwYHHeKotRU",
@@ -1837,9 +2492,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJiR3MpKyJVogRxjmEIcENIQ0",
@@ -1876,9 +2539,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ18UzpKOFVogRc9FTGF-skhY",
@@ -1918,9 +2589,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ2U08EhyJVogRgQ-EtW41p8Y",
@@ -1959,9 +2638,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ3zjcvfmFVogRhQdbmFE98aI",
@@ -1999,9 +2686,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJHe9L48aJVogRdc0Y3fXpnTc",
@@ -2040,9 +2735,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJdQR3fVOPVogRpR_toiZ5Dg4",
@@ -2081,9 +2784,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJq6qekhxgVogRks33YqQT36g",
@@ -2118,9 +2829,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ03znXqeHVogRdhiAR9aqBt4",
@@ -2159,9 +2878,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJc3RF4CuPVogRh-Rw2WYPh7E",
@@ -2201,9 +2928,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJIS45JuyFVogRk5tZ5AiVv5k",
@@ -2244,9 +2979,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ8TBOgkWLVogRWpv6TG755hs",
@@ -2283,9 +3026,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ28ZyrjiGVogRiRAr_LRpqsU",
@@ -2326,9 +3077,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJk_exvzaJVogRUFUM_XovfU8",
@@ -2366,9 +3125,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJOfBc_n-JVogRG02iGVhu1VA",
@@ -2405,9 +3172,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJl96Sfi6PVogR-6vGl8nJdhU",
@@ -2447,9 +3222,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJMztskgmJVogR1OShQkvIZL8",
@@ -2490,9 +3273,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJg2fYjrCJVogRXfMpkzJ-8gc",
@@ -2531,9 +3322,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJWTt20X6FVogRys_wywbCBSg",
@@ -2573,9 +3372,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJV0eou3SGVogR2HTlV1tmir0",
@@ -2614,9 +3421,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJN9pBqfCFVogRL91droHwdjk",
@@ -2654,9 +3469,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJsTmnRPOFVogRtscSstRGaI8",
@@ -2697,9 +3520,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJhRh8_IrzVogR54jCfGwLehw",
@@ -2739,9 +3570,17 @@
       "Outside Rock Hill target geography: York."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ4T1q0XCJVogREyJh-jZljuk",
@@ -2786,8 +3625,8 @@
       "Google types indicate retail/grocery rather than a primary restaurant listing.",
       "Official Mercantile pages describe this as a public coffee shop and wine bar in downtown Rock Hill."
     ],
-    "pipelineStage": "scored",
-    "lastVerifiedAt": "2026-05-11T20:19:05.280Z",
+    "pipelineStage": "reported",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
     "facebookUrl": "https://www.facebook.com/jackasscafe/",
     "instagramUrl": "https://www.instagram.com/jackasscafe/",
@@ -3116,7 +3955,15 @@
       ],
       "calculatedAt": "2026-05-11T20:19:05.279Z"
     },
-    "socialEnrichmentStatus": "enriched"
+    "socialEnrichmentStatus": "enriched",
+    "workflowStage": "report_generated",
+    "workflowNotes": [
+      "Current stage: report_generated.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 85
   },
   {
     "id": "ChIJp_lRg_2HVogRljE-FSxsKSE",
@@ -3156,9 +4003,17 @@
       "Catering-focused listing; not a standard restaurant storefront."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJS2WuvECGVogR0N9W5QJ3rL8",
@@ -3196,9 +4051,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ0RRP92qJVogRqH1Iu3ja1LA",
@@ -3237,9 +4100,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJcSoLJQCJVogRd2tgtDxlKA0",
@@ -3276,9 +4147,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJHVpGzKWJVogR_q0d8nC_7T8",
@@ -3316,9 +4195,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJb3fG9lmPVogR_Zgeo5kAJEI",
@@ -3357,9 +4244,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJB-P2EnuJVogRx4quXIJ5-HY",
@@ -3400,9 +4295,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJH5YDEv-IVogR3I3nQtefBy8",
@@ -3442,9 +4345,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJUURJWhiRVogR-CTkiLasET8",
@@ -3486,9 +4397,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJqcOEkuqJVogRdDzTYAIirpk",
@@ -3527,9 +4446,17 @@
       "Official site describes KO-OP Kitchen as a commissary kitchen rental for food businesses, not a customer-facing restaurant."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ2ZpS_HKPVogRreARbbBfR2g",
@@ -3569,9 +4496,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJu_18OgCBVogR7kdCt0bZ27o",
@@ -3610,9 +4545,17 @@
       "Outside Rock Hill target geography: Indian Land."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ1b7HzJBsa0wRLrX335PxWTw",
@@ -3650,9 +4593,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.441Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJk2N6Jg-MVogRqab6Sm3SbQY",
@@ -3690,9 +4641,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJoW_BLvSFVogRFjmJt7efnAA",
@@ -3732,9 +4691,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJxwCnVgCPVogR-R95hiRDK-s",
@@ -3776,9 +4743,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJwUCMBbyJVogRW6jQLczFnlk",
@@ -3816,9 +4791,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJndOfiAOJVogRWtHqaYICpRU",
@@ -3855,9 +4838,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJRdf0feyNVogRrYazDgm9_Qk",
@@ -3896,9 +4887,17 @@
       "Active public Rock Hill brewery/taproom with regular food-truck service and customer-facing hours."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJE0631LaIVogRMOFZh2ER1gc",
@@ -3940,9 +4939,17 @@
       "Grocery/supermarket listing rather than a restaurant."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJhRweL7fNt4kRVUFh-QXBA18",
@@ -3984,9 +4991,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJh44S036RVogRUqYMRN4nTHI",
@@ -4027,9 +5042,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJCf2QOLGIVogR9fBF91Mt6d4",
@@ -4069,9 +5092,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJlyCbdLWJVogRDZ5sPwj-NVE",
@@ -4110,9 +5141,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJq42eUD-GVogROYBK_7LpgxU",
@@ -4152,9 +5191,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJAQAMO1ePVogR8WIlZ5EcBIA",
@@ -4192,9 +5239,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ56xZM1OPVogRHEzMLt6yDL4",
@@ -4235,9 +5290,17 @@
       "Current public restaurant listings show this as the active Rizzo Brothers / former Luigi & Sons location in Rock Hill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ9d8VFmiJVogR9ueS1DzGT4Q",
@@ -4277,9 +5340,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ8eIZ2KyIVogR05vqr8ESnJY",
@@ -4321,9 +5392,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJJ7zTamWIVogRX1h226Ec-Zk",
@@ -4361,9 +5440,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJyRrESImFVogRTFmq9YPrpFU",
@@ -4402,9 +5489,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJX_6cYX6dVogRDj4ZhL-AhTc",
@@ -4442,9 +5537,17 @@
       "Outside Rock Hill target geography: Pineville."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJWxPYs66JVogRWMH2UgeHloU",
@@ -4482,9 +5585,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ8RF8C1aIVogROZ9Q0f19tTc",
@@ -4525,9 +5636,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJOyz8wV2PVogRGxhPYLbNbXg",
@@ -4568,9 +5687,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJVRhH2S2JVogRAgm65wf3ZAk",
@@ -4608,9 +5735,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ13STop-JVogRK83TBawGPmo",
@@ -4647,9 +5782,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJpd3D2COPVogRt4z94dCPTE8",
@@ -4688,9 +5831,17 @@
       "Outside Rock Hill target geography: Tega Cay."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJQ7LcviONVogRRcX_tjIHPV4",
@@ -4727,9 +5878,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJS1O5A1OJVogRFIj4UJeXGek",
@@ -4767,9 +5926,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJvbTPMLCJVogRf_4jBuSHN28",
@@ -4808,9 +5975,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJz8DMsSmJVogR-LqmJKeZq6w",
@@ -4848,9 +6023,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJk4BrxWSIVogRAZwNCVORHu8",
@@ -4888,9 +6071,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJk9SqEGOJVogRBqcgPYRSsec",
@@ -4934,9 +6125,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ_yNHxFWJVogR5UrxyewJNaM",
@@ -4976,9 +6175,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJJUfDrSOGVogRKU7DNMS3_VI",
@@ -5018,9 +6225,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJcV53qKqFVogR3fyWdHBv4GI",
@@ -5063,9 +6278,17 @@
       "Google types indicate retail/grocery rather than a primary restaurant listing."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ6RjCjc6PVogRdhTMUBLcU9k",
@@ -5105,9 +6328,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJMd3ACa6OVogRcSYhwaC1Epw",
@@ -5146,9 +6377,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJSzL6UQCFVogROBHLxWnvqEs",
@@ -5187,9 +6426,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJJ7zTamWIVogRUIXmY2dZ27s",
@@ -5229,9 +6476,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ-14s-xqJVogRXAf76c5n1hs",
@@ -5270,9 +6525,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJJ7Zp4iuPVogRd6YAjJSgb4A",
@@ -5310,9 +6573,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ5Q2FOviOVogRarA79EmgkUo",
@@ -5350,9 +6621,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJeVEUGIqJVogRtaF1_0ZUO8M",
@@ -5392,9 +6671,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJf5-apeWPVogRb6oqfRSAIJY",
@@ -5433,9 +6720,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ_1EgnJmFVogRd8w8qsqJtPw",
@@ -5474,9 +6769,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJudTwwm2DVogRd_f7KVDO0A0",
@@ -5516,9 +6819,17 @@
       "Outside Rock Hill target geography: Indian Land."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.442Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJPTwo3yuPVogRC_6HsMqGhOw",
@@ -5556,9 +6867,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJw4mfgV2IVogRFlWaIwGsQRU",
@@ -5596,9 +6915,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJHdCh_I6FVogRpokmaSq_GYA",
@@ -5636,9 +6963,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJp-g5gNSPVogR53IKQ8sMdLo",
@@ -5675,9 +7010,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJm8smrb6FVogR1ZENA3LEg8U",
@@ -5716,9 +7059,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJkym4_raIVogRlla-DnzGuws",
@@ -5755,9 +7106,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJVVUlClaIVogRO4VaoaEWm_k",
@@ -5787,7 +7146,7 @@
       "notes": []
     },
     "createdAt": "2026-05-11T17:48:58.132Z",
-    "updatedAt": "2026-05-11T17:48:58.132Z",
+    "updatedAt": "2026-05-12T09:54:39.959Z",
     "sourceQueries": [
       "breweries in Rock Hill SC"
     ],
@@ -5795,10 +7154,348 @@
       "Missing clear restaurant/cafe/bar/meal service Google type.",
       "Active public brewery/taproom in Rock Hill and relevant for restaurant/bar discovery."
     ],
-    "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "pipelineStage": "reported",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "enriched",
+    "facebookUrl": "https://www.facebook.com/rockhillbrewingcompany/",
+    "instagramUrl": "https://www.instagram.com/rockhillbrewingco/",
+    "socialVerificationNotes": [
+      "Manually verified official social profiles"
+    ],
+    "socialLinksVerifiedAt": "2026-05-12T09:50:10.441Z",
+    "socialProfileStatus": {
+      "facebook": "verified",
+      "instagram": "verified",
+      "tiktok": "unknown"
+    },
+    "socialEnrichmentNotes": [
+      "Facebook enrichment completed via apify/facebook-posts-scraper on 2026-05-12T09:54:25.896Z.",
+      "Instagram enrichment completed via apify/instagram-scraper on 2026-05-12T09:53:35.405Z."
+    ],
+    "instagram": {
+      "profileUrl": "https://www.instagram.com/rockhillbrewingco/",
+      "followers": 3238,
+      "postCount": 624,
+      "recentPosts": [
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DYC0-idNwMQ/",
+          "url": "https://www.instagram.com/p/DYC0-idNwMQ/",
+          "publishedAt": "2026-05-07T16:30:35.000Z",
+          "caption": "If you haven’t tried the pepperoni roll… wyd 👀",
+          "contentType": "Video",
+          "hashtags": [],
+          "engagement": {
+            "likes": 4,
+            "comments": 0,
+            "views": 105
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXKHli5DZBd/",
+          "url": "https://www.instagram.com/p/DXKHli5DZBd/",
+          "publishedAt": "2026-04-15T15:58:56.000Z",
+          "caption": "Wednesdays = JV Poker League at Rock Hill Brewing ♠️🍻 #rockhillbrewing #pov #freepoker *no real money is involved at our poker games*",
+          "contentType": "Video",
+          "hashtags": [
+            "rockhillbrewing",
+            "pov",
+            "freepoker"
+          ],
+          "engagement": {
+            "likes": 6,
+            "comments": 0,
+            "views": 189
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DXH8dXmAIN3/",
+          "url": "https://www.instagram.com/p/DXH8dXmAIN3/",
+          "publishedAt": "2026-04-14T19:50:03.000Z",
+          "caption": "busy Friday night #pov",
+          "contentType": "Video",
+          "hashtags": [
+            "pov"
+          ],
+          "engagement": {
+            "likes": 5,
+            "comments": 0,
+            "views": 137
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DVRnedvgJ-k/",
+          "url": "https://www.instagram.com/p/DVRnedvgJ-k/",
+          "publishedAt": "2026-02-27T20:46:27.000Z",
+          "caption": "Surprise music night at Rock Hill Brewing! JT Ackerman was booked last minute and will be on stage tonight from 7–9:30 PM. Grab a beer, grab a seat, and come enjoy some unexpected live music.\n@jt.ack",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 5,
+            "comments": 1
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DRinjImjMlb/",
+          "url": "https://www.instagram.com/p/DRinjImjMlb/",
+          "publishedAt": "2025-11-27T01:08:19.000Z",
+          "caption": "",
+          "contentType": "Video",
+          "hashtags": [],
+          "engagement": {
+            "likes": 8,
+            "comments": 0,
+            "views": 301
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DRh7TpykezW/",
+          "url": "https://www.instagram.com/p/DRh7TpykezW/",
+          "publishedAt": "2025-11-26T18:41:34.000Z",
+          "caption": "Pre-Thanksgiving party tonight, Wednesday, Nov 26th! 🍻🔥\nDB Cooper hits the stage 7–9:30, and at 8 PM we’re pulling TWO winners — the Rock Hill Brewing Engel Cooler Giveaway and That Grass’s giveaway.\nWinner announcements will be live in person and on IG right here at @rockhillbrewingco \nLet’s kick off the holiday weekend the right way! 🦃✨ @thatgrassco",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 3,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DRAtSlbEY_E/",
+          "url": "https://www.instagram.com/p/DRAtSlbEY_E/",
+          "publishedAt": "2025-11-13T21:07:53.000Z",
+          "caption": "Week 12 is STACKED.\n🐅 Clemson Friday night\n🐓 Gamecocks Saturday at 12\nBeer’s cold. Screens are in. See you here 🍻",
+          "contentType": "Video",
+          "hashtags": [],
+          "engagement": {
+            "likes": 1,
+            "comments": 0,
+            "views": 61
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DQxIV3jks4S/",
+          "url": "https://www.instagram.com/p/DQxIV3jks4S/",
+          "publishedAt": "2025-11-07T19:52:41.000Z",
+          "caption": "Back on the college football grind💪 Come watch your favorite teams face off in our spacious brewery 🍻",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 2,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DQFRkl9keNF/",
+          "url": "https://www.instagram.com/p/DQFRkl9keNF/",
+          "publishedAt": "2025-10-21T19:06:45.000Z",
+          "caption": "Autumn Ember Marzen is now available in 6 packs! $12 until supplies last 🍻",
+          "contentType": "Image",
+          "hashtags": [],
+          "engagement": {
+            "likes": 4,
+            "comments": 0
+          }
+        },
+        {
+          "platform": "instagram",
+          "source": "instagram",
+          "postUrl": "https://www.instagram.com/p/DPfE3iEjRZ7/",
+          "url": "https://www.instagram.com/p/DPfE3iEjRZ7/",
+          "publishedAt": "2025-10-06T23:07:51.000Z",
+          "caption": "🏓🍻 Tuesday nights = Locals Night at Rock Hill Brewing! From 6–8pm, residents of The Exchange, The Anderson, 139 Main, and Easley Apartments get $1 off RHBC beers + an extended happy hour food menu.\nCome sip, smash, and show off your ping pong skills 🎶🍺#rockhillbrewing",
+          "contentType": "Video",
+          "hashtags": [
+            "rockhillbrewing"
+          ],
+          "engagement": {
+            "likes": 9,
+            "comments": 0,
+            "views": 145
+          }
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T09:53:35.405Z"
+    },
+    "facebook": {
+      "pageUrl": "https://www.facebook.com/rockhillbrewingcompany/",
+      "postCount": 10,
+      "recentPosts": [
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0iJk5cdHAufuKDk5xpGFsp7XZbL1eGGYvuxKC6kPupVdHQdJmBQbctsBdfBHT7rfMl",
+          "url": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0iJk5cdHAufuKDk5xpGFsp7XZbL1eGGYvuxKC6kPupVdHQdJmBQbctsBdfBHT7rfMl",
+          "caption": "Come out tonight 9-11:30 to celebrate Martha Dipastena ‘s BDay🍻",
+          "publishedAt": "2026-04-25T20:16:51.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 3,
+            "comments": 1,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0fi9GAP94XTYkirFaeZjQMYQ2fjWLbxfPydUeRkGhUb4BRAvmHayiAKXR9txCYcfml",
+          "url": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0fi9GAP94XTYkirFaeZjQMYQ2fjWLbxfPydUeRkGhUb4BRAvmHayiAKXR9txCYcfml",
+          "caption": "",
+          "publishedAt": "2026-04-16T19:09:25.000Z",
+          "contentType": "ProfilePicAttachmentMedia",
+          "engagement": {
+            "likes": 0,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0HmWxuTaEQ4sUTnKhit2tBAYqSNTLdnxUySKkWaHv9dVUv8UD5NBZaQemU7wURRMbl",
+          "url": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0HmWxuTaEQ4sUTnKhit2tBAYqSNTLdnxUySKkWaHv9dVUv8UD5NBZaQemU7wURRMbl",
+          "caption": "",
+          "publishedAt": "2026-04-16T19:08:16.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 1,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid02snqLmUcuWmHkVfYdFmsY1doQ9qxT1yjzFHCab3cWPLYMeqnRu3ryVw7qzhoM8Pohl",
+          "url": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid02snqLmUcuWmHkVfYdFmsY1doQ9qxT1yjzFHCab3cWPLYMeqnRu3ryVw7qzhoM8Pohl",
+          "caption": "Commonwealth Divide is back at Rock Hill Brewing tomorrow night from 6–9pm! Come grab a beer, a pizza, and kick off your evening with some live music on stage!",
+          "publishedAt": "2026-04-10T18:29:25.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 5,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid02RY1SwUbWL2Xc493BNGBsQLDBo82ruYNuJWKDR5ipTzga4F4AoVoPU3F79eFPBhbMl",
+          "url": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid02RY1SwUbWL2Xc493BNGBsQLDBo82ruYNuJWKDR5ipTzga4F4AoVoPU3F79eFPBhbMl",
+          "caption": "Your Friday night plans are set 🍻 Kris Atom is playing live at RHBC this Friday from 7–9:30 PM. Cold beer, wood-fired pizza, and live music on stage.",
+          "publishedAt": "2026-04-02T18:50:37.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 8,
+            "shares": 7
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0RK85EnSGDJ5ZQeCp31xZs5GoeJbtErHUV8cDo3VbRRcvyYJcyN3egMYGFgMwNzkwl",
+          "url": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0RK85EnSGDJ5ZQeCp31xZs5GoeJbtErHUV8cDo3VbRRcvyYJcyN3egMYGFgMwNzkwl",
+          "caption": "Tonight 7-9:30!!!",
+          "publishedAt": "2026-03-20T20:04:42.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 0,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0zwweH3GRgLVGf1aoVB1cieL1nZejpwrjZbBHVacQHnKGgNDVZLQaJM7wLWbc7zrEl",
+          "url": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid0zwweH3GRgLVGf1aoVB1cieL1nZejpwrjZbBHVacQHnKGgNDVZLQaJM7wLWbc7zrEl",
+          "caption": "Surprise music night at Rock Hill Brewing! JT Ackerman was booked last minute and will be on stage tonight from 7–9:30 PM. Grab a beer, grab a seat, and come enjoy some unexpected live music.",
+          "publishedAt": "2026-02-27T20:44:55.000Z",
+          "contentType": "Photo",
+          "engagement": {
+            "likes": 7,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/events/772248975939420/",
+          "url": "https://www.facebook.com/events/772248975939420/",
+          "caption": "",
+          "publishedAt": "2026-02-25T19:49:55.000Z",
+          "contentType": "ProfilePicAttachmentMedia",
+          "engagement": {
+            "likes": 11,
+            "comments": 3,
+            "shares": 0
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid02bxV9L1Qy1vXT4FZUa1HJyaHuo1QRP5HyGCrF5GV5jKxgX1LMVtTmad6Tuj74PR33l",
+          "url": "https://www.facebook.com/rockhillbrewingcompany/posts/pfbid02bxV9L1Qy1vXT4FZUa1HJyaHuo1QRP5HyGCrF5GV5jKxgX1LMVtTmad6Tuj74PR33l",
+          "caption": "",
+          "publishedAt": "2026-02-18T17:05:30.000Z",
+          "contentType": "post",
+          "engagement": {
+            "likes": 3,
+            "shares": 1
+          }
+        },
+        {
+          "platform": "facebook",
+          "source": "facebook",
+          "postUrl": "https://www.facebook.com/events/924072110556029/",
+          "url": "https://www.facebook.com/events/924072110556029/",
+          "caption": "",
+          "publishedAt": "2026-02-18T17:04:40.000Z",
+          "contentType": "ProfilePicAttachmentMedia",
+          "engagement": {
+            "likes": 4,
+            "shares": 0
+          }
+        }
+      ],
+      "lastEnrichedAt": "2026-05-12T09:54:25.896Z"
+    },
+    "scores": {
+      "reputation": 96,
+      "socialPresence": 81,
+      "opportunity": 73,
+      "overall": 85,
+      "notes": [
+        "Reputation is based on Google rating and review volume.",
+        "Social presence uses verified social profiles, recent post volume, post recency, and lightweight engagement signals.",
+        "Opportunity is higher when reputation is strong but social presence is still weak or missing.",
+        "No social profile found is treated as a marketing opportunity rather than a data failure.",
+        "Strong reputation plus strong social presence lowers immediate opportunity while improving public presence."
+      ],
+      "calculatedAt": "2026-05-12T09:54:39.957Z"
+    },
+    "workflowStage": "report_generated",
+    "workflowNotes": [
+      "Current stage: report_generated.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 85
   },
   {
     "id": "ChIJZcUQ5aaJVogRG2a9oP6L8FE",
@@ -5836,9 +7533,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJV9vnD62IVogRBfc2pfnCJvY",
@@ -5877,9 +7582,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJnRZ1VjKJVogRjignz7W5PAw",
@@ -5916,9 +7629,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJq2PzmoyJVogRMM-Tmj3YnMc",
@@ -5958,9 +7679,17 @@
       "Recent public directories show an active Rock Hill takeout restaurant, but address/platform data is inconsistent and should be verified manually."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "needs_review",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJTbwUWgCJVogRfyPpnHBNsos",
@@ -5997,9 +7726,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJe2tE_gibVogROdpgio1vrGM",
@@ -6039,9 +7776,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJkXoKHTuJVogRxCzOWXPBIjo",
@@ -6079,9 +7824,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ5xkYaP-IVogRWWaBl6yOV24",
@@ -6120,9 +7873,17 @@
       "Seafood market listing rather than a dine-in restaurant."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJJ4iH8wyNVogRMLntqd6HGds",
@@ -6164,9 +7925,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJYSzq06mJVogRJpm9IGzyJU4",
@@ -6207,9 +7976,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJi6V22g6MVogRNORSFpaia50",
@@ -6247,9 +8024,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJfe4cz2SIVogR-lHXVhB2mYQ",
@@ -6288,9 +8073,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJb0dqvcaIVogRU9GGjvt-GLg",
@@ -6332,9 +8125,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJwfh21sqJVogRrchdaXERjIA",
@@ -6375,9 +8176,17 @@
       "Possible duplicate or same-brand multi-location listing; verify intended inclusion."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJF8MlZw2JVogRAcJ4_wc2U5Q",
@@ -6418,9 +8227,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJK5PCsPmFVogR6pY_9c8pL8w",
@@ -6459,9 +8276,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJu0JZo6SIVogR2p0Jp1v3GNI",
@@ -6501,9 +8326,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ6bVg51WFVogRytCzoiDc3K8",
@@ -6543,9 +8376,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJeXP0AfmFVogRmG5Evhd6YME",
@@ -6583,9 +8424,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJVxiISACJVogR380iZdYKV4A",
@@ -6623,9 +8472,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ__qv5BdfVogRrqM_j9x90z0",
@@ -6665,9 +8522,17 @@
       "Outside Rock Hill target geography: McConnells."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ1Wg31laPVogReytf48gJWG8",
@@ -6704,9 +8569,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJAQDMzraIVogRxADvnHvgp4M",
@@ -6744,9 +8617,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJi5V30oiJVogR5VlzLL8AsA0",
@@ -6783,9 +8664,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJUbYUGwCPVogRf95G75vXK-U",
@@ -6823,9 +8712,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJR7KqQACJVogRtsI-boi2Cy0",
@@ -6862,9 +8759,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJmQXoRKCJVogRe1hxuMNTDxQ",
@@ -6904,9 +8809,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJUYFgtK-JVogR0-isVuNDEuY",
@@ -6946,9 +8859,17 @@
       "Official site and recent public reviews show a public-facing robotic coffee cafe in Rock Hill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ9aLWUYKFVogRvHB8mSwVb9k",
@@ -6989,9 +8910,17 @@
       "Outside Rock Hill target geography: Tega Cay."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJo9cta7OIVogR_U1YRQeNa4E",
@@ -7029,9 +8958,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ2_Y2DkmPVogRcn-11vrdBbI",
@@ -7071,9 +9008,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJKUpuDlaIVogRfu5afOkxeiQ",
@@ -7114,9 +9059,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ-bbYBVKFVogRS6Lj35rcVBU",
@@ -7156,9 +9109,17 @@
       "Outside Rock Hill target geography: Fort Mill."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ_wXBDgOJVogRYOBERuXxi6U",
@@ -7196,9 +9157,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ4baYhOyJVogRO5wOUyZqqaQ",
@@ -7243,9 +9212,17 @@
       "Retail/home goods business, not a standalone restaurant record."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJydeHSiqJVogRzLF0MVK6qUA",
@@ -7289,9 +9266,17 @@
       "Venue/complex listing rather than a single restaurant entity."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJ85Mg1e6FVogRkattA8ZtiOk",
@@ -7331,9 +9316,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ90Au9juJVogRL_ylt6TLxxs",
@@ -7371,9 +9364,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ63x5cwyJVogR3rIPh7P8fKc",
@@ -7411,9 +9412,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJD_CN6d2PVogRcrZPvAsW_3A",
@@ -7452,9 +9461,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ4Qq2PrqFVogRPnsysXt-n5I",
@@ -7492,9 +9509,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJqbkcR7GIVogRc6Qkan4KNRo",
@@ -7535,9 +9560,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJbVf4A-mfVogRMGQqzhligDo",
@@ -7575,9 +9608,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.443Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJsWP02xldVogRZI2aUZhT95I",
@@ -7616,9 +9657,17 @@
       "Outside Rock Hill target geography: Chester."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.444Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   },
   {
     "id": "ChIJr-P5BR6JVogRVr39AFnpMCE",
@@ -7657,9 +9706,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.444Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJM3jVxnWJVogRvf9k2wsYTKw",
@@ -7697,9 +9754,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.444Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJ8QNh1dGJVogRiwvgY_UMH1w",
@@ -7737,9 +9802,17 @@
     ],
     "reviewNotes": [],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.444Z",
     "reviewStatus": "included",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Needs Google enrichment.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 20
   },
   {
     "id": "ChIJQbUQsr-PVogRiqyBgB_N4mg",
@@ -7778,8 +9851,16 @@
       "Outside Rock Hill target geography: Tega Cay."
     ],
     "pipelineStage": "seeded",
-    "lastVerifiedAt": "2026-05-11T18:08:41.425Z",
+    "lastVerifiedAt": "2026-05-12T11:04:52.444Z",
     "reviewStatus": "excluded",
-    "socialEnrichmentStatus": "not_ready"
+    "socialEnrichmentStatus": "not_ready",
+    "workflowStage": "discovered",
+    "workflowNotes": [
+      "Current stage: discovered.",
+      "Next action: Complete for MVP.",
+      "Record still has workflow gaps before final reporting."
+    ],
+    "readyForReport": false,
+    "dataCompletenessScore": 0
   }
 ]

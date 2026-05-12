@@ -41,7 +41,7 @@ async function main(): Promise<void> {
   );
   const notFoundProfiles = normalizedRestaurants.filter(
     (restaurant) =>
-      ["facebook", "instagram", "tiktok"].some(
+      ["facebook", "instagram"].some(
         (platform) =>
           getSocialProfileStatus(
             restaurant,
@@ -51,7 +51,7 @@ async function main(): Promise<void> {
   );
   const unknownProfiles = normalizedRestaurants.filter(
     (restaurant) =>
-      ["facebook", "instagram", "tiktok"].some(
+      ["facebook", "instagram"].some(
         (platform) =>
           getSocialProfileStatus(
             restaurant,

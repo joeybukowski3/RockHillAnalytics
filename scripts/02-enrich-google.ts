@@ -3,6 +3,7 @@ import path from "node:path";
 import { getPlaceDetails } from "../src/apis/googlePlaces.js";
 import { loadEnv } from "../src/lib/env.js";
 import { findRestaurant } from "../src/lib/findRestaurant.js";
+import { applyWorkflowMetadata } from "../src/lib/workflow.js";
 import { RestaurantProfile, Review } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -71,13 +72,14 @@ async function main(): Promise<void> {
       return entry;
     }
 
-    return {
+    return applyWorkflowMetadata({
       ...entry,
       address: details.result?.formatted_address ?? entry.address,
       phone: details.result?.formatted_phone_number ?? entry.phone,
       website: details.result?.website ?? entry.website,
       googleMapsUrl: details.result?.url ?? entry.googleMapsUrl,
       pipelineStage: "enriched" as const,
+      lastGoogleEnrichedAt: now,
       google: {
         ...entry.google,
         rating: details.result?.rating ?? entry.google?.rating,
@@ -93,7 +95,7 @@ async function main(): Promise<void> {
       },
       lastVerifiedAt: now,
       updatedAt: now
-    };
+    });
   });
 
   const seedPath = path.join(ROOT, "data", "restaurants.seed.json");

@@ -9,6 +9,7 @@ import {
   getSocialMaxPosts,
   limitRecentPosts
 } from "../src/lib/social.js";
+import { applyWorkflowMetadata } from "../src/lib/workflow.js";
 import { RestaurantProfile, SocialPost } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -124,13 +125,14 @@ async function main(): Promise<void> {
 
   const updatedRestaurants = restaurants.map((entry) =>
     entry.id === restaurant.id
-      ? {
+      ? applyWorkflowMetadata({
           ...entry,
           socialEnrichmentStatus: "enriched" as const,
           socialEnrichmentNotes: [
             `Instagram enrichment completed via ${actorId} on ${now}.`,
             ...(entry.socialEnrichmentNotes ?? [])
           ],
+          lastSocialEnrichedAt: now,
           instagram: {
             ...entry.instagram,
             profileUrl: entry.instagramUrl ?? entry.instagram?.profileUrl,
@@ -141,7 +143,7 @@ async function main(): Promise<void> {
           },
           lastVerifiedAt: now,
           updatedAt: now
-        }
+        })
       : entry
   );
 

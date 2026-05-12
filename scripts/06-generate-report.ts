@@ -8,6 +8,7 @@ import {
   normalizeRestaurantSocialData
 } from "../src/lib/social.js";
 import { summarizePublicSentiment } from "../src/lib/sentiment.js";
+import { applyWorkflowMetadata } from "../src/lib/workflow.js";
 import { RestaurantProfile, SocialPost } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -237,9 +238,27 @@ async function main(): Promise<void> {
   const { restaurant } = findRestaurant(restaurants, identifier);
   const reportsDir = path.join(ROOT, "reports");
   const reportPath = path.join(reportsDir, `${restaurant.slug}.md`);
+  const now = new Date().toISOString();
 
   await mkdir(reportsDir, { recursive: true });
   await writeFile(reportPath, toMarkdown(restaurant), "utf8");
+
+  const updatedRestaurants = restaurants.map((entry) =>
+    entry.id === restaurant.id
+      ? applyWorkflowMetadata({
+          ...entry,
+          pipelineStage: "reported" as const,
+          readyForReport: true,
+          updatedAt: now
+        })
+      : entry
+  );
+
+  await writeFile(
+    path.join(ROOT, "data", "restaurants.seed.json"),
+    JSON.stringify(updatedRestaurants, null, 2),
+    "utf8"
+  );
 
   console.log(`Report generated: ${reportPath}`);
 }

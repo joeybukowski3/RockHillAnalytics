@@ -166,6 +166,10 @@ a:hover {
   padding: 20px;
 }
 
+.compact-card {
+  padding: 18px 20px;
+}
+
 .featured-head {
   display: flex;
   justify-content: space-between;
@@ -180,6 +184,33 @@ a:hover {
 .featured-head p {
   margin: 0;
   color: #637387;
+}
+
+.funnel-count {
+  font-size: 2rem;
+  line-height: 1;
+  color: #1d4f91;
+}
+
+.queue-list {
+  margin: 16px 0 0;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.queue-list li {
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: #f4f7fb;
+  display: grid;
+  gap: 4px;
+}
+
+.queue-list span {
+  color: #5c6d81;
+  font-size: 0.9rem;
 }
 
 .metric-list {
@@ -224,6 +255,28 @@ a:hover {
   border: 1px solid #cdd6e1;
   background: rgba(255, 255, 255, 0.92);
   color: #1f2937;
+}
+
+.toggle-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 0 0 14px;
+  color: #4a5b6f;
+}
+
+.toggle-row label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid #dbe3ec;
+}
+
+.toggle-row input {
+  margin: 0;
 }
 
 .table-card {

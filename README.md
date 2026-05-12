@@ -28,9 +28,13 @@ Phase 2B adds one-restaurant social enrichment through Apify after social URLs h
 
 Phase 2C hardens the social enrichment workflow before scaling. It caps stored social posts, adds review/readiness reporting, and clarifies how to move restaurants through a safe enrichment sequence.
 
+## Phase 3 Goal
+
+Phase 3 adds workflow infrastructure before final reports. The focus is controlled progression through discovery, Google enrichment, social review, social enrichment, scoring, and dashboard review. Final reports still exist, but they are intentionally secondary until the workflow is stable.
+
 ## Local Dashboard
 
-The repository now includes a lightweight local review dashboard built with Vite + React. It is intended for internal review of the current restaurant dataset, not as a public launch site.
+The repository now includes a lightweight local review dashboard built with Vite + React. It is intended as an internal workflow command center for reviewing restaurant records, identifying missing data, and deciding what to enrich next. It is not a public launch site.
 
 ## Stack
 
@@ -64,6 +68,9 @@ scripts/
   06-generate-report.ts
   07-review-seed-list.ts
   08-add-social-links.ts
+  09-review-social-data.ts
+  10-export-web-data.ts
+  11-review-workflow.ts
 
 src/
   apis/
@@ -74,8 +81,20 @@ src/
     scoring.ts
     sentiment.ts
     slug.ts
+    workflow.ts
   types/
     restaurant.ts
+
+web/
+  src/
+    App.tsx
+    main.tsx
+    styles.css
+
+public/
+  data/
+    restaurants.json
+  reports/
 ```
 
 ## Setup
@@ -162,6 +181,12 @@ Review current social readiness and enrichment coverage:
 npm run review:social
 ```
 
+Review the current workflow queue and stage distribution:
+
+```powershell
+npm run review:workflow
+```
+
 Export safe dashboard data and copied reports:
 
 ```powershell
@@ -194,16 +219,21 @@ npm run typecheck
 
 ## Safe Scaling Process
 
-Recommended order for each restaurant:
+Recommended order for the workflow:
 
-1. `npm run add:social -- "Restaurant Name" ...`
-2. `npm run enrich:instagram -- "Restaurant Name"`
-3. `npm run enrich:facebook -- "Restaurant Name"`
-4. `npm run score -- "Restaurant Name"`
-5. `npm run report -- "Restaurant Name"`
-6. `npm run review:social`
+1. `npm run find:restaurants`
+2. `npm run review:seed`
+3. `npm run enrich:google -- "Restaurant Name"`
+4. `npm run add:social -- "Restaurant Name" ...`
+5. `npm run review:social`
+6. `npm run enrich:instagram -- "Restaurant Name"`
+7. `npm run enrich:facebook -- "Restaurant Name"`
+8. `npm run score -- "Restaurant Name"`
+9. `npm run review:workflow`
+10. `npm run export:web-data`
+11. `npm run dev`
 
-This keeps manual URL verification ahead of scraping, limits cost exposure, and makes it easier to review quality before scaling.
+This keeps manual URL verification ahead of scraping, limits cost exposure, and makes it easier to review quality before scaling. Final report generation is intentionally deferred until a restaurant has stable workflow coverage.
 
 Dashboard review flow:
 
@@ -241,3 +271,4 @@ npm run report -- "Legal Remedy Brewing"
 - Social/profile URLs should be manually verified before any future scraping workflow uses them.
 - Stored Facebook and Instagram recent posts are capped by `SOCIAL_MAX_POSTS`, which defaults to `10`.
 - Dashboard data is exported to `public/data/restaurants.json` and excludes raw API payloads and unnecessary personal/commenter data.
+- Workflow metadata is stored on restaurant records so the dashboard and `npm run review:workflow` can recommend the next command without auto-running it.

@@ -1,5 +1,6 @@
 import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { applyWorkflowMetadata, getWorkflowSnapshot } from "../src/lib/workflow.js";
 import { RestaurantProfile } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
@@ -19,6 +20,16 @@ type DashboardRestaurant = {
   reviewStatus: string;
   pipelineStage?: string;
   socialEnrichmentStatus?: string;
+  workflowStage?: string;
+  nextAction: string;
+  dataCompletenessScore: number;
+  missingData: string[];
+  readyForReport: boolean;
+  suggestedCommands: string[];
+  lastGoogleEnrichedAt?: string;
+  lastSocialReviewedAt?: string;
+  lastSocialEnrichedAt?: string;
+  lastScoredAt?: string;
   google?: {
     rating?: number;
     reviewCount?: number;
@@ -87,58 +98,73 @@ function toDashboardRestaurant(
   reportMap: Map<string, string>
 ): DashboardRestaurant {
   const reportPath = reportMap.get(restaurant.slug);
+  const normalizedRestaurant = applyWorkflowMetadata({
+    ...restaurant,
+    pipelineStage: reportPath || restaurant.pipelineStage === "reported" ? "reported" : restaurant.pipelineStage
+  });
+  const snapshot = getWorkflowSnapshot(normalizedRestaurant);
 
   return {
-    id: restaurant.id,
-    name: restaurant.name,
-    slug: restaurant.slug,
-    city: restaurant.city,
-    state: restaurant.state,
-    category: restaurant.category,
-    address: restaurant.address,
-    phone: restaurant.phone,
-    website: restaurant.website,
-    googlePlaceId: restaurant.googlePlaceId,
-    googleMapsUrl: restaurant.googleMapsUrl,
-    reviewStatus: restaurant.reviewStatus ?? restaurant.status,
-    pipelineStage: restaurant.pipelineStage,
-    socialEnrichmentStatus: restaurant.socialEnrichmentStatus,
-    google: restaurant.google
+    id: normalizedRestaurant.id,
+    name: normalizedRestaurant.name,
+    slug: normalizedRestaurant.slug,
+    city: normalizedRestaurant.city,
+    state: normalizedRestaurant.state,
+    category: normalizedRestaurant.category,
+    address: normalizedRestaurant.address,
+    phone: normalizedRestaurant.phone,
+    website: normalizedRestaurant.website,
+    googlePlaceId: normalizedRestaurant.googlePlaceId,
+    googleMapsUrl: normalizedRestaurant.googleMapsUrl,
+    reviewStatus: normalizedRestaurant.reviewStatus ?? normalizedRestaurant.status,
+    pipelineStage: normalizedRestaurant.pipelineStage,
+    socialEnrichmentStatus: normalizedRestaurant.socialEnrichmentStatus,
+    workflowStage: snapshot.workflowStage,
+    nextAction: snapshot.nextAction,
+    dataCompletenessScore: snapshot.dataCompletenessScore,
+    missingData: snapshot.missingData,
+    readyForReport: snapshot.readyForReport,
+    suggestedCommands: snapshot.suggestedCommands,
+    lastGoogleEnrichedAt: normalizedRestaurant.lastGoogleEnrichedAt,
+    lastSocialReviewedAt: normalizedRestaurant.lastSocialReviewedAt,
+    lastSocialEnrichedAt: normalizedRestaurant.lastSocialEnrichedAt,
+    lastScoredAt: normalizedRestaurant.lastScoredAt,
+    google: normalizedRestaurant.google
       ? {
-          rating: restaurant.google.rating,
-          reviewCount: restaurant.google.reviewCount,
-          businessStatus: restaurant.google.businessStatus,
-          openingHours: restaurant.google.openingHours
+          rating: normalizedRestaurant.google.rating,
+          reviewCount: normalizedRestaurant.google.reviewCount,
+          businessStatus: normalizedRestaurant.google.businessStatus,
+          openingHours: normalizedRestaurant.google.openingHours
         }
       : undefined,
-    facebookUrl: restaurant.facebookUrl,
-    instagramUrl: restaurant.instagramUrl,
-    tiktokUrl: restaurant.tiktokUrl,
-    socialProfileStatus: restaurant.socialProfileStatus,
-    facebook: restaurant.facebook
+    facebookUrl: normalizedRestaurant.facebookUrl,
+    instagramUrl: normalizedRestaurant.instagramUrl,
+    tiktokUrl: normalizedRestaurant.tiktokUrl,
+    socialProfileStatus: normalizedRestaurant.socialProfileStatus,
+    facebook: normalizedRestaurant.facebook
       ? {
-          pageUrl: restaurant.facebook.pageUrl,
-          postCount: restaurant.facebook.postCount,
-          latestPostDate: getLatestPostDate(restaurant.facebook.recentPosts),
-          recentPostCount: restaurant.facebook.recentPosts?.length ?? 0
+          pageUrl: normalizedRestaurant.facebook.pageUrl,
+          postCount: normalizedRestaurant.facebook.postCount,
+          latestPostDate: getLatestPostDate(normalizedRestaurant.facebook.recentPosts),
+          recentPostCount: normalizedRestaurant.facebook.recentPosts?.length ?? 0
         }
       : undefined,
-    instagram: restaurant.instagram
+    instagram: normalizedRestaurant.instagram
       ? {
-          profileUrl: restaurant.instagram.profileUrl,
-          followers: restaurant.instagram.followers,
-          postCount: restaurant.instagram.postCount,
-          latestPostDate: getLatestPostDate(restaurant.instagram.recentPosts),
-          recentPostCount: restaurant.instagram.recentPosts?.length ?? 0
+          profileUrl: normalizedRestaurant.instagram.profileUrl,
+          followers: normalizedRestaurant.instagram.followers,
+          postCount: normalizedRestaurant.instagram.postCount,
+          latestPostDate: getLatestPostDate(normalizedRestaurant.instagram.recentPosts),
+          recentPostCount: normalizedRestaurant.instagram.recentPosts?.length ?? 0
         }
       : undefined,
-    scores: restaurant.scores,
-    reviewNotes: restaurant.reviewNotes ?? [],
-    socialVerificationNotes: restaurant.socialVerificationNotes ?? [],
-    socialEnrichmentNotes: restaurant.socialEnrichmentNotes ?? [],
+    scores: normalizedRestaurant.scores,
+    reviewNotes: normalizedRestaurant.reviewNotes ?? [],
+    socialVerificationNotes: normalizedRestaurant.socialVerificationNotes ?? [],
+    socialEnrichmentNotes: normalizedRestaurant.socialEnrichmentNotes ?? [],
     reportPath,
     reportExists: Boolean(reportPath),
-    updatedAt: restaurant.updatedAt
+    updatedAt: normalizedRestaurant.updatedAt
   };
 }
 
