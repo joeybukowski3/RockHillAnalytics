@@ -540,6 +540,73 @@ export default function App() {
 
       <section className="section-block">
         <div className="section-header">
+          <h2>Social enrichment queue</h2>
+          <p>Controlled batch candidates for Instagram and Facebook enrichment.</p>
+        </div>
+        <div className="featured-grid">
+          <article className="featured-card">
+            <div className="featured-head">
+              <div>
+                <h3>Enrichment readiness</h3>
+                <p>Status of verified social URLs across included restaurants.</p>
+              </div>
+              <span className="badge neutral">Batch status</span>
+            </div>
+            <ul className="queue-list">
+              <li>
+                <strong>Ready for Instagram enrichment</strong>
+                <span>{includedRestaurants.filter(r => (r.socialProfileStatus?.instagram === "verified") && !(r.instagram?.recentPostCount ?? 0)).length} restaurants</span>
+              </li>
+              <li>
+                <strong>Ready for Facebook enrichment</strong>
+                <span>{includedRestaurants.filter(r => (r.socialProfileStatus?.facebook === "verified") && !(r.facebook?.recentPostCount ?? 0)).length} restaurants</span>
+              </li>
+              <li>
+                <strong>Enriched Instagram</strong>
+                <span>{includedRestaurants.filter(r => (r.instagram?.recentPostCount ?? 0) > 0).length} restaurants</span>
+              </li>
+              <li>
+                <strong>Enriched Facebook</strong>
+                <span>{includedRestaurants.filter(r => (r.facebook?.recentPostCount ?? 0) > 0).length} restaurants</span>
+              </li>
+              <li>
+                <strong>Social reviewed but no profiles found</strong>
+                <span>{includedRestaurants.filter(r => r.socialProfileStatus?.instagram === "not_found" && r.socialProfileStatus?.facebook === "not_found").length} restaurants</span>
+              </li>
+            </ul>
+          </article>
+          <article className="featured-card">
+            <div className="featured-head">
+              <div>
+                <h3>Suggested batch commands</h3>
+                <p>Use --confirm to execute live Apify runs.</p>
+              </div>
+              <span className="badge neutral">Controlled batch</span>
+            </div>
+            <ul className="queue-list">
+              <li>
+                <strong>Instagram batch (dry run)</strong>
+                <span>npm run batch:social -- --platform instagram --limit 5 --dry-run</span>
+              </li>
+              <li>
+                <strong>Facebook batch (dry run)</strong>
+                <span>npm run batch:social -- --platform facebook --limit 5 --dry-run</span>
+              </li>
+              <li>
+                <strong>Instagram batch (live)</strong>
+                <span>npm run batch:social -- --platform instagram --limit 5 --confirm</span>
+              </li>
+              <li>
+                <strong>Facebook batch (live)</strong>
+                <span>npm run batch:social -- --platform facebook --limit 5 --confirm</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section className="section-block">
+        <div className="section-header">
           <h2>Restaurant workflow table</h2>
           <p>Filter, sort, and select restaurants for the next enrichment step.</p>
         </div>

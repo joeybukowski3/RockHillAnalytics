@@ -37,22 +37,22 @@ function parseArgs(argv: string[]): QueueArgs {
       continue;
     }
 
-    if (flag === "--only-included") {
+    if (flag === "--only-included" || flag === "--onlyIncluded") {
       parsed.onlyIncluded = true;
       continue;
     }
 
-    if (flag === "--has-website") {
+    if (flag === "--has-website" || flag === "--hasWebsite") {
       parsed.hasWebsite = true;
       continue;
     }
 
-    if (flag === "--missing-instagram") {
+    if (flag === "--missing-instagram" || flag === "--missingInstagram") {
       parsed.missingInstagram = true;
       continue;
     }
 
-    if (flag === "--missing-facebook") {
+    if (flag === "--missing-facebook" || flag === "--missingFacebook") {
       parsed.missingFacebook = true;
       continue;
     }
@@ -177,32 +177,41 @@ function buildAddSocialCommand(restaurant: RestaurantProfile): string {
   return parts.join(" ");
 }
 
+function buildNoSocialCommand(restaurant: RestaurantProfile): string {
+  const safeName = restaurant.name.replace(/"/g, '\\"');
+  return `npm run add:social -- "${safeName}" --no-facebook --no-instagram --notes "No official Facebook or Instagram found during manual check"`;
+}
+
 function printRestaurant(restaurant: RestaurantProfile): void {
   const socialReviewStatus = getSocialReviewStatus(restaurant);
   const snapshot = getWorkflowSnapshot(restaurant);
   const googleRating = restaurant.google?.rating ?? "n/a";
   const reviewCount = restaurant.google?.reviewCount ?? "n/a";
 
-  console.log(`- ${restaurant.name}`);
-  console.log(`  Website: ${formatValue(restaurant.website)}`);
-  console.log(`  Phone: ${formatValue(restaurant.phone)}`);
-  console.log(`  Address: ${formatValue(restaurant.address)}`);
-  console.log(`  Google rating/reviews: ${googleRating} / ${reviewCount}`);
-  console.log(
-    `  Facebook: ${formatValue(restaurant.facebookUrl)} (${restaurant.socialProfileStatus?.facebook ?? "unknown"})`
-  );
-  console.log(
-    `  Instagram: ${formatValue(restaurant.instagramUrl)} (${restaurant.socialProfileStatus?.instagram ?? "unknown"})`
-  );
-  console.log(
-    `  TikTok: ${formatValue(restaurant.tiktokUrl)} (${restaurant.socialProfileStatus?.tiktok ?? "unknown"})`
-  );
-  console.log(`  Social review status: ${socialReviewStatus}`);
-  console.log(`  Next action: ${snapshot.nextAction}`);
-  console.log(`  Suggested search: ${restaurant.name} Rock Hill SC Instagram`);
-  console.log(`  Suggested search: ${restaurant.name} Rock Hill SC Facebook`);
-  console.log(`  Suggested search: ${restaurant.name} official website social media`);
-  console.log(`  Suggested command: ${buildAddSocialCommand(restaurant)}`);
+  console.log(`\n### ${restaurant.name} [${restaurant.category ?? "Unknown category"}]`);
+  console.log(`  - Website: ${formatValue(restaurant.website)}`);
+  console.log(`  - Google Maps: ${formatValue(restaurant.googleMapsUrl ?? restaurant.google?.mapsUrl)}`);
+  console.log(`  - Phone: ${formatValue(restaurant.phone)}`);
+  console.log(`  - Address: ${formatValue(restaurant.address)}`);
+  console.log(`  - Google Profile: ${googleRating} ⭐ (${reviewCount} reviews)`);
+  console.log(`  - Current Social URLs:`);
+  console.log(`    - Facebook: ${formatValue(restaurant.facebookUrl)} (${restaurant.socialProfileStatus?.facebook ?? "unknown"})`);
+  console.log(`    - Instagram: ${formatValue(restaurant.instagramUrl)} (${restaurant.socialProfileStatus?.instagram ?? "unknown"})`);
+  console.log(`  - Social review status: ${socialReviewStatus}`);
+  console.log(`  - Next action: ${snapshot.nextAction}`);
+  
+  const searchName = encodeURIComponent(`${restaurant.name} Rock Hill SC`);
+  console.log(`  - Suggested Searches:`);
+  console.log(`    - Instagram: https://www.google.com/search?q=${searchName}+Instagram`);
+  console.log(`    - Facebook: https://www.google.com/search?q=${searchName}+Facebook`);
+  if (restaurant.website) {
+    const domain = new URL(restaurant.website).hostname;
+    console.log(`    - Website Socials: https://www.google.com/search?q=site%3A${domain}+"facebook.com"+OR+"instagram.com"`);
+  }
+
+  console.log(`  - Command Templates:`);
+  console.log(`    - Update socials: ${buildAddSocialCommand(restaurant)}`);
+  console.log(`    - No socials found: ${buildNoSocialCommand(restaurant)}`);
 }
 
 async function main(): Promise<void> {

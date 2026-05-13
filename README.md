@@ -28,6 +28,10 @@ Phase 2B adds one-restaurant social enrichment through Apify after social URLs h
 
 Phase 2C hardens the social enrichment workflow before scaling. It caps stored social posts, adds review/readiness reporting, and clarifies how to move restaurants through a safe enrichment sequence.
 
+## Phase 2D Goal (Current)
+
+Phase 2D adds controlled social enrichment batching. It introduces scripts to identify readiness for enrichment and to execute small, confirmed batches for Instagram and Facebook. It also improves the social review queue with cleaner output and command templates.
+
 ## Phase 3 Goal
 
 Phase 3 adds workflow infrastructure before final reports. The focus is controlled progression through discovery, Google enrichment, social review, social enrichment, scoring, and dashboard review. Final reports still exist, but they are intentionally secondary until the workflow is stable.
@@ -62,16 +66,10 @@ reports/
 scripts/
   01-find-restaurants.ts
   02-enrich-google.ts
-  03-enrich-facebook.ts
-  04-enrich-instagram.ts
-  05-score-restaurant.ts
-  06-generate-report.ts
-  07-review-seed-list.ts
-  08-add-social-links.ts
-  09-review-social-data.ts
-  10-export-web-data.ts
-  11-review-workflow.ts
+  ...
   15-social-review-queue.ts
+  16-social-enrichment-ready.ts
+  17-batch-enrich-social.ts
 
 src/
   apis/
@@ -188,6 +186,20 @@ Review the manual social URL queue:
 npm run queue:social -- --limit 10
 ```
 
+Review restaurants ready for social enrichment:
+
+```powershell
+npm run ready:social
+```
+
+Preview/Run social enrichment batches:
+
+```powershell
+npm run batch:social -- --platform instagram --limit 5 --dry-run
+npm run batch:social -- --platform instagram --limit 5 --confirm
+npm run batch:social -- --platform facebook --limit 5 --confirm
+```
+
 Review the current workflow queue and stage distribution:
 
 ```powershell
@@ -260,14 +272,16 @@ Recommended order for the workflow:
 5. `npm run review:workflow`
 6. `npm run export:web-data`
 7. Review the dashboard and inspect the batch results
-8. `npm run add:social -- "Restaurant Name" ...`
-9. `npm run review:social`
-10. `npm run enrich:instagram -- "Restaurant Name"`
-11. `npm run enrich:facebook -- "Restaurant Name"`
-12. `npm run score -- "Restaurant Name"`
-13. `npm run review:workflow`
-14. `npm run export:web-data`
-15. `npm run dev`
+8. `npm run queue:social -- --limit 10`
+9. `npm run add:social -- "Restaurant Name" ...`
+10. `npm run ready:social`
+11. `npm run batch:social -- --platform instagram --limit 5 --dry-run`
+12. `npm run batch:social -- --platform instagram --limit 5 --confirm`
+13. `npm run batch:social -- --platform facebook --limit 5 --confirm`
+14. `npm run score -- "Restaurant Name"`
+15. `npm run review:workflow`
+16. `npm run export:web-data`
+17. `npm run dev`
 
 This keeps manual URL verification ahead of scraping, limits cost exposure, and makes it easier to review quality before scaling. Final report generation is intentionally deferred until a restaurant has stable workflow coverage.
 
@@ -277,10 +291,14 @@ This keeps manual URL verification ahead of scraping, limits cost exposure, and 
 - `--dry-run` shows the next candidates without calling Google.
 - Live Google enrichment requires `--confirm`.
 - Progress is written back to `data/restaurants.seed.json` after each restaurant so a mid-run failure does not lose earlier work.
-- Optional flags:
-  - `--limit 10`
-  - `--status included`
-  - `--start-after "Restaurant Name"`
+
+`batch:social` safety notes:
+
+- Default is always `--dry-run`.
+- Requires `--confirm` for live Apify runs.
+- Use `--platform instagram` or `--platform facebook`.
+- Progress is written back after each successful restaurant.
+- Limits are enforced by `SOCIAL_MAX_POSTS`.
 
 Duplicate review notes:
 
@@ -310,9 +328,9 @@ Before any Apify-based social enrichment, use this order:
 1. `npm run queue:social -- --limit 10`
 2. `npm run add:social -- "Restaurant" --facebook "URL" --instagram "URL" --notes "Manually verified official social profiles"`
 3. `npm run add:social -- "Restaurant" --no-facebook --no-instagram --notes "No official Facebook or Instagram found during manual check"`
-4. `npm run review:social`
-5. `npm run enrich:instagram -- "Restaurant"`
-6. `npm run enrich:facebook -- "Restaurant"`
+4. `npm run ready:social`
+5. `npm run batch:social -- --platform instagram --limit 5 --confirm`
+6. `npm run batch:social -- --platform facebook --limit 5 --confirm`
 7. `npm run score -- "Restaurant"`
 8. `npm run review:workflow`
 9. `npm run export:web-data`
