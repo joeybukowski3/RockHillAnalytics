@@ -34,6 +34,12 @@ type DashboardRestaurant = {
     reviewCount?: number;
     businessStatus?: string;
     openingHours?: string[];
+    reviews?: {
+      authorName?: string;
+      rating?: number;
+      text?: string;
+      publishedAt?: string;
+    }[];
   };
   facebookUrl?: string;
   instagramUrl?: string;
@@ -48,6 +54,17 @@ type DashboardRestaurant = {
     postCount?: number;
     latestPostDate?: string;
     recentPostCount: number;
+    recentPosts?: {
+      postUrl?: string;
+      caption?: string;
+      publishedAt?: string;
+      engagement?: {
+        likes?: number;
+        comments?: number;
+        shares?: number;
+        reactions?: number;
+      };
+    }[];
   };
   instagram?: {
     profileUrl?: string;
@@ -55,12 +72,23 @@ type DashboardRestaurant = {
     postCount?: number;
     latestPostDate?: string;
     recentPostCount: number;
+    recentPosts?: {
+      postUrl?: string;
+      caption?: string;
+      publishedAt?: string;
+      engagement?: {
+        likes?: number;
+        comments?: number;
+        views?: number;
+      };
+    }[];
   };
   scores?: {
     reputation: number;
     socialPresence: number;
     opportunity: number;
     overall: number;
+    notes?: string[];
   };
   reviewNotes: string[];
   socialVerificationNotes: string[];
@@ -93,7 +121,7 @@ function formatDate(value?: string): string {
   }
 
   const timestamp = Date.parse(value);
-  if (!Number.isFinite(timestamp)) {
+  if (Number.isNaN(timestamp)) {
     return value;
   }
 
@@ -201,13 +229,13 @@ export default function App() {
   const [missingSocialReviewOnly, setMissingSocialReviewOnly] = useState(false);
   const [sortKey, setSortKey] = useState<SortKey>("overall");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [view, setView] = useState<"dashboard" | "report">("dashboard");
 
   useEffect(() => {
     fetch("/data/restaurants.json")
       .then((response) => response.json())
       .then((json: DashboardPayload) => {
         setPayload(json);
-        setSelectedId(json.restaurants[0]?.id ?? null);
       })
       .catch((error) => console.error(error));
   }, []);
@@ -215,6 +243,11 @@ export default function App() {
   const restaurants = payload?.restaurants ?? [];
   const includedRestaurants = useMemo(
     () => restaurants.filter((restaurant) => restaurant.reviewStatus === "included"),
+    [restaurants]
+  );
+
+  const featuredReports = useMemo(
+    () => restaurants.filter((r) => r.workflowStage === "report_generated"),
     [restaurants]
   );
 
@@ -289,51 +322,6 @@ export default function App() {
           .filter((restaurant) => restaurant.nextAction === action)
           .slice(0, 8)
       })),
-    [includedRestaurants]
-  );
-
-  const socialReviewQueue = useMemo(
-    () =>
-      [
-        {
-          title: "Needs social URL review",
-          restaurants: includedRestaurants
-            .filter((restaurant) => restaurant.nextAction === "Needs social URL review")
-            .slice(0, 8)
-        },
-        {
-          title: "Partial social review",
-          restaurants: includedRestaurants
-            .filter((restaurant) => getSocialReviewStatus(restaurant) === "partial")
-            .slice(0, 8)
-        },
-        {
-          title: "Ready for Instagram enrichment",
-          restaurants: includedRestaurants
-            .filter((restaurant) => restaurant.nextAction === "Ready for Instagram enrichment")
-            .slice(0, 8)
-        },
-        {
-          title: "Ready for Facebook enrichment",
-          restaurants: includedRestaurants
-            .filter((restaurant) => restaurant.nextAction === "Ready for Facebook enrichment")
-            .slice(0, 8)
-        },
-        {
-          title: "Social reviewed but no profiles found",
-          restaurants: includedRestaurants
-            .filter((restaurant) => getSocialReviewStatus(restaurant) === "not_found")
-            .slice(0, 8)
-        }
-      ],
-    [includedRestaurants]
-  );
-
-  const googleQueue = useMemo(
-    () =>
-      includedRestaurants
-        .filter((restaurant) => restaurant.nextAction === "Needs Google enrichment")
-        .slice(0, 10),
     [includedRestaurants]
   );
 
@@ -420,7 +408,7 @@ export default function App() {
           return right.dataCompletenessScore - left.dataCompletenessScore;
         }
 
-        return (right.scores?.[sortKey] ?? -1) - (left.scores?.[sortKey] ?? -1);
+        return (right.scores?.[sortKey as keyof typeof right.scores] ?? -1) - (left.scores?.[sortKey as keyof typeof left.scores] ?? -1);
       });
   }, [
     restaurants,
@@ -436,14 +424,27 @@ export default function App() {
     sortKey
   ]);
 
-  const selectedRestaurant =
-    filteredRestaurants.find((restaurant) => restaurant.id === selectedId) ??
-    restaurants.find((restaurant) => restaurant.id === selectedId) ??
-    filteredRestaurants[0] ??
-    null;
+  const selectedRestaurant = useMemo(() => {
+    return restaurants.find((r) => r.id === selectedId) || null;
+  }, [restaurants, selectedId]);
+
+  const handleViewReport = (id: string) => {
+    setSelectedId(id);
+    setView("report");
+    window.scrollTo(0, 0);
+  };
 
   if (!payload) {
     return <div className="loading">Loading RockHillAnalytics dashboard...</div>;
+  }
+
+  if (view === "report" && selectedRestaurant) {
+    return (
+      <ReportView
+        restaurant={selectedRestaurant}
+        onBack={() => setView("dashboard")}
+      />
+    );
   }
 
   return (
@@ -463,6 +464,45 @@ export default function App() {
           <span className="badge neutral">Exported from restaurants.seed.json</span>
         </div>
       </header>
+
+      {featuredReports.length > 0 && (
+        <section className="section-block">
+          <div className="section-header">
+            <h2>Featured Reports</h2>
+            <p>Recently generated reports ready for review.</p>
+          </div>
+          <div className="featured-reports-grid">
+            {featuredReports.map((r) => (
+              <article key={r.id} className="featured-card">
+                <div className="featured-head">
+                  <div>
+                    <h3>{getDisplayName(r)}</h3>
+                    <p>{r.category}</p>
+                  </div>
+                  <span className="badge good">Report Generated</span>
+                </div>
+                <div className="metric-list">
+                  <div>
+                    <dt>Overall Score</dt>
+                    <dd>{r.scores?.overall ?? "n/a"}</dd>
+                  </div>
+                  <div>
+                    <dt>Completeness</dt>
+                    <dd>{r.dataCompletenessScore}%</dd>
+                  </div>
+                </div>
+                <button
+                  className="report-link"
+                  style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}
+                  onClick={() => handleViewReport(r.id)}
+                >
+                  View current data →
+                </button>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="stats-grid">
         <StatCard label="Total restaurants" value={payload.totalRestaurants} />
@@ -500,189 +540,6 @@ export default function App() {
 
       <section className="section-block">
         <div className="section-header">
-          <h2>Social review progress</h2>
-          <p>Manual social URL review status before any Apify enrichment.</p>
-        </div>
-        <div className="featured-grid">
-          <article className="featured-card compact-card">
-            <div className="featured-head">
-              <div>
-                <h3>Not started</h3>
-              </div>
-              <strong className="funnel-count">{socialReviewCounts.notStarted}</strong>
-            </div>
-          </article>
-          <article className="featured-card compact-card">
-            <div className="featured-head">
-              <div>
-                <h3>Partial</h3>
-              </div>
-              <strong className="funnel-count">{socialReviewCounts.partial}</strong>
-            </div>
-          </article>
-          <article className="featured-card compact-card">
-            <div className="featured-head">
-              <div>
-                <h3>Verified</h3>
-              </div>
-              <strong className="funnel-count">{socialReviewCounts.verified}</strong>
-            </div>
-          </article>
-          <article className="featured-card compact-card">
-            <div className="featured-head">
-              <div>
-                <h3>Not found</h3>
-              </div>
-              <strong className="funnel-count">{socialReviewCounts.notFound}</strong>
-            </div>
-          </article>
-          <article className="featured-card compact-card">
-            <div className="featured-head">
-              <div>
-                <h3>Ready for Instagram enrichment</h3>
-              </div>
-              <strong className="funnel-count">{socialReviewCounts.readyForInstagram}</strong>
-            </div>
-          </article>
-          <article className="featured-card compact-card">
-            <div className="featured-head">
-              <div>
-                <h3>Ready for Facebook enrichment</h3>
-              </div>
-              <strong className="funnel-count">{socialReviewCounts.readyForFacebook}</strong>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section className="section-block">
-        <div className="section-header">
-          <h2>Action queue</h2>
-          <p>Which restaurants need the next operational step.</p>
-        </div>
-        <div className="featured-grid">
-          {actionQueue.map((group) => (
-            <article key={group.action} className="featured-card">
-              <div className="featured-head">
-                <div>
-                  <h3>{group.action}</h3>
-                  <p>{group.restaurants.length} shown</p>
-                </div>
-                <span className={`badge ${badgeTone(group.action)}`}>{group.action}</span>
-              </div>
-              <ul className="queue-list">
-                {group.restaurants.length ? (
-                  group.restaurants.map((restaurant) => (
-                    <li key={restaurant.id}>
-                      <strong>{getDisplayName(restaurant)}</strong>
-                      <span>{restaurant.suggestedCommands[0] ?? "No command suggestion"}</span>
-                    </li>
-                  ))
-                ) : (
-                  <li>
-                    <strong>None</strong>
-                    <span>No restaurants currently in this queue.</span>
-                  </li>
-                )}
-              </ul>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="section-block">
-        <div className="section-header">
-          <h2>Social review queue</h2>
-          <p>Restaurants that still need manual social URL review or follow-up.</p>
-        </div>
-        <div className="featured-grid">
-          {socialReviewQueue.map((group) => (
-            <article key={group.title} className="featured-card">
-              <div className="featured-head">
-                <div>
-                  <h3>{group.title}</h3>
-                  <p>{group.restaurants.length} shown</p>
-                </div>
-                <span className={`badge ${badgeTone(group.title)}`}>{group.title}</span>
-              </div>
-              <ul className="queue-list">
-                {group.restaurants.length ? (
-                  group.restaurants.map((restaurant) => (
-                    <li key={restaurant.id}>
-                      <strong>{getDisplayName(restaurant)}</strong>
-                      <span>{restaurant.nextAction}</span>
-                    </li>
-                  ))
-                ) : (
-                  <li>
-                    <strong>None</strong>
-                    <span>No restaurants currently in this social review bucket.</span>
-                  </li>
-                )}
-              </ul>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="section-block">
-        <div className="section-header">
-          <h2>Google enrichment queue</h2>
-          <p>Controlled batch candidate list for the next Google detail run.</p>
-        </div>
-        <div className="featured-grid">
-          <article className="featured-card">
-            <div className="featured-head">
-              <div>
-                <h3>Need Google enrichment</h3>
-                <p>{includedRestaurants.filter((restaurant) => restaurant.nextAction === "Needs Google enrichment").length} included restaurants currently queued</p>
-              </div>
-              <strong className="funnel-count">{googleQueue.length}</strong>
-            </div>
-            <ul className="queue-list">
-              {googleQueue.length ? (
-                googleQueue.map((restaurant) => (
-                  <li key={restaurant.id}>
-                    <strong>{getDisplayName(restaurant)}</strong>
-                    <span>{restaurant.address ?? restaurant.slug}</span>
-                  </li>
-                ))
-              ) : (
-                <li>
-                  <strong>None</strong>
-                  <span>No restaurants are currently queued for Google enrichment.</span>
-                </li>
-              )}
-            </ul>
-          </article>
-          <article className="featured-card">
-            <div className="featured-head">
-              <div>
-                <h3>Suggested batch commands</h3>
-                <p>Preview first, then confirm the live run.</p>
-              </div>
-              <span className="badge neutral">Controlled batch</span>
-            </div>
-            <ul className="queue-list">
-              <li>
-                <strong>Dry run</strong>
-                <span>npm run batch:google -- --limit 10 --dry-run</span>
-              </li>
-              <li>
-                <strong>Live run</strong>
-                <span>npm run batch:google -- --limit 10 --confirm</span>
-              </li>
-              <li>
-                <strong>Review after batch</strong>
-                <span>npm run review:workflow && npm run export:web-data</span>
-              </li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section className="section-block">
-        <div className="section-header">
           <h2>Restaurant workflow table</h2>
           <p>Filter, sort, and select restaurants for the next enrichment step.</p>
         </div>
@@ -690,21 +547,16 @@ export default function App() {
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search restaurant, slug, category, workflow stage, or next action"
+            placeholder="Search restaurant..."
           />
           <select value={workflowFilter} onChange={(event) => setWorkflowFilter(event.target.value)}>
-            <option value="all">All workflow stages</option>
-            <option value="discovered">discovered</option>
-            <option value="google_enriched">google_enriched</option>
-            <option value="social_review_needed">social_review_needed</option>
-            <option value="social_links_verified">social_links_verified</option>
-            <option value="social_enriched">social_enriched</option>
-            <option value="scored">scored</option>
-            <option value="ready_for_report">ready_for_report</option>
-            <option value="report_generated">report_generated</option>
+            <option value="all">All stages</option>
+            {stageFunnel.map((f) => (
+              <option key={f.stage} value={f.stage}>{f.stage}</option>
+            ))}
           </select>
           <select value={actionFilter} onChange={(event) => setActionFilter(event.target.value)}>
-            <option value="all">All next actions</option>
+            <option value="all">All actions</option>
             <option value="Needs Google enrichment">Needs Google enrichment</option>
             <option value="Needs social URL review">Needs social URL review</option>
             <option value="Ready for Instagram enrichment">Ready for Instagram enrichment</option>
@@ -712,11 +564,6 @@ export default function App() {
             <option value="Needs scoring">Needs scoring</option>
             <option value="Ready for report">Ready for report</option>
             <option value="Complete for MVP">Complete for MVP</option>
-          </select>
-          <select value={readyFilter} onChange={(event) => setReadyFilter(event.target.value)}>
-            <option value="all">All report readiness</option>
-            <option value="ready">Ready for report</option>
-            <option value="not_ready">Not ready for report</option>
           </select>
           <select value={sortKey} onChange={(event) => setSortKey(event.target.value as SortKey)}>
             <option value="overall">Sort by Overall Score</option>
@@ -730,14 +577,6 @@ export default function App() {
           </select>
         </div>
 
-        <div className="toggle-row">
-          <label><input type="checkbox" checked={includedOnly} onChange={() => setIncludedOnly((value) => !value)} /> Included only</label>
-          <label><input type="checkbox" checked={hasInstagramUrl} onChange={() => setHasInstagramUrl((value) => !value)} /> Has Instagram URL</label>
-          <label><input type="checkbox" checked={hasFacebookUrl} onChange={() => setHasFacebookUrl((value) => !value)} /> Has Facebook URL</label>
-          <label><input type="checkbox" checked={hasPostsOnly} onChange={() => setHasPostsOnly((value) => !value)} /> Has social posts</label>
-          <label><input type="checkbox" checked={missingSocialReviewOnly} onChange={() => setMissingSocialReviewOnly((value) => !value)} /> Missing social review</label>
-        </div>
-
         <div className="table-card">
           <div className="table-wrapper">
             <table>
@@ -746,31 +585,26 @@ export default function App() {
                   <th>Restaurant</th>
                   <th>Workflow Stage</th>
                   <th>Next Action</th>
-                  <th>Social Review</th>
                   <th>Completeness</th>
-                  <th>Google Status</th>
-                  <th>Instagram Status</th>
-                  <th>Facebook Status</th>
-                  <th>Social Posts</th>
-                  <th>Last Enriched</th>
-                  <th>Reputation</th>
-                  <th>Social</th>
-                  <th>Opportunity</th>
+                  <th>Google</th>
+                  <th>IG</th>
+                  <th>FB</th>
+                  <th>Posts</th>
                   <th>Overall</th>
-                  <th>Report</th>
+                  <th>Action</th>
                 </tr>
               </thead>
               <tbody>
                 {filteredRestaurants.map((restaurant) => (
                   <tr
                     key={restaurant.id}
-                    className={restaurant.id === selectedRestaurant?.id ? "selected-row" : ""}
+                    className={restaurant.id === selectedId ? "selected-row" : ""}
                     onClick={() => setSelectedId(restaurant.id)}
                   >
                     <td>
                       <div className="table-name">
                         <strong>{getDisplayName(restaurant)}</strong>
-                        <span>{restaurant.category ?? restaurant.city}</span>
+                        <span>{restaurant.category}</span>
                       </div>
                     </td>
                     <td>
@@ -783,22 +617,24 @@ export default function App() {
                         {restaurant.nextAction}
                       </span>
                     </td>
-                    <td>
-                      <span className={`badge ${badgeTone(getSocialReviewStatus(restaurant))}`}>
-                        {getSocialReviewStatus(restaurant)}
-                      </span>
-                    </td>
                     <td>{restaurant.dataCompletenessScore}%</td>
-                    <td>{hasGoogleEnriched(restaurant) ? "enriched" : "missing"}</td>
-                    <td>{restaurant.socialProfileStatus?.instagram ?? "unknown"}</td>
-                    <td>{restaurant.socialProfileStatus?.facebook ?? "unknown"}</td>
+                    <td>{hasGoogleEnriched(restaurant) ? "✅" : "❌"}</td>
+                    <td>{restaurant.socialProfileStatus?.instagram === "verified" ? "✅" : "❌"}</td>
+                    <td>{restaurant.socialProfileStatus?.facebook === "verified" ? "✅" : "❌"}</td>
                     <td>{(restaurant.instagram?.recentPostCount ?? 0) + (restaurant.facebook?.recentPostCount ?? 0)}</td>
-                    <td>{getLastEnrichedLabel(restaurant)}</td>
-                    <td>{restaurant.scores?.reputation ?? "n/a"}</td>
-                    <td>{restaurant.scores?.socialPresence ?? "n/a"}</td>
-                    <td>{restaurant.scores?.opportunity ?? "n/a"}</td>
-                    <td>{restaurant.scores?.overall ?? "n/a"}</td>
-                    <td>{restaurant.reportPath ? <a href={restaurant.reportPath} target="_blank" rel="noreferrer">Report</a> : "n/a"}</td>
+                    <td><strong>{restaurant.scores?.overall ?? "n/a"}</strong></td>
+                    <td>
+                      <button
+                        className="report-link"
+                        style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleViewReport(restaurant.id);
+                        }}
+                      >
+                        View Data
+                      </button>
+                    </td>
                   </tr>
                 ))}
               </tbody>
@@ -809,8 +645,8 @@ export default function App() {
 
       <section className="section-block">
         <div className="section-header">
-          <h2>Restaurant detail</h2>
-          <p>Command suggestions and missing data for the selected restaurant.</p>
+          <h2>Quick Detail</h2>
+          <p>Metadata and command suggestions.</p>
         </div>
         {selectedRestaurant ? (
           <div className="detail-card">
@@ -819,39 +655,12 @@ export default function App() {
                 <h3>{getDisplayName(selectedRestaurant)}</h3>
                 <p>{selectedRestaurant.address ?? "No address available"}</p>
               </div>
-              <span className={`badge ${badgeTone(selectedRestaurant.nextAction)}`}>
-                {selectedRestaurant.nextAction}
-              </span>
+              <button className="badge neutral" onClick={() => handleViewReport(selectedRestaurant.id)}>Open Full Data Report</button>
             </div>
             <div className="detail-grid">
-              <DetailGroup
-                title="Workflow"
-                lines={[
-                  `Current workflow stage: ${selectedRestaurant.workflowStage ?? "discovered"}`,
-                  `Data completeness: ${selectedRestaurant.dataCompletenessScore}%`,
-                  `Ready for report: ${selectedRestaurant.readyForReport ? "yes" : "no"}`,
-                  `Report exists: ${selectedRestaurant.reportExists ? "yes" : "no"}`
-                ]}
-              />
-              <DetailGroup
-                title="Duplicate review"
-                lines={[
-                  `Duplicate review status: ${selectedRestaurant.duplicateReviewStatus ?? "unique"}`,
-                  `Duplicate group key: ${selectedRestaurant.duplicateGroupKey ?? "n/a"}`,
-                  ...(selectedRestaurant.duplicateReviewNotes.length
-                    ? selectedRestaurant.duplicateReviewNotes
-                    : ["No duplicate concerns recorded."])
-                ]}
-              />
-              <DetailGroup
-                title="Social review"
-                lines={[
-                  `Social review status: ${getSocialReviewStatus(selectedRestaurant)}`,
-                  `Last social review: ${formatDate(selectedRestaurant.lastSocialReviewedAt)}`,
-                  ...(selectedRestaurant.socialReviewNotes.length
-                    ? selectedRestaurant.socialReviewNotes
-                    : ["No social review notes recorded."])
-                ]}
+               <DetailGroup
+                title="Next recommended commands"
+                lines={selectedRestaurant.suggestedCommands}
               />
               <DetailGroup
                 title="Missing data"
@@ -861,57 +670,7 @@ export default function App() {
                     : ["No current workflow gaps."]
                 }
               />
-              <DetailGroup
-                title="Next recommended commands"
-                lines={selectedRestaurant.suggestedCommands}
-              />
-              <DetailGroup
-                title="Google details"
-                lines={[
-                  `Rating: ${selectedRestaurant.google?.rating ?? "n/a"}`,
-                  `Review count: ${selectedRestaurant.google?.reviewCount ?? "n/a"}`,
-                  `Phone: ${selectedRestaurant.phone ?? "n/a"}`,
-                  `Website: ${selectedRestaurant.website ?? "n/a"}`
-                ]}
-              />
-              <DetailGroup
-                title="Social URLs and statuses"
-                lines={[
-                  `Facebook: ${selectedRestaurant.facebookUrl ?? "n/a"} (${selectedRestaurant.socialProfileStatus?.facebook ?? "unknown"})`,
-                  `Instagram: ${selectedRestaurant.instagramUrl ?? "n/a"} (${selectedRestaurant.socialProfileStatus?.instagram ?? "unknown"})`,
-                  `TikTok: ${selectedRestaurant.tiktokUrl ?? "n/a"} (${selectedRestaurant.socialProfileStatus?.tiktok ?? "unknown"})`,
-                  `Social enrichment status: ${selectedRestaurant.socialEnrichmentStatus ?? "not_ready"}`
-                ]}
-              />
-              <DetailGroup
-                title="Latest enrichment dates"
-                lines={[
-                  `Last Google enrichment: ${formatDate(selectedRestaurant.lastGoogleEnrichedAt)}`,
-                  `Last social review: ${formatDate(selectedRestaurant.lastSocialReviewedAt)}`,
-                  `Last social enrichment: ${formatDate(selectedRestaurant.lastSocialEnrichedAt)}`,
-                  `Last scoring: ${formatDate(selectedRestaurant.lastScoredAt)}`
-                ]}
-              />
-              <DetailGroup
-                title="Recent social posts"
-                lines={[
-                  `Instagram posts stored: ${selectedRestaurant.instagram?.recentPostCount ?? 0}`,
-                  `Latest Instagram post: ${formatDate(selectedRestaurant.instagram?.latestPostDate)}`,
-                  `Facebook posts stored: ${selectedRestaurant.facebook?.recentPostCount ?? 0}`,
-                  `Latest Facebook post: ${formatDate(selectedRestaurant.facebook?.latestPostDate)}`
-                ]}
-              />
-              <DetailGroup
-                title="Scores"
-                lines={[
-                  `Reputation Score: ${selectedRestaurant.scores?.reputation ?? "n/a"}`,
-                  `Social Presence Score: ${selectedRestaurant.scores?.socialPresence ?? "n/a"}`,
-                  `Opportunity Score: ${selectedRestaurant.scores?.opportunity ?? "n/a"}`,
-                  `Overall Score: ${selectedRestaurant.scores?.overall ?? "n/a"}`
-                ]}
-              />
-              <DetailGroup title="Score explanations" lines={getScoreExplanation(selectedRestaurant)} />
-              <DetailGroup
+               <DetailGroup
                 title="Notes"
                 lines={[
                   ...selectedRestaurant.reviewNotes,
@@ -926,16 +685,217 @@ export default function App() {
                 ] : ["No notes recorded."]}
               />
             </div>
-            {selectedRestaurant.reportPath ? (
-              <a className="report-link" href={selectedRestaurant.reportPath} target="_blank" rel="noreferrer">
-                Open Markdown report
-              </a>
-            ) : null}
           </div>
         ) : (
-          <div className="detail-card">No restaurant selected.</div>
+          <div className="detail-card">Select a restaurant above for quick details.</div>
         )}
       </section>
+    </div>
+  );
+}
+
+function ReportView({ restaurant, onBack }: { restaurant: DashboardRestaurant, onBack: () => void }) {
+  const [markdown, setMarkdown] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (restaurant.reportPath) {
+      fetch(restaurant.reportPath)
+        .then(res => res.text())
+        .then(text => setMarkdown(text))
+        .catch(err => console.error("Error fetching report:", err));
+    }
+  }, [restaurant.reportPath]);
+
+  return (
+    <div className="report-preview-view">
+      <div className="back-button" onClick={onBack}>
+        ← Back to Dashboard
+      </div>
+
+      <header className="report-header">
+        <h1>{getDisplayName(restaurant)}</h1>
+        <div className="badge-row">
+          <span className={`badge ${badgeTone(restaurant.workflowStage ?? "discovered")}`}>{restaurant.workflowStage}</span>
+          <span className="badge neutral">{restaurant.category}</span>
+          <span className="badge good">{restaurant.dataCompletenessScore}% Complete</span>
+        </div>
+        <div style={{ marginTop: "16px", color: "#637387" }}>
+          <p>{restaurant.address}</p>
+          <p>{restaurant.phone} • <a href={restaurant.website} target="_blank" rel="noreferrer">{restaurant.website}</a></p>
+          {restaurant.googleMapsUrl && <p><a href={restaurant.googleMapsUrl} target="_blank" rel="noreferrer">View on Google Maps</a></p>}
+        </div>
+      </header>
+
+      <section className="report-section">
+        <h2>Scoring Analysis</h2>
+        <div className="score-cards">
+          <div className="score-card">
+            <h4>Overall Score</h4>
+            <div className="score-value">{restaurant.scores?.overall ?? "n/a"}</div>
+          </div>
+          <div className="score-card">
+            <h4>Reputation</h4>
+            <div className="score-value">{restaurant.scores?.reputation ?? "n/a"}</div>
+          </div>
+          <div className="score-card">
+            <h4>Social Presence</h4>
+            <div className="score-value">{restaurant.scores?.socialPresence ?? "n/a"}</div>
+          </div>
+          <div className="score-card">
+            <h4>Opportunity</h4>
+            <div className="score-value">{restaurant.scores?.opportunity ?? "n/a"}</div>
+          </div>
+        </div>
+        <ul style={{ color: "#4b5563" }}>
+          {getScoreExplanation(restaurant).map((line, i) => <li key={i}>{line}</li>)}
+          {restaurant.scores?.notes?.map((n, i) => <li key={`note-${i}`}><strong>Logic:</strong> {n}</li>)}
+        </ul>
+      </section>
+
+      <section className="report-section">
+        <h2>Google Business Profile</h2>
+        <div className="metric-list">
+          <div>
+            <dt>Rating</dt>
+            <dd>{restaurant.google?.rating ?? "n/a"} ({restaurant.google?.reviewCount ?? 0} reviews)</dd>
+          </div>
+          <div>
+            <dt>Status</dt>
+            <dd>{restaurant.google?.businessStatus ?? "unknown"}</dd>
+          </div>
+        </div>
+        <h3>Stored Reviews</h3>
+        {restaurant.google?.reviews?.length ? (
+          <ul className="queue-list">
+            {restaurant.google.reviews.map((r, i) => (
+              <li key={i}>
+                <strong>{r.authorName} • {r.rating} ⭐</strong>
+                <span>{r.text}</span>
+                <small>{formatDate(r.publishedAt)}</small>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p style={{ color: "#637387" }}>Detailed Google review text is not currently available in stored data.</p>
+        )}
+      </section>
+
+      <section className="report-section">
+        <h2>Social Presence</h2>
+        <div className="metric-list" style={{ gridTemplateColumns: "repeat(3, 1fr)" }}>
+          <div>
+            <dt>Instagram</dt>
+            <dd>{restaurant.socialProfileStatus?.instagram ?? "unknown"}</dd>
+            {restaurant.instagramUrl && <a href={restaurant.instagramUrl} target="_blank" rel="noreferrer">Profile Link</a>}
+          </div>
+          <div>
+            <dt>Facebook</dt>
+            <dd>{restaurant.socialProfileStatus?.facebook ?? "unknown"}</dd>
+            {restaurant.facebookUrl && <a href={restaurant.facebookUrl} target="_blank" rel="noreferrer">Page Link</a>}
+          </div>
+          <div>
+            <dt>TikTok</dt>
+            <dd>{restaurant.socialProfileStatus?.tiktok ?? "unknown"}</dd>
+          </div>
+        </div>
+        <p style={{ fontSize: "0.9rem", color: "#637387" }}>
+          Last Reviewed: {formatDate(restaurant.lastSocialReviewedAt)}<br />
+          Notes: {restaurant.socialVerificationNotes.join(", ") || "No verification notes."}
+        </p>
+
+        {restaurant.instagram && restaurant.instagram.recentPosts?.length ? (
+          <div style={{ marginTop: "24px" }}>
+            <h3>Recent Instagram Posts ({restaurant.instagram.recentPostCount})</h3>
+            <div className="table-wrapper">
+              <table style={{ minWidth: "100%" }}>
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Caption Preview</th>
+                    <th>Engagement</th>
+                    <th>Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {restaurant.instagram.recentPosts.map((p, i) => (
+                    <tr key={i}>
+                      <td>{formatDate(p.publishedAt)}</td>
+                      <td style={{ maxWidth: "300px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{p.caption}</td>
+                      <td>{p.engagement?.likes ?? 0} Likes, {p.engagement?.comments ?? 0} Comments</td>
+                      <td><a href={p.postUrl} target="_blank" rel="noreferrer">View</a></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ) : null}
+
+        {restaurant.facebook && restaurant.facebook.recentPosts?.length ? (
+          <div style={{ marginTop: "24px" }}>
+            <h3>Recent Facebook Posts ({restaurant.facebook.recentPostCount})</h3>
+            <div className="table-wrapper">
+              <table style={{ minWidth: "100%" }}>
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Caption Preview</th>
+                    <th>Engagement</th>
+                    <th>Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {restaurant.facebook.recentPosts.map((p, i) => (
+                    <tr key={i}>
+                      <td>{formatDate(p.publishedAt)}</td>
+                      <td style={{ maxWidth: "300px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{p.caption}</td>
+                      <td>{p.engagement?.reactions ?? p.engagement?.likes ?? 0} Reactions, {p.engagement?.comments ?? 0} Comments</td>
+                      <td><a href={p.postUrl} target="_blank" rel="noreferrer">View</a></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ) : null}
+      </section>
+
+      <section className="report-section">
+        <h2>Workflow & Data Quality</h2>
+        <div className="detail-grid">
+          <DetailGroup
+            title="Metadata"
+            lines={[
+              `Stage: ${restaurant.workflowStage}`,
+              `Next: ${restaurant.nextAction}`,
+              `Duplicate Status: ${restaurant.duplicateReviewStatus ?? "unique"}`,
+              `Ready for Report: ${restaurant.readyForReport ? "Yes" : "No"}`
+            ]}
+          />
+          <DetailGroup
+             title="Timestamps"
+             lines={[
+               `Last Google Enrichment: ${formatDate(restaurant.lastGoogleEnrichedAt)}`,
+               `Last Social Review: ${formatDate(restaurant.lastSocialReviewedAt)}`,
+               `Last Social Enrichment: ${formatDate(restaurant.lastSocialEnrichedAt)}`,
+               `Last Scored: ${formatDate(restaurant.lastScoredAt)}`
+             ]}
+          />
+        </div>
+      </section>
+
+      {markdown && (
+        <section className="report-section">
+          <h2>Current Markdown Report</h2>
+          <div className="markdown-content">
+            {markdown}
+          </div>
+        </section>
+      )}
+
+      <footer style={{ marginTop: "64px", borderTop: "1px solid #eee", paddingTop: "24px", textAlign: "center", color: "#999" }}>
+        Internal Data Review • RockHillAnalytics • {new Date().toLocaleDateString()}
+      </footer>
     </div>
   );
 }

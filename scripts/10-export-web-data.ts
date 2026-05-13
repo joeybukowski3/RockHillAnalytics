@@ -1,7 +1,7 @@
 import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { applyWorkflowMetadata, getWorkflowSnapshot } from "../src/lib/workflow.js";
-import { RestaurantProfile } from "../src/types/restaurant.js";
+import { RestaurantProfile, Review, SocialPost } from "../src/types/restaurant.js";
 
 const ROOT = process.cwd();
 
@@ -39,6 +39,7 @@ type DashboardRestaurant = {
     reviewCount?: number;
     businessStatus?: string;
     openingHours?: string[];
+    reviews?: Review[];
   };
   facebookUrl?: string;
   instagramUrl?: string;
@@ -49,6 +50,7 @@ type DashboardRestaurant = {
     postCount?: number;
     latestPostDate?: string;
     recentPostCount: number;
+    recentPosts?: SocialPost[];
   };
   instagram?: {
     profileUrl?: string;
@@ -56,6 +58,7 @@ type DashboardRestaurant = {
     postCount?: number;
     latestPostDate?: string;
     recentPostCount: number;
+    recentPosts?: SocialPost[];
   };
   scores?: RestaurantProfile["scores"];
   reviewNotes: string[];
@@ -67,7 +70,7 @@ type DashboardRestaurant = {
   updatedAt: string;
 };
 
-function getLatestPostDate(posts?: RestaurantProfile["facebook"] extends infer _ ? any[] : never): string | undefined {
+function getLatestPostDate(posts?: any[]): string | undefined {
   if (!posts?.length) {
     return undefined;
   }
@@ -143,7 +146,8 @@ function toDashboardRestaurant(
           rating: normalizedRestaurant.google.rating,
           reviewCount: normalizedRestaurant.google.reviewCount,
           businessStatus: normalizedRestaurant.google.businessStatus,
-          openingHours: normalizedRestaurant.google.openingHours
+          openingHours: normalizedRestaurant.google.openingHours,
+          reviews: normalizedRestaurant.google.reviews
         }
       : undefined,
     facebookUrl: normalizedRestaurant.facebookUrl,
@@ -155,7 +159,8 @@ function toDashboardRestaurant(
           pageUrl: normalizedRestaurant.facebook.pageUrl,
           postCount: normalizedRestaurant.facebook.postCount,
           latestPostDate: getLatestPostDate(normalizedRestaurant.facebook.recentPosts),
-          recentPostCount: normalizedRestaurant.facebook.recentPosts?.length ?? 0
+          recentPostCount: normalizedRestaurant.facebook.recentPosts?.length ?? 0,
+          recentPosts: normalizedRestaurant.facebook.recentPosts
         }
       : undefined,
     instagram: normalizedRestaurant.instagram
@@ -164,7 +169,8 @@ function toDashboardRestaurant(
           followers: normalizedRestaurant.instagram.followers,
           postCount: normalizedRestaurant.instagram.postCount,
           latestPostDate: getLatestPostDate(normalizedRestaurant.instagram.recentPosts),
-          recentPostCount: normalizedRestaurant.instagram.recentPosts?.length ?? 0
+          recentPostCount: normalizedRestaurant.instagram.recentPosts?.length ?? 0,
+          recentPosts: normalizedRestaurant.instagram.recentPosts
         }
       : undefined,
     scores: normalizedRestaurant.scores,
@@ -177,7 +183,6 @@ function toDashboardRestaurant(
     updatedAt: normalizedRestaurant.updatedAt
   };
 }
-
 async function copyReports(): Promise<void> {
   const sourceDir = path.join(ROOT, "reports");
   const targetDir = path.join(ROOT, "public", "reports");
